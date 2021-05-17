@@ -9,8 +9,8 @@ categories: [ feed ]
 ## Angaben gemäß § 5 TMG: ##
 
 Christian Prior-Mamulyan<br />
-Siegener Str. 78<br />
-35716 Dietzhölztal
+Allerstr. 8<br />
+38448 Wolfsburg
 
 Kontakt:
 
@@ -20,8 +20,8 @@ E-Mail: cprior@gmail.com
 ## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV: ##
 
 Christian Prior-Mamulyan<br />
-Siegener Str. 79<br />
-35716 Dietzhölztal
+Allerstr. 8<br />
+38448 Wolfsburg
 
 ## Haftungsausschluss (Disclaimer) ##
 
