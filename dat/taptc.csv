@@ -1,0 +1,26 @@
+id,category,name,description,vendor,version,source,productname,platform,created_at,reviewed_at,retired_at,path,visibility,nickname
+TA_PTC_001,Editor,VS Code,Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.,Microsoft,1.56.2,https://code.visualstudio.com,Visual Studio Code,"Windows, Linux, Mac",2015-01-01,2021-05-12,,vscode,,
+TA_PTC_002,Automation,Bitfocus Companion,"Bitfocus Companion enables the reasonably priced Elgato Streamdeck to be a professional shotbox surface for an increasing amount of different presentation switchers, video playback software and broadcast equipment.",Bitfocus AS,v2.1.3,https://bitfocus.io/companion/,Bitfocus Companion,"macOS, Windows",2020-06-06,2021-05-08,,companion,public,TA_PTC_002
+TA_PTC_003,Graphics,Inkscape,-,,,,Inkscape,,,,,,,TA_PTC_003
+TA_PTC_004,,Pandoc,-,,,,Pandoc,,,,,,,TA_PTC_004
+TA_PTC_005,Videoswitcher,ATEM-Mini,-,,,,ATEM Mini,,,,,,,TA_PTC_005
+TA_PTC_006,Graphics,H2R Graphics,-,,,,H2R Graphics,,,,,,,TA_PTC_006
+TA_PTC_007,Projectionmapping,MadMapper,"MadMapper is the advanced tool
+for video and light mapping",,,,MadMapper,,,,,,,TA_PTC_007
+TA_PTC_008,Digital Audio Workstation,Live,-,Ableton,,,Ableton Live,,,,,,,TA_PTC_008
+TA_PTC_009,Audio Mixer,Voicemeeter,-,VB-Audio,,,Voicemeeter Potato,,,,,,,TA_PTC_009
+TA_PTC_010,LED,blink1,"blink(1) is the world’s best indicator light, designed to give you glanceable notice of anything on your computer or the internet.",ThingM,,https://blink1.thingm.com/,blink(1),,,,,,,TA_PTC_010
+TA_PTC_011,Audio,Audacity,-,,,,Audacity,,,,,,,TA_PTC_011
+TA_PTC_012,"Cloud Directory Platform
+AD & SSO",JumpCloud,-,JumpCloud,,,JumpCloud,,,,,,,TA_PTC_012
+TA_PTC_013,,OBS Studio,-,,,,OBS Studio,,,,,,,TA_PTC_013
+TA_PTC_014,,Sizer4,Sizer 4.0 is latest version of the popular utility used to accurately resize and reposition windows.,,,http://www.brianapps.net/sizer4/,Sizer4,,,,,,,TA_PTC_014
+TA_PTC_015,MIDI Controller,nanoKONTROL2,"Convenient, compact control surface, with easy setup for immediate use. In a body proportioned to fit perfectly in front of your laptop computer, the nanoKONTROL2 provides eight channels of the controllers you need to control your music software. The nanoKONTROL2 also features a dedicated transport control section.",Korg,,,Korg nanoKONTROL2,,,,,,,TA_PTC_015
+TA_PTC_016,microphone preamp,286s,The dbx 286s is a full featured Channel Strip Processor that delivers a studio quality microphone/instrument preamplifier and four processors that can be used independently or in any combination,dbx,,,dbx 286s,,,,,,,TA_PTC_016
+TA_PTC_017,camera,Cam20,The Konftel Cam20 is the conference camera that brings 4K Ultra HD video to huddle rooms and medium-sized meeting rooms,Konftel,,https://www.konftel.com/en/products/cameras/konftel-cam20,Konftel Cam20,,,,,,,TA_PTC_017
+TA_PTC_018,projector,GT1080e,"Bright short throw home entertainment projector, great for sports",Optoma,,https://www.optomaeurope.com/product-details/gt1080e,Optoma GT1080e,,,,,,,TA_PTC_018
+TA_PTC_019,colorscheme,solarized,Solarized is a color scheme for code editors and terminal emulators created by Ethan Schoonover. The scheme is available in a Light and a Dark mode.,Ethan Schoonover,1.0.0beta2,https://ethanschoonover.com/solarized/,Solarized,,,,,,,TA_PTC_019
+TA_PTC_020,,Mailchimp,-,,,,,,,,,mailchimp,,TA_PTC_020
+TA_PTC_021,,,-,,,,,,,,,,,TA_PTC_021
+TA_PTC_022,,,-,,,,,,,,,,,TA_PTC_022
+TA_PTC_023,,,-,,,,,,,,,,,TA_PTC_023
