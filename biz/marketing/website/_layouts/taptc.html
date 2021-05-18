@@ -32,10 +32,16 @@ layout: default
 {% include checklist.html checklistnames=checklistnames %}
 {% endif %}
 
-
-<!--<h2>posts</h2>-->
-
+{% assign postcount = 'init' %}
 {% for post in site.posts %}
+
+{% if postcount == 'init' %}
+<h2>Posts</h2>
+{% endif %}
+
+{% assign postcount = 'looped' %}
+
+
 {% if post.component == page.component %}
   <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
   <p>{{ post.abstract }} </p>

@@ -5,8 +5,7 @@ TA_PTC_003,Graphics,Inkscape,-,,,,Inkscape,,,,,,,TA_PTC_003
 TA_PTC_004,,Pandoc,-,,,,Pandoc,,,,,,,TA_PTC_004
 TA_PTC_005,Videoswitcher,ATEM-Mini,-,,,,ATEM Mini,,,,,,,TA_PTC_005
 TA_PTC_006,Graphics,H2R Graphics,-,,,,H2R Graphics,,,,,,,TA_PTC_006
-TA_PTC_007,Projectionmapping,MadMapper,"MadMapper is the advanced tool
-for video and light mapping",,,,MadMapper,,,,,,,TA_PTC_007
+TA_PTC_007,Projectionmapping,MadMapper,"MadMapper is the advanced tool for video and light mapping",garageCube,4.1.0,https://madmapper.com/,MadMapper,macOS 10.13+ / Windows 10 64bit,2021-09-01,,,madmapper,public,TA_PTC_007
 TA_PTC_008,Digital Audio Workstation,Live,-,Ableton,,,Ableton Live,,,,,,,TA_PTC_008
 TA_PTC_009,Audio Mixer,Voicemeeter,-,VB-Audio,,,Voicemeeter Potato,,,,,,,TA_PTC_009
 TA_PTC_010,LED,blink1,"blink(1) is the world’s best indicator light, designed to give you glanceable notice of anything on your computer or the internet.",ThingM,,https://blink1.thingm.com/,blink(1),,,,,,,TA_PTC_010
