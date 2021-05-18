@@ -21,5 +21,5 @@ TA_PTC_018,projector,GT1080e,"Bright short throw home entertainment projector, g
 TA_PTC_019,colorscheme,solarized,Solarized is a color scheme for code editors and terminal emulators created by Ethan Schoonover. The scheme is available in a Light and a Dark mode.,Ethan Schoonover,1.0.0beta2,https://ethanschoonover.com/solarized/,Solarized,,,,,,,TA_PTC_019
 TA_PTC_020,,Mailchimp,-,,,,,,,,,mailchimp,,TA_PTC_020
 TA_PTC_021,sourcecontrol,GitHub,"GitHub, Inc. is a provider of Internet hosting for software development and version control using Git.GitHub, Inc. is a provider of Internet hosting for software development and version control using Git.","GitHub, Inc.",current,https://github.com/,GitHub,SAAS,,2021-05-18,,github,,TA_PTC_021
-TA_PTC_022,,,-,,,,,,,,,,,TA_PTC_022
-TA_PTC_023,,,-,,,,,,,,,,,TA_PTC_023
+TA_PTC_022,passwordmanager,KeePassXC,"Cross-Platform Password Manager. Securely store passwords using industry standard encryption, quickly auto-type them into desktop applications, and use our browser extension to log into websites.",Janek Bevendorff et al.,2.4.3,https://keepassxc.org/,KeePassXC,Linux,,2021-05-18,,KeePass,,TA_PTC_022
+TA_PTC_023,,KeePass,"KeePass is a free open source password manager. Passwords can be stored in an encrypted database, which can be unlocked with one master key.",Dominik Reichl et al.,2.48.1,https://keepass.info/,KeePass,Windows,,2021-05-18,,KeePass,,TA_PTC_023
