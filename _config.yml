@@ -13,8 +13,8 @@ mailchimp-formaction: "https://gmail.us10.list-manage.com/subscribe/post?u=7397e
 # Build settings
 #markdown: kramdown
 markdown: Pandoc
-plugins:
-  - jekyll-feed
+#plugins:
+#  - jekyll-feed
 
 feed:
   path: /biz/marketing/website/feed.xml

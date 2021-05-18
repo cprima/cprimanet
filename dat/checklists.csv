@@ -1,0 +1,4 @@
+id,category,checklistname,key,value,remark,component
+1,tests,Streamdeck ohne Funktion,keys don't light up,check cable,foobar,TA_PTC_002
+2,tests,Streamdeck ohne Funktion,keys don't react to input,(re)start companion software,foobar,TA_PTC_002
+3,tests,Streamdeck ohne Funktion,keys show old buttons,(re)start companion software,foobar,TA_PTC_002

@@ -1,6 +1,6 @@
 id,category,name,description,vendor,version,source,productname,platform,created_at,reviewed_at,retired_at,path,visibility,nickname
 TA_PTC_001,Editor,VS Code,Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.,Microsoft,1.56.2,https://code.visualstudio.com,Visual Studio Code,"Windows, Linux, Mac",2015-01-01,2021-05-12,,vscode,,
-TA_PTC_002,Automation,Bitfocus Companion,"Bitfocus Companion enables the reasonably priced Elgato Streamdeck to be a professional shotbox surface for an increasing amount of different presentation switchers, video playback software and broadcast equipment.",Bitfocus AS,v2.1.3,https://bitfocus.io/companion/,Bitfocus Companion,"macOS, Windows",2020-06-06,2021-05-08,,companion,public,TA_PTC_002
+TA_PTC_002,Automation,Companion,"Bitfocus Companion enables the reasonably priced Elgato Streamdeck to be a professional shotbox surface for an increasing amount of different presentation switchers, video playback software and broadcast equipment.",Bitfocus AS,v2.1.3,https://bitfocus.io/companion/,Companion,"macOS, Windows",2020-06-06,2021-05-08,,companion,public,TA_PTC_002
 TA_PTC_003,Graphics,Inkscape,-,,,,Inkscape,,,,,,,TA_PTC_003
 TA_PTC_004,,Pandoc,-,,,,Pandoc,,,,,,,TA_PTC_004
 TA_PTC_005,Videoswitcher,ATEM-Mini,-,,,,ATEM Mini,,,,,,,TA_PTC_005
