@@ -11,8 +11,8 @@ mailchimp-user: "7397e207aec2e90684a8a69be&amp"
 mailchimp-formaction: "https://gmail.us10.list-manage.com/subscribe/post?u=7397e207aec2e90684a8a69be&amp;id=448978308e"
 
 # Build settings
-#markdown: kramdown
-markdown: Pandoc
+markdown: kramdown
+#markdown: Pandoc
 #plugins:
 #  - jekyll-feed
 
