@@ -63,6 +63,12 @@
 
 				{{ content }}
 
+				<section data-state="no-title-footer">
+					<p>
+						<small>Copyright © {% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %} 2021. All rights reserved.</small>
+					</p>
+				</section>
+
                 {% if page.dummycontent %}
 				<section>
 					<h1>Thank you!</h1>

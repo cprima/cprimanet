@@ -1,8 +1,5 @@
 # Vorsätze für das neue Jahr
 
-
-![](.\images\Ortsschild_2020-2021.png "enter 2021")
-
 Wohl niemand kann sich der Dynamik der Tage "zwischen den Jahren" entziehen, wenn der veränderte Rhythmus und der Beginn der längeren Tage in Verbindung mit -- für viele -- einigen Tagen Urlaub den Blick auf das neue Jahr lenkt. Doch wusste schon der ehemalige Rechtsanwalt aus Wetzlar an der Lahn:
 
 > Gut ist der Vorsatz, aber die Erfüllung schwer.
@@ -10,6 +7,8 @@ Wohl niemand kann sich der Dynamik der Tage "zwischen den Jahren" entziehen, wen
 > Johann Wolfgang von Goethe
 
 Der eigene Umgang mit Passwörter mag jahrelanger Übung folgen. Wenn im folgenden Merkmale guter Passwörter genannt werden -- und der eigene Umgang mit Passwörter dagegen verstoßen -- dann bietet sich für die ersten Wochen des neuen Jahres eine Verhaltensänderung an.
+
+![](.\images\Ortsschild_2020-2021.png "enter 2021")
 
 Oder auch "guter Vorsatz" genannt.
 

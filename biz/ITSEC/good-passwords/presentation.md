@@ -1,11 +1,12 @@
 ---
-layout: post
-title: Vorsätzlich gute Passwörter
-date:   2021-01-01 00:00:00 +0100
-youtubeId: M6-xjDTAQeI
+layout: presentation_v1.0.2
+title: "Vorsätzlich gute Passwörter"
+excerpt: "excerpt"
+author: "Christian Prior-Mamulyan"
+dummycontent: false
+theme: solarized
 
-author:
-- Christian Prior-Mamulyan
+author: Christian Prior-Mamulyan
 rights:  Creative Commons Non-Commercial Share Alike 3.0
 language: de-DE
 keywords: [passwords, passwörter]
@@ -16,11 +17,7 @@ abstract: |
 
   Was aber ein gutes Passwort ist, und wie man viele gute Passwörter verwalten kann, zeigt dieser Beitrag.
 
-
 ---
 
 
-{% include youtubePlayer.html id=page.youtubeId %}
-
-
-{% include_relative article.markdown %}
+{% include_relative slides_stripped.html %}
