@@ -22,7 +22,13 @@ html { background: #fdf6e3; color: #657b83; }
 .title h1 { color: #cb4b16; }
 
 
-
+img.resize {
+  width: auto;
+  height: auto;
+  max-width: 640px;
+  max-height: 480px;
+  object-fit: contain;
+}
 
 
 body a,
