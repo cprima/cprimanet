@@ -2,3 +2,8 @@ id,category,checklistname,key,value,remark,component
 1,tests,Streamdeck ohne Funktion,keys don't light up,check cable,foobar,TA_PTC_002
 2,tests,Streamdeck ohne Funktion,keys don't react to input,(re)start companion software,foobar,TA_PTC_002
 3,tests,Streamdeck ohne Funktion,keys show old buttons,(re)start companion software,foobar,TA_PTC_002
+4,tec,enable Korg Nanokontrol2 with ATEM Control MIDI,USB cable,disconnected,foobar,TA_PTC_015
+5,tec,enable Korg Nanokontrol2 with ATEM Control MIDI,buttons pressed,"set, cycle",,TA_PTC_015
+6,tec,enable Korg Nanokontrol2 with ATEM Control MIDI,USB cable,connect,,TA_PTC_015
+7,tec,Korg nanoKONTROL2 not controlling ATEM Control,any other MIDI devices,disabled,,TA_PTC_015
+8,tec,Korg nanoKONTROL2 not controlling ATEM Control,any other MIDI loopback,disabled,,

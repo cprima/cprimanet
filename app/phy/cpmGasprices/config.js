@@ -2,7 +2,7 @@
 //var apikey = '00000000-0000-0000-0000-000000000002';
 var ids_csv = '005056ba-7cb6-1ed2-bceb-79dff61a8d26,' + // STAR Nordstadt
     'c7f10377-ac4b-4a53-8230-ef35a1636d67' + ',' + // Shell Ewersbach
-    'bfa77901-672d-427c-9521-e26064993d9a' + ',' + // Freie Tankstelle Frankenberg
+    'bfa77901-672d-427c-9521-e26064993d9a' + '' + // Freie Tankstelle Frankenberg
     '';   // 
 
 //gasprices
