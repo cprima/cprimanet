@@ -1,6 +1,6 @@
 id,category,name,description,vendor,version,source,productname,platform,created_at,reviewed_at,retired_at,path,visibility,nickname
 TA_PTC_001,Editor,VS Code,Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.,Microsoft,1.56.2,https://code.visualstudio.com,Visual Studio Code,"Windows, Linux, Mac",2015-01-01,2021-05-12,,vscode,,
-TA_PTC_002,Automation,Companion,"Bitfocus Companion enables the reasonably priced Elgato Streamdeck to be a professional shotbox surface for an increasing amount of different presentation switchers, video playback software and broadcast equipment.",Bitfocus AS,v2.1.3,https://bitfocus.io/companion/,Companion,"macOS, Windows",2020-06-06,2021-05-08,,companion,public,TA_PTC_002
+TA_PTC_002,Automation,Companion,"Bitfocus Companion enables the reasonably priced Elgato Streamdeck to be a professional shotbox surface for an increasing amount of different presentation switchers, video playback software and broadcast equipment.",Bitfocus AS,v2.1.3,https://bitfocus.io/companion/,Companion,"macOS, Windows",2020-06-06,2021-05-08,,Bitfocus/companion,public,TA_PTC_002
 TA_PTC_003,Graphics,Inkscape,-,,,,Inkscape,,,,,,,TA_PTC_003
 TA_PTC_004,,Pandoc,-,,,,Pandoc,,,,,,,TA_PTC_004
 TA_PTC_005,Videoswitcher,ATEM-Mini,-,,,,ATEM Mini,,,,,,,TA_PTC_005
@@ -14,7 +14,7 @@ TA_PTC_012,"Cloud Directory Platform
 AD & SSO",JumpCloud,-,JumpCloud,,,JumpCloud,,,,,,,TA_PTC_012
 TA_PTC_013,,OBS Studio,-,,,,OBS Studio,,,,,,,TA_PTC_013
 TA_PTC_014,,Sizer4,Sizer 4.0 is latest version of the popular utility used to accurately resize and reposition windows.,,,http://www.brianapps.net/sizer4/,Sizer4,,,,,,,TA_PTC_014
-TA_PTC_015,MIDI Controller,nanoKONTROL2,"Convenient, compact control surface, with easy setup for immediate use. In a body proportioned to fit perfectly in front of your laptop computer, the nanoKONTROL2 provides eight channels of the controllers you need to control your music software. The nanoKONTROL2 also features a dedicated transport control section.",Korg,,,Korg nanoKONTROL2,,,,,,,TA_PTC_015
+TA_PTC_015,MIDI Controller,nanoKONTROL2,"Convenient, compact control surface, with easy setup for immediate use. In a body proportioned to fit perfectly in front of your laptop computer, the nanoKONTROL2 provides eight channels of the controllers you need to control your music software. The nanoKONTROL2 also features a dedicated transport control section.",Korg,,,Korg nanoKONTROL2,,,2021-11-02,,Korg/nanoKONTROL2,public,TA_PTC_015
 TA_PTC_016,microphone preamp,286s,The dbx 286s is a full featured Channel Strip Processor that delivers a studio quality microphone/instrument preamplifier and four processors that can be used independently or in any combination,dbx,,,dbx 286s,,,,,,,TA_PTC_016
 TA_PTC_017,camera,Cam20,The Konftel Cam20 is the conference camera that brings 4K Ultra HD video to huddle rooms and medium-sized meeting rooms,Konftel,,https://www.konftel.com/en/products/cameras/konftel-cam20,Konftel Cam20,,,,,,,TA_PTC_017
 TA_PTC_018,projector,GT1080e,"Bright short throw home entertainment projector, great for sports",Optoma,,https://www.optomaeurope.com/product-details/gt1080e,Optoma GT1080e,,,,,,,TA_PTC_018
@@ -33,5 +33,5 @@ TA_PTC_030,,Natron,"Natron is a powerful Digital Compositor that can handle all 
 TA_PTC_031,,G'MIC,"G'MIC is a full-featured open-source framework for digital image processing, distributed under the CeCILL free software licenses (LGPL-like and/or GPL-compatible). It provides several user interfaces to convert / process / visualize generic image datasets, ranging from 1D scalar signals to 3D+t sequences of multi-spectral volumetric images, hence including 2D color images.",David Tschumperlé,"	
 G'MIC-Qt plug-in for GIMP 2.10",http://gmic.eu/,,,,,,,,
 TA_PTC_032,,Google Apps Script,Apps Script is a rapid application development platform that makes it fast and easy to create business applications that integrate with G Suite.,Google,,https://www.google.com/script/start/,Google Apps Script,PAAS,2021-10-27,,,GoogleAppsScript,public,TA_PTC_032
-TA_PTC_033,,,,,,,,,,,,,,
+TA_PTC_033,,Philips Hue,"Philips Hue brings smart lighting to everyday homes, allowing anyone to create special moments and automate with light.",Philips,,https://www.philips-hue.com/,Philips Hue,,2021-10-31,,,PhilipsHue,public,TA_PTC_033
 TA_PTC_034,,,,,,,,,,,,,,
