@@ -2,6 +2,7 @@
 layout: post
 title: In the Homeoffice, show that you are On Air with a Philips Hue Go
 component: TA_PTC_033
+date:   2021-11-06 00:00:00 +0100
 abstract: "In the Homeoffice, show that you are On Air with a Philips Hue Go."
 ---
 
