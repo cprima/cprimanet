@@ -1,0 +1,9 @@
+cron:
+- description: "daily dev test"
+  url: /
+  schedule: every 24 hours
+  target: dev
+- description: "hourly default test"
+  url: /
+  schedule: every 1 hours
+  target: default

@@ -1,0 +1,7 @@
+dispatch:
+  - url: "dev-dot-gasprices-2021.ey.r.appspot.com/*"
+    service: dev
+
+  - url: "gasprices-2021.ey.r.appspot.com/*"
+    service: default
+
