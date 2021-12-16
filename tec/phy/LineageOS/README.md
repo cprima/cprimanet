@@ -1,3 +1,7 @@
+WÖrterbücher
+
+
+
 
 
 adb shell 'pm list packages -f'
@@ -45,3 +49,4 @@ adb install ~/Downloads/MagiskManager-v7.5.1.apk
 
 
 
+Notfallinformationen 

@@ -18,4 +18,3 @@ categories: [ tec ]
   {% endif %}
   {% endfor %}
 </dl>
-

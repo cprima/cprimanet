@@ -3,7 +3,7 @@ TA_PTC_001,Editor,VS Code,Visual Studio Code is a code editor redefined and opti
 TA_PTC_002,Automation,Companion,"Bitfocus Companion enables the reasonably priced Elgato Streamdeck to be a professional shotbox surface for an increasing amount of different presentation switchers, video playback software and broadcast equipment.",Bitfocus AS,v2.1.3,https://bitfocus.io/companion/,Companion,"macOS, Windows",2020-06-06,2021-05-08,,Bitfocus/companion,public,TA_PTC_002
 TA_PTC_003,Graphics,Inkscape,-,,,,Inkscape,,,,,,,TA_PTC_003
 TA_PTC_004,,Pandoc,-,,,,Pandoc,,,,,,,TA_PTC_004
-TA_PTC_005,Videoswitcher,ATEM-Mini,-,,,,ATEM Mini,,,,,,,TA_PTC_005
+TA_PTC_005,Video,ATEM-Mini,-,,,,ATEM Mini,,,,,,,TA_PTC_005
 TA_PTC_006,Graphics,H2R Graphics,-,,,,H2R Graphics,,,,,,,TA_PTC_006
 TA_PTC_007,Projectionmapping,MadMapper,MadMapper is the advanced tool for video and light mapping,garageCube,4.1.0,https://madmapper.com/,MadMapper,macOS 10.13+ / Windows 10 64bit,2021-09-01,,,madmapper,public,TA_PTC_007
 TA_PTC_008,Digital Audio Workstation,Live,-,Ableton,,,Ableton Live,,,,,,,TA_PTC_008
@@ -34,4 +34,5 @@ TA_PTC_031,,G'MIC,"G'MIC is a full-featured open-source framework for digital im
 G'MIC-Qt plug-in for GIMP 2.10",http://gmic.eu/,,,,,,,,
 TA_PTC_032,,Google Apps Script,Apps Script is a rapid application development platform that makes it fast and easy to create business applications that integrate with G Suite.,Google,,https://www.google.com/script/start/,Google Apps Script,PAAS,2021-10-27,,,GoogleAppsScript,public,TA_PTC_032
 TA_PTC_033,,Philips Hue,"Philips Hue brings smart lighting to everyday homes, allowing anyone to create special moments and automate with light.",Philips,,https://www.philips-hue.com/,Philips Hue,,2021-10-31,,,PhilipsHue,public,TA_PTC_033
-TA_PTC_034,,,,,,,,,,,,,,
+TA_PTC_034,Video,PlayoutBee,Turn your Raspberry Pi into a PlayoutDevice that supports the  Hyperdeck Protocol to play clips directly from your ATEM Switcher or via the web interface.,ByteHive,0.9.3,https://playoutbee.com/,PlayoutBee,"Windows, Macos, RaspberryPi",2021-11-07,,,ByteHive/PlayoutBee,public,TA_PTC_034
+TA_TPC_035,sourcecodemanagement,Git,Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. Git is easy to learn and has a tiny footprint with lightning fast performance.,,,https://git-scm.com/,,,2021-12-14,,,Git,,TA_PTC_035

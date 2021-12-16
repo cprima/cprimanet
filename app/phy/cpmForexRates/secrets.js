@@ -1,0 +1,5 @@
+//add file to .gitignore
+var mailchimp_apikey = "e1249ac367817af8d02d6e04b18a2af0-us10";
+
+var facebook_accesstoken = "EAAiZBhlu3vZCMBAM1L7ZBpkOB5Rzm0luz8taZBdAKGUSi3bku2aZBqffdmOWdZCOn8fGHGRerMyBNmOUp4cJVTZBDS0FazSu32cLwHb7BhZAGfmC3AGLNCfft0hOqPJEsQZAZA0rcJIFpxaH1GwOGTnXIbYNfk7Ii9WJOsZBLlZBzjdFs2J3wa49mXHZAgxT5d2mcE2sZD";
+

@@ -12,10 +12,10 @@ Priorities for livestreaming -- and online workshop are live streaming by nature
 ![s](../../../images/priorities_inetnet-audio-lighting-cameras-background.png)
 
 1. internet connection
-2. audio
-3. lighting
-4. camera
-5. background
+1. audio
+1. lighting
+1. camera
+1. background
 
 Regarding "audio": Setup for voice recording! Bear the conflict of interest with the desire for a "polished studio thumbnail picture".
 
@@ -61,7 +61,7 @@ Collect material that might be available in the household/workshop already.
 
 ### Room echo and the clap test
 
-To evaluate the room echo a clap-test is a reproducible method to _measure_ the situation as-is -- and after some modifications.
+To evaluate the room echo the clap-test is a reproducible method to _measure_ the situation as-is -- and after some modifications.
 
 How to perform a clap test?
 
@@ -98,9 +98,11 @@ Affordable and maybe even already available items to influence the room are:
 
 Dampening textile materials will go a long way: I found that a sofa, thicker and thinner curtains and upon request a moving blanket on the wall behind the microphone do work well -- although the rest of the room has quite hard wooden surfaces.
 
-![3D screenshot of room](../images/WOB38A8klZi_640x480.png)
+![3D screenshot of room](../../images/WOB38A8-audio.png)
 
 The picture above shows brownish curtains, a dark moving blanket and the blueish sofa. Works for me! If the room was larger I would use a fluffy carpet.
+
+The dampening material needs to be placed according to the polar pattern of the microphone.
 
 >excursion: example of closet-recording
 >
@@ -115,7 +117,7 @@ The picture above shows brownish curtains, a dark moving blanket and the blueish
 - fans
 - …
 
-I found the Logitech K780 a quite silent keyboard, and ditched my beloved "DasKeyboard"s for it full-time: [https://www.amazon.de/gp/product/B01GV6HP0E](https://www.amazon.de/gp/product/B01GV6HP0E)
+I found the Logitech K780 a quiet silent keyboard, and ditched my beloved "DasKeyboard"s for it full-time: [https://www.amazon.de/gp/product/B01GV6HP0E](https://www.amazon.de/gp/product/B01GV6HP0E)
 
 A good protective case is [https://www.amazon.de/gp/product/B07PJHLY7R/](https://www.amazon.de/gp/product/B07PJHLY7R/).
 
@@ -126,7 +128,9 @@ A good protective case is [https://www.amazon.de/gp/product/B07PJHLY7R/](https:/
 
 ## Audio Slang for the Processing Chain
 
-- line level
+- speaker level
+- line level (adequate for sending from one device to another)
+- instrument level
 - microphone level
 
 "line level", if not then quickly up to line level. And check all gear in the audio chain for correct configuration.

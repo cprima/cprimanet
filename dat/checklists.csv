@@ -6,4 +6,19 @@ id,category,checklistname,key,value,remark,component
 5,tec,enable Korg Nanokontrol2 with ATEM Control MIDI,buttons pressed,"set, cycle",,TA_PTC_015
 6,tec,enable Korg Nanokontrol2 with ATEM Control MIDI,USB cable,connect,,TA_PTC_015
 7,tec,Korg nanoKONTROL2 not controlling ATEM Control,any other MIDI devices,disabled,,TA_PTC_015
-8,tec,Korg nanoKONTROL2 not controlling ATEM Control,any other MIDI loopback,disabled,,
+8,tec,Korg nanoKONTROL2 not controlling ATEM Control,any other MIDI loopback,disabled,,TA_PTC_007
+9,tec,MadMapper OSC control from Companion,Does Companion run successfully ?,checked,,TA_PTC_007
+10,tec,MadMapper OSC control from Companion,What OSC post is MadMapper configured on?,See Tools > Preferences > OSC,,TA_PTC_007
+11,tec,MadMapper OSC control from Companion,"In Companion, add a Generic OSC instance",done,,TA_PTC_007
+12,tec,MadMapper OSC control from Companion,Configure the Generic OSC instance with IP and port,done,,TA_PTC_007
+13,tec,MadMapper OSC control from Companion,"In MadMapper, either open the panel ""Control List"" and add via + and context menu the target property",optional,,TA_PTC_007
+14,tec,MadMapper OSC control from Companion,"In MadMapper, alternatively right click a property to copy OSC adress",optional,,TA_PTC_007
+15,tec,MadMapper OSC control from Companion,"In Companion, add a regular button with the action OSC Send Integer or OSC Send String or OSC Send Float or similar",done,,TA_PTC_007
+16,tec,Git re-clone,REMOTEURL=$(git config --get remote.origin.url),,https://stackoverflow.com/a/42903805,TA_TPC_035
+17,tec,Git re-clone,REPODIR=$(git rev-parse --show-toplevel) && $REPODIR/..,,,TA_TPC_035
+18,tec,Git re-clone,rm -rf $REPODIR,,,TA_TPC_035
+19,tec,Git re-clone,"git clone ""$REMOTEURL""",,,TA_TPC_035
+20,tec,Git clean and reset,git clean --force -d -x,,,TA_TPC_035
+21,tec,Git clean and reset,git reset --hard,,,TA_TPC_035
+22,tec,Git clean,git clean --force -d -x,,,TA_TPC_035
+23,tec,Git reset,git reset --hard,,,TA_TPC_035

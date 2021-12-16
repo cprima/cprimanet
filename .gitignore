@@ -17,3 +17,5 @@ Gemfile.lock
 .sass-cache/
 
 HexagonalGridSolarized_30mins.mkv
+
+.ipynb_checkpoints
