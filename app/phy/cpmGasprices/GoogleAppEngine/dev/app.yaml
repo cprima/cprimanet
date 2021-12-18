@@ -14,6 +14,7 @@
 
 runtime: python39
 service: dev
+entrypoint: gunicorn -t 1800 -b :$PORT main:app
 handlers:
 - url: /.*
   script: main.app

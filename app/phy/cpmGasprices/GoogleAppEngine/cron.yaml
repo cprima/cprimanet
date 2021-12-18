@@ -1,9 +1,5 @@
 cron:
-- description: "daily dev test"
-  url: /
-  schedule: every 24 hours
+- description: "daily prices from tankerkoenig repo"
+  url: /collector
+  schedule: every day 04:00
   target: dev
-- description: "hourly default test"
-  url: /
-  schedule: every 1 hours
-  target: default

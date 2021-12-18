@@ -16,6 +16,7 @@
 # [START gae_python3_app]
 from flask import Flask
 
+from gasprices import collector, generator
 
 # If `entrypoint` is not defined in app.yaml, App Engine will look for an app
 # called `app` in `main.py`.
@@ -28,10 +29,18 @@ def hello():
     return 'Hello World!'
 
 
-@app.route('/v2')
-def v2():
+@app.route('/collector')
+def collector_retrieve_data():
     """Return a friendly HTTP greeting."""
-    return 'Hello World v2!'
+    collector.retrieve_data()
+    return 'collector.retrieve_data()'
+
+
+@app.route('/generator')
+def call_generator():
+    """Return a friendly HTTP greeting."""
+    generator.make_datasets(location="wolfsburg", days_range=30, fullweeks=3)
+    return 'collector.retrieve_data()'
 
 
 if __name__ == '__main__':
