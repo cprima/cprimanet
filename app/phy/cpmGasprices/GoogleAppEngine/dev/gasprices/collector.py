@@ -12,16 +12,16 @@ from google.cloud import storage
 
 from gasprices.config import *
 from gasprices.appengine import *
-from gasprices.generator import *
+#from gasprices.generator import *
 
 
 def getDaysSinceYesterdayAsList(days_range):
     """Returns datetime objects since yesterday as a list"""
     retval = []
     end_date = datetime.date.today() - datetime.timedelta(days=1)
-    start_date = end_date - days_range*day_delta
+    start_date = end_date - days_range * datetime.timedelta(days=1)
     for i in range((end_date - start_date).days):
-        retval.append(end_date - i*day_delta)
+        retval.append(end_date - i * datetime.timedelta(days=1))
     return retval
 
 
@@ -47,7 +47,8 @@ def retrievePricefiles():
         else:
             print("requesting "+filename)
             r = requests.get(url)
-            requestUrlsAndUploadBlobs(filename, r.content)
+            metadata = {'type': 'prices', 'location': 'deutschland'}
+            upload_blob_string(bucket_name, r.content, filename, metadata)
     return
 
 

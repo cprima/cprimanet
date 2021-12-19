@@ -13,10 +13,10 @@ my_weeklyaggregate_prices_location_date_timespan_filename_tpl = "data_processed/
 figure_subtitle_tpl = "vom {from_day:02d}.{from_month:02d}. bis {to_day:02d}.{to_month:02d}. zwischen {from_hour:02d}:{from_minute:02d} und {to_hour:02d}:{to_minute:02d}"
 
 yesterday = datetime.date.today() - datetime.timedelta(days=1)
-day_delta = datetime.timedelta(days=1)
+#day_delta = datetime.timedelta(days=1)
 days_range = 3  # 0
 end_date = datetime.date.today() - datetime.timedelta(days=1)
-start_date = end_date - days_range*day_delta
+start_date = end_date - days_range*datetime.timedelta(days=1)
 daysOfWeek = {0: 'Montag', 1: 'Dienstag', 2: 'Mittwoch',
               3: 'Donnerstag', 4: 'Freitag', 5: 'Samstag', 6: 'Sonntag'}
 

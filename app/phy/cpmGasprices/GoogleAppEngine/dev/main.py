@@ -36,11 +36,11 @@ def collector_retrieve_data():
     return 'collector.retrieve_data()'
 
 
-@app.route('/generator')
-def call_generator():
-    """Return a friendly HTTP greeting."""
-    generator.make_datasets(location="wolfsburg", days_range=30, fullweeks=3)
-    return 'collector.retrieve_data()'
+# @app.route('/generator')
+# def call_generator():
+#     """Return a friendly HTTP greeting."""
+#     generator.make_datasets(location="wolfsburg", days_range=30, fullweeks=3)
+#     return 'collector.retrieve_data()'
 
 
 if __name__ == '__main__':
