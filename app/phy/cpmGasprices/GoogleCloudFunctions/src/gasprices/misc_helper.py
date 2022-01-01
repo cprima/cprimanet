@@ -13,5 +13,16 @@ def list_datetime_obj(days_range, offset=1):
     return retval
 
 
-def get_end_of_day_time(d):
-    return datetime.combine(d.date(), time.max)
+def get_end_of_day_time(dt):
+    return datetime.combine(dt.date(), time.max)
+
+
+def get_iso_week_no(dt):
+    try:
+        retval = dt.isocalendar().week
+    except AttributeError as e:
+        retval = dt.isocalendar()[1]
+    finally:
+        print(retval)
+        return retval
+    return

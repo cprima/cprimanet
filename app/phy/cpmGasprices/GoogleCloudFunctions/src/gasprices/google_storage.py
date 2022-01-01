@@ -1,6 +1,7 @@
 from google.cloud import storage
 from datetime import datetime
 from gasprices.format_helper import *
+from gasprices.misc_helper import *
 
 
 def list_files(bucket_name, endswith="", startswith=""):
@@ -74,7 +75,7 @@ def list_blobs(bucket_name, endswith="", startswith="", needle_list=[]):
     return retval
 
 
-def enrich_metadata(metadata, from_date=False, thru_date=False, from_time=False, thru_time=False, time_of_day=False, timespan=False, location=False, _type=False):
+def enrich_metadata(metadata, from_date=False, thru_date=False, from_time=False, thru_time=False, time_of_day=False, timespan=False, location=False, _type=False, from_iso_week_no=False, thru_iso_week_no=False):
     if from_date:
         metadata['from_date'] = format_templatestring(
             "{from_year}-{from_month:02d}-{from_day:02d}", from_date)
@@ -95,6 +96,10 @@ def enrich_metadata(metadata, from_date=False, thru_date=False, from_time=False,
         metadata['location'] = location
     if _type:
         metadata['type'] = _type
+    if from_iso_week_no:
+        metadata['from_iso_week_no'] = from_iso_week_no
+    if thru_iso_week_no:
+        metadata['thru_iso_week_no'] = thru_iso_week_no
     return metadata
 
 
@@ -103,3 +108,19 @@ def get_metadata(bucket_name, gsfile):
     bucket = storage_client.bucket(bucket_name)
     blob = bucket.get_blob(gsfile)
     return blob.metadata
+
+
+def get_gsfiles_pastXdays(event, days_range, metadata, tpl):
+    days_list = list_datetime_obj(days_range+1)
+    needle_list = list_formatted_tplstr(
+        tpl, days_list, metadata['location'])
+    haystack_list = list_blobs(
+        event['bucket'], endswith=".csv",
+        startswith="data/interim/prices/"+metadata['location']+"/prices_")
+    datafile_list = list_blobs(
+        event['bucket'], endswith=".csv",
+        startswith="data/interim/prices/"+metadata['location']+"/prices_", needle_list=needle_list)
+    if len(haystack_list) >= days_range:
+        return datafile_list
+    else:
+        return False

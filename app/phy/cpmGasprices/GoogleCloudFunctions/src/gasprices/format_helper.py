@@ -14,10 +14,11 @@ def parse_metadata_to_datetime(str_date, str_time):
             str_date + ' ' + str_time, '%Y-%m-%d %H:%M:%S')
 
 
-def format_templatestring(tpl, from_datetime, thru_datetime=datetime.now(), location=""):
+def format_templatestring(tpl, from_datetime, thru_datetime=datetime.now(), location="", time_of_day="fixme"):
     #print(from_datetime, thru_datetime)
     return tpl.format(
         location=location,
+        time_of_day=time_of_day,
         from_year=from_datetime.year, from_month=from_datetime.month, from_day=from_datetime.day,
         from_hour=from_datetime.hour, from_minute=from_datetime.minute, from_second=from_datetime.second,
         to_year=thru_datetime.year, to_month=thru_datetime.month, to_day=thru_datetime.day,
