@@ -1,5 +1,5 @@
-cron:
-- description: "daily prices from tankerkoenig repo"
-  url: /collector
-  schedule: every day 04:00
-  target: dev
+cron: []
+#- description: "daily prices from tankerkoenig repo"
+#  url: /collector
+#  schedule: every day 04:00
+#  target: dev
