@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "Technology employed by cprima.net"
-permalink: /technology/index.html
+permalink: /tec/index.html
 categories: [ tec ]
 ---
 

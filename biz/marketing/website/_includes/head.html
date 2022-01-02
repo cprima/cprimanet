@@ -6,8 +6,23 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 {% if page.component -%}
+
+{% capture component_substring %}{{page.component | slice: 0,6}}{% endcapture %}
+
+{% if component_substring == "BA_PRO" %}
+{% assign component = site.data.bapro  | where:"id", page.component | first %}
+{% assign title = component.name %}
+{% elsif component_substring == "AC_LAC" %}
+{% assign component = site.data.aclac  | where:"id", page.component | first %}
+{% assign title = component.name %}
+{% elsif component_substring == "AC_PAC" %}
+{% assign component = site.data.acpac  | where:"id", page.component | first %}
+{% assign title = component.name %}
+{% elsif component_substring == "TA_PTC" %}
 {% assign component = site.data.taptc  | where:"id", page.component | first %}
-{% assign title = component.vendor | append:" " | append:component.productname %}
+{% assign title = component.vendor | append:" " | append:component.name %}
+{% endif %}
+
 {%- endif %}
         <title>{% if title %}{{ site.title }} - {{ title | escape }}{% elsif page.title %}{{ site.title }} - {{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
         <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
