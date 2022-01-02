@@ -22,3 +22,13 @@ id,category,checklistname,key,value,remark,component
 21,tec,Git clean and reset,git reset --hard,,,TA_TPC_035
 22,tec,Git clean,git clean --force -d -x,,,TA_TPC_035
 23,tec,Git reset,git reset --hard,,,TA_TPC_035
+24,biz,Screenrecording,Monitor set to correct resolution,1600x900,,
+25,biz,Screenrecording,OBS set to correct profile,900p 30fps,,
+26,biz,Screenrecording,OBS audio configured,Settings Audio and Audio Mixer Advanced Audio Properties Tracks,,
+27,biz,Screenrecording,Console correct fontsize,83char 1280px,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
