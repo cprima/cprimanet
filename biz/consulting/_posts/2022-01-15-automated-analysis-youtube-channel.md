@@ -311,22 +311,26 @@ iZotope Insight 2 (Paid)
 Waves WLM Plus Loudness Meter (Paid)
 
 
-## How to setup a second computer to join meetings for loudness evaluation
+## How to setup a second computer to join meetings and evaluate loudness
 
-On a PC:
+In an online meeting all participants should have a similar loudness level. The easiest way for all to adjust their microphone is if the loudness is measured and visible to all. To achieve this, a special account joins the meeting and instead of a webcam picture transmits a loudness meter.
+
+Prereqisites on a PC:
+
+A good software stack to achieve this is to
 
 1. install Sizer
 1. install OBS
-1. install Virtual Audio Cable
+1. install VB-Audio's Virtual Audio Cable
 1. install Youlean Loudness Meter 2
 1. install Zoom/MS Teams/Skype
 
-Configure Virtual Audio Cable
+Next step ist to configure Virtual Audio Cable
 
 - Sound > Recording > Cable > Properties > Levels: Output = 100
 - Sound > Recording > Cable > Properties > Advanced: Default Format = 1 channel 16bit 48000 Hz
 
-Configure YLM
+With that set it is possible to configure YLM
 
 - File > Preferences: Driver Type = Direct Sound
 - File > Preferences: Input Device = Cable Output
@@ -337,18 +341,28 @@ Configure YLM
 - Enable short term loudness graph
 - Enable true peak clipping indication
 
-Configure OBS
+From this point on YLM will listen to our Virtual Audio Cable and analyze the incoming audio.
+
+Then it is the moment to configure Zoom to listen to this Virtual Audio Cable as its microphone:
+
+- Settings > Audio: Microphone = Cable
+- Settings > Audio > Microphone: Volume = 100%
+
+Finally, configure OBS to show the properly sized window of YLM als a webcam:
 
 - Settings > Video: Base (Canvas) Resolution = 1280x720
 - Settings > Video: Output (Scaled) Resolution = 1280x720
 - Sources > Add > Window Capture: Window = [Youlean Loudness Meter 2.exe]
 - Start Virtual Camera
 
-Configure Zoom
-
-- Settings > Audio: Microphone = Cable
-- Settings > Audio > Microphone: Volume = 100%
-
-Join Zoom Meeting
+Now this PC is ready to join Zoom Meeting and show a visualization of the loudness of whatever is spoken or played in the meeting!
 
 - Start Video
+- Select OBS Virtual Cam
+
+
+
+# index
+
+mix minus
+
