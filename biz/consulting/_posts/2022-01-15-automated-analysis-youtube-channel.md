@@ -255,4 +255,100 @@ Produce the cleanest possible signal, raise it as quickly to line level, and use
 Next time you are using a microphone, remember the picture of noise sitting on top of a signal, and remeber the blackboard of Professor Agarwal!
 
 
-## 
+//todo: incorporate analog playout
+//analog reconstruction of two consecutive digital samples peaking at 0 dBFS may result in an analog wave that peaks higher than either of the samples
+//https://www.mixinglessons.com/dbtp-decibel-true-peak/
+
+
+## Loudness and YouTube
+
+intro: loud commercials
+
+goal: relevance for YouTuber and what are the key concepts behind it
+
+//caveat: peak audio AND loudness
+
+toc
+
+- what is loudness, what is loud
+  - perception
+  - (Fletcher Munson Curve)
+  - we hear the mids more prominently than bass and highs
+- excursion: music production, TV
+- European Broadcast Union (EBU) OR EU, consumer protection, 2010
+  - now https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1770-4-201510-I!!PDF-E.pdf
+  - also: playlist shuffle
+  - example overcompressed track https://magroove-files.s3.amazonaws.com/magroove-blog/wp-content/uploads/2019/08/Nivel-em-LUFS-de-diferentes-faixas-de-%C3%A1udio-768x480.jpg
+- peak, RMS, LUFS, …
+  - negative numbers because referenced to full scale of the maximum that a system can handle
+  - RMS is not adjusted to human hearing
+  - LUFS k-weight https://youlean-129cf.kxcdn.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-03-at-7.06.08-PM-3.png https://youlean.co/how-to-hack-lufs-normalization/
+  - high LUFS "means compression" == loss of dynamic range
+- statistics over time
+  - short-term
+  - integrated
+- true peak
+
+
+- production loudness
+- distribution loudness
+
+To remain on the practical side of things:
+- example LUFS graph over time
+- YouTube rules, and other platforms
+
+- YouTube rules -> YLM features
+
+- resulting action / Applying This Knowledge
+  - separate master mixes for each platform
+  - or rely on "them" to turn it down
+  - measure after the adjustments! 
+
+
+Youlean Loudness Meter 2 (Free and Pro)
+Mastering The Mix LEVELS (Paid)
+iZotope Insight 2 (Paid)
+Waves WLM Plus Loudness Meter (Paid)
+
+
+## How to setup a second computer to join meetings for loudness evaluation
+
+On a PC:
+
+1. install Sizer
+1. install OBS
+1. install Virtual Audio Cable
+1. install Youlean Loudness Meter 2
+1. install Zoom/MS Teams/Skype
+
+Configure Virtual Audio Cable
+
+- Sound > Recording > Cable > Properties > Levels: Output = 100
+- Sound > Recording > Cable > Properties > Advanced: Default Format = 1 channel 16bit 48000 Hz
+
+Configure YLM
+
+- File > Preferences: Driver Type = Direct Sound
+- File > Preferences: Input Device = Cable Output
+- File > Preferences > Meter Input Channel Settings: L = Cable L, R = Cable R
+- View Menu > Graphics: GUI Scaling = 100%
+- right-click YLM window at lower right corner > 16:9 > 1280x720
+- Channel Configuration: Mono
+- Enable short term loudness graph
+- Enable true peak clipping indication
+
+Configure OBS
+
+- Settings > Video: Base (Canvas) Resolution = 1280x720
+- Settings > Video: Output (Scaled) Resolution = 1280x720
+- Sources > Add > Window Capture: Window = [Youlean Loudness Meter 2.exe]
+- Start Virtual Camera
+
+Configure Zoom
+
+- Settings > Audio: Microphone = Cable
+- Settings > Audio > Microphone: Volume = 100%
+
+Join Zoom Meeting
+
+- Start Video
