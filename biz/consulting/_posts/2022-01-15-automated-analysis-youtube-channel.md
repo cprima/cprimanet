@@ -313,7 +313,7 @@ Waves WLM Plus Loudness Meter (Paid)
 
 ## How to setup a second computer to join meetings and evaluate loudness
 
-In an online meeting all participants should have a similar loudness level. The easiest way for all to adjust their microphone is if the loudness is measured and visible to all. To achieve this, a special account joins the meeting and instead of a webcam picture transmits a loudness meter.
+In an online meeting all participants should have a similar loudness level. The easiest way for everybody to adjust their microphone is if the loudness is measured and visible to all. To achieve this, a special account joins the meeting and instead of a webcam picture transmits a loudness meter.
 
 Prereqisites on a PC:
 
@@ -327,10 +327,12 @@ A good software stack to achieve this is to
 
 Next step ist to configure Virtual Audio Cable
 
+Open the Windows Sound Settings, for example by pressing the Windows key together with R and typing control mmsys.cpl sounds and set
+
 - Sound > Recording > Cable > Properties > Levels: Output = 100
 - Sound > Recording > Cable > Properties > Advanced: Default Format = 1 channel 16bit 48000 Hz
 
-With that set it is possible to configure YLM
+With that being set it is possible to configure YLM
 
 - File > Preferences: Driver Type = Direct Sound
 - File > Preferences: Input Device = Cable Output
