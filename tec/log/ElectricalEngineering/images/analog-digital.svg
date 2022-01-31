@@ -12,7 +12,6 @@
    inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -70,26 +69,6 @@
        helper_size="0"
        simplify_individual_paths="false"
        simplify_just_coalesce="false" />
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient1085">
-      <stop
-         style="stop-color:#000000;stop-opacity:1"
-         offset="0"
-         id="stop1081" />
-      <stop
-         style="stop-color:#0c0c0c;stop-opacity:0.94901961;"
-         offset="0.09260008"
-         id="stop4251" />
-      <stop
-         style="stop-color:#848484;stop-opacity:0.47843137;"
-         offset="0.92600071"
-         id="stop3750" />
-      <stop
-         style="stop-color:#ffffff;stop-opacity:0"
-         offset="1"
-         id="stop1083" />
-    </linearGradient>
     <rect
        x="0"
        y="359.5"
@@ -102,16 +81,6 @@
        width="1920"
        height="180"
        id="rect1607" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient1085"
-       id="linearGradient2688"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-1.3671877e-7,-1.3251953e-5)"
-       x1="313.80145"
-       y1="991.67053"
-       x2="313.80145"
-       y2="39.515759" />
     <pattern
        id="Voronoi809"
        width="1920.0"
@@ -216,7 +185,7 @@
      inkscape:cx="1262.5191"
      inkscape:cy="535.95394"
      inkscape:document-units="px"
-     inkscape:current-layer="g1680"
+     inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
      units="px"
@@ -252,83 +221,83 @@
     <text
        xml:space="preserve"
        id="text53523"
-       style="font-size:48px;line-height:1;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';word-spacing:0px;writing-mode:tb-rl;text-orientation:upright;white-space:pre;shape-inside:url(#rect53525);font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#fdf6e3"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:1;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;writing-mode:tb-rl;text-orientation:upright;white-space:pre;shape-inside:url(#rect53525);fill:#fdf6e3"
        transform="translate(386.72065,-40.809717)"><tspan
          x="1451.4805"
          y="254.57422"
-         id="tspan10142">1001100110110001</tspan></text>
+         id="tspan1047">1001100110110001</tspan></text>
     <text
        xml:space="preserve"
        id="text1087"
-       style="font-size:48px;line-height:1;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';word-spacing:0px;writing-mode:tb-rl;text-orientation:upright;white-space:pre;shape-inside:url(#rect1089);font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#fdf6e3"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:1;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;writing-mode:tb-rl;text-orientation:upright;white-space:pre;shape-inside:url(#rect1089);fill:#fdf6e3"
        transform="translate(346.72065,-30.809717)"><tspan
          x="1451.4805"
          y="254.57422"
-         id="tspan10144">00001111000101011001</tspan></text>
+         id="tspan1049">00001111000101011001</tspan></text>
     <text
        xml:space="preserve"
        id="text1093"
-       style="font-size:48px;line-height:1;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';word-spacing:0px;writing-mode:tb-rl;text-orientation:upright;white-space:pre;shape-inside:url(#rect1095);font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#fdf6e3"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:1;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;writing-mode:tb-rl;text-orientation:upright;white-space:pre;shape-inside:url(#rect1095);fill:#fdf6e3"
        transform="translate(306.72065,-30.809717)"><tspan
          x="1451.4805"
          y="254.57422"
-         id="tspan10146">00110110001001 01</tspan></text>
+         id="tspan1051">00110110001001 01</tspan></text>
     <text
        xml:space="preserve"
        id="text1099"
-       style="font-size:48px;line-height:1;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';word-spacing:0px;writing-mode:tb-rl;text-orientation:upright;white-space:pre;shape-inside:url(#rect1101);font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#fdf6e3"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:1;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;writing-mode:tb-rl;text-orientation:upright;white-space:pre;shape-inside:url(#rect1101);fill:#fdf6e3"
        transform="translate(266.72065,-50.809717)"><tspan
          x="1451.4805"
          y="254.57422"
-         id="tspan10148">0000100110011011000100111</tspan></text>
+         id="tspan1053">0000100110011011000100111</tspan></text>
     <text
        xml:space="preserve"
        id="text1105"
-       style="font-size:48px;line-height:1;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';word-spacing:0px;writing-mode:tb-rl;text-orientation:upright;white-space:pre;shape-inside:url(#rect1107);font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#fdf6e3"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:1;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;writing-mode:tb-rl;text-orientation:upright;white-space:pre;shape-inside:url(#rect1107);fill:#fdf6e3"
        transform="translate(226.72065,-50.809717)"><tspan
          x="1451.4805"
          y="254.57422"
-         id="tspan10150">0100110011011000100111</tspan></text>
+         id="tspan1055">0100110011011000100111</tspan></text>
     <text
        xml:space="preserve"
        id="text1111"
-       style="font-size:48px;line-height:1;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';word-spacing:0px;writing-mode:tb-rl;text-orientation:upright;white-space:pre;shape-inside:url(#rect1113);font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#fdf6e3"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:1;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;writing-mode:tb-rl;text-orientation:upright;white-space:pre;shape-inside:url(#rect1113);fill:#fdf6e3"
        transform="translate(186.72065,-30.809717)"><tspan
          x="1451.4805"
          y="254.57422"
-         id="tspan10152">0011000011110001010110</tspan></text>
+         id="tspan1057">0011000011110001010110</tspan></text>
     <text
        xml:space="preserve"
        id="text1117"
-       style="font-size:48px;line-height:1;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';word-spacing:0px;writing-mode:tb-rl;text-orientation:upright;white-space:pre;shape-inside:url(#rect1119);font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#fdf6e3"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:1;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;writing-mode:tb-rl;text-orientation:upright;white-space:pre;shape-inside:url(#rect1119);fill:#fdf6e3"
        transform="translate(146.72065,-10.809717)"><tspan
          x="1451.4805"
          y="254.57422"
-         id="tspan10154">11100110000111</tspan></text>
+         id="tspan1059">11100110000111</tspan></text>
     <text
        xml:space="preserve"
        id="text1123"
-       style="font-size:48px;line-height:1;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';word-spacing:0px;writing-mode:tb-rl;text-orientation:upright;white-space:pre;shape-inside:url(#rect1125);font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#fdf6e3"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:1;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;writing-mode:tb-rl;text-orientation:upright;white-space:pre;shape-inside:url(#rect1125);fill:#fdf6e3"
        transform="translate(106.72065,-10.809717)"><tspan
          x="1451.4805"
          y="254.57422"
-         id="tspan10156">10001010110011111110110001</tspan></text>
+         id="tspan1061">10001010110011111110110001</tspan></text>
     <text
        xml:space="preserve"
        id="text1129"
-       style="font-size:48px;line-height:1;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';word-spacing:0px;writing-mode:tb-rl;text-orientation:upright;white-space:pre;shape-inside:url(#rect1131);font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#fdf6e3"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:1;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;writing-mode:tb-rl;text-orientation:upright;white-space:pre;shape-inside:url(#rect1131);fill:#fdf6e3"
        transform="translate(66.72065,-14.809717)"><tspan
          x="1451.4805"
          y="254.57422"
-         id="tspan10158">11100110000110010110001</tspan></text>
+         id="tspan1063">11100110000110010110001</tspan></text>
     <text
        xml:space="preserve"
        id="text1135"
-       style="font-size:48px;line-height:1;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';word-spacing:0px;writing-mode:tb-rl;text-orientation:upright;white-space:pre;shape-inside:url(#rect1137);font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#fdf6e3"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:1;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;writing-mode:tb-rl;text-orientation:upright;white-space:pre;shape-inside:url(#rect1137);fill:#fdf6e3"
        transform="translate(26.72065,-28.809717)"><tspan
          x="1451.4805"
          y="254.57422"
-         id="tspan10160">011000011110001010</tspan></text>
+         id="tspan1065">011000011110001010</tspan></text>
     <text
        xml:space="preserve"
        id="text1141"
@@ -336,383 +305,7 @@
        transform="translate(-13.27935,-36.809717)"><tspan
          x="1441.7637"
          y="254.57422"
-         id="tspan10162">1110011000011110001010110011</tspan></text>
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer3"
-     inkscape:label="ticker"
-     style="display:none">
-    <rect
-       y="1016"
-       x="0"
-       height="64"
-       width="1920"
-       id="rect4399"
-       style="display:inline;fill:#002b36;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none" />
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer4"
-     inkscape:label="lowerthird-tec"
-     style="display:none">
-    <rect
-       style="display:inline;fill:#859900;fill-opacity:1;stroke:none;stroke-width:0.873478"
-       id="rect4155-7"
-       width="1920"
-       height="206"
-       x="0"
-       y="810" />
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="g1715"
-     inkscape:label="tec"
-     style="display:none">
-    <path
-       id="rect4399-1-5-2"
-       style="display:inline;fill:#859900;fill-opacity:1;stroke:none;stroke-width:0.707107;stroke-miterlimit:4;stroke-dasharray:none"
-       d="M 0,0 H 1920 V 12 L 0,52 Z"
-       sodipodi:nodetypes="ccccc" />
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="g1545"
-     inkscape:label="lowerthird-dat"
-     style="display:none">
-    <rect
-       style="display:inline;fill:#dc322f;fill-opacity:1;stroke:none;stroke-width:0.873478"
-       id="rect1543"
-       width="1920"
-       height="206"
-       x="0"
-       y="810" />
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="g1705"
-     inkscape:label="dat"
-     style="display:none">
-    <path
-       id="rect4399-1-5-7"
-       style="display:inline;fill:#dc322f;fill-opacity:1;stroke:none;stroke-width:0.707107;stroke-miterlimit:4;stroke-dasharray:none"
-       d="M 0,0 H 1920 V 12 L 0,52 Z"
-       sodipodi:nodetypes="ccccc" />
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="g1541"
-     inkscape:label="lowerthird-biz"
-     style="display:none">
-    <rect
-       style="display:inline;fill:#268bd2;fill-opacity:1;stroke:none;stroke-width:0.873478"
-       id="rect1539"
-       width="1920"
-       height="206"
-       x="0"
-       y="810" />
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="g1684"
-     inkscape:label="biz"
-     style="display:none">
-    <path
-       id="rect4399-1-5-0"
-       style="display:inline;fill:#268bd2;fill-opacity:1;stroke:none;stroke-width:0.707107;stroke-miterlimit:4;stroke-dasharray:none"
-       d="M 0,0 H 1920 V 12 L 0,52 Z"
-       sodipodi:nodetypes="ccccc" />
-    <rect
-       style="opacity:1;fill:#eee8d5;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stop-color:#000000"
-       id="rect1723"
-       width="200.30829"
-       height="151.7487"
-       x="52.606216"
-       y="-271.12433" />
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="g1537"
-     inkscape:label="lowerthird-app"
-     style="display:none">
-    <rect
-       style="display:inline;fill:#b58900;fill-opacity:1;stroke:none;stroke-width:0.873478"
-       id="rect1535"
-       width="1920"
-       height="206"
-       x="0"
-       y="810" />
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer5"
-     inkscape:label="app"
-     style="display:none">
-    <path
-       id="rect4399-1-5"
-       style="display:inline;fill:#b58900;fill-opacity:1;stroke:none;stroke-width:0.707107;stroke-miterlimit:4;stroke-dasharray:none"
-       d="M 0,0 H 1920 V 12 L 0,52 Z"
-       sodipodi:nodetypes="ccccc" />
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer2"
-     inkscape:label="goldencut"
-     style="display:none">
-    <path
-       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 0,269.5 H 1920"
-       id="path4237-9"
-       inkscape:connector-curvature="0" />
-    <path
-       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 0,539.5 H 1920"
-       id="path4237-9-9"
-       inkscape:connector-curvature="0" />
-    <path
-       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 0,809.5 H 1920"
-       id="path4237-9-9-8"
-       inkscape:connector-curvature="0" />
-    <path
-       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 0,359.5 H 1920"
-       id="path4237-9-9-5"
-       inkscape:connector-curvature="0" />
-    <path
-       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 0,719.5 H 1920"
-       id="path4237-9-9-1"
-       inkscape:connector-curvature="0" />
-    <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 20,996 1620,96"
-       id="path5473"
-       inkscape:path-effect="#path-effect5475;#path-effect5477"
-       inkscape:original-d="M 20,996 1620,96" />
-    <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 20,96 1620,996"
-       id="path5479"
-       inkscape:path-effect="#path-effect5481;#path-effect5483"
-       inkscape:original-d="M 20,96 1620,996" />
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer7"
-     inkscape:label="PIP-layout"
-     style="display:none">
-    <rect
-       style="display:inline;fill:#268bd2;stroke:none;stroke-width:22.5296;stop-color:#000000"
-       id="rect1086"
-       width="1600"
-       height="900"
-       x="20"
-       y="96" />
-    <rect
-       style="display:inline;fill:#93a1a1;stroke:none;stroke-width:5.00658;stop-color:#000000"
-       id="rect1186"
-       width="355.55554"
-       height="200"
-       x="1562.4445"
-       y="814" />
-    <rect
-       style="display:inline;fill:#93a1a1;stroke:none;stroke-width:5.00658;stop-color:#000000"
-       id="rect1206"
-       width="355.55554"
-       height="200"
-       x="1562.4445"
-       y="116" />
-    <rect
-       style="display:inline;fill:#fdf6e3;stroke:none;stroke-width:15.9308;stop-color:#000000"
-       id="rect5655"
-       width="800"
-       height="900"
-       x="20"
-       y="96" />
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer8"
-     inkscape:label="bug"
-     style="display:none">
-    <text
-       xml:space="preserve"
-       style="font-size:48px;line-height:1.25;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';text-align:end;word-spacing:0px;text-anchor:end;fill:#002b36"
-       x="1898.2344"
-       y="70.816055"
-       id="text2227"><tspan
-         sodipodi:role="line"
-         id="tspan2225"
-         x="1898.2344"
-         y="70.816055">cprima.net</tspan></text>
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer9"
-     inkscape:label="toc-left"
-     style="display:none">
-    <g
-       id="g4929"
-       transform="matrix(1.0477454,0,0,1,-1.1933879,0)">
-      <rect
-         style="fill:#eee8d5;stroke:none;stroke-width:2.65121;stop-color:#000000"
-         id="rect51911"
-         width="754"
-         height="90"
-         x="24.994843"
-         y="320.83292"
-         rx="8"
-         ry="8" />
-      <rect
-         style="fill:#eee8d5;stroke:none;stroke-width:2.37132;stop-color:#000000"
-         id="rect51907"
-         width="754"
-         height="72"
-         x="24.994843"
-         y="210.52274"
-         rx="8"
-         ry="8" />
-      <rect
-         style="fill:#eee8d5;stroke:none;stroke-width:2.37132;stop-color:#000000"
-         id="rect51909"
-         width="754"
-         height="72"
-         x="24.994843"
-         y="100.21255"
-         rx="8"
-         ry="8" />
-      <rect
-         style="fill:#eee8d5;stroke:none;stroke-width:2.37132;stop-color:#000000"
-         id="rect51905"
-         width="754"
-         height="72"
-         x="24.994843"
-         y="651.76343"
-         rx="8"
-         ry="8" />
-      <rect
-         style="fill:#eee8d5;stroke:none;stroke-width:2.37132;stop-color:#000000"
-         id="rect51903"
-         width="754"
-         height="72"
-         x="24.994843"
-         y="541.45325"
-         rx="8"
-         ry="8" />
-      <rect
-         style="fill:#eee8d5;stroke:none;stroke-width:2.37132;stop-color:#000000"
-         id="rect51421"
-         width="754"
-         height="72"
-         x="24.994843"
-         y="431.1431"
-         rx="8"
-         ry="8" />
-    </g>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:88px;line-height:1.25;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none"
-       x="33.610424"
-       y="167.60426"
-       id="text1674-1"><tspan
-         sodipodi:role="line"
-         id="tspan1672-8"
-         x="33.610424"
-         y="167.60426"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:88px;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Normal Search</tspan><tspan
-         sodipodi:role="line"
-         x="33.610424"
-         y="277.60425"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:88px;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
-         id="tspan15921">Extended Search</tspan><tspan
-         sodipodi:role="line"
-         x="33.610424"
-         y="387.60425"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:88px;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
-         id="tspan16121">Regular Expressions</tspan><tspan
-         sodipodi:role="line"
-         x="33.610424"
-         y="497.60425"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:88px;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
-         id="tspan19951">Search Result</tspan><tspan
-         sodipodi:role="line"
-         x="33.610424"
-         y="607.60425"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:88px;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
-         id="tspan20151">Subselect Results</tspan><tspan
-         sodipodi:role="line"
-         x="33.610424"
-         y="717.60425"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:88px;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
-         id="tspan23603">Save Searches</tspan></text>
-    <rect
-       style="fill:#002b36;stroke:none;stroke-width:0.5;stop-color:#000000"
-       id="rect25069"
-       width="40"
-       height="810"
-       x="-61.244816"
-       y="0" />
-    <text
-       xml:space="preserve"
-       style="font-size:32px;line-height:1.25;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';word-spacing:0px;fill:#eee8d5"
-       x="-598.19531"
-       y="-33.877628"
-       id="text26707"
-       transform="rotate(-90)"><tspan
-         sodipodi:role="line"
-         id="tspan26705"
-         x="-598.19531"
-         y="-33.877628">align TOC centered vertically</tspan></text>
-    <rect
-       style="opacity:1;fill:#2aa198;fill-opacity:0;stroke:none;stroke-width:4;stop-color:#000000"
-       id="rect5507"
-       width="800"
-       height="900"
-       x="20"
-       y="96" />
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer10"
-     inkscape:label="luminance_top-to-bottom"
-     style="display:none">
-    <rect
-       style="fill:#ffffff;fill-opacity:0;stroke-width:4.06983;stop-color:#000000"
-       id="rect1447"
-       width="1920"
-       height="1080"
-       x="0"
-       y="0"
-       rx="2.0483451"
-       ry="1.527025"
-       inkscape:export-filename="S:\github.com\cprima\cprimanet\biz\marketing\broadcastdesign\luminance_top-to-bottom_FullHD.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <rect
-       style="mix-blend-mode:overlay;fill:url(#linearGradient2688);fill-opacity:1;stroke-width:4.06983;stop-color:#000000"
-       id="rect999"
-       width="1920"
-       height="1080"
-       x="0"
-       y="0"
-       rx="2.0483451"
-       ry="1.527025"
-       inkscape:export-filename="S:\github.com\cprima\cprimanet\biz\marketing\broadcastdesign\luminance_top-to-bottom_FullHD.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <rect
-       style="fill:#000000;fill-opacity:0;stroke-width:4.06983;stop-color:#000000"
-       id="rect1979"
-       width="1920"
-       height="1080"
-       x="0"
-       y="0"
-       rx="2.0483451"
-       ry="1.527025"
-       inkscape:export-filename="S:\github.com\cprima\cprimanet\biz\marketing\broadcastdesign\luminance_top-to-bottom_FullHD.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+         id="tspan1067">1110011000011110001010110011</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -812,20 +405,20 @@
     <path
        id="path17887"
        style="opacity:1;fill:#fdf6e3;fill-opacity:1;stroke:#fdf6e3;stroke-width:8;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
-       d="M 1610.4863 76.951172 A 118.17558 45.346443 0 0 0 1492.3945 121.80664 A 126.42039 50.842983 0 0 0 1412.6113 169.01758 A 126.42039 50.842983 0 0 0 1539.0312 219.86133 A 126.42039 50.842983 0 0 0 1629.9883 204.25195 A 123.67212 42.598175 0 0 0 1665.4512 206.11914 A 123.67212 42.598175 0 0 0 1708.9805 203.27734 A 118.54251 39.838058 0 0 0 1764.5352 207.93555 A 118.54251 39.838058 0 0 0 1883.0762 168.09766 A 118.54251 39.838058 0 0 0 1826.4688 134.13086 A 90.364372 32.064777 0 0 0 1828.6641 127.28711 A 90.364372 32.064777 0 0 0 1738.2988 95.222656 A 90.364372 32.064777 0 0 0 1708.375 97.072266 A 118.17558 45.346443 0 0 0 1610.4863 76.951172 z " />
+       d="m 1610.4863,76.951172 a 118.17558,45.346443 0 0 0 -118.0918,44.855468 126.42039,50.842983 0 0 0 -79.7832,47.21094 126.42039,50.842983 0 0 0 126.4199,50.84375 126.42039,50.842983 0 0 0 90.9571,-15.60938 123.67212,42.598175 0 0 0 35.4629,1.86719 123.67212,42.598175 0 0 0 43.5293,-2.8418 118.54251,39.838058 0 0 0 55.5547,4.65821 118.54251,39.838058 0 0 0 118.541,-39.83789 118.54251,39.838058 0 0 0 -56.6074,-33.9668 90.364372,32.064777 0 0 0 2.1953,-6.84375 90.364372,32.064777 0 0 0 -90.3653,-32.064454 90.364372,32.064777 0 0 0 -29.9238,1.84961 118.17558,45.346443 0 0 0 -97.8887,-20.121094 z" />
     <text
        xml:space="preserve"
        id="text30836"
-       style="line-height:1.25;font-family:'Linux Libertine';font-size:16px;word-spacing:0px;-inkscape-font-specification:'Linux Libertine, Normal';white-space:pre;shape-inside:url(#rect30838)" />
+       style="font-size:16px;line-height:1.25;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';word-spacing:0px;white-space:pre;shape-inside:url(#rect30838)" />
     <text
        xml:space="preserve"
        id="text42133"
        style="font-size:16px;line-height:1.25;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';word-spacing:0px;white-space:pre;shape-inside:url(#rect42135)"><tspan
          x="1320"
          y="466.85506"
-         id="tspan10166"><tspan
+         id="tspan1071"><tspan
            dx="0 7.4375 7.4375 7.4375 7.4375 7.4375 7.4375 7.4375 7.4375 7.4375 7.4375 7.4375 7.4375 7.4375 7.4375 7.4375"
-           id="tspan10164">0100101101011101</tspan></tspan></text>
+           id="tspan1069">0100101101011101</tspan></tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
