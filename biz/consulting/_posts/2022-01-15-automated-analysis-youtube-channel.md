@@ -146,7 +146,7 @@ https://www.nti-audio.com/en/applications/room-building-acoustics/reverberation-
 
 ## Audio Settings on Windows
 
-{% include checklist.html checklistnames="Audio Recording Inventory on Windows" heading="h3" %}
+{% include checklist.html checklistnames="Windows 10 Audio Recording Inventory" heading="h3" %}
 
 ## Loudness GUI
 
