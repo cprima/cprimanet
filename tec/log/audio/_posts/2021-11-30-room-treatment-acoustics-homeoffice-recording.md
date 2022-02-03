@@ -71,7 +71,7 @@ How to perform a clap test?
 
 This can be done e.g. with Audacity.
 
-![audacity waveform clap test](/tec/log/images/waveforms.png)
+![audacity waveform clap test](/tec/log/audio/images/waveforms.png)
 
 On Android there is also the app "myRaumklang", available via GooglePlay at [https://play.google.com/store/apps/details?id=de.myraumklang.myraumklang](https://play.google.com/store/apps/details?id=de.myraumklang.myraumklang)
 
@@ -99,7 +99,7 @@ Affordable and maybe even already available items to influence the room are:
 
 Dampening textile materials will go a long way: I found that a sofa, thicker and thinner curtains and upon request a moving blanket on the wall behind the microphone do work well -- although the rest of the room has quite hard wooden surfaces.
 
-![3D screenshot of room](/tec/log/images/WOB38A8-audio.png)
+![3D screenshot of room](/tec/log/audio/images/WOB38A8-audio.png)
 
 The picture above shows brownish curtains, a dark moving blanket and the blueish sofa. Works for me! If the room was larger I would use a fluffy carpet.
 
@@ -125,7 +125,7 @@ A good protective case is [https://www.amazon.de/gp/product/B07PJHLY7R/](https:/
 
 >excursion: microphone patterns
 >
->![da](/tec/log/images/microphone-polar-patterns.png)
+>![da](/tec/log/audio/images/microphone-polar-patterns.png)
 
 ## Audio Slang for the Processing Chain
 
@@ -142,7 +142,7 @@ Fixing something with the below already counts as "fixing in post". Room acousti
 - noise
 - compressor limiter, EQ, gate
 
-![](/tec/log/images/BlackmagicAtemSoftwareControlAudioDynamics.png)
+![BlackmagicAtemSoftwareControlAudioDynamics](/tec/log/audio/images/BlackmagicAtemSoftwareControlAudioDynamics.png)
 
 excursion: dynamic range
 
@@ -150,15 +150,15 @@ excursion: dynamic range
 
 YouTube stats for nerds
 
-![](/tec/log/images/YouTube-stats-for-nerds_cprima-dpdhl.png)
+![YouTube-stats-for-nerds_cprima-dpdhl](/tec/log/audio/images/YouTube-stats-for-nerds_cprima-dpdhl.png)
 
 In the screenshot the content loudness a bit too silent, -12dB below YouTube's reference scale. And 12dB is a lot! YouTube will not automatically raise the audio level. But it will make loud videos quieter, which might result in noticeable quality loss.
 
-![](/tec/log/images/YouleanLoudnessMeter_cprima-dpdhl.png)
+![YouleanLoudnessMeter_cprima-dpdhl](/tec/log/audio/images/YouleanLoudnessMeter_cprima-dpdhl.png)
 
 Same audio track, now in Youlean Loudness Meter 2. Typically between -23dB and -17dB should be aimed for.
 
-![](/tec/log/images/Audacity-ACX-Checks_cprima-dpdhl.png)
+![Audacity-ACX-Checks_cprima-dpdhl](/tec/log/audio/images/Audacity-ACX-Checks_cprima-dpdhl.png)
 
 Same audio track, analyzed in Audacity with ACX-Checks. Linked to from [[Audacity Forum](https://wiki.audacityteam.org/wiki/Audiobook_Mastering)](https://wiki.audacityteam.org/wiki/Audiobook_Mastering).
 
