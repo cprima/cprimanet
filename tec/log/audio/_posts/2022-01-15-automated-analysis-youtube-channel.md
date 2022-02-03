@@ -7,6 +7,11 @@ abstract: ""
 youtubeId: Frg5-22oChs
 ---
 
+<!--
+YouTube: 1 mono audio channel
+Interview: 2 (mix minus) mono
+//-->
+
 * TOC
 {:toc}
 
@@ -258,11 +263,49 @@ Now this PC is ready to join Zoom Meeting and show a visualization of the loudne
 
 ## Audio Signal Levels
 
-A microphone is an electrical device that converts the vibrations into electrical energy. The result is an induced voltage of around 2 mV (millivolt).
+The term Digital Sound Recording might be misleading from the very beginning: It starts and ends in the Analog Domain of the physical world, digital is only the middle part. Both the microphone and the loudspeaker are analog devices.
 
-line level: (adequate for sending from one device to another)
+The microphone actually produces a continous electrical signal, done by converting vibrations into electrical energy, and a very low signal that is: The result is an induced voltage of a few millivolt -- that is one thousandth of a volt. This microphone level is LOW!
 
-![foo](/tec/log/audio/images/levels.png){:class="resize"}
+All this gives us a hint that a microphone is best understood with the mindset of an electrical engineer.
+
+![chart of audio signal levels: microphone, line, instrument and speaker](/tec/log/audio/images/levels.png){:class="resize"}
+
+<!--
+Mic level signal (low) = 0.0001 V = 0.1 mV = -80dBV
+
+Shure SM11 output is an example.
+Mic level signal (average or typical) = 0.001 V = 1 mV = -60 dBV
+
+Shure SM58 output is an example.
+Mic level signal (high or "hot") = 0.01 V = 10 mV = -40 dBV
+
+Shure MX418 output is an example.  Also the Shure 588SDX output, set to high impedance, is an example.
+Auxiliary level signal (AUX) = 0.1 V = 100 mV = -20 dBV
+
+Shure SCM268 output, RCA jack, is an example.
+Line level signal = 1.0V = 1,000 mV = 0 dBV
+
+Shure SCM810 main output is an example.
+Power amplifier signal (loudspeaker level) = 10V = +20dBV
+
+QSC GX3 amplifier output is an example. 
+https://service.shure.com/s/article/audio-signal-levels-general-guidelines?language=en_US
+//-->
+
+The chart shows nicely how low mc level is in comparison to the two variants of line level.
+
+Lets leave the other factor "impedance" aside and focus just on this millivolt thing: Such a signal cannot be reliably transported over a distance longer than a few feet. Rather it needs to be brought up to line level rather sooner than later. 
+
+Line level is almost 1000 times higher than mic level. That is quite a factor!
+
+Line level is adequate to send a signal from one device to another.
+
+![foo](/tec/log/audio/images/AudioInterfaceNeutrikJacksXLR63.jpg){:class="resize"}
+
+So the combojack for an outer microphone level XLR plug and a center line level starts to look different!
+
+Closely related to all this is the electrical impedance of the low-impedance or high-impedance variants, and their transmission over balanced or unbalanced cables. The balanced XLR cable has 3 pins for a good reason -- but that is another topic.
 
 
 ## The Audio Frequency Spectrum
@@ -342,9 +385,9 @@ Mastering The Mix LEVELS (Paid)
 iZotope Insight 2 (Paid)
 Waves WLM Plus Loudness Meter (Paid)
 
-## Reading Mcrophone Datasheets
+## Reading Microphone Datasheets
 
-A less readable part of datasheets of microphones might be the graphs about polar patterns and frequency responses.
+A less readable part of datasheets of microphones might be the graphs about polar patterns and frequency responses. But that part is 
 
 ### Polar Patterns
 
@@ -377,13 +420,107 @@ The polar patterns also show in raw data what otherwise might get marketing term
 - normalization: //fixme
 - stereo imaging: "from mono to stereo" //fixme
 
+Preface:
 
-Compressors and Limiters reduce Dynamic Range, while Expander and Gates increase it
+In the context of audio, Dynamic Range is the difference in Decibel between the quietest and loudest part.
+It can refer to both the dynamic range of the audio track(s) in a video,
+or the capabilities of a signal chain consisting of hardware and software.
+
+The quietest part of a signal chain is called noise floor and each piece of equipment has one -- even a cable.
+
+The dynamic range can be altered by compression and expansion:
+Compressors (and in its extreme form Limiters) reduce Dynamic Range, while Expander (and in its extreme form Gates) increase it.
+
+Wait, what? A Noise Gate does INcrease what exactly? Heh -- the dynamic range!
+
+By the way, in an audio )post-)processing workflow they have their place, and quite often chained after each other.
+
 
 https://ask.audio/articles/mixing-concepts-what-is-dynamics-why-you-should-care
 
 - noise gate
 - expander
+
+### Compressor
+
+> A compressor is an electrical amplifier that reduces the dynamic range of a signal. Basically, it brings the loud and quiet parts closer together in terms of volume. Most compressors have a few standard controls. Threshold determines how loud the incoming signal needs to be before it gets any treatment. Ratio adjusts how much the incoming signal, that is above the threshold, is compressed. The higher the ratio, the more squished the sound. Attack/Release controls how long it takes the compressor to react to the incoming signal. Lastly, input gain simply makes the pretreatment sound louder, allowing more of the signal to be above threshold, resulting in more compression.
+> https://www.dancemusicnw.com/compressors-expanders-gates-explained/
+
+Threshold
+Ratio
+Attack time
+Release time <-------------
+Knee
+Make-up gain or output gain
+
+<!--
+The fundamental controls of audio compressors.
+Understanding the technical aspects and terminology of audio compression will allow you to work more comfortably with a wide range of compressors.
+
+ 
+
+Threshold
+
+The threshold is the level at which compression begins. Once a threshold level is set, any audio below the threshold will be unaffected, but any audio above the threshold will be compressed by the ratio set. “Imagine a guitarist that’s strumming at a constant volume, then hits a few notes super hard in the middle of the song. You would want the compressor to be set where the threshold grabs only that loudest part of the track,” says Rodocker.
+
+ 
+
+Ratio
+
+The ratio is the amount of attenuation — or downward compression — that will be applied once a signal reaches the threshold. Peter explains that “the volume of audio is measured in decibels (dB), so if you set a 3:1 compression ratio, every 3dB of input signal above the threshold will produce 1dB of output signal.”
+
+ 
+
+Attack time
+
+The attack time is how long it takes the audio signal to be fully compressed to the ratio set after it has crossed the threshold. “It’s going to affect the first part of the sound you hear,” says Rodocker. “So you can set a slower attack to create some punch from an instrument that’s softer, like a keyboard, or a fast attack to quickly compress the sound of a loud guitar pick.”
+
+A musician recording bass using a tube compressor.
+A producer monitoring audio being recorded in their studio
+Release time
+The release time is how long it takes the audio signal to revert from being affected to uncompressed. At low levels of gain reduction, fast release speeds sound the most natural. However, extreme compression with a fast release time can result in a pumping effect — or a sudden increase in volume — that can make the track sound uneven in some genres of music.
+
+ 
+
+Knee
+
+The knee is how quickly the compressor transitions from not compressing the signal to compressing it. A soft knee will sound smoother because the compression doesn’t begin as quickly, while a hard knee will sound more dramatic. “Bass guitar and vocals would sound better using a soft knee, but I would use a hard knee for any kind of percussive instrument, like the piano or kick drums,” says producer, engineer, and mixing artist Gus Berry.
+
+ 
+
+Make-up gain or output gain
+
+The level of the signal coming out of a compressor won’t be as high as it was when it went in because the compressor is actively turning down parts of the signal. Make-up gain is used to turn the overall level of the signal back up. “The way you do this is to play the material while bypassing and activating the compressor, adjusting the make-up gain to where they sound more or less the same level,” advises Rodocker.
+
+https://www.adobe.com/creativecloud/video/discover/audio-compressor.html
+//-->
+
+
+
+{% include youtubePlayer.html id="4gNRGqHzMKc" %}
+
+
+
+### Expander and Gate
+
+<!--
+>An expander is essentially the opposite of a compressor. It’s used to increase the dynamic range of a signal, drawing the loud and quiet parts further apart. Since expanders are so similar to compressors, their controls are usually the same. The only differences are how those controls behave. Threshold now determines how quiet a signal needs to be before it gets treated, ratio now represents expansion rather than compression, and the attack & release functions are reversed. In fact, many compressors have an expander setting built into them!
+https://www.dancemusicnw.com/compressors-expanders-gates-explained/
+
+A gate is much like an expander, only with a MUCH higher ratio. Any signal that is below the threshold is effectively muted, while anything above the threshold passes through unscathed. It’s like a door that only opens for a signal strong enough to pass through. There are usually attack & release controls that function just like an expanders. Gates also tend to have a hold control that regulates how long the gate stays open after the input signal drops back below the threshold.
+//-->
+
+A Gate, or noise gate, is like an inverted compressor: Instead of limiting signals above a given threshold, the gate lowers a signal below a given threshold.
+
+<!--
+Audio Gating 101
+The main controls you’ll find on a standard, basic gate are threshold, attack, release and sometimes hold. When additional controls such as range and ratio are introduced into the picture, gating becomes expansion.
+
+Essentially, gates and expanders are both just a variation on the same thing. Think of a gate as an expander with a high ratio, and an expander as a gate with a low ratio. This is similar to the difference between a limiter and a compressor. In fact, a limiter is basically the exact opposite of a gate, while an expander is basically the opposite of a compressor.
+
+https://theproaudiofiles.com/what-is-a-noise-gate/
+//-->
+
 
 ## Equalisation: Changes to the Frequency Spectrum
 
