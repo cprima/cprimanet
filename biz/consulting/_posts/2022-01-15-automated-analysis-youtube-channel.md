@@ -85,8 +85,12 @@ https://support.google.com/youtube/answer/1722171
 ## Room Acoustics, Reverberation Time and Clap Test
 
 <audio controls> 
-  <source src="/tec/log/audio/assets/RoomAcousticsReverberationTimeAndClapTest.ogg">
+  <source src="/tec/log/audio/assets/RoomAcousticsReverberationTimeAndClapTest.mp3"  type="audio/mpeg">
+  <source src="/tec/log/audio/assets/RoomAcousticsReverberationTimeAndClapTest.ogg"  type="audio/ogg">
+  <source src="/tec/log/audio/assets/RoomAcousticsReverberationTimeAndClapTest.wav"  type="audio/wav">
+  Your browser does not support HTML5 audio.
 </audio>
+
 
 The journey to improve the audio quality of a recorded narration for webinars or in videoconferences does not start with buying equipment. Because equipment is used inside a room and the room is where it starts.
 
@@ -250,71 +254,6 @@ Now this PC is ready to join Zoom Meeting and show a visualization of the loudne
 
 
 
-# Skills and Workflows
-
-
-
-## EQ
-
-start with microphjone frequency response chart
-
-Types of EQ
-
-- Graphic EQ
-- Parametric EQ
-
-Parametric EQ
-
-Use studio headphones
-
-- Low-pass: Removes all frequencies above a set frequency
-- High-pass: Removes all frequencies below a set frequency
-- Low-shelf: Attenuates all frequencies below a set frequency
-- High-shelf: Attenuates all frequencies above a set frequency
-- Peak: Increase frequencies at a set frequency
-- Notch: Decrease frequencies at a set frequency
-
-
-> Remember to use a narrow Q factor when you’re cutting frequencies and use > a wide Q factor when boosting. But rules can be broken, just as long as > it sounds good.
-> https://talkinmusic.com/how-to-eq-vocals/
-
-no recipes, rather stretegies
-
-> The most obvious approach to EQ is push up more of what you want to hear. Getting the right microphone for the voice and recording it well should mean little or no EQ is needed.
->…
->If the performer was sticky and click-y, you’ll be hard pressed to boost in the 2-5 kHz range and not bring out mouth noise in the process. In my experience EQ isn’t going to help you get rid of mouth noise, but it can definitely make it worse.
-> https://theproaudiofiles.com/voice-processing-eq-cuts-boosts/
-
-> 1. what happened before? (mic frequency response)
-> 1. Roll off the low-end starting around 90 Hz.
-> 1. Reduce the mud around 250 Hz.
-> 1. Add a high shelf around 9 kHz & a high roll off around 18 kHz.
-> 1. Add a presence boost around 5 kHz.
-> 1. Boost the core around 1 kHz to 2 kHz.
-> 1. Reduce sibilance around 5 kHz to 8 kHz.
-> 
-> https://ledgernote.com/columns/mixing-mastering/how-to-eq-vocals/
-
-EQ in the postprocesing workflow
-
-- EQ cuts
-- compression
-- EQ boosts
-
-
-> Roll off the low frequencies if the proximity effect is causing unusual > bassiness.
-> Don’t roll off so much low end as the voice loses some of its umph.  Yes, > I’m using “umph” as a technical word.
-> Boost in the 1KHz to 5KHz range for improving intelligibility and clarity.
-> Boost in the 3Khz to 6Khz range to add brightness.  This can help with > speakers with poor intonation.
-> Boost in the 4.5Khz to 6Khz range to add presence.  Note that too much > boosting in this area can produce a thin lifeless sound.
-> Boost in the 100Hz to 250Hz for a boomy effect
-> In case your head is about to explode from an information overload, remember these key points;
-> The above points can contradict each other.  There is no hard and fast rule.  Mixing is as much an art as a science.  Trust your ears over everything else.
-> It’s possible that once you EQ the vocal channel that it’s a little lacking in the low end.  Boost it a bit give it that full sound.  Again, trust your ears.  Close your eyes and ask yourself if it a) sounds natural and b) sounds clear.
-> https://www.behindthemixer.com/how-eq-speech-maximum-intelligibility/
-
-
-
 # knowledge, facts, data
 
 ## Audio Signal Levels
@@ -448,12 +387,69 @@ https://ask.audio/articles/mixing-concepts-what-is-dynamics-why-you-should-care
 
 ## Equalisation: Changes to the Frequency Spectrum
 
-- lowpass
-- highpass
-- bell boost
-- ...
 
 Sibilance
+
+
+
+start with microphjone frequency response chart
+
+Types of EQ
+
+- Graphic EQ
+- Parametric EQ
+
+Parametric EQ
+
+Use studio headphones
+
+- Low-pass: Removes all frequencies above a set frequency
+- High-pass: Removes all frequencies below a set frequency
+- Low-shelf: Attenuates all frequencies below a set frequency
+- High-shelf: Attenuates all frequencies above a set frequency
+- Peak: Increase frequencies at a set frequency
+- Notch: Decrease frequencies at a set frequency
+
+
+> Remember to use a narrow Q factor when you’re cutting frequencies and use > a wide Q factor when boosting. But rules can be broken, just as long as > it sounds good.
+> https://talkinmusic.com/how-to-eq-vocals/
+
+no recipes, rather stretegies
+
+> The most obvious approach to EQ is push up more of what you want to hear. Getting the right microphone for the voice and recording it well should mean little or no EQ is needed.
+>…
+>If the performer was sticky and click-y, you’ll be hard pressed to boost in the 2-5 kHz range and not bring out mouth noise in the process. In my experience EQ isn’t going to help you get rid of mouth noise, but it can definitely make it worse.
+> https://theproaudiofiles.com/voice-processing-eq-cuts-boosts/
+
+> 1. what happened before? (mic frequency response)
+> 1. Roll off the low-end starting around 90 Hz.
+> 1. Reduce the mud around 250 Hz.
+> 1. Add a high shelf around 9 kHz & a high roll off around 18 kHz.
+> 1. Add a presence boost around 5 kHz.
+> 1. Boost the core around 1 kHz to 2 kHz.
+> 1. Reduce sibilance around 5 kHz to 8 kHz.
+> 
+> https://ledgernote.com/columns/mixing-mastering/how-to-eq-vocals/
+
+EQ in the postprocesing workflow
+
+- EQ cuts
+- compression
+- EQ boosts
+
+
+> Roll off the low frequencies if the proximity effect is causing unusual > bassiness.
+> Don’t roll off so much low end as the voice loses some of its umph.  Yes, > I’m using “umph” as a technical word.
+> Boost in the 1KHz to 5KHz range for improving intelligibility and clarity.
+> Boost in the 3Khz to 6Khz range to add brightness.  This can help with > speakers with poor intonation.
+> Boost in the 4.5Khz to 6Khz range to add presence.  Note that too much > boosting in this area can produce a thin lifeless sound.
+> Boost in the 100Hz to 250Hz for a boomy effect
+> In case your head is about to explode from an information overload, remember these key points;
+> The above points can contradict each other.  There is no hard and fast rule.  Mixing is as much an art as a science.  Trust your ears over everything else.
+> It’s possible that once you EQ the vocal channel that it’s a little lacking in the low end.  Boost it a bit give it that full sound.  Again, trust your ears.  Close your eyes and ask yourself if it a) sounds natural and b) sounds clear.
+> https://www.behindthemixer.com/how-eq-speech-maximum-intelligibility/
+
+
 
 ## Electric Signals, Noise, Discretization
 
