@@ -8,8 +8,48 @@ youtubeId: Frg5-22oChs
 ---
 
 <!--
+## Todo
+pop filter?
+dynamic/condenser/…
+What if x/y/z went wrong? -> checklist
+plugins, dry/wet
+
+postprocessing workflow:
+- what signal chain went in?
+- what did go wrong?
+  - what is "wrong"?
+- what is the target platform?
+- cleanup wanted/needed/time available for it?
+- 
+//-->
+
+<!--
+## Future Steps for Anders
+recording audio tracks separately
+loudness in interviews
+gate
+cleanup plugins for the recue?
+//-->
+
+<!--
+## Props
+gears
+breadboard amplifier
+Raspberry Pi on/off-switch
+multi-pattern microphone
+decibel meter
+minimal recommended gear
+
+//-->
+
+<!--
 YouTube: 1 mono audio channel
 Interview: 2 (mix minus) mono
+
+YouTube: hardly multitrack audio
+
+Minimal gear recommendation
+
 //-->
 
 * TOC
@@ -334,6 +374,12 @@ ranges
 > - Presence - 4.5 kHz to 9 kHz
 > - Breathiness - 10 kHz to 15 kHz
 > https://ledgernote.com/columns/mixing-mastering/how-to-eq-vocals/
+
+
+By the way, the reason why we record in 44.100 Hz or for videos 48.000 Hz is that this is 2 times 20.000 Hz plus a bit of extra for the sampling filter to work.
+
+-> Nyquist frequency
+
 
 ## Loudness
 
