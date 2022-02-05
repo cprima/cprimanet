@@ -1,7 +1,9 @@
 
 {% assign checklistnames = include.checklistnames | split: "," %}
+{% assign checklistcount = 0 %}
 
 {% for checklistname in checklistnames %}
+{% assign checklistentrycount = 0 %}
 {% if forloop.first %}
 {% if checklistnames.size > 1 %}
 <h2>Checklists</h2>
@@ -14,23 +16,50 @@
 
 {% assign checklistentries = site.data.checklists | where:"checklistname", needle %}
 
-<table class="checklistentries" border="1">
+<style>
+  table.checklist, table.checklist th, table.checklist td {
+    border: none;
+  }
+  table.checklist th {
+    border-bottom: 2px solid #cb4b16;
+    background-color: #eee8d5;
+  }
+  table.checklist td {
+    border-bottom: 1px solid #657b83;
+  }
+  table.checklist td.count {
+    padding-left: 2px;
+    padding-right: 8px;
+    vertical-align: top;
+    text-align: right;
+  }
+  table.checklist td.checkbox {
+    padding-left: 2px;
+    padding-right: 8px;
+  }
+</style>
+
+<table class="checklist" border="1">
   {% for row in checklistentries %}
+
     {% if forloop.first %}
     <tr>
-        <th colspan="2">{{ row.checklistname }}</th>
+        <th colspan="4">{{checklistcount | plus:1}}. {{ row.checklistname }}</th>
     </tr>
     {% endif %}
 
     <tr>
     {% for pair in row %}
     {% if pair[0] == "key" %}
+      <td class="count">{{ checklistentrycount | plus:1 }}.</td>
       <td class="key">{{ pair[1] }}</td>
     {% elsif pair[0] == "value" %}
-      <td class="value">{{ pair[1] }}</td>
+      <td class="checkbox"><input type="checkbox" id="cl{{checklistcount}}_cle{{ checklistentrycount }}" class="checklistcheckbox" /></td>
+      <td class="value"><label for="cl{{checklistcount}}_cle{{ checklistentrycount }}">{{ pair[1] | default: "check" | upcase }}</label></td>
     {% endif %}
     {% endfor %}
     </tr>
+  {% assign checklistentrycount = checklistentrycount | plus:1 %}
   {% endfor %}
 </table>
 
@@ -38,4 +67,5 @@
 {%- else -%}
 <hr />
 {%- endif -%}
+{% assign checklistcount = checklistcount | plus:1 %}
 {% endfor %}

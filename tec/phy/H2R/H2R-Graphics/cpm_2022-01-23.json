@@ -1,0 +1,1045 @@
+{
+    "version": 2,
+    "projects": {
+        "ABCD": {
+            "name": "Graphics project",
+            "theme": "h2r_base_theme",
+            "cues": [{
+                    "status": "ready",
+                    "type": "section",
+                    "name": "Info",
+                    "id": "5WS1C"
+                }, {
+                    "status": "ready",
+                    "type": "image",
+                    "name": "Here to Record background",
+                    "url": "https://heretorecord.com/s/background.jpg",
+                    "id": "AXHHY"
+                }, {
+                    "status": "ready",
+                    "timerType": "time_of_day",
+                    "type": "time",
+                    "paused": false,
+                    "direction": "up",
+                    "endTime": 0,
+                    "timeLeft": 0,
+                    "trim": false,
+                    "pre": "",
+                    "format": "HH:mm:ss",
+                    "id": "C6WXH",
+                    "position": "tl"
+                }, {
+                    "status": "ready",
+                    "type": "ticker",
+                    "title": "Hello world!",
+                    "mode": "await",
+                    "items": [{
+                            "title": "Item 1",
+                            "body": "Body for item 1"
+                        }
+                    ],
+                    "id": "ZUVGR",
+                    "position": "bc"
+                }, {
+                    "status": "offair",
+                    "type": "message",
+                    "body": "Message body",
+                    "id": "29CGH",
+                    "position": "tr"
+                }, {
+                    "status": "ready",
+                    "type": "section",
+                    "name": "Lower thirds",
+                    "id": "N8FV3"
+                }, {
+                    "status": "offair",
+                    "type": "lower_third",
+                    "line_one": "[text.1]",
+                    "line_two": "[text.3]",
+                    "id": "5MMWQ",
+                    "position": "bl",
+                    "offsetY": "-17"
+                }, {
+                    "status": "offair",
+                    "type": "lower_third",
+                    "line_one": "[list1.1]",
+                    "line_two": "[list1.2] - [list1.3]",
+                    "id": "1VBU1",
+                    "position": "br",
+                    "offsetY": "-17"
+                }, {
+                    "status": "offair",
+                    "type": "webpage",
+                    "id": "SRR3M",
+                    "url": "https://heretorecord.gitbook.io/h2r-graphics-v2/api/companion",
+                    "position": "mc",
+                    "name": "H2R",
+                    "outputTwo": true,
+                    "scale": "100",
+                    "offsetY": "0"
+                }, {
+                    "status": "ready",
+                    "timerType": "countdown",
+                    "type": "big_time",
+                    "shape": "circle",
+                    "paused": false,
+                    "direction": "up",
+                    "endTime": 1639083162.432,
+                    "timeLeft": 60000,
+                    "duration": "00:01:00",
+                    "trim": false,
+                    "pre": "",
+                    "format": "mm:ss",
+                    "position": "mc",
+                    "id": "TPQAW",
+                    "theme": "h2r_base_theme",
+                    "scale": "100"
+                }, {
+                    "status": "ready",
+                    "type": "social",
+                    "chat": {
+                        "snippet": {
+                            "displayMessage": "This is a test message. How does it look?"
+                        },
+                        "id": "abcdefg1234567",
+                        "source": "youtube",
+                        "authorDetails": {
+                            "displayName": "Here to Record",
+                            "profileImageUrl": "https://heretorecord.com/s/logo-square.png"
+                        }
+                    },
+                    "position": "bl",
+                    "id": "YQLK8"
+                }
+            ],
+            "themes": {
+                "h2r_base_theme": {
+                    "name": "H2R Orange",
+                    "font": {
+                        "family": "Helvetica"
+                    },
+                    "h1": {
+                        "colour": "#F5F5F5",
+                        "size": "s5xl"
+                    },
+                    "h2": {
+                        "colour": "#815307",
+                        "size": "s2xl"
+                    },
+                    "h3": {
+                        "colour": "#333",
+                        "size": "ssm"
+                    },
+                    "background": {
+                        "colour": "#f5a623",
+                        "gradient": false,
+                        "degrees": "0",
+                        "colour2": "#333333",
+                        "paddingX": "s2",
+                        "paddingY": "s1",
+                        "width": "auto",
+                        "height": "auto",
+                        "rounding": "sxs"
+                    },
+                    "border": {
+                        "enabled": false,
+                        "sides": "1000",
+                        "size": ".9",
+                        "style": "solid",
+                        "colour": "#815307"
+                    },
+                    "position": {
+                        "x": "center",
+                        "y": "center",
+                        "marginX": "s4",
+                        "marginY": "s4",
+                        "textAlign": "left"
+                    },
+                    "transition": {
+                        "type": "slide",
+                        "duration": "1000",
+                        "ease": "in-out"
+                    },
+                    "overrides": {
+                        "lower_third": {
+                            "1234": {
+                                "name": "Left",
+                                "position": {
+                                    "x": "start",
+                                    "y": "end",
+                                    "marginY": "s10"
+                                },
+                                "transition": {
+                                    "type": "slide_from_left"
+                                },
+                                "background": {},
+                                "h1": {},
+                                "h2": {},
+                                "font": {}
+                            },
+                            "4321": {
+                                "name": "Right",
+                                "position": {
+                                    "x": "end",
+                                    "y": "end",
+                                    "marginY": "s10",
+                                    "textAlign": "right"
+                                },
+                                "transition": {
+                                    "type": "slide_from_right"
+                                },
+                                "background": {},
+                                "h1": {},
+                                "h2": {},
+                                "font": {}
+                            }
+                        },
+                        "message": {
+                            "AH6NF": {
+                                "name": "Top left",
+                                "transition": {},
+                                "font": {},
+                                "h1": {
+                                    "size": "s3xl"
+                                },
+                                "background": {},
+                                "position": {
+                                    "y": "start",
+                                    "x": "start"
+                                }
+                            }
+                        },
+                        "time": {
+                            "HD86D": {
+                                "name": "Top middle",
+                                "position": {
+                                    "textAlign": "center",
+                                    "y": "start"
+                                },
+                                "transition": {
+                                    "type": "slide_from_top"
+                                },
+                                "h1": {},
+                                "h2": {}
+                            }
+                        },
+                        "ticker": {
+                            "77FS7": {
+                                "name": "Bottom",
+                                "position": {
+                                    "y": "end"
+                                },
+                                "h1": {},
+                                "font": {},
+                                "h2": {},
+                                "background": {},
+                                "transition": {
+                                    "type": "slide_from_bottom"
+                                }
+                            }
+                        },
+                        "image": {
+                            "SDH77S": {
+                                "name": "Full screen",
+                                "background": {
+                                    "colour": "transparent",
+                                    "width": "s10",
+                                    "height": "s10",
+                                    "paddingX": "none",
+                                    "paddingY": "none"
+                                },
+                                "position": {
+                                    "marginX": "none",
+                                    "marginY": "none",
+                                    "fit": "cover"
+                                }
+                            }
+                        },
+                        "social": {
+                            "49RJV": {
+                                "name": "Chat message",
+                                "background": {},
+                                "h2": {},
+                                "position": {
+                                    "x": "start",
+                                    "y": "end"
+                                }
+                            }
+                        }
+                    }
+                },
+                "h2_r_orange": {
+                    "name": "H2R Grey",
+                    "font": {
+                        "family": "Helvetica"
+                    },
+                    "h1": {
+                        "colour": "#F5F5F5",
+                        "size": "s5xl"
+                    },
+                    "h2": {
+                        "colour": "#C2C2C2",
+                        "size": "s2xl"
+                    },
+                    "h3": {
+                        "colour": "#333",
+                        "size": "ssm"
+                    },
+                    "background": {
+                        "colour": "#333333",
+                        "gradient": false,
+                        "degrees": "0",
+                        "colour2": "#333333",
+                        "paddingX": "s2",
+                        "paddingY": "s1",
+                        "width": "auto",
+                        "height": "auto",
+                        "rounding": "sxs"
+                    },
+                    "border": {
+                        "enabled": false,
+                        "sides": "1000",
+                        "size": ".9",
+                        "style": "solid",
+                        "colour": "#777"
+                    },
+                    "position": {
+                        "x": "center",
+                        "y": "center",
+                        "marginX": "s2",
+                        "marginY": "s2",
+                        "textAlign": "left"
+                    },
+                    "transition": {
+                        "type": "slide",
+                        "duration": "1000",
+                        "ease": "in-out"
+                    },
+                    "overrides": {
+                        "lower_third": {
+                            "1234": {
+                                "name": "Left",
+                                "position": {
+                                    "x": "start",
+                                    "y": "end",
+                                    "marginY": "s10"
+                                },
+                                "transition": {
+                                    "type": "slide_from_left"
+                                },
+                                "background": {},
+                                "h1": {},
+                                "h2": {},
+                                "font": {}
+                            },
+                            "4321": {
+                                "name": "Right",
+                                "position": {
+                                    "x": "end",
+                                    "y": "end",
+                                    "marginY": "s10",
+                                    "textAlign": "right"
+                                },
+                                "transition": {
+                                    "type": "slide_from_right"
+                                },
+                                "background": {},
+                                "h1": {},
+                                "h2": {},
+                                "font": {}
+                            }
+                        },
+                        "message": {
+                            "AH6NF": {
+                                "name": "Top left",
+                                "transition": {},
+                                "font": {},
+                                "h1": {
+                                    "size": "s3xl"
+                                },
+                                "background": {},
+                                "position": {
+                                    "y": "start",
+                                    "x": "start"
+                                }
+                            }
+                        },
+                        "time": {
+                            "HD86D": {
+                                "name": "Top middle",
+                                "position": {
+                                    "textAlign": "center",
+                                    "y": "start"
+                                },
+                                "transition": {
+                                    "type": "slide_from_top"
+                                },
+                                "h1": {},
+                                "h2": {}
+                            }
+                        },
+                        "ticker": {
+                            "77FS7": {
+                                "name": "Bottom",
+                                "position": {
+                                    "y": "end"
+                                },
+                                "h1": {},
+                                "font": {},
+                                "h2": {},
+                                "background": {},
+                                "transition": {
+                                    "type": "slide_from_bottom"
+                                }
+                            }
+                        },
+                        "image": {
+                            "SDH77S": {
+                                "name": "Full screen",
+                                "background": {
+                                    "colour": "transparent",
+                                    "width": "s10",
+                                    "height": "s10",
+                                    "paddingX": "none",
+                                    "paddingY": "none"
+                                },
+                                "position": {
+                                    "marginX": "none",
+                                    "marginY": "none",
+                                    "fit": "cover"
+                                }
+                            }
+                        },
+                        "social": {
+                            "49RJV": {
+                                "name": "Chat message",
+                                "background": {},
+                                "h2": {},
+                                "position": {
+                                    "x": "start",
+                                    "y": "end"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "dynamicLists": [[[{
+                            "value": "Selected",
+                            "selected": 1
+                        }, {
+                            "value": "Name"
+                        }, {
+                            "value": "Company"
+                        }, {
+                            "value": "Title"
+                        }
+                    ], [{
+                            "value": "Anders Jensen"
+                        }, {
+                            "value": "self-employed"
+                        }, {
+                            "value": "YouTuber"
+                        }
+                    ], [{
+                            "value": "Michael Lux"
+                        }, {
+                            "value": "DPDHL"
+                        }, {
+                            "value": "Head of CPM"
+                        }
+                    ]]],
+            "dynamicText": {
+                "list1.1": "Anders Jensen",
+                "list1.2": "self-employed",
+                "list1.3": "YouTuber",
+                "text.1": "Christian Prior-Mamulyan",
+                "text.2": "cprima.net",
+                "text.3": "biz & IT"
+            }
+        },
+        "LIVE": {
+            "name": "net.cprima.live",
+            "theme": "cprima_SOLARIZED1",
+            "cues": [{
+                    "status": "offair",
+                    "type": "lower_third",
+                    "line_one": "Christian Prior-Mamulyan",
+                    "line_two": "IT Enthusiast",
+                    "position": "bl",
+                    "id": "1Z9W5"
+                }, {
+                    "status": "offair",
+                    "type": "lower_third",
+                    "line_one": "Anders Jensen",
+                    "line_two": "RPA Teacher, YouTuber, Entrepreneur",
+                    "position": "br",
+                    "id": "5G3MU"
+                }, {
+                    "status": "ready",
+                    "type": "section",
+                    "name": "Technology",
+                    "id": "P27A7"
+                }, {
+                    "status": "offair",
+                    "type": "ticker",
+                    "title": "Hello world!",
+                    "mode": "await",
+                    "items": [{
+                            "title": "Item 1",
+                            "body": "Body for item 1"
+                        }
+                    ],
+                    "position": "bc",
+                    "id": "P91AL"
+                }, {
+                    "status": "offair",
+                    "type": "social",
+                    "chat": {
+                        "kind": "youtube#liveChatMessage",
+                        "etag": "7hyCPIuOI1wedPKs7Nh2o6OysT8",
+                        "id": "LCC.CjgKDQoLVUZSWWZIUmtqc3MqJwoYVUNuSTU2QzNUeUNWVDc2YWtvMXpDbm9nEgtVRlJZZkhSa2pzcxI5ChpDTzNRaWV6Z3dQVUNGVFhid1FvZHBCSUpWZxIbQ01xSTdkbkd3UFVDRmNTMVZRb2REOVFNRXcw",
+                        "snippet": {
+                            "type": "textMessage",
+                            "liveChatId": "Cg0KC1VGUllmSFJranNzKicKGFVDbkk1NkMzVHlDVlQ3NmFrbzF6Q25vZxILVUZSWWZIUmtqc3M",
+                            "authorChannelId": "UCnI56C3TyCVT76ako1zCnog",
+                            "publishedAt": "2022-01-20T16:32:48.351395 00:00",
+                            "hasDisplayContent": true,
+                            "displayMessage": "test",
+                            "textMessageDetails": {
+                                "messageText": "test"
+                            }
+                        },
+                        "authorDetails": {
+                            "channelId": "UCnI56C3TyCVT76ako1zCnog",
+                            "channelUrl": "http://www.youtube.com/channel/UCnI56C3TyCVT76ako1zCnog",
+                            "displayName": "Christian Prior-Mamulyan",
+                            "profileImageUrl": "https://yt3.ggpht.com/ytc/AKedOLRDwr0N8PZPQJqphDPuceB6yXOEUOB6UzTzkXb-=s360-c-k-c0x00ffffff-no-rj",
+                            "isVerified": false,
+                            "isChatOwner": true,
+                            "isChatSponsor": false,
+                            "isChatModerator": false
+                        },
+                        "listed": true,
+                        "shown": true,
+                        "textMessageDetails": {
+                            "messageText": "test"
+                        }
+                    },
+                    "position": "bl",
+                    "id": "AR2MT"
+                }, {
+                    "status": "onair",
+                    "timerType": "countdown",
+                    "type": "big_time",
+                    "shape": "line",
+                    "paused": false,
+                    "direction": "up",
+                    "endTime": 1642788513.239,
+                    "timeLeft": 231500,
+                    "duration": "00:05:00",
+                    "trim": false,
+                    "pre": "",
+                    "format": "mm:ss",
+                    "position": "mc",
+                    "id": "CXONO",
+                    "scale": "100",
+                    "theme": "cprima_SOLARIZED1"
+                }
+            ],
+            "themes": {
+                "h2r_base_theme": {
+                    "name": "H2R Orange",
+                    "font": {
+                        "family": "Helvetica"
+                    },
+                    "h1": {
+                        "colour": "#002b36",
+                        "size": "s5xl"
+                    },
+                    "h2": {
+                        "colour": "#002b36",
+                        "size": "s2xl"
+                    },
+                    "h3": {
+                        "colour": "#333",
+                        "size": "ssm"
+                    },
+                    "background": {
+                        "colour": "#eee8d5",
+                        "gradient": false,
+                        "degrees": "0",
+                        "colour2": "#333333",
+                        "paddingX": "s2",
+                        "paddingY": "s1",
+                        "width": "auto",
+                        "height": "auto",
+                        "rounding": "sxs"
+                    },
+                    "border": {
+                        "enabled": false,
+                        "sides": "1000",
+                        "size": ".5",
+                        "style": "solid",
+                        "colour": "#002b36"
+                    },
+                    "position": {
+                        "x": "center",
+                        "y": "center",
+                        "marginX": "s4",
+                        "marginY": "s4",
+                        "textAlign": "left"
+                    },
+                    "transition": {
+                        "type": "fade",
+                        "duration": "1000",
+                        "ease": "in-out"
+                    },
+                    "overrides": {
+                        "lower_third": {
+                            "1234": {
+                                "name": "Left",
+                                "position": {
+                                    "x": "start",
+                                    "y": "end",
+                                    "marginY": "s10"
+                                },
+                                "transition": {
+                                    "type": "slide_from_left"
+                                },
+                                "background": {},
+                                "h1": {},
+                                "h2": {},
+                                "font": {}
+                            },
+                            "4321": {
+                                "name": "Right",
+                                "position": {
+                                    "x": "end",
+                                    "y": "end",
+                                    "marginY": "s10",
+                                    "textAlign": "right"
+                                },
+                                "transition": {
+                                    "type": "slide_from_right"
+                                },
+                                "background": {},
+                                "h1": {},
+                                "h2": {},
+                                "font": {}
+                            }
+                        },
+                        "message": {
+                            "AH6NF": {
+                                "name": "Top left",
+                                "transition": {},
+                                "font": {},
+                                "h1": {
+                                    "size": "s3xl"
+                                },
+                                "background": {},
+                                "position": {
+                                    "y": "start",
+                                    "x": "start"
+                                }
+                            }
+                        },
+                        "time": {
+                            "HD86D": {
+                                "name": "Top middle",
+                                "position": {
+                                    "textAlign": "center",
+                                    "y": "start"
+                                },
+                                "transition": {
+                                    "type": "slide_from_top"
+                                },
+                                "h1": {},
+                                "h2": {}
+                            }
+                        },
+                        "ticker": {
+                            "77FS7": {
+                                "name": "Bottom",
+                                "position": {
+                                    "y": "end"
+                                },
+                                "h1": {},
+                                "font": {},
+                                "h2": {},
+                                "background": {},
+                                "transition": {
+                                    "type": "slide_from_bottom"
+                                }
+                            }
+                        },
+                        "image": {
+                            "SDH77S": {
+                                "name": "Full screen",
+                                "background": {
+                                    "colour": "transparent",
+                                    "width": "s10",
+                                    "height": "s10",
+                                    "paddingX": "none",
+                                    "paddingY": "none"
+                                },
+                                "position": {
+                                    "marginX": "none",
+                                    "marginY": "none",
+                                    "fit": "cover"
+                                }
+                            }
+                        },
+                        "social": {
+                            "49RJV": {
+                                "name": "Chat message",
+                                "background": {},
+                                "h2": {},
+                                "position": {
+                                    "x": "start",
+                                    "y": "end"
+                                }
+                            }
+                        }
+                    }
+                },
+                "h2_r_orange": {
+                    "name": "H2R Grey",
+                    "font": {
+                        "family": "Helvetica"
+                    },
+                    "h1": {
+                        "colour": "#F5F5F5",
+                        "size": "s5xl"
+                    },
+                    "h2": {
+                        "colour": "#C2C2C2",
+                        "size": "s2xl"
+                    },
+                    "h3": {
+                        "colour": "#333",
+                        "size": "ssm"
+                    },
+                    "background": {
+                        "colour": "#333333",
+                        "gradient": false,
+                        "degrees": "0",
+                        "colour2": "#333333",
+                        "paddingX": "s2",
+                        "paddingY": "s1",
+                        "width": "auto",
+                        "height": "auto",
+                        "rounding": "sxs"
+                    },
+                    "border": {
+                        "enabled": false,
+                        "sides": "1000",
+                        "size": ".9",
+                        "style": "solid",
+                        "colour": "#777"
+                    },
+                    "position": {
+                        "x": "center",
+                        "y": "center",
+                        "marginX": "s2",
+                        "marginY": "s2",
+                        "textAlign": "left"
+                    },
+                    "transition": {
+                        "type": "slide",
+                        "duration": "1000",
+                        "ease": "in-out"
+                    },
+                    "overrides": {
+                        "lower_third": {
+                            "1234": {
+                                "name": "Left",
+                                "position": {
+                                    "x": "start",
+                                    "y": "end",
+                                    "marginY": "s10"
+                                },
+                                "transition": {
+                                    "type": "slide_from_left"
+                                },
+                                "background": {},
+                                "h1": {},
+                                "h2": {},
+                                "font": {}
+                            },
+                            "4321": {
+                                "name": "Right",
+                                "position": {
+                                    "x": "end",
+                                    "y": "end",
+                                    "marginY": "s10",
+                                    "textAlign": "right"
+                                },
+                                "transition": {
+                                    "type": "slide_from_right"
+                                },
+                                "background": {},
+                                "h1": {},
+                                "h2": {},
+                                "font": {}
+                            }
+                        },
+                        "message": {
+                            "AH6NF": {
+                                "name": "Top left",
+                                "transition": {},
+                                "font": {},
+                                "h1": {
+                                    "size": "s3xl"
+                                },
+                                "background": {},
+                                "position": {
+                                    "y": "start",
+                                    "x": "start"
+                                }
+                            }
+                        },
+                        "time": {
+                            "HD86D": {
+                                "name": "Top middle",
+                                "position": {
+                                    "textAlign": "center",
+                                    "y": "start"
+                                },
+                                "transition": {
+                                    "type": "slide_from_top"
+                                },
+                                "h1": {},
+                                "h2": {}
+                            }
+                        },
+                        "ticker": {
+                            "77FS7": {
+                                "name": "Bottom",
+                                "position": {
+                                    "y": "end"
+                                },
+                                "h1": {},
+                                "font": {},
+                                "h2": {},
+                                "background": {},
+                                "transition": {
+                                    "type": "slide_from_bottom"
+                                }
+                            }
+                        },
+                        "image": {
+                            "SDH77S": {
+                                "name": "Full screen",
+                                "background": {
+                                    "colour": "transparent",
+                                    "width": "s10",
+                                    "height": "s10",
+                                    "paddingX": "none",
+                                    "paddingY": "none"
+                                },
+                                "position": {
+                                    "marginX": "none",
+                                    "marginY": "none",
+                                    "fit": "cover"
+                                }
+                            }
+                        },
+                        "social": {
+                            "49RJV": {
+                                "name": "Chat message",
+                                "background": {},
+                                "h2": {},
+                                "position": {
+                                    "x": "start",
+                                    "y": "end"
+                                }
+                            }
+                        }
+                    }
+                },
+                "cprima_SOLARIZED1": {
+                    "name": "cprima",
+                    "font": {
+                        "family": "Helvetica"
+                    },
+                    "h1": {
+                        "colour": "#002b36",
+                        "size": "s5xl"
+                    },
+                    "h2": {
+                        "colour": "#002b36",
+                        "size": "s2xl"
+                    },
+                    "h3": {
+                        "colour": "#333",
+                        "size": "ssm"
+                    },
+                    "background": {
+                        "colour": "#eee8d5",
+                        "gradient": false,
+                        "degrees": "0",
+                        "colour2": "#333333",
+                        "paddingX": "s2",
+                        "paddingY": "s1",
+                        "width": "auto",
+                        "height": "auto",
+                        "rounding": "sxs"
+                    },
+                    "border": {
+                        "enabled": false,
+                        "sides": "1000",
+                        "size": ".5",
+                        "style": "solid",
+                        "colour": "#002b36"
+                    },
+                    "position": {
+                        "x": "center",
+                        "y": "center",
+                        "marginX": "s4",
+                        "marginY": "s4",
+                        "textAlign": "left"
+                    },
+                    "transition": {
+                        "type": "fade",
+                        "duration": "1000",
+                        "ease": "in-out"
+                    },
+                    "overrides": {
+                        "lower_third": {
+                            "1234": {
+                                "name": "Left",
+                                "position": {
+                                    "x": "start",
+                                    "y": "end",
+                                    "marginY": "s10"
+                                },
+                                "transition": {
+                                    "type": "slide_from_left"
+                                },
+                                "background": {},
+                                "h1": {},
+                                "h2": {},
+                                "font": {}
+                            },
+                            "4321": {
+                                "name": "Right",
+                                "position": {
+                                    "x": "end",
+                                    "y": "end",
+                                    "marginY": "s10",
+                                    "textAlign": "right"
+                                },
+                                "transition": {
+                                    "type": "slide_from_right"
+                                },
+                                "background": {},
+                                "h1": {},
+                                "h2": {},
+                                "font": {}
+                            }
+                        },
+                        "message": {
+                            "AH6NF": {
+                                "name": "Top left",
+                                "transition": {},
+                                "font": {},
+                                "h1": {
+                                    "size": "s3xl"
+                                },
+                                "background": {},
+                                "position": {
+                                    "y": "start",
+                                    "x": "start"
+                                }
+                            }
+                        },
+                        "time": {
+                            "HD86D": {
+                                "name": "Top middle",
+                                "position": {
+                                    "textAlign": "center",
+                                    "y": "start"
+                                },
+                                "transition": {
+                                    "type": "slide_from_top"
+                                },
+                                "h1": {},
+                                "h2": {}
+                            }
+                        },
+                        "ticker": {
+                            "77FS7": {
+                                "name": "Bottom",
+                                "position": {
+                                    "y": "end"
+                                },
+                                "h1": {},
+                                "font": {},
+                                "h2": {},
+                                "background": {},
+                                "transition": {
+                                    "type": "slide_from_bottom"
+                                }
+                            }
+                        },
+                        "image": {
+                            "SDH77S": {
+                                "name": "Full screen",
+                                "background": {
+                                    "colour": "transparent",
+                                    "width": "s10",
+                                    "height": "s10",
+                                    "paddingX": "none",
+                                    "paddingY": "none"
+                                },
+                                "position": {
+                                    "marginX": "none",
+                                    "marginY": "none",
+                                    "fit": "cover"
+                                }
+                            }
+                        },
+                        "social": {
+                            "49RJV": {
+                                "name": "Chat message",
+                                "background": {},
+                                "h2": {},
+                                "position": {
+                                    "x": "start",
+                                    "y": "end"
+                                }
+                            }
+                        },
+                        "css": "/*Large and Small text selectors*/\r\n.cprima_SOLARIZED1_large_text {\r\n    /*color:red!important;*/\r\n}\r\n.cprima_SOLARIZED1_small_text {\r\n    /*color:red!important;*/\r\n}\r\n/*Lower Third specific selectors*/\r\n.cprima_SOLARIZED1_lower_third {\r\n    /*background-color:red!important;*/\r\n}\r\n.cprima_SOLARIZED1_lower_third_large_text {\r\n    /*background-color:red!important;*/\r\n}\r\n.cprima_SOLARIZED1_lower_third_small_text {\r\n    /*background-color:red!important;*/\r\n}\r\n/*Message specific selectors*/\r\n.cprima_SOLARIZED1_message {\r\n    /*background-color:red!important;*/\r\n}\r\n.cprima_SOLARIZED1_message_large_text {\r\n    /*background-color:red!important;*/\r\n}\r\n/*Time specific selectors*/\r\n.cprima_SOLARIZED1_time {\r\n    /*background-color:red!important;*/\r\n}\r\n.cprima_SOLARIZED1_time_large_text {\r\n    /*background-color:red!important;*/\r\n}\r\n.cprima_SOLARIZED1_time_small_text {\r\n    /*background-color:red!important;*/\r\n}\r\n/*Ticker specific selectors*/\r\n.cprima_SOLARIZED1_ticker {\r\n    /*background-color:red!important;*/\r\n}\r\n.cprima_SOLARIZED1_ticker_large_text {\r\n    /*background-color:red!important;*/\r\n}\r\n.cprima_SOLARIZED1_ticker_small_text {\r\n    /*background-color:red!important;*/\r\n}\r\n/*Social specific selectors*/\r\n.cprima_SOLARIZED1_social {\r\n    /*background-color:red!important;*/\r\n}\r\n.cprima_SOLARIZED1_social_large_text {\r\n    /*background-color:red!important;*/\r\n}\r\n.cprima_SOLARIZED1_social_small_text {\r\n    /*background-color:red!important;*/\r\n}\r\n.cprima_SOLARIZED1_social_profile_image {\r\n    /*border:.5vw solid white;filter: contrast(100%)!important;*/\r\n}\r\n/*Score specific selectors*/\r\n.cprima_SOLARIZED1_score {\r\n    /*background-color:red!important;*/\r\n}\r\n.cprima_SOLARIZED1_score_large_text {\r\n    /*background-color:red!important;*/\r\n}\r\n.cprima_SOLARIZED1_score_small_text {\r\n    /*background-color:red!important;*/\r\n}\r\n/*Credits specific selectors*/\r\n.cprima_SOLARIZED1_credits {\r\n    /*background-color:red!important;*/\r\n}\r\n.cprima_SOLARIZED1_credits_large_text {\r\n    /*background-color:red!important;*/\r\n}\r\n.cprima_SOLARIZED1_credits_small_text {\r\n    /*background-color:red!important;*/\r\n}\r\n/*Lower Third Animated specific selectors*/\r\n.cprima_SOLARIZED1_lower_third_animated {\r\n    /*background-color:red!important;*/\r\n}\r\n.cprima_SOLARIZED1_lower_third_animated_large_text {\r\n    /*background-color:red!important;*/\r\n}\r\n.cprima_SOLARIZED1_lower_third_animated_small_text {\r\n    /*background-color:red!important;*/\r\n}\r\n/*Big Time specific selectors*/\r\n.cprima_SOLARIZED1_big_time {\r\n    color: #990000!important;\r\n    /*\r\n    background-color: red!important;*/\r\n}\r\n.cprima_SOLARIZED1_big_time_large_text {\r\n    /*background-color:red!important;*/\r\n}\r\n"
+                    }
+                }
+            }
+        }
+    },
+    "settings": {
+        "selectedProject": "LIVE",
+        "app_ip_address": "localhost",
+        "app_port": "3000",
+        "output_background_colour": "lime",
+        "output_cursor_show": "none",
+        "youtube_polling_interval": 60000,
+        "youtube_api_key": "AIzaSyDlxH8BBTDJ-nGkueo2YJGr5aRtcZ1DFZo",
+        "youtube_channel_name": "Christian Prior-Mamulyan"
+    },
+    "dataSources": {
+        "0": {
+            "name": "YouTube live chat",
+            "provider": "youtube",
+            "type": "social",
+            "status": "ready",
+            "res": [],
+            "addedToProjects": ["LIVE"],
+            "details": {
+                "youtubeId": "whJi2sDSJ-A"
+            },
+            "crowd": {}
+        }
+    },
+    "licenced": {}
+}
