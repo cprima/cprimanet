@@ -13,6 +13,11 @@ pop filter?
 dynamic/condenser/…
 What if x/y/z went wrong? -> checklist
 plugins, dry/wet
+clipping
+mic stand
+speaking technique
+dynamic range
+mono/stereo/5.1 surround
 
 postprocessing workflow:
 - what signal chain went in?
@@ -25,6 +30,10 @@ postprocessing workflow:
   - Compressor
   - Normalization
 - listen back
+//-->
+
+<!--
+https://www.youtube.com/watch?v=Rp-6F8SWFSY
 //-->
 
 <!--
@@ -43,6 +52,8 @@ Raspberry Pi on/off-switch
 multi-pattern microphone
 decibel meter
 minimal recommended gear
+external recorder
+
 
 //-->
 
@@ -490,6 +501,11 @@ The level of the signal coming out of a compressor won’t be as high as it was 
 https://www.adobe.com/creativecloud/video/discover/audio-compressor.html
 //-->
 
+
+<!--
+
+https://www.izotope.com/en/learn/audio-dynamics-101-compressors-limiters-expanders-and-gates.html
+//-->
 
 
 {% include youtubePlayer.html id="4gNRGqHzMKc" %}
