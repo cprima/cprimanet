@@ -15,7 +15,8 @@ markdown: kramdown
 #markdown: Pandoc
 #plugins:
 #  - jekyll-feed
-future: false
+future: true
+permalink: /:categories/:year/:month/:day/:title:output_ext
 
 feed:
   path: /biz/marketing/website/feed.xml
