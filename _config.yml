@@ -16,6 +16,7 @@ markdown: kramdown
 #plugins:
 #  - jekyll-feed
 future: true
+timezone: Europe/Berlin
 permalink: /:categories/:year/:month/:day/:title:output_ext
 
 feed:
