@@ -18,6 +18,7 @@ mic stand
 speaking technique
 dynamic range
 mono/stereo/5.1 surround
+original sound
 
 postprocessing workflow:
 - what signal chain went in?
