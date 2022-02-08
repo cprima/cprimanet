@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Sound Good in Webinars: Setup, Analysis and Evaluation of Improved [YouTube] Audio
-component: 
-date:   2022-02-15 00:00:00 +0100
+title: "Sound Good in Webinars: Setup, Analysis and Evaluation of Improved [YouTube] Audio"
+component: biz
+date:   2022-02-01 00:00:00 +0100
 abstract: ""
 ---
 
