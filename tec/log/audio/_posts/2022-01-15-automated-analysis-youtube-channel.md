@@ -19,6 +19,7 @@ speaking technique
 dynamic range
 mono/stereo/5.1 surround
 original sound
+wet-dry
 
 postprocessing workflow:
 - what signal chain went in?
@@ -67,6 +68,20 @@ YouTube: hardly multitrack audio
 Minimal gear recommendation
 
 //-->
+
+
+We have been trained in presentation techniques and rhetoric, but for the post-pandemic world the basics of "how to sound good online" is still new territory. So when YouTuber Anders Jensen asked a question about "audio" in LinkedIn I gladly threw some lessons-learned from the past years at him. If these pre-released key takeaways of our upcoming online event are unfamiliar then join us on February the 25th! Registration does not cost anything and after the event no one will try to sell anything to you.
+
+My name is Christian Prior-Mamulyan and I would be glad to see you in the online event!
+
+
+> A flipped classroom … aims to increase student engagement and learning by having pupils complete readings at home and work on live problem-solving during class time. … With a flipped classroom, students watch online lectures, collaborate in online discussions, or carry out research at home, while actively engaging concepts in the classroom, with a mentor's guidance.
+> Source: Wikipedia entry for "Flipped_classroom", visited at 2022-02-13
+
+# Key takeaways
+
+Good sound for webinars or video conferences starts at the beginning of an audio signal chain with the *room sound* and the *microphone*. The room sound *is* greatly influenced by *reflective*, absorptive and *diffusive* qualities of the materials within. The microphone's *polar pattern* and frequency response feeds on *mic level* into the production workflow. A dedicated *audio interface* solves the analog-digital conversion in *hardware*; by the way acceptable hardware involved *is not* wireless. Distributing to YouTube demands for tight control of the normalized loudness and true peak, which can be achieved with compressor, limiter and e.g. the software Youlean Loudness Meter. While doing so an applied EQ ("equalizer") *curve* may "fix in post" some deficiencies at the beginning of the audio signal chain. Whether that happens analog at the beginning of the signal chain or digitally in post-production: Audio recording is best understood on the basis of electrical signals and their visual representations like *waveforms* and frequency spectrums.
+
 
 * TOC
 {:toc}
@@ -450,15 +465,21 @@ https://ask.audio/articles/mixing-concepts-what-is-dynamics-why-you-should-care
 
 ### Compressor
 
-> A compressor is an electrical amplifier that reduces the dynamic range of a signal. Basically, it brings the loud and quiet parts closer together in terms of volume. Most compressors have a few standard controls. Threshold determines how loud the incoming signal needs to be before it gets any treatment. Ratio adjusts how much the incoming signal, that is above the threshold, is compressed. The higher the ratio, the more squished the sound. Attack/Release controls how long it takes the compressor to react to the incoming signal. Lastly, input gain simply makes the pretreatment sound louder, allowing more of the signal to be above threshold, resulting in more compression.
+> A compressor (is an electrical amplifier that) reduces the dynamic range of a signal. Basically, it brings the loud and quiet parts closer together in terms of volume. Most compressors have a few standard controls: Threshold determines how loud the incoming signal needs to be before it gets any treatment. Ratio adjusts how much the incoming signal, that is above the threshold, is compressed. The higher the ratio, the more squished the sound. Attack/Release controls how long it takes the compressor to react to the incoming signal. Lastly, input gain simply makes the pretreatment sound louder, allowing more of the signal to be above threshold, resulting in more compression.
 > https://www.dancemusicnw.com/compressors-expanders-gates-explained/
 
-Threshold
-Ratio
-Attack time
-Release time <-------------
-Knee
-Make-up gain or output gain
+Threshold: high for limiting, at quietest for overall compression. set at level of tyical distance to typical level
+Ratio 4:1 for voice recording (3:1 - 5:1)
+Attack: 3ms time attack quickly, release slower
+Release time 100ms <------------- longer than release, for drawn-out endings of words; if too long it nerver releases and we hear a so-called "pumping effect"
+Knee <-- for voice not so important, it's like a bezier curve at the threshold
+
+Make-up gain or output gain: Not necessarily an aspect of the compressor. But as the compressor, making the loudest parts quieter, tends to turn the overall level down, there is a need to raise the overall level by adding make-up gain.
+
+Recommended "reading":
+https://www.youtube.com/watch?v=DYOuClAWokg
+Compression for Voiceover
+Booth Junkie
 
 <!--
 The fundamental controls of audio compressors.
@@ -582,6 +603,7 @@ no recipes, rather stretegies
 
 EQ in the postprocesing workflow
 
+- gate (before compressor with its make-up gain)
 - EQ cuts
 - compression
 - EQ boosts
