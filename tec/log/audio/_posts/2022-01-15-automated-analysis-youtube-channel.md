@@ -128,16 +128,20 @@ Participants will
 
 ## Step 1: Reading the incident report
 
-- volume is being turned up
-- the room has qualities attributed to it
-- off-the-shelf technology is mentioned
-- audio-quality is described as having white noise
+Let us read this comment on LinkedIn as if we were an IT Supporter and this was an incident:
+
+- The reporter mentions that the volume is being turned up
+- The room has a certain qualitiy attributed to it ("is quiet")
+- Off-the-shelf technology is mentioned (The RØDE wirelss Go microphone)
+- The quality of the recording is described as having white noise
 
 ## verfifying the incident report
 
-- room is quiet, but has reverb
-- white noise is a good general description but the correct term
-- the audio signal chain is only parially described
+
+
+- Listening to the linked video the room is indeed quiet, but has a reverb like a kitchen or 
+- The term "white noise" is not 100% correctly used, it is safe to assume that "noise floor" is meant
+- The description of the audio signal chain is not complete
 
 ## ticket triage
 
@@ -279,13 +283,31 @@ Recommended Reading/Watching
 
 ## Audio Signal Levels
 
-The term Digital Sound Recording might be misleading from the very beginning: It starts and ends in the Analog Domain of the physical world, digital is only the middle part. Both the microphone and the loudspeaker are analog devices.
+Using a microphone with a computer is actually an interesting mix: Any digital recording actually starts and ends in the Analog Domain of the physical world, and digital is only the middle part. Both the microphone and the loudspeaker are analog devices.
 
-The microphone actually produces a continous electrical signal, done by converting vibrations into electrical energy, and a very low signal that is: The result is an induced voltage of a few millivolt -- that is one thousandth of a volt. This microphone level is LOW!
+And a microphone produces at its core a continous electrical signal, done by converting vibrations into electrical energy, and a very low signal that is: The result is an induced voltage of a few millivolt -- that is thousandths of a volt. This is very LOW!
+
+In our webinars and YouTube videos signals are passed between audio equipment on
+
+- microphone level and
+- line level (in its consumer line level variant)
+
+![chart of audio signal levels: microphone, line, instrument and speaker](/tec/log/audio/images/levels-miclow-michigh-line.png){:class="resize"}
+
+It is the functionality of
+
+- either a pre-amplifier and
+- the audio interface
+
+to raise the mic level to line level, which is suitable to pass signals between equipment.
+
+Sometimes we see on equipment the label "instrument level", this is slightly below consumer line level.
+
+<!-- ![chart of audio signal levels: microphone, line, instrument and speaker](/tec/log/audio/images/levels.png){:class="resize"} -->
+
 
 All this gives us a hint that a microphone is best understood with the mindset of an electrical engineer.
 
-![chart of audio signal levels: microphone, line, instrument and speaker](/tec/log/audio/images/levels.png){:class="resize"}
 
 <!--
 Mic level signal (low) = 0.0001 V = 0.1 mV = -80dBV
@@ -307,7 +329,6 @@ Power amplifier signal (loudspeaker level) = 10V = +20dBV
 
 QSC GX3 amplifier output is an example. 
 https://service.shure.com/s/article/audio-signal-levels-general-guidelines?language=en_US
-//-->
 
 The chart shows nicely how low mc level is in comparison to the two variants of line level.
 
@@ -323,6 +344,7 @@ So the combojack for an outer microphone level XLR plug and a center line level 
 
 Closely related to all this is the electrical impedance of the low-impedance or high-impedance variants, and their transmission over balanced or unbalanced cables. The balanced XLR cable has 3 pins for a good reason -- but that is another topic.
 
+//-->
 
 ## The Audio Frequency Spectrum
 
@@ -358,6 +380,39 @@ By the way, the reason why we record in 44.100 Hz or for videos 48.000 Hz is tha
 
 
 ## Loudness
+
+Do you remeber the times when TV commercials were so much louder than the actual TV content?
+That was the time when the human perception of loudness was not taken into consideration.
+
+The signal level on microphone or line level are measured with a technical reference, and the loudness innovation was to measure according to the human perception. This started at about 2010.
+
+Nowadays streaming service like Spotify and -- you guessed it -- YouTube use the loudness across a while song or video to adjust loudness. YouTube actually only lowers the loudness, and protects users with headphones that way.
+
+Based on what is called the Fletcher Munson Curve of human loudness perception a loudness measurement is a statistically determined value over time, either
+
+- short-term or
+- integrated, that means over for example a whole YouTube video.
+
+Software like Youlean Loudness Meter analyze the audio and returns a graphical representation.
+
+Why is this important?
+
+Because when the production loudness did differ from the target platform's rules then it makes sense to adjust the distribution loudness, to not leave it up to the streaming service to mess about with the audio.
+
+YouTube for example will
+
+- turn down videos that are integrated --which mean over the full duratio -- louder than -14dB LUFS (which is the ludness unit).
+- but YouTube will not turn the loudness up if it was too low to begin with!
+
+The loudness measurement makes our -- hopefully many -- recordings comparable comparable between each other.
+
+Methods to influnce the loudness of a recording are
+
+- the complressor or
+- the amplifier
+
+The loudness measurement also helps us to adjust an interview partner to the same loudness as the host.
+
 
 intro: loud commercials
 
@@ -409,11 +464,11 @@ Waves WLM Plus Loudness Meter (Paid)
 
 ## Reading Microphone Datasheets
 
-A less readable part of datasheets of microphones might be the graphs about polar patterns and frequency responses. But that part is 
+For the novice a less readable part of datasheets of microphones might be the graphs about polar patterns and frequency responses. But that part is sooo important!
 
 ### Polar Patterns
 
-The polar pattern depicts the sencsitivity to sounds arriving from different angles. A polar graph uses angles as reference szstem, different from the more ubiquitous cartesian graphs with their x, z and mazbe z axis.
+The polar pattern depicts the sencsitivity to sounds arriving from different angles. A polar graph uses angles as reference system, different from the more ubiquitous cartesian graphs with their x, z and mazbe z axis.
 The practitioner can read from a microphone's polar pattern graph how to best position the micriphone so that it does not pick up for example typing noise from the keyboard. 
 
 ![microphone polar patterns](/tec/log/audio/images/microphone-polar-patterns.png){:class="resize"}
