@@ -167,17 +167,17 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.43020833"
-     inkscape:cx="911.18644"
-     inkscape:cy="596.22276"
+     inkscape:cx="846.1017"
+     inkscape:cy="614.81841"
      inkscape:document-units="px"
      inkscape:current-layer="layer11"
      inkscape:document-rotation="0"
      showgrid="false"
      units="px"
-     inkscape:window-width="2193"
+     inkscape:window-width="1645"
      inkscape:window-height="879"
-     inkscape:window-x="1454"
-     inkscape:window-y="1538"
+     inkscape:window-x="2878"
+     inkscape:window-y="1633"
      inkscape:window-maximized="0"
      inkscape:pagecheckerboard="0"
      showguides="true"
@@ -694,7 +694,7 @@
      inkscape:label="visualization 1">
     <g
        id="g6522"
-       transform="translate(-90.92334,55.575623)">
+       transform="translate(-90.92334,15.575623)">
       <image
          width="803"
          height="437"
@@ -717,7 +717,7 @@
     </g>
     <g
        id="g10327"
-       transform="translate(136.84497,122.88473)">
+       transform="translate(136.84497,182.88473)">
       <image
          width="613"
          height="553"
@@ -747,7 +747,7 @@
     </g>
     <g
        id="g12015"
-       transform="translate(-115.37952,155.80519)">
+       transform="translate(-115.37952,115.80519)">
       <image
          width="570"
          height="249"
@@ -770,7 +770,7 @@
     </g>
     <g
        id="g4822"
-       transform="translate(-128.51895,-71.44629)">
+       transform="translate(-128.51895,-11.44629)">
       <image
          width="815"
          height="275"
