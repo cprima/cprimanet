@@ -761,7 +761,7 @@
      inkscape:groupmode="layer"
      id="layer13"
      inkscape:label="dBFS"
-     style="display:none">
+     style="display:inline">
     <g
        id="g13367"
        transform="translate(0,200)"
@@ -833,7 +833,7 @@
      inkscape:groupmode="layer"
      id="layer15"
      inkscape:label="clipping"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:1.25;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;display:inline;mix-blend-mode:normal;fill:#002b36;fill-opacity:1;stroke:none"
