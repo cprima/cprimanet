@@ -70,6 +70,12 @@ Minimal gear recommendation
 //-->
 
 
+* TOC
+{:toc}
+
+
+# Preface
+
 We have been trained in presentation techniques and rhetoric, but for the post-pandemic world the basics of "how to sound good online" is still new territory. So when YouTuber Anders Jensen asked a question about "audio" in LinkedIn I gladly threw some lessons-learned from the past years at him. If these pre-released key takeaways of our upcoming online event are unfamiliar then join us on February the 25th! Registration does not cost anything and after the event no one will try to sell anything to you.
 
 My name is Christian Prior-Mamulyan and I would be glad to see you in the online event!
@@ -78,13 +84,10 @@ My name is Christian Prior-Mamulyan and I would be glad to see you in the online
 > A flipped classroom … aims to increase student engagement and learning by having pupils complete readings at home and work on live problem-solving during class time. … With a flipped classroom, students watch online lectures, collaborate in online discussions, or carry out research at home, while actively engaging concepts in the classroom, with a mentor's guidance.
 > Source: Wikipedia entry for "Flipped_classroom", visited at 2022-02-13
 
-# Key takeaways
+## Key takeaways
 
 Good sound for webinars or video conferences starts at the beginning of an audio signal chain with the *room sound* and the *microphone*. The room sound *is* greatly influenced by *reflective*, absorptive and *diffusive* qualities of the materials within. The microphone's *polar pattern* and frequency response feeds on *mic level* into the production workflow. A dedicated *audio interface* solves the analog-digital conversion in *hardware*; by the way acceptable hardware involved *is not* wireless. Distributing to YouTube demands for tight control of the normalized loudness and true peak, which can be achieved with compressor, limiter and e.g. the software Youlean Loudness Meter. While doing so an applied EQ ("equalizer") *curve* may "fix in post" some deficiencies at the beginning of the audio signal chain. Whether that happens analog at the beginning of the signal chain or digitally in post-production: Audio recording is best understood on the basis of electrical signals and their visual representations like *waveforms* and frequency spectrums.
 
-
-* TOC
-{:toc}
 
 Automated Analysis of a YouTube Channel https://www.youtube.com/c/andersjensenorg 
 
@@ -156,7 +159,7 @@ Let us read this comment on LinkedIn as if we were an IT Supporter and this was 
 
 ## YouTube recommendations
 
-![foo](/tec/phy/YouTube/images/recommended-upload-encoding-settings.png){:class="resize"}
+![YouTube Recommended upload encoding settings](/tec/phy/YouTube/images/recommended-upload-encoding-settings.png){:class="resize"}
 
 https://support.google.com/youtube/answer/1722171
 
@@ -167,10 +170,21 @@ https://support.google.com/youtube/answer/1722171
 
 ## Hidden Treasures in the YouTube API and youtube-dl output
 
+
+
+
+
+
+
+
+
 # Remedies
 
 ## Eliminate *noise
 
+{% include checklist.html checklistnames="Eliminate *noise" heading="h3" %}
+<div style="margin-bottom: 50%"></div>
+<!--
 Room
 - switch off all noise sources
 - minimize sound from the outside coming in
@@ -185,10 +199,14 @@ Microphone Technique
 Audio Signal Chain
 - do not use an onboard soundcard
 - use noise cancellation with care
-
+//-->
 
 
 ## Room Acoustics, Reverberation Time and Clap Test
+
+
+{% include checklist.html checklistnames="Room reverberation" heading="h3" %}
+<div style="margin-bottom: 0%"></div>
 
 <audio controls> 
   <source src="/tec/log/audio/assets/RoomAcousticsReverberationTimeAndClapTest.mp3"  type="audio/mpeg">
@@ -212,7 +230,7 @@ The reflected sound will hit our microphone again and decrease the quality of ou
 
 And let's not forget that there is a reflective ceiling, too!
 
-![Refelction Absorption Diffusion](/tec/log/audio/images/diffusion.png){:class="resize"}
+![Reflection Absorption Diffusion](/tec/log/audio/images/diffusion.png){:class="resize"}
 
 To reduce reflections both absorption and diffusion will improve the room acoustics. Examples for absorptive materials are:
 
@@ -253,7 +271,9 @@ In my room I have both hard and absorbant materials. But as the sound of my voic
 
 The biggest problem of my room is that the heating pipes transmit sound from the teenagers room underneath. Reverberation time does not fix THAT. Maybe I will give them a gamer's headset next christmas! ;)
 
-Going by sich an RT60-like measurement means that it is easy to find out when to stop improving the room acoustic, and focus on other aspects of good audio in webinars!
+Going by sich an (inofficial) RT60-like measurement means that it is easy to find out when to stop improving the room acoustic, and focus on other aspects of good audio in webinars!
+
+
 
 ### Resources
 
@@ -269,9 +289,13 @@ http://www.larsondavis.com/learn/building-acoustics/Reverberation-Time-in-Room-A
 
 https://imgur.com/a/NHX2XGe
 
+
+
 ## Audio Settings on Windows
 
 {% include checklist.html checklistnames="Windows 10 Audio Recording Inventory" heading="h3" %}
+
+
 
 ## Loudness GUI
 
@@ -316,12 +340,22 @@ Recommended Reading/Watching
 
 ## Checklist for All Things Audio
 
-To reduce complexity a lot can be learned from the aviation industry: Their checklist culture is outstanding and based on very 
+To reduce complexity a lot can be learned from the aviation industry: Their checklist culture is outstanding and based on a very easy to read tabular format: Arranged in a "Item" and "Condition" heading, the item to be checked is listed with the desired condition
 
 
 [YouTube Recommended upload encoding settings](https://support.google.com/youtube/answer/1722171)
 
 {% include checklist.html checklistnames="YouTube Pre-Upload Audiotrack" heading="h3" %}
+
+
+
+
+
+
+
+
+
+
 
 # knowledge, facts, data
 
@@ -442,6 +476,8 @@ That was the time when the human perception of loudness was not taken into consi
 
 The signal level on microphone or line level are measured with a technical reference, and the loudness innovation was to measure according to the human perception. This started at about 2010.
 
+![perceived loudness, equal loudness contour, integrated LUFS](/tec/log/audio/images/perceived-loudness_equal-loudness-contour_integrated-LUFS.png){:class="resize"}
+
 Nowadays streaming service like Spotify and -- you guessed it -- YouTube use the loudness across a while song or video to adjust loudness. YouTube actually only lowers the loudness, and protects users with headphones that way.
 
 Based on what is called the Fletcher Munson Curve of human loudness perception a loudness measurement is a statistically determined value over time, either
@@ -457,31 +493,54 @@ Because when the production loudness did differ from the target platform's rules
 
 YouTube for example will
 
-- turn down videos that are integrated --which mean over the full duratio -- louder than -14dB LUFS (which is the ludness unit).
+- turn down videos that are integrated -- which mean over the full duration -- louder than -14dB LUFS (which is the ludness unit).
 - but YouTube will not turn the loudness up if it was too low to begin with!
 
 The loudness measurement makes our -- hopefully many -- recordings comparable comparable between each other.
 
 Methods to influnce the loudness of a recording are
 
-- the complressor or
+- the compressor or
 - the amplifier
 
 The loudness measurement also helps us to adjust an interview partner to the same loudness as the host.
 
+This knowledge could be applied to for example by making a conscious decision between a production loudness and a distribution loudness.
 
-Online tool: https://www.loudnesspenalty.com/
+
+### Further reading
+
 Stats for nerds: https://productionadvice.co.uk/stats-for-nerds/
 
 YouTube loudness normalization | What you need to know https://www.youtube.com/watch?v=wIicS8hKbeQ
 
-intro: loud commercials
+How to Edit a Video to Achieve Good Audio Loudness on YouTube? by Youlean - Julijan Nikolic https://youlean.co/how-to-edit-a-video-to-achieve-good-audio-loudness-on-youtube/
 
-goal: relevance for YouTuber and what are the key concepts behind it
+Technical Document
+AESTD1008.1.21-9 (supersedes TD1004)
+Recommendations for Loudness of
+Internet Audio Streaming and
+On-Demand Distribution
+September 24, 202
+https://www.aes.org/technical/documentDownloads.cfm?docID=731
+
+
+### Tools
+
+Online tool: https://www.loudnesspenalty.com/
+
+
+Youlean Loudness Meter 2 (Free and Pro)
+Mastering The Mix LEVELS (Paid)
+iZotope Insight 2 (Paid)
+Waves WLM Plus Loudness Meter (Paid)
+
+
+<!--
+
 
 //caveat: peak audio AND loudness
 
-toc
 
 - what is loudness, what is loud
   - perception
@@ -531,6 +590,8 @@ On-Demand Distribution
 September 24, 202
 https://www.aes.org/technical/documentDownloads.cfm?docID=731
 
+//-->
+
 ## Reading Microphone Datasheets
 
 For the novice a less readable part of datasheets of microphones might be the graphs about polar patterns and frequency responses. But that part is sooo important!
@@ -552,7 +613,28 @@ The polar patterns also show in raw data what otherwise might get marketing term
 
 # Skills, Workflows
 
-## GUI Elements for ampli...
+## Common GUI Elements for "Volume"
+
+### Unity Gain
+
+In the audio signal chain the term "unity gain" is used to describe that
+
+- the input level is the same as
+- the output level
+
+If for example 0.8 Volt go in, at unity gain 0.8 Volt go out. Just as if the device was not in the audio signla chain at all!
+
+![Unity Gain](/tec/log/audio/images/CommonGUIElementsVolume_unitygain.png){:class="resize"}
+
+### dBFS Decibel Full Scale
+
+In digital audio systems, there is a defined maximum level the system can handle. The level of 0 dBFS Decibel Full Scale describes this maximum level.
+
+Beyond this level clipping occurs.
+
+![dBFS Decibel Full Scale](/tec/log/audio/images/CommonGUIElementsVolume_dBFS.png){:class="resize"}
+![clipping](/tec/log/audio/images/CommonGUIElementsVolume_clipping.png){:class="resize"}
+
 
 ## Types of Audio Editing
 
@@ -579,7 +661,7 @@ Compressors (and in its extreme form Limiters) reduce Dynamic Range, while Expan
 
 Wait, what? A Noise Gate does INcrease what exactly? Heh -- the dynamic range!
 
-By the way, in an audio )post-)processing workflow they have their place, and quite often chained after each other.
+By the way, in an audio (post-)processing workflow they have their place, and quite often chained after each other.
 
 
 https://ask.audio/articles/mixing-concepts-what-is-dynamics-why-you-should-care
