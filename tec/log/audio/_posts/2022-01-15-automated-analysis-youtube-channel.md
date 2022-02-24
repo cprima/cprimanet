@@ -120,7 +120,8 @@ Participants will
 
 # Preparation
 
-{% include checklist.html checklistnames="Dress Rehearsal Zoom Interview - Participant,Dress Rehearsal Zoom Interview - Host" heading="h2" %}
+{% include checklist.html checklistnames="Dress Rehearsal Zoom Interview - Participant,Dress Rehearsal Zoom Interview - Host,Streaming Preshow" heading="h2" %}
+
 
 # How it started
 
@@ -160,7 +161,32 @@ Let us read this comment on LinkedIn as if we were an IT Supporter and this was 
 https://support.google.com/youtube/answer/1722171
 
 
+## Sources of Noise
+
+## Evaluation of all 350+ videos
+
+## Hidden Treasures in the YouTube API and youtube-dl output
+
 # Remedies
+
+## Eliminate *noise
+
+Room
+- switch off all noise sources
+- minimize sound from the outside coming in
+- use headphones (maybe in-ear)
+- consider "silent" keyboards
+- proper microphone placement as per cardioid pattern and keybord location
+- behind your microphone, place something absorbant
+
+Microphone Technique
+- balance closeness to the microphone and amplification to minimize amplification of electrical noise
+
+Audio Signal Chain
+- do not use an onboard soundcard
+- use noise cancellation with care
+
+
 
 ## Room Acoustics, Reverberation Time and Clap Test
 
@@ -178,11 +204,15 @@ The requirements to record for webinars are very similar to those of the voice a
 Another good source of advice are audio engineers in churches, by the way. And with a bit of training our own ears are another authoritative judge!
 
 
+![Audio Signal Chain](/tec/log/audio/images/room-acoustics-materials.jpg){:class="resize"}
+
 Within the room there will be direct sound and reflected sound from the walls and surfaces. The physical properties of these surfaces make or break a good room acoustic! Only so-called anechoc chambers have no reflected sound and they are not a good thing to strive for, by the way.
 
 The reflected sound will hit our microphone again and decrease the quality of our recording. This reflected sound is THE most important aspect that needs to be controlled. Worst case is to sit between two hard walls which reflect our spoken word multiple times into the microphone until it dies down in volume.
 
 And let's not forget that there is a reflective ceiling, too!
+
+![Refelction Absorption Diffusion](/tec/log/audio/images/diffusion.png){:class="resize"}
 
 To reduce reflections both absorption and diffusion will improve the room acoustics. Examples for absorptive materials are:
 
@@ -208,17 +238,22 @@ Reveberation time is the time it needs to fade away.
 
 Most common method is to measure the RT60 which is the time in seconds until a loud sound decays by 60 decibels.
 
+
+![Play Store detail page for myRaumklang - Nachhall messen und optimieren](/tec/phy/myRaumklang/images/screenshot_play.google.com-store-apps-details-id-de.myraumklang.myraumklang.png){:class="resize"}
+
 All this is another way of saying: Do a clap test, there is even an app for this!
 
 Either the app or our own recording with our existing microphone into a software that displays a waveform will give us a measurement in seconds.
 
 Then we do a few improvements, and measure again, and listen to our recording again.
 
+![my room](/tec/log/audio/images/WOB38A8HO360_2022_1762-480.jpg){:class="resize"}
+
 In my room I have both hard and absorbant materials. But as the sound of my voice does not bounce back from the hard surfaces into the microphone I have not negative effect by the hard wooden cupboard doors. So a good room for audio recording does not need to be covered in foam all around!
 
 The biggest problem of my room is that the heating pipes transmit sound from the teenagers room underneath. Reverberation time does not fix THAT. Maybe I will give them a gamer's headset next christmas! ;)
 
-Going by an RT60 measurement means that it is easy to find out when to stop improving the room acoustic, and focus on other aspects of good audio in webinars!
+Going by sich an RT60-like measurement means that it is easy to find out when to stop improving the room acoustic, and focus on other aspects of good audio in webinars!
 
 ### Resources
 
@@ -278,6 +313,15 @@ Although for audio projects this particular control it is less important than in
 
 Recommended Reading/Watching
 
+
+## Checklist for All Things Audio
+
+To reduce complexity a lot can be learned from the aviation industry: Their checklist culture is outstanding and based on very 
+
+
+[YouTube Recommended upload encoding settings](https://support.google.com/youtube/answer/1722171)
+
+{% include checklist.html checklistnames="YouTube Pre-Upload Audiotrack" heading="h3" %}
 
 # knowledge, facts, data
 
@@ -348,6 +392,9 @@ Closely related to all this is the electrical impedance of the low-impedance or 
 
 ## The Audio Frequency Spectrum
 
+
+![frequency spectrum human hearing human voice](/tec/log/audio/images/frequency-spectrum.png){:class="resize"}
+
 logarithmic scale
 
 20-20k Hz hearing "but…"
@@ -378,6 +425,15 @@ By the way, the reason why we record in 44.100 Hz or for videos 48.000 Hz is tha
 
 -> Nyquist frequency
 
+
+sibilance:
+> Vocal sibilance is an unpleasant tonal harshness that can happen during consonant syllables (like S, T, and Z), caused by disproportionate audio dynamics in upper midrange frequencies.
+> Vocal sibilance is a phenomenon of disproportionate dynamics within an isolated frequency range. In other words, it is a problem of too much loudness contrast within a small frequency range of a waveform that has a dynamic profile of its own.
+>The de-esser technique typically uses a narrow peak EQ in the sidechain path to boost the most offensive sibilant frequencies. This EQ exaggerates the dynamic difference between the sibilant band and the rest of the vocal waveform, making it much easier to achieve gain reduction during those consonants (and only then).
+>
+> https://theproaudiofiles.com/vocal-sibilance/
+
+intelligibility: https://www.dpamicrophones.com/mic-university/facts-about-speech-intelligibility
 
 ## Loudness
 
@@ -413,6 +469,11 @@ Methods to influnce the loudness of a recording are
 
 The loudness measurement also helps us to adjust an interview partner to the same loudness as the host.
 
+
+Online tool: https://www.loudnesspenalty.com/
+Stats for nerds: https://productionadvice.co.uk/stats-for-nerds/
+
+YouTube loudness normalization | What you need to know https://www.youtube.com/watch?v=wIicS8hKbeQ
 
 intro: loud commercials
 
@@ -461,6 +522,14 @@ Youlean Loudness Meter 2 (Free and Pro)
 Mastering The Mix LEVELS (Paid)
 iZotope Insight 2 (Paid)
 Waves WLM Plus Loudness Meter (Paid)
+
+Technical Document
+AESTD1008.1.21-9 (supersedes TD1004)
+Recommendations for Loudness of
+Internet Audio Streaming and
+On-Demand Distribution
+September 24, 202
+https://www.aes.org/technical/documentDownloads.cfm?docID=731
 
 ## Reading Microphone Datasheets
 
@@ -662,6 +731,7 @@ EQ in the postprocesing workflow
 - EQ cuts
 - compression
 - EQ boosts
+- limiter
 
 
 > Roll off the low frequencies if the proximity effect is causing unusual > bassiness.
@@ -737,14 +807,31 @@ Next time you are using a microphone, remember the picture of noise sitting on t
 
 ## Audio Signal Chain
 
+To sound good in webinars and on YouTube many small adjustments need to be made,
+and it is best to identify the components involved -- so they can be adressed individually.
 
-- hardware
-- cable types
-- level types
-  - speaker
-  - line
-  - instrument
-  - microphone
+For the sake of completeness the room where we record should be put on the list first. As it will have sounds coming in from the outside, and sound reflecting within its walls.
+
+The we obviously will talk into a microphone, one of the many types and models. A microphone converts soundwaves to analog audio signals.
+
+The cable connecting it will have 2 or three connections, and the connector will determine where we can plug it in.
+AND the cable will give us a hint about the level.
+
+Within the cable run there is the possibility to insert an additional microphone pre-amplifier.
+
+Preferrably a standalone audio interface will give us the microphone pre-amplification, knobs to turn the gain level, and will transform the analog signal into a digital.
+
+By the way, a USB microphone "just" has a built-in audio interface.
+
+On the computer that an audio interface is connected to many things can happen to the signal, like
+
+- processing it with a digital workflow
+- embedding it with video
+- streaming it to YouTube
+- storing it to in lossless or lossy formats
+
+The signal chain does not end there though, let's keep in mind that the viewer or listener will 
+
 
 
 ## Audio Cables and Plugs
@@ -766,10 +853,36 @@ Next time you are using a microphone, remember the picture of noise sitting on t
 
 ## Makefile for youtube-dl
 
+Any repetitive manual task should be automated, for example the analysis of a whole YouTube channel.
+For speedy access to the videos the files need to be downloaded to the local harddrive, which is the core functionality of the Python-based commandline program `youtube downloader` and its improved fork yt-dl.
+
+And a conveninet way to make this whole process repeateble is to write a shell script in the form of a Makefile. To run such files from the Unix world on Windows the WSL Windows Subsystem for Linux can be used.
+
+The Makefile is published as a GitHub Gist https://gist.github.com/cprima/0d331d5a2c366688998071f6b61774fd
+
+Result is that a few commands may be run daily and produce the raw material for an analysis.
+
+Youtube downloader keeps track of the videos already downloaded in the past.
+
+The metadata from YouTube is returned in JSON Format and again Python is a good technological fit to aggregate each individual file into a tabular format. A quick Jupyter Notebook does the job well.
+
 
 ```bash
+#/**
+# * Helper commands to analyse YouTube videos
+# *
+# * @author: Christian Prior-Mamulyan <cprior@gmail.com>
+# * @license: MIT
+# *
+# * @usage: export YTCHANNELVIDEOURL=https://www.youtube.com/watch?v=iavXywwUh1c
+# * @usage: make -e download_audio
+# *
+# * depends on https://github.com/yt-dlp/yt-dlp
+# */
+
 YTCHANNELBASEURL=https://www.youtube.com/channel/
 YTCHANNELID=UCPdtz4gd_iYebJFYq9N8pWA
+YTCHANNELVIDEOURL?=https://www.youtube.com/watch?v=7UN1xRN24xY
 BATCH_FILE=urls.txt
 ARCHIVE_FILE=archive.txt
 SLEEP_REQUESTS=8
@@ -778,37 +891,33 @@ MAX_SLEEP_INTERVAL=128
 SUBTILES_LANG=en
 LIMIT_RATE=5M
 TROTTLED_RATE=50K
+_BESTEALTHY=--limit-rate $(LIMIT_RATE) --throttled-rate $(TROTTLED_RATE) --min-sleep-interval $(MIN_SLEEP_INTERVAL) --max-sleep-interval $(MAX_SLEEP_INTERVAL) --sleep-requests $(SLEEP_REQUESTS)
+_WRITEMETADATA=--write-url-link --write-info-json --write-description --write-info-json --write-thumbnail --write-auto-subs --sub-lang $(SUBTILES_LANG)
 
-.PHONY: list_channel_videos
-list_channel_videos:
-        @echo "# pipe the output to e.g. >> $(BATCH_FILE)"
-        @yt-dlp --get-filename --no-warnings --quiet \
-        --output "https://www.youtube.com/watch?v=%(id)s" \
-        $(addprefix $(YTCHANNELBASEURL),$(YTCHANNELID))
 
-.PHONY: list_channel_videos2
-list_channel_videos2:
-        @echo "# pipe the output to e.g. >> $(BATCH_FILE)"
-        @yt-dlp --get-filename --no-warnings --quiet \
-        --output "%(id)s,%(upload_date)s_%(acodec)s_%(asr)s_%(title)s.%(ext)s,%(id)s" \
-        $(addprefix $(YTCHANNELBASEURL),$(YTCHANNELID))
+.PHONY: list_channel_videourls
+list_channel_videourls:
+	@echo "# pipe the output to e.g. >> $(BATCH_FILE)"
+	@yt-dlp --get-filename --no-warnings --quiet -o "https://www.youtube.com/watch?v=%(id)s" $(addprefix $(YTCHANNELBASEURL),$(YTCHANNELID))
 
 .PHONY: download_videos
 download_videos:
-        yt-dlp --limit-rate $(LIMIT_RATE) --throttled-rate $(TROTTLED_RATE) \
-        --min-sleep-interval $(MIN_SLEEP_INTERVAL) \
-        --max-sleep-interval $(MAX_SLEEP_INTERVAL) \
-        --sleep-requests $(SLEEP_REQUESTS) \
-        --continue --ignore-errors --no-overwrites \
-        --output "%(upload_date)s_%(acodec)s_%(asr)s_%(title)s.%(ext)s" \
-        --batch-file $(BATCH_FILE) --download-archive $(ARCHIVE_FILE) \
-        --write-url-link --write-info-json --write-description --write-info-json \
-        --write-thumbnail --write-auto-subs --sub-lang $(SUBTILES_LANG)
+	yt-dlp --limit-rate $(LIMIT_RATE) $(_BESTEALTHY) --continue --ignore-errors --no-overwrites --output "%(upload_date)s_%(acodec)s_%(asr)s_%(title)s.%(ext)s" --batch-file $(BATCH_FILE) $(_WRITEMETADATA)
+
 ```
 
 ## Audacity and Room Reverb
 
-## UiPath Process for YLM Automation
+## UiPath Robot Process for YLM Automation
+
+My favorite software for loudness analysis, Youlean Loudness Meter, cannot be automated out-of-the-box. But fortunately any type of GUI automation can be done not just with software from test automation but it is a core feature of RPA software, Robotic Process Automation. And with the aim to analyze the YouTube channel of Anders Jensen, RPA developer and Most Valuable Professional in forum of the software vendor "UiPath" -- what would be a better fit than UiPath's CV activities Computer Vision activities.
+
+UiPath is the world's leading RPA software company, started in 2015 in Bukarest, Romania and has since seen a rockeetship growth.
+Part of the capabilities of the development tool "UiPath Studio" are the Computer Visicion activities. Even such hard to automate GUIs like the one of Youlean Loudness Meter can be automated by Computer Vision's AI-enhanced Click, Type into or dropdown select capabilities. All without having to resort to image scraping.
+
+An efficient anylssis of Anders Jensen's 350+ video was impossible without this UiPath Robot Process!
+
+
 
 ## DaVinci Resolve Fairlight Audio Page
 
