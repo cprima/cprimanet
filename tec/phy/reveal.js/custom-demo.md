@@ -10,11 +10,12 @@ theme: solarized
 
 
 <section data-background-image="/biz/marketing/visualidentity/template_svg_1080p.png">
-  <h2>Image</h2>
+  <h2>Background Image</h2>
+  <p>foo</p>
 </section>
 
-<section>
-<h2>Compressor</h2>
+<section data-background-image="/biz/marketing/visualidentity/template_svg_1080p.png">
+<h2>r-stack fragments</h2>
 <div class="r-stack">
   <img class="" src="/tec/log/audio/images/compressor_uncompressed.png" width="1280" height="540">
   <img class="fragment" src="/tec/log/audio/images/compressor_1to2.png" width="1280" height="540">
@@ -25,6 +26,67 @@ theme: solarized
 </div>
 </section>
 
+<section>
+<section data-auto-animate data-background-image="/biz/marketing/visualidentity/template_svg_1080p.png">
+  <h1>Auto-Animate</h1>
+</section>
+<section data-auto-animate>
+  <h1 style="color: red;">Auto-Animate</h1>
+</section>
+
+<section data-auto-animate data-background-image="/biz/marketing/visualidentity/template_svg_1080p.png">
+  <h1>Implicit Animation</h1>
+</section>
+<section data-auto-animate>
+  <h1>Implicit Animation</h1>
+  <h1>Animation</h1>
+</section>
+
+<section data-auto-animate>
+  <h1>Animation</h1>
+  <div data-id="box" style="height: 50px; background: salmon;"></div>
+</section>
+<section data-auto-animate>
+  <h1>Animation</h1>
+  <div data-id="box" style="height: 200px; background: blue;"></div>
+</section>
+
+<section data-auto-animate>
+  <h1>Animation</h1>
+  <pre data-id="code-animation"><code data-trim data-line-numbers>
+    let planets = [
+      { name: 'mars', diameter: 6779 },
+    ]
+  </code></pre>
+</section>
+<section data-auto-animate>
+  <h1>Animation</h1>
+  <pre data-id="code-animation"><code data-trim data-line-numbers>
+    let planets = [
+      { name: 'mars', diameter: 6779 },
+      { name: 'earth', diameter: 12742 },
+      { name: 'jupiter', diameter: 139820 }
+    ]
+  </code></pre>
+</section>
+<section data-auto-animate>
+  <h1>Animation</h1>
+  <pre data-id="code-animation"><code data-trim data-line-numbers>
+    let circumferenceReducer = ( c, planet ) => {
+      return c + planet.diameter * Math.PI;
+    }
+
+    let planets = [
+      { name: 'mars', diameter: 6779 },
+      { name: 'earth', diameter: 12742 },
+      { name: 'jupiter', diameter: 139820 }
+    ]
+
+    let c = planets.reduce( circumferenceReducer, 0 )
+  </code></pre>
+</section>
+
+</section>
 
 <section tagcloud data-state="" data-domain="application">
 <h2>Typical Scope of Solutions</h2>
