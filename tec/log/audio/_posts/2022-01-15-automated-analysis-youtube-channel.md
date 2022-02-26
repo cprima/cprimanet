@@ -184,6 +184,7 @@ https://support.google.com/youtube/answer/1722171
 
 {% include checklist.html checklistnames="Eliminate *noise" heading="h3" %}
 <div style="margin-bottom: 50%"></div>
+
 <!--
 Room
 - switch off all noise sources
@@ -203,18 +204,6 @@ Audio Signal Chain
 
 
 ## Room Acoustics, Reverberation Time and Clap Test
-
-
-{% include checklist.html checklistnames="Room reverberation" heading="h3" %}
-<div style="margin-bottom: 0%"></div>
-
-<audio controls> 
-  <source src="/tec/log/audio/assets/RoomAcousticsReverberationTimeAndClapTest.mp3"  type="audio/mpeg">
-  <source src="/tec/log/audio/assets/RoomAcousticsReverberationTimeAndClapTest.ogg"  type="audio/ogg">
-  <source src="/tec/log/audio/assets/RoomAcousticsReverberationTimeAndClapTest.wav"  type="audio/wav">
-  Your browser does not support HTML5 audio.
-</audio>
-
 
 The journey to improve the audio quality of a recorded narration for webinars or in videoconferences does not start with buying equipment. Because equipment is used inside a room and the room is where it starts.
 
@@ -265,9 +254,13 @@ Either the app or our own recording with our existing microphone into a software
 
 Then we do a few improvements, and measure again, and listen to our recording again.
 
-![my room](/tec/log/audio/images/WOB38A8HO360_2022_1762-480.jpg){:class="resize"}
+
+![Audio Signal Chain](/tec/log/images/clap-test_reverberation-time.png){:class="resize"}
+
 
 In my room I have both hard and absorbant materials. But as the sound of my voice does not bounce back from the hard surfaces into the microphone I have not negative effect by the hard wooden cupboard doors. So a good room for audio recording does not need to be covered in foam all around!
+
+![my room](/tec/log/audio/images/WOB38A8HO360_2022_1762-480.jpg){:class="resize"}
 
 The biggest problem of my room is that the heating pipes transmit sound from the teenagers room underneath. Reverberation time does not fix THAT. Maybe I will give them a gamer's headset next christmas! ;)
 
@@ -426,15 +419,29 @@ Closely related to all this is the electrical impedance of the low-impedance or 
 
 ## The Audio Frequency Spectrum
 
+This audio frequency spectrum shows the range of frequencies that the human ear can interpret. As a rule of thumb we hear at maximum from 20 Hz to 20.000 Hertz -- or 20 kilo Hertz.
+
+As it is a logarithmic scale the higher numbers are better visualized with the octaves of a piano keyboard.
+
+> Our speaking voice has three frequency ranges that need to be understood;
+> 1. Fundamentals.  The fundamental frequencies of speech occur roughly between 85Hz and 250Hz.
+> 1. Vowels.  Vowels sounds contain the maximum energy and power of the voice, occurring between 350Hz and 2KHz.
+> 1. Consonants.  Consonants occur between 1.5KHz and 4KHz.  They contain little energy but are essential to intelligibility.
 
 ![frequency spectrum human hearing human voice](/tec/log/audio/images/frequency-spectrum.png){:class="resize"}
 
-logarithmic scale
+Although we might hear in that frequency range the human voice is located in a smaller range.
+Male voices typically from 200 to 6000 Hertz,
+and female voices from 400 to 8000 Hertz.
 
-20-20k Hz hearing "but…"
-200 - 6000 male voice
-400 - 8000 Hz female voice
 
+A problematic range is between 5000 and about 8000 Hertz, where the so-called sibilance occurs.
+Sibilance is that harsh sound that can happen during consonant syllables (like S, T, and Z).
+Techniques like a De-Esser try to cut very narrowly within this frequency band.
+
+By the way, the reason why we record in 44.100 Hz or for videos 48.000 Hz is that this is 2 times 20.000 Hz plus a bit of extra for the sampling filter to work. This is based on the Nyquist Sampling Theorem.
+
+<!--
 > while human hearing spans ten octaves, human speech only covers about five octaves.
 > source: https://larryjordan.com/articles/eq-warm-a-voice-and-improve-diction/
 
@@ -459,7 +466,6 @@ By the way, the reason why we record in 44.100 Hz or for videos 48.000 Hz is tha
 
 -> Nyquist frequency
 
-
 sibilance:
 > Vocal sibilance is an unpleasant tonal harshness that can happen during consonant syllables (like S, T, and Z), caused by disproportionate audio dynamics in upper midrange frequencies.
 > Vocal sibilance is a phenomenon of disproportionate dynamics within an isolated frequency range. In other words, it is a problem of too much loudness contrast within a small frequency range of a waveform that has a dynamic profile of its own.
@@ -469,9 +475,14 @@ sibilance:
 
 intelligibility: https://www.dpamicrophones.com/mic-university/facts-about-speech-intelligibility
 
+
+//-->
+
+
+
 ## Loudness
 
-Do you remeber the times when TV commercials were so much louder than the actual TV content?
+Do you remember the times when TV commercials were so much louder than the actual TV content?
 That was the time when the human perception of loudness was not taken into consideration.
 
 The signal level on microphone or line level are measured with a technical reference, and the loudness innovation was to measure according to the human perception. This started at about 2010.
@@ -486,6 +497,7 @@ Based on what is called the Fletcher Munson Curve of human loudness perception a
 - integrated, that means over for example a whole YouTube video.
 
 Software like Youlean Loudness Meter analyze the audio and returns a graphical representation.
+
 
 Why is this important?
 
@@ -644,11 +656,9 @@ Beyond this level clipping occurs.
 - compression: change the dynamics
 - limiting: limit sound above a certain level
 - panning: move the sound in and between left and right stereo channel
-- equalization: changes to the frequency spectrum; low-cut, high-cut, bell boost
-- normalization: //fixme
-- stereo imaging: "from mono to stereo" //fixme
-
-Preface:
+- equalization: changes to the frequency spectrum; low-cut, high-cut, bell boost, notch
+- normalization: When the level of a track is increased so that it reaches a norm.
+- stereo imaging:  the manipulation of an audio signal within the 180° stereo field
 
 In the context of audio, Dynamic Range is the difference in Decibel between the quietest and loudest part.
 It can refer to both the dynamic range of the audio track(s) in a video,
@@ -656,10 +666,18 @@ or the capabilities of a signal chain consisting of hardware and software.
 
 The quietest part of a signal chain is called noise floor and each piece of equipment has one -- even a cable.
 
+
+![dBFS Decibel Full Scale](/tec/log/audio/images/dynamic-range_headroom.png){:class="resize"}
+
 The dynamic range can be altered by compression and expansion:
 Compressors (and in its extreme form Limiters) reduce Dynamic Range, while Expander (and in its extreme form Gates) increase it.
 
-Wait, what? A Noise Gate does INcrease what exactly? Heh -- the dynamic range!
+![dBFS Decibel Full Scale](/tec/log/audio/images/compressor.png){:class="resize"}
+
+
+<!--
+
+Wait, what? A Noise Gate does Increase what exactly? Heh -- the dynamic range!
 
 By the way, in an audio (post-)processing workflow they have their place, and quite often chained after each other.
 
@@ -687,7 +705,6 @@ https://www.youtube.com/watch?v=DYOuClAWokg
 Compression for Voiceover
 Booth Junkie
 
-<!--
 The fundamental controls of audio compressors.
 Understanding the technical aspects and terminology of audio compression will allow you to work more comfortably with a wide range of compressors.
 
@@ -761,15 +778,29 @@ https://theproaudiofiles.com/what-is-a-noise-gate/
 //-->
 
 
-## Equalisation: Changes to the Frequency Spectrum
+## Equalization: Changes to the Frequency Spectrum
 
+In the audio workflow there are no recipes but rather only strategies regarding equalization.
 
-Sibilance
+Getting the right microphone for the voice and recording it well should mean little or no EQ is needed.
 
+But if there are unwanted frequencies they could be cut. And if there is not enough of some other frequency its range could be boosted.
 
+Any type of such work shold be done with at least studio-grade headphones.
 
-start with microphjone frequency response chart
+And instead of following recipes from the internet the whole signal chain should be taken into consideration, for example the microphone's frequency response chart.
 
+![Equalization](/tec/log/audio/images/EQ-Equalization.png){:class="resize"}
+
+In the postprocessing workflow there could be two equalization steps:
+
+- After a gate
+- there might be EQ cuts
+- then the compression
+- followed by EQ boosts
+- and finally a limiter and/or normalization to distribution loudness
+
+<!--
 Types of EQ
 
 - Graphic EQ
@@ -777,7 +808,6 @@ Types of EQ
 
 Parametric EQ
 
-Use studio headphones
 
 - Low-pass: Removes all frequencies above a set frequency
 - High-pass: Removes all frequencies below a set frequency
@@ -790,7 +820,6 @@ Use studio headphones
 > Remember to use a narrow Q factor when you’re cutting frequencies and use > a wide Q factor when boosting. But rules can be broken, just as long as > it sounds good.
 > https://talkinmusic.com/how-to-eq-vocals/
 
-no recipes, rather stretegies
 
 > The most obvious approach to EQ is push up more of what you want to hear. Getting the right microphone for the voice and recording it well should mean little or no EQ is needed.
 >…
@@ -807,15 +836,12 @@ no recipes, rather stretegies
 > 
 > https://ledgernote.com/columns/mixing-mastering/how-to-eq-vocals/
 
-EQ in the postprocesing workflow
 
-- gate (before compressor with its make-up gain)
-- EQ cuts
-- compression
-- EQ boosts
-- limiter
+//-->
 
 
+
+<!-- 
 > Roll off the low frequencies if the proximity effect is causing unusual > bassiness.
 > Don’t roll off so much low end as the voice loses some of its umph.  Yes, > I’m using “umph” as a technical word.
 > Boost in the 1KHz to 5KHz range for improving intelligibility and clarity.
@@ -828,6 +854,7 @@ EQ in the postprocesing workflow
 > https://www.behindthemixer.com/how-eq-speech-maximum-intelligibility/
 
 
+//-->
 
 ## Electric Signals, Noise, Discretization
 
@@ -918,6 +945,27 @@ The signal chain does not end there though, let's keep in mind that the viewer o
 
 ## Audio Cables and Plugs
 
+In this picture we see a variation of commonly used audio cables.
+
+They can be categorized by the number of signal lines, abbreviated by t for tip, r for ring and s for sleeve.
+
+On the very left we have a 3.5mm TRRS cable with 4 signal lilnes, suitable to transmit a headphone with microphone.
+
+Then we have a very handy adapter from 3.5mm to 6.3mm
+
+Next a 6.3mm TS cable
+
+followed by another 3.5mm TRRS headphone-mic cable.
+
+the last 3 are a cable from 3.5mm TRS to left and right RCA jacks.
+
+
+The most common cable for microphones are those with an 3-pin XLR jack.
+
+They carry the microphone level into an audio interface and should be kept rather short.
+
+By the way, many audio interfaces have so-called combo jacks, which can take a XLR cable or a 6.3mm cable. In the latter case the audio interface expects line level.
+
 
 ![foo](/tec/log/audio/images/cables_audio_35-RCA-XLR.jpg){:class="resize"}
 
@@ -927,8 +975,30 @@ The signal chain does not end there though, let's keep in mind that the viewer o
 
 ## Youlean Loudness Meter
 
+Youlean Loudness Meter is an application or plugin to measure the correct loudness levels for upload to Spotify, YouTube, and more.
+It comes in a free and Pro version and is developed by a great guy named Julijan Nikolic, that's where the software got its name from.
+
+It shows the loudness as both short-term as well as intergrated -- that is over the diration of the whole file.
+
+And it analysis the true peak levels to indicate dangerously high levels.
+
+It features an export of the generated graphs, not just for the loudness but also the dynamics -- which is of use in music production.
+
+I use YLM as an additional Zoom, Teams or Skype participant to monitor the loudness of all participants.
+
+
+
 ## OBS Multi-Track Recording
 
+OBS is a widely used screen recording and streaming software, and is great for not just recording the video part of a pre-produced webinar but is also capable of multi track audio recording.
+
+In the OBS settings for Audio each recording device can be selected or disabled individually. So there is a clear  distinction between the audio interface and the system sound.
+
+But to fully utilize this each device should be recorded to an individual track. This is setup via the Audio Mixer and a right-click on a cogwheel icon in the adcancded audio properties.
+
+Best practise is to record all devices mixed down to track one, and then each device into an own track.
+
+Later in postproduction each track can be adjusted individually.
 
 
 # Applications
@@ -990,6 +1060,26 @@ download_videos:
 
 ## Audacity and Room Reverb
 
+
+A measurable property of the room is its reverberation time, which can be measured according to ISO standards -- or performed with simple tools which is good enough in our context.
+
+Most common method is to measure the RT60 which is the time in seconds until a loud sound decays by 60 decibels.
+
+
+In Audacity, create a new project and add a track.
+
+Start recording and make a short, loud sound that just does not clip, for example by clapping with the hand-
+
+You will see very distinctive waveforms.
+
+
+Crop to a single one of the claps, zoom into just the waveform and in the timeline you will see the farctions of a second that it tokk the sound to die down.
+
+
+Then do a few improvements, and measure again!
+
+
+
 ## UiPath Robot Process for YLM Automation
 
 My favorite software for loudness analysis, Youlean Loudness Meter, cannot be automated out-of-the-box. But fortunately any type of GUI automation can be done not just with software from test automation but it is a core feature of RPA software, Robotic Process Automation. And with the aim to analyze the YouTube channel of Anders Jensen, RPA developer and Most Valuable Professional in forum of the software vendor "UiPath" -- what would be a better fit than UiPath's CV activities Computer Vision activities.
@@ -1002,5 +1092,10 @@ An efficient anylssis of Anders Jensen's 350+ video was impossible without this 
 
 
 ## DaVinci Resolve Fairlight Audio Page
+
+DaVinci Resolve is a video editor for macOS, Windows, and Linux. It is developed by the hardware manufacturer BlackMagic Design and available in a free and paid version. The free version has traditionally an almost complete featureset in comparison to the moderately priced paid version.
+
+The audio part of the software, called Fairlight page, is a featurecomplete digital audio workstation offering multitrack editing, loudness evaluation, equalization, mixing and all types of audio editing.
+
 
 {% include youtubePlayer.html id="Rp-6F8SWFSY" %}
