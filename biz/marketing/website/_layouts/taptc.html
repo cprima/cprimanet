@@ -27,11 +27,14 @@ layout: default
   </div>
 {% endunless %}
 
-{% if page.checklists.size > 0 %}
-{% assign checklistnames = page.checklists | join: "," %}
-{% include checklist.html checklistnames=checklistnames %}
+{% assign has_posts = 'maybe' %}
+{% for post in site.posts %}
+{% if post.component == page.component %}
+{% assign has_posts = 'indeed' %}
 {% endif %}
+{% endfor %}
 
+{% if has_posts == 'indeed' %}
 {% assign postcount = 'init' %}
 {% for post in site.posts %}
 
@@ -41,11 +44,11 @@ layout: default
 
 {% assign postcount = 'looped' %}
 
-
 {% if post.component == page.component %}
   <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
   <p>{{ post.abstract }} </p>
 {% endif %}
 {% endfor %}
+{% endif %}
 
 </article>

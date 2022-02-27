@@ -1,1 +1,3 @@
 biz/marketing/presentation/reveal* linguist-vendored
+*               text=auto
+*.txt		text

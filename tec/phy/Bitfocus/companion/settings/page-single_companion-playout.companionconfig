@@ -1,0 +1,1570 @@
+{
+    "version": 2,
+    "type": "page",
+    "config": {
+        "1": {
+            "style": "png",
+            "text": "ATEM Media 01 Problem Statement LinkedIn",
+            "size": "7",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 0,
+            "latch": false,
+            "relative_delay": true
+        },
+        "2": {
+            "style": "png",
+            "text": "ATEM Media 05 Audio Signal Levels",
+            "size": "7",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 14430767,
+            "latch": false,
+            "relative_delay": true
+        },
+        "3": {
+            "style": "png",
+            "text": "ATEM Media 06 dBFS",
+            "size": "7",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 2526162,
+            "latch": false,
+            "relative_delay": true
+        },
+        "4": {
+            "style": "png",
+            "text": "ATEM Media 07 audio signal chain",
+            "size": "7",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 8755456,
+            "latch": false,
+            "relative_delay": true
+        },
+        "5": {
+            "style": "png",
+            "text": "ATEM Media 12 Audacity Clap Test",
+            "size": "7",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 11897088,
+            "latch": false,
+            "relative_delay": true
+        },
+        "6": {},
+        "7": {},
+        "8": {
+            "style": "png",
+            "text": "ATEM Media 03 Alex Lindsay 5 steps",
+            "size": "7",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 0,
+            "latch": false,
+            "relative_delay": true
+        },
+        "9": {
+            "style": "pageup"
+        },
+        "10": {
+            "style": "png",
+            "text": "ATEM Media 09 Frequency Spectrum",
+            "size": "7",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 0,
+            "latch": false,
+            "relative_delay": true
+        },
+        "11": {
+            "style": "png",
+            "text": "ATEM Media 10 Compressor",
+            "size": "7",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 0,
+            "latch": false,
+            "relative_delay": true
+        },
+        "12": {
+            "style": "png",
+            "text": "ATEM Media 11 Cables",
+            "size": "7",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 0,
+            "latch": false,
+            "relative_delay": true
+        },
+        "13": {
+            "style": "png",
+            "text": "ATEM Media 12 Audacity Clap Test",
+            "size": "7",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 0,
+            "latch": false,
+            "relative_delay": true
+        },
+        "14": {},
+        "15": {},
+        "16": {
+            "style": "png",
+            "text": "ATEM Media 04 homeoffice progression",
+            "size": "7",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 0,
+            "latch": false,
+            "relative_delay": true
+        },
+        "17": {
+            "style": "pagenum"
+        },
+        "18": {
+            "style": "png",
+            "text": "ATEM Media 13 Perceived Loudness",
+            "size": "7",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 0,
+            "latch": false,
+            "relative_delay": true
+        },
+        "19": {
+            "style": "png",
+            "text": "ATEM Media 14 Equalization",
+            "size": "7",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 0,
+            "latch": false,
+            "relative_delay": true
+        },
+        "20": {
+            "style": "png",
+            "text": "ATEM Media 15 YLM",
+            "size": "7",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 0,
+            "latch": false,
+            "relative_delay": true
+        },
+        "21": {
+            "style": "png",
+            "text": "ATEM Media 16 UiPath CV YLM",
+            "size": "7",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 0,
+            "latch": false,
+            "relative_delay": true
+        },
+        "22": {},
+        "23": {},
+        "24": {},
+        "25": {
+            "style": "pagedown"
+        },
+        "26": {
+            "style": "png",
+            "text": "ATEM Media 17 PolarPatterns Mic datasheets",
+            "size": "7",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 0,
+            "latch": false,
+            "relative_delay": true
+        },
+        "27": {
+            "style": "png",
+            "text": "ATEM Media 18 Circuits Electronics",
+            "size": "7",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 0,
+            "latch": false,
+            "relative_delay": true
+        },
+        "28": {
+            "style": "png",
+            "text": "ATEM Media 19 OBS Multitrack",
+            "size": "7",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 0,
+            "latch": false,
+            "relative_delay": true
+        },
+        "29": {
+            "style": "png",
+            "text": "ATEM Media 20 DaVinciResolve Fairlight",
+            "size": "7",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 0,
+            "latch": false,
+            "relative_delay": true
+        },
+        "30": {},
+        "31": {},
+        "32": {}
+    },
+    "instances": {
+        "rN0s48ZD7": {
+            "instance_type": "bmd-atem",
+            "product": "ATEM",
+            "label": "atem",
+            "_configIdx": 1,
+            "enabled": true,
+            "host": "10.38.20.31",
+            "modelID": 13,
+            "presets": 0,
+            "fadeFps": 10,
+            "import_to": "rN0s48ZD7"
+        },
+        "6b0hEB7MO": {
+            "instance_type": "generic-http",
+            "product": "HTTP Requests",
+            "label": "h2r",
+            "prefix": "http://10.38.20.11:4001/api/LIVE/",
+            "_configIdx": 0,
+            "import_to": "6b0hEB7MO",
+            "enabled": true
+        },
+        "ttXkyP09I": {
+            "instance_type": "obs-studio",
+            "product": "Studio",
+            "label": "obs",
+            "_configIdx": 0,
+            "enabled": true,
+            "port": "4444",
+            "host": "10.38.20.11",
+            "pass": "q1w2e3",
+            "import_to": "ttXkyP09I"
+        }
+    },
+    "actions": {
+        "1": [{
+                "id": "Mbi5zjc-6",
+                "label": "rN0s48ZD7:mediaPlayerSource",
+                "instance": "rN0s48ZD7",
+                "action": "mediaPlayerSource",
+                "options": {
+                    "mediaplayer": 0,
+                    "source": 0
+                },
+                "delay": 0
+            }, {
+                "id": "V64ue_nOo2",
+                "label": "6b0hEB7MO:post",
+                "instance": "6b0hEB7MO",
+                "action": "post",
+                "options": {
+                    "url": "clear",
+                    "body": "{}",
+                    "header": "",
+                    "contenttype": "application/json"
+                },
+                "delay": 0
+            }, {
+                "id": "1UmQFypggu",
+                "label": "rN0s48ZD7:program",
+                "instance": "rN0s48ZD7",
+                "action": "program",
+                "options": {
+                    "mixeffect": 0,
+                    "input": 3010
+                },
+                "delay": 0
+            }, {
+                "id": "4nmNolSh9X",
+                "label": "ttXkyP09I:set_scene",
+                "instance": "ttXkyP09I",
+                "action": "set_scene",
+                "options": {
+                    "scene": "Host"
+                },
+                "delay": 0
+            }, {
+                "id": "4lOxklQnl4",
+                "label": "6b0hEB7MO:post",
+                "instance": "6b0hEB7MO",
+                "action": "post",
+                "options": {
+                    "url": "clear",
+                    "body": "{}",
+                    "header": "",
+                    "contenttype": "application/json"
+                },
+                "delay": 0
+            }, {
+                "id": "Yblonc9nIm",
+                "label": "ttXkyP09I:preview_scene",
+                "instance": "ttXkyP09I",
+                "action": "preview_scene",
+                "options": {
+                    "scene": "Guest"
+                },
+                "delay": 10
+            }
+        ],
+        "2": [{
+                "id": "6BWM7jwUay",
+                "label": "rN0s48ZD7:mediaPlayerSource",
+                "instance": "rN0s48ZD7",
+                "action": "mediaPlayerSource",
+                "options": {
+                    "mediaplayer": 0,
+                    "source": 4
+                },
+                "delay": 0
+            }, {
+                "id": "ST8Z92pS-3",
+                "label": "6b0hEB7MO:post",
+                "instance": "6b0hEB7MO",
+                "action": "post",
+                "options": {
+                    "url": "clear",
+                    "body": "{}",
+                    "header": "",
+                    "contenttype": "application/json"
+                },
+                "delay": 0
+            }, {
+                "id": "tMWRW-WE2D",
+                "label": "rN0s48ZD7:program",
+                "instance": "rN0s48ZD7",
+                "action": "program",
+                "options": {
+                    "mixeffect": 0,
+                    "input": 3010
+                },
+                "delay": 0
+            }, {
+                "id": "2d_W63a8ww",
+                "label": "ttXkyP09I:set_scene",
+                "instance": "ttXkyP09I",
+                "action": "set_scene",
+                "options": {
+                    "scene": "Host"
+                },
+                "delay": 0
+            }, {
+                "id": "E3BahitQmT",
+                "label": "6b0hEB7MO:post",
+                "instance": "6b0hEB7MO",
+                "action": "post",
+                "options": {
+                    "url": "clear",
+                    "body": "{}",
+                    "header": "",
+                    "contenttype": "application/json"
+                },
+                "delay": 0
+            }, {
+                "id": "gzH98IlMFv",
+                "label": "ttXkyP09I:preview_scene",
+                "instance": "ttXkyP09I",
+                "action": "preview_scene",
+                "options": {
+                    "scene": "Guest"
+                },
+                "delay": 10
+            }
+        ],
+        "3": [{
+                "id": "FmEFAeKeNE",
+                "label": "rN0s48ZD7:mediaPlayerSource",
+                "instance": "rN0s48ZD7",
+                "action": "mediaPlayerSource",
+                "options": {
+                    "mediaplayer": 0,
+                    "source": 5
+                },
+                "delay": 0
+            }, {
+                "id": "GoxwZbvNRv",
+                "label": "6b0hEB7MO:post",
+                "instance": "6b0hEB7MO",
+                "action": "post",
+                "options": {
+                    "url": "clear",
+                    "body": "{}",
+                    "header": "",
+                    "contenttype": "application/json"
+                },
+                "delay": 0
+            }, {
+                "id": "qbznEwuW9f",
+                "label": "rN0s48ZD7:program",
+                "instance": "rN0s48ZD7",
+                "action": "program",
+                "options": {
+                    "mixeffect": 0,
+                    "input": 3010
+                },
+                "delay": 0
+            }, {
+                "id": "z7EuwSlUR7",
+                "label": "ttXkyP09I:set_scene",
+                "instance": "ttXkyP09I",
+                "action": "set_scene",
+                "options": {
+                    "scene": "Host"
+                },
+                "delay": 0
+            }, {
+                "id": "gdfcinh26un",
+                "label": "6b0hEB7MO:post",
+                "instance": "6b0hEB7MO",
+                "action": "post",
+                "options": {
+                    "url": "clear",
+                    "body": "{}",
+                    "header": "",
+                    "contenttype": "application/json"
+                },
+                "delay": 10
+            }, {
+                "id": "NDeDA2oK6kg",
+                "label": "ttXkyP09I:preview_scene",
+                "instance": "ttXkyP09I",
+                "action": "preview_scene",
+                "options": {
+                    "scene": "Guest"
+                },
+                "delay": 10
+            }
+        ],
+        "4": [{
+                "id": "-HXxwuJ0yKG",
+                "label": "rN0s48ZD7:mediaPlayerSource",
+                "instance": "rN0s48ZD7",
+                "action": "mediaPlayerSource",
+                "options": {
+                    "mediaplayer": 0,
+                    "source": 6
+                },
+                "delay": 0
+            }, {
+                "id": "xihAVoJdZw7",
+                "label": "6b0hEB7MO:post",
+                "instance": "6b0hEB7MO",
+                "action": "post",
+                "options": {
+                    "url": "clear",
+                    "body": "{}",
+                    "header": "",
+                    "contenttype": "application/json"
+                },
+                "delay": 0
+            }, {
+                "id": "PEZ2hkJ5XIX",
+                "label": "rN0s48ZD7:program",
+                "instance": "rN0s48ZD7",
+                "action": "program",
+                "options": {
+                    "mixeffect": 0,
+                    "input": 3010
+                },
+                "delay": 0
+            }, {
+                "id": "rhfFgOS0T5q",
+                "label": "ttXkyP09I:set_scene",
+                "instance": "ttXkyP09I",
+                "action": "set_scene",
+                "options": {
+                    "scene": "Host"
+                },
+                "delay": 0
+            }, {
+                "id": "osDToZI_KPW",
+                "label": "6b0hEB7MO:post",
+                "instance": "6b0hEB7MO",
+                "action": "post",
+                "options": {
+                    "url": "clear",
+                    "body": "{}",
+                    "header": "",
+                    "contenttype": "application/json"
+                },
+                "delay": 10
+            }, {
+                "id": "nFwdZTg5OZY",
+                "label": "ttXkyP09I:preview_scene",
+                "instance": "ttXkyP09I",
+                "action": "preview_scene",
+                "options": {
+                    "scene": "Guest"
+                },
+                "delay": 10
+            }
+        ],
+        "5": [{
+                "id": "dJ1RqDJ0m",
+                "label": "rN0s48ZD7:mediaPlayerSource",
+                "instance": "rN0s48ZD7",
+                "action": "mediaPlayerSource",
+                "options": {
+                    "mediaplayer": 0,
+                    "source": 7
+                },
+                "delay": 0
+            }, {
+                "id": "hSsUCTk31Q",
+                "label": "6b0hEB7MO:post",
+                "instance": "6b0hEB7MO",
+                "action": "post",
+                "options": {
+                    "url": "clear",
+                    "body": "{}",
+                    "header": "",
+                    "contenttype": "application/json"
+                },
+                "delay": 0
+            }, {
+                "id": "tH2bni9iAJ",
+                "label": "rN0s48ZD7:program",
+                "instance": "rN0s48ZD7",
+                "action": "program",
+                "options": {
+                    "mixeffect": 0,
+                    "input": 3010
+                },
+                "delay": 0
+            }, {
+                "id": "ZIuwEGbic1",
+                "label": "ttXkyP09I:set_scene",
+                "instance": "ttXkyP09I",
+                "action": "set_scene",
+                "options": {
+                    "scene": "Host"
+                },
+                "delay": 0
+            }, {
+                "id": "S25TJBP1HV",
+                "label": "6b0hEB7MO:post",
+                "instance": "6b0hEB7MO",
+                "action": "post",
+                "options": {
+                    "url": "clear",
+                    "body": "{}",
+                    "header": "",
+                    "contenttype": "application/json"
+                },
+                "delay": 10
+            }, {
+                "id": "ElkTwwmSCH",
+                "label": "ttXkyP09I:preview_scene",
+                "instance": "ttXkyP09I",
+                "action": "preview_scene",
+                "options": {
+                    "scene": "Guest"
+                },
+                "delay": 10
+            }
+        ],
+        "6": [],
+        "7": [],
+        "8": [{
+                "id": "uGw1AlBvlwD",
+                "label": "rN0s48ZD7:mediaPlayerSource",
+                "instance": "rN0s48ZD7",
+                "action": "mediaPlayerSource",
+                "options": {
+                    "mediaplayer": 0,
+                    "source": 2
+                },
+                "delay": 0
+            }, {
+                "id": "5KpPN2MFJ1N",
+                "label": "6b0hEB7MO:post",
+                "instance": "6b0hEB7MO",
+                "action": "post",
+                "options": {
+                    "url": "clear",
+                    "body": "{}",
+                    "header": "",
+                    "contenttype": "application/json"
+                },
+                "delay": 0
+            }, {
+                "id": "YtSvU-gwwHY",
+                "label": "rN0s48ZD7:program",
+                "instance": "rN0s48ZD7",
+                "action": "program",
+                "options": {
+                    "mixeffect": 0,
+                    "input": 3010
+                },
+                "delay": 0
+            }, {
+                "id": "2n_zd90ftSA",
+                "label": "ttXkyP09I:set_scene",
+                "instance": "ttXkyP09I",
+                "action": "set_scene",
+                "options": {
+                    "scene": "Host"
+                },
+                "delay": 0
+            }, {
+                "id": "MDkpX6TDsxf",
+                "label": "6b0hEB7MO:post",
+                "instance": "6b0hEB7MO",
+                "action": "post",
+                "options": {
+                    "url": "clear",
+                    "body": "{}",
+                    "header": "",
+                    "contenttype": "application/json"
+                },
+                "delay": 0
+            }, {
+                "id": "Zn_Wtzk_HO-",
+                "label": "ttXkyP09I:preview_scene",
+                "instance": "ttXkyP09I",
+                "action": "preview_scene",
+                "options": {
+                    "scene": "Guest"
+                },
+                "delay": 10
+            }
+        ],
+        "9": [],
+        "10": [{
+                "id": "WFV8qEQJxJm",
+                "label": "rN0s48ZD7:mediaPlayerSource",
+                "instance": "rN0s48ZD7",
+                "action": "mediaPlayerSource",
+                "options": {
+                    "mediaplayer": 0,
+                    "source": 8
+                },
+                "delay": 0
+            }, {
+                "id": "Yjko8UDjwUU",
+                "label": "6b0hEB7MO:post",
+                "instance": "6b0hEB7MO",
+                "action": "post",
+                "options": {
+                    "url": "clear",
+                    "body": "{}",
+                    "header": "",
+                    "contenttype": "application/json"
+                },
+                "delay": 0
+            }, {
+                "id": "oUHGgUmb2_K",
+                "label": "rN0s48ZD7:program",
+                "instance": "rN0s48ZD7",
+                "action": "program",
+                "options": {
+                    "mixeffect": 0,
+                    "input": 3010
+                },
+                "delay": 0
+            }, {
+                "id": "MjVpUYlT_TM",
+                "label": "ttXkyP09I:set_scene",
+                "instance": "ttXkyP09I",
+                "action": "set_scene",
+                "options": {
+                    "scene": "Host"
+                },
+                "delay": 0
+            }, {
+                "id": "HXYmsKsnBrM",
+                "label": "6b0hEB7MO:post",
+                "instance": "6b0hEB7MO",
+                "action": "post",
+                "options": {
+                    "url": "clear",
+                    "body": "{}",
+                    "header": "",
+                    "contenttype": "application/json"
+                },
+                "delay": 0
+            }, {
+                "id": "ZGiVakIxAfY",
+                "label": "ttXkyP09I:preview_scene",
+                "instance": "ttXkyP09I",
+                "action": "preview_scene",
+                "options": {
+                    "scene": "Guest"
+                },
+                "delay": 10
+            }
+        ],
+        "11": [{
+                "id": "RkY2TV7uo-w",
+                "label": "rN0s48ZD7:mediaPlayerSource",
+                "instance": "rN0s48ZD7",
+                "action": "mediaPlayerSource",
+                "options": {
+                    "mediaplayer": 0,
+                    "source": 9
+                },
+                "delay": 0
+            }, {
+                "id": "Fu2y_I9PsrJ",
+                "label": "6b0hEB7MO:post",
+                "instance": "6b0hEB7MO",
+                "action": "post",
+                "options": {
+                    "url": "clear",
+                    "body": "{}",
+                    "header": "",
+                    "contenttype": "application/json"
+                },
+                "delay": 0
+            }, {
+                "id": "WtpAn_DjtZF",
+                "label": "rN0s48ZD7:program",
+                "instance": "rN0s48ZD7",
+                "action": "program",
+                "options": {
+                    "mixeffect": 0,
+                    "input": 3010
+                },
+                "delay": 0
+            }, {
+                "id": "H62j2TAJnCf",
+                "label": "ttXkyP09I:set_scene",
+                "instance": "ttXkyP09I",
+                "action": "set_scene",
+                "options": {
+                    "scene": "Host"
+                },
+                "delay": 0
+            }, {
+                "id": "Hk2b_znc7hd",
+                "label": "6b0hEB7MO:post",
+                "instance": "6b0hEB7MO",
+                "action": "post",
+                "options": {
+                    "url": "clear",
+                    "body": "{}",
+                    "header": "",
+                    "contenttype": "application/json"
+                },
+                "delay": 10
+            }, {
+                "id": "IlnflfLxPHE",
+                "label": "ttXkyP09I:preview_scene",
+                "instance": "ttXkyP09I",
+                "action": "preview_scene",
+                "options": {
+                    "scene": "Guest"
+                },
+                "delay": 10
+            }
+        ],
+        "12": [{
+                "id": "73S9VEDcnWF",
+                "label": "rN0s48ZD7:mediaPlayerSource",
+                "instance": "rN0s48ZD7",
+                "action": "mediaPlayerSource",
+                "options": {
+                    "mediaplayer": 0,
+                    "source": 10
+                },
+                "delay": 0
+            }, {
+                "id": "w31kemh3MF_",
+                "label": "6b0hEB7MO:post",
+                "instance": "6b0hEB7MO",
+                "action": "post",
+                "options": {
+                    "url": "clear",
+                    "body": "{}",
+                    "header": "",
+                    "contenttype": "application/json"
+                },
+                "delay": 0
+            }, {
+                "id": "VKWh7o-M8oB",
+                "label": "rN0s48ZD7:program",
+                "instance": "rN0s48ZD7",
+                "action": "program",
+                "options": {
+                    "mixeffect": 0,
+                    "input": 3010
+                },
+                "delay": 0
+            }, {
+                "id": "yEjGxVNaqsk",
+                "label": "ttXkyP09I:set_scene",
+                "instance": "ttXkyP09I",
+                "action": "set_scene",
+                "options": {
+                    "scene": "Host"
+                },
+                "delay": 0
+            }, {
+                "id": "3In-1V68zMR",
+                "label": "6b0hEB7MO:post",
+                "instance": "6b0hEB7MO",
+                "action": "post",
+                "options": {
+                    "url": "clear",
+                    "body": "{}",
+                    "header": "",
+                    "contenttype": "application/json"
+                },
+                "delay": 10
+            }, {
+                "id": "kyoOanKmSlU",
+                "label": "ttXkyP09I:preview_scene",
+                "instance": "ttXkyP09I",
+                "action": "preview_scene",
+                "options": {
+                    "scene": "Guest"
+                },
+                "delay": 10
+            }
+        ],
+        "13": [{
+                "id": "Rmv2P1Oc9wc",
+                "label": "rN0s48ZD7:mediaPlayerSource",
+                "instance": "rN0s48ZD7",
+                "action": "mediaPlayerSource",
+                "options": {
+                    "mediaplayer": 0,
+                    "source": 11
+                },
+                "delay": 0
+            }, {
+                "id": "uw9Rt0JU3ex",
+                "label": "6b0hEB7MO:post",
+                "instance": "6b0hEB7MO",
+                "action": "post",
+                "options": {
+                    "url": "clear",
+                    "body": "{}",
+                    "header": "",
+                    "contenttype": "application/json"
+                },
+                "delay": 0
+            }, {
+                "id": "ndPrMRMlq7L",
+                "label": "rN0s48ZD7:program",
+                "instance": "rN0s48ZD7",
+                "action": "program",
+                "options": {
+                    "mixeffect": 0,
+                    "input": 3010
+                },
+                "delay": 0
+            }, {
+                "id": "sFWFI8BL9-4",
+                "label": "ttXkyP09I:set_scene",
+                "instance": "ttXkyP09I",
+                "action": "set_scene",
+                "options": {
+                    "scene": "Host"
+                },
+                "delay": 0
+            }, {
+                "id": "DzvaIDpp37B",
+                "label": "6b0hEB7MO:post",
+                "instance": "6b0hEB7MO",
+                "action": "post",
+                "options": {
+                    "url": "clear",
+                    "body": "{}",
+                    "header": "",
+                    "contenttype": "application/json"
+                },
+                "delay": 10
+            }, {
+                "id": "OFE8dEJ5A2N",
+                "label": "ttXkyP09I:preview_scene",
+                "instance": "ttXkyP09I",
+                "action": "preview_scene",
+                "options": {
+                    "scene": "Guest"
+                },
+                "delay": 10
+            }
+        ],
+        "14": [],
+        "15": [],
+        "16": [{
+                "id": "elvp9ULH_K_",
+                "label": "rN0s48ZD7:mediaPlayerSource",
+                "instance": "rN0s48ZD7",
+                "action": "mediaPlayerSource",
+                "options": {
+                    "mediaplayer": 0,
+                    "source": 3
+                },
+                "delay": 0
+            }, {
+                "id": "WdqnfPVXQGh",
+                "label": "6b0hEB7MO:post",
+                "instance": "6b0hEB7MO",
+                "action": "post",
+                "options": {
+                    "url": "clear",
+                    "body": "{}",
+                    "header": "",
+                    "contenttype": "application/json"
+                },
+                "delay": 0
+            }, {
+                "id": "kabtv2Mgiiq",
+                "label": "rN0s48ZD7:program",
+                "instance": "rN0s48ZD7",
+                "action": "program",
+                "options": {
+                    "mixeffect": 0,
+                    "input": 3010
+                },
+                "delay": 0
+            }, {
+                "id": "UfDtV86I9F0",
+                "label": "ttXkyP09I:set_scene",
+                "instance": "ttXkyP09I",
+                "action": "set_scene",
+                "options": {
+                    "scene": "Host"
+                },
+                "delay": 0
+            }, {
+                "id": "cZTliEMgPMW",
+                "label": "6b0hEB7MO:post",
+                "instance": "6b0hEB7MO",
+                "action": "post",
+                "options": {
+                    "url": "clear",
+                    "body": "{}",
+                    "header": "",
+                    "contenttype": "application/json"
+                },
+                "delay": 0
+            }, {
+                "id": "Dri9d2THe_J",
+                "label": "ttXkyP09I:preview_scene",
+                "instance": "ttXkyP09I",
+                "action": "preview_scene",
+                "options": {
+                    "scene": "Guest"
+                },
+                "delay": 10
+            }
+        ],
+        "17": [],
+        "18": [{
+                "id": "V-E1eft5PYX",
+                "label": "rN0s48ZD7:mediaPlayerSource",
+                "instance": "rN0s48ZD7",
+                "action": "mediaPlayerSource",
+                "options": {
+                    "mediaplayer": 0,
+                    "source": 12
+                },
+                "delay": 0
+            }, {
+                "id": "NxJ-igAih5T",
+                "label": "6b0hEB7MO:post",
+                "instance": "6b0hEB7MO",
+                "action": "post",
+                "options": {
+                    "url": "clear",
+                    "body": "{}",
+                    "header": "",
+                    "contenttype": "application/json"
+                },
+                "delay": 0
+            }, {
+                "id": "lns1YWjKQfA",
+                "label": "rN0s48ZD7:program",
+                "instance": "rN0s48ZD7",
+                "action": "program",
+                "options": {
+                    "mixeffect": 0,
+                    "input": 3010
+                },
+                "delay": 0
+            }, {
+                "id": "7p7zqk6m6CZ",
+                "label": "ttXkyP09I:set_scene",
+                "instance": "ttXkyP09I",
+                "action": "set_scene",
+                "options": {
+                    "scene": "Host"
+                },
+                "delay": 0
+            }, {
+                "id": "jcCFxMd0wOL",
+                "label": "6b0hEB7MO:post",
+                "instance": "6b0hEB7MO",
+                "action": "post",
+                "options": {
+                    "url": "clear",
+                    "body": "{}",
+                    "header": "",
+                    "contenttype": "application/json"
+                },
+                "delay": 0
+            }, {
+                "id": "sHIy-9hgfLY",
+                "label": "ttXkyP09I:preview_scene",
+                "instance": "ttXkyP09I",
+                "action": "preview_scene",
+                "options": {
+                    "scene": "Guest"
+                },
+                "delay": 10
+            }
+        ],
+        "19": [{
+                "id": "gi5xeU87Qd9",
+                "label": "rN0s48ZD7:mediaPlayerSource",
+                "instance": "rN0s48ZD7",
+                "action": "mediaPlayerSource",
+                "options": {
+                    "mediaplayer": 0,
+                    "source": 13
+                },
+                "delay": 0
+            }, {
+                "id": "wtVbei5yXuo",
+                "label": "6b0hEB7MO:post",
+                "instance": "6b0hEB7MO",
+                "action": "post",
+                "options": {
+                    "url": "clear",
+                    "body": "{}",
+                    "header": "",
+                    "contenttype": "application/json"
+                },
+                "delay": 0
+            }, {
+                "id": "KbjPcVDlib_",
+                "label": "rN0s48ZD7:program",
+                "instance": "rN0s48ZD7",
+                "action": "program",
+                "options": {
+                    "mixeffect": 0,
+                    "input": 3010
+                },
+                "delay": 0
+            }, {
+                "id": "zlH14W8E1CV",
+                "label": "ttXkyP09I:set_scene",
+                "instance": "ttXkyP09I",
+                "action": "set_scene",
+                "options": {
+                    "scene": "Host"
+                },
+                "delay": 0
+            }, {
+                "id": "OJNqRh-jWdx",
+                "label": "6b0hEB7MO:post",
+                "instance": "6b0hEB7MO",
+                "action": "post",
+                "options": {
+                    "url": "clear",
+                    "body": "{}",
+                    "header": "",
+                    "contenttype": "application/json"
+                },
+                "delay": 10
+            }, {
+                "id": "Xu9jGQ1sJyD",
+                "label": "ttXkyP09I:preview_scene",
+                "instance": "ttXkyP09I",
+                "action": "preview_scene",
+                "options": {
+                    "scene": "Guest"
+                },
+                "delay": 10
+            }
+        ],
+        "20": [{
+                "id": "SvRZQ1V1y1K",
+                "label": "rN0s48ZD7:mediaPlayerSource",
+                "instance": "rN0s48ZD7",
+                "action": "mediaPlayerSource",
+                "options": {
+                    "mediaplayer": 0,
+                    "source": 14
+                },
+                "delay": 0
+            }, {
+                "id": "Qa4MbknlPu2",
+                "label": "6b0hEB7MO:post",
+                "instance": "6b0hEB7MO",
+                "action": "post",
+                "options": {
+                    "url": "clear",
+                    "body": "{}",
+                    "header": "",
+                    "contenttype": "application/json"
+                },
+                "delay": 0
+            }, {
+                "id": "obA69TX67Ue",
+                "label": "rN0s48ZD7:program",
+                "instance": "rN0s48ZD7",
+                "action": "program",
+                "options": {
+                    "mixeffect": 0,
+                    "input": 3010
+                },
+                "delay": 0
+            }, {
+                "id": "YrAQYmSNZMI",
+                "label": "ttXkyP09I:set_scene",
+                "instance": "ttXkyP09I",
+                "action": "set_scene",
+                "options": {
+                    "scene": "Host"
+                },
+                "delay": 0
+            }, {
+                "id": "_PhtdrpS6iU",
+                "label": "6b0hEB7MO:post",
+                "instance": "6b0hEB7MO",
+                "action": "post",
+                "options": {
+                    "url": "clear",
+                    "body": "{}",
+                    "header": "",
+                    "contenttype": "application/json"
+                },
+                "delay": 10
+            }, {
+                "id": "_khhTqPc9RI",
+                "label": "ttXkyP09I:preview_scene",
+                "instance": "ttXkyP09I",
+                "action": "preview_scene",
+                "options": {
+                    "scene": "Guest"
+                },
+                "delay": 10
+            }
+        ],
+        "21": [{
+                "id": "hNNMo3hKd",
+                "label": "rN0s48ZD7:mediaPlayerSource",
+                "instance": "rN0s48ZD7",
+                "action": "mediaPlayerSource",
+                "options": {
+                    "mediaplayer": 0,
+                    "source": 15
+                },
+                "delay": 0
+            }, {
+                "id": "TOf1cOB3gw",
+                "label": "6b0hEB7MO:post",
+                "instance": "6b0hEB7MO",
+                "action": "post",
+                "options": {
+                    "url": "clear",
+                    "body": "{}",
+                    "header": "",
+                    "contenttype": "application/json"
+                },
+                "delay": 0
+            }, {
+                "id": "d7PZHgUYto",
+                "label": "rN0s48ZD7:program",
+                "instance": "rN0s48ZD7",
+                "action": "program",
+                "options": {
+                    "mixeffect": 0,
+                    "input": 3010
+                },
+                "delay": 0
+            }, {
+                "id": "PTVDstIVkB",
+                "label": "ttXkyP09I:set_scene",
+                "instance": "ttXkyP09I",
+                "action": "set_scene",
+                "options": {
+                    "scene": "Host"
+                },
+                "delay": 0
+            }, {
+                "id": "7JbS0dAMQA",
+                "label": "6b0hEB7MO:post",
+                "instance": "6b0hEB7MO",
+                "action": "post",
+                "options": {
+                    "url": "clear",
+                    "body": "{}",
+                    "header": "",
+                    "contenttype": "application/json"
+                },
+                "delay": 10
+            }, {
+                "id": "kE9BGt3V2P",
+                "label": "ttXkyP09I:preview_scene",
+                "instance": "ttXkyP09I",
+                "action": "preview_scene",
+                "options": {
+                    "scene": "Guest"
+                },
+                "delay": 10
+            }
+        ],
+        "22": [],
+        "23": [],
+        "24": [],
+        "25": [],
+        "26": [{
+                "id": "mMIcavZKy2y",
+                "label": "rN0s48ZD7:mediaPlayerSource",
+                "instance": "rN0s48ZD7",
+                "action": "mediaPlayerSource",
+                "options": {
+                    "mediaplayer": 0,
+                    "source": 16
+                },
+                "delay": 0
+            }, {
+                "id": "jc_Ve7kIZgg",
+                "label": "6b0hEB7MO:post",
+                "instance": "6b0hEB7MO",
+                "action": "post",
+                "options": {
+                    "url": "clear",
+                    "body": "{}",
+                    "header": "",
+                    "contenttype": "application/json"
+                },
+                "delay": 0
+            }, {
+                "id": "FHfuM6BkV1f",
+                "label": "rN0s48ZD7:program",
+                "instance": "rN0s48ZD7",
+                "action": "program",
+                "options": {
+                    "mixeffect": 0,
+                    "input": 3010
+                },
+                "delay": 0
+            }, {
+                "id": "xsC85vKQxYj",
+                "label": "ttXkyP09I:set_scene",
+                "instance": "ttXkyP09I",
+                "action": "set_scene",
+                "options": {
+                    "scene": "Host"
+                },
+                "delay": 0
+            }, {
+                "id": "y_x6am_H5Vu",
+                "label": "6b0hEB7MO:post",
+                "instance": "6b0hEB7MO",
+                "action": "post",
+                "options": {
+                    "url": "clear",
+                    "body": "{}",
+                    "header": "",
+                    "contenttype": "application/json"
+                },
+                "delay": 0
+            }, {
+                "id": "_X-mYNhnc_p",
+                "label": "ttXkyP09I:preview_scene",
+                "instance": "ttXkyP09I",
+                "action": "preview_scene",
+                "options": {
+                    "scene": "Guest"
+                },
+                "delay": 10
+            }
+        ],
+        "27": [{
+                "id": "qgIXps29rGV",
+                "label": "rN0s48ZD7:mediaPlayerSource",
+                "instance": "rN0s48ZD7",
+                "action": "mediaPlayerSource",
+                "options": {
+                    "mediaplayer": 0,
+                    "source": 17
+                },
+                "delay": 0
+            }, {
+                "id": "WoWrgnxnHSU",
+                "label": "6b0hEB7MO:post",
+                "instance": "6b0hEB7MO",
+                "action": "post",
+                "options": {
+                    "url": "clear",
+                    "body": "{}",
+                    "header": "",
+                    "contenttype": "application/json"
+                },
+                "delay": 0
+            }, {
+                "id": "MM4Ta2TQ8FQ",
+                "label": "rN0s48ZD7:program",
+                "instance": "rN0s48ZD7",
+                "action": "program",
+                "options": {
+                    "mixeffect": 0,
+                    "input": 3010
+                },
+                "delay": 0
+            }, {
+                "id": "LNqkdWkpvzf",
+                "label": "ttXkyP09I:set_scene",
+                "instance": "ttXkyP09I",
+                "action": "set_scene",
+                "options": {
+                    "scene": "Host"
+                },
+                "delay": 0
+            }, {
+                "id": "j1_m9Wh69hM",
+                "label": "6b0hEB7MO:post",
+                "instance": "6b0hEB7MO",
+                "action": "post",
+                "options": {
+                    "url": "clear",
+                    "body": "{}",
+                    "header": "",
+                    "contenttype": "application/json"
+                },
+                "delay": 10
+            }, {
+                "id": "ehskCm3StIA",
+                "label": "ttXkyP09I:preview_scene",
+                "instance": "ttXkyP09I",
+                "action": "preview_scene",
+                "options": {
+                    "scene": "Guest"
+                },
+                "delay": 10
+            }
+        ],
+        "28": [{
+                "id": "A6up-q1Rr2w",
+                "label": "rN0s48ZD7:mediaPlayerSource",
+                "instance": "rN0s48ZD7",
+                "action": "mediaPlayerSource",
+                "options": {
+                    "mediaplayer": 0,
+                    "source": 18
+                },
+                "delay": 0
+            }, {
+                "id": "l9Ezf62iKas",
+                "label": "6b0hEB7MO:post",
+                "instance": "6b0hEB7MO",
+                "action": "post",
+                "options": {
+                    "url": "clear",
+                    "body": "{}",
+                    "header": "",
+                    "contenttype": "application/json"
+                },
+                "delay": 0
+            }, {
+                "id": "zZw39CFymCq",
+                "label": "rN0s48ZD7:program",
+                "instance": "rN0s48ZD7",
+                "action": "program",
+                "options": {
+                    "mixeffect": 0,
+                    "input": 3010
+                },
+                "delay": 0
+            }, {
+                "id": "USTZVbLAfjG",
+                "label": "ttXkyP09I:set_scene",
+                "instance": "ttXkyP09I",
+                "action": "set_scene",
+                "options": {
+                    "scene": "Host"
+                },
+                "delay": 0
+            }, {
+                "id": "kpWSyy1yA8D",
+                "label": "6b0hEB7MO:post",
+                "instance": "6b0hEB7MO",
+                "action": "post",
+                "options": {
+                    "url": "clear",
+                    "body": "{}",
+                    "header": "",
+                    "contenttype": "application/json"
+                },
+                "delay": 10
+            }, {
+                "id": "PjmW0Samlxm",
+                "label": "ttXkyP09I:preview_scene",
+                "instance": "ttXkyP09I",
+                "action": "preview_scene",
+                "options": {
+                    "scene": "Guest"
+                },
+                "delay": 10
+            }
+        ],
+        "29": [{
+                "id": "Mg-_T6GSY",
+                "label": "rN0s48ZD7:mediaPlayerSource",
+                "instance": "rN0s48ZD7",
+                "action": "mediaPlayerSource",
+                "options": {
+                    "mediaplayer": 0,
+                    "source": 19
+                },
+                "delay": 0
+            }, {
+                "id": "dSuxfz2Xcr",
+                "label": "6b0hEB7MO:post",
+                "instance": "6b0hEB7MO",
+                "action": "post",
+                "options": {
+                    "url": "clear",
+                    "body": "{}",
+                    "header": "",
+                    "contenttype": "application/json"
+                },
+                "delay": 0
+            }, {
+                "id": "itb0mZSExL",
+                "label": "rN0s48ZD7:program",
+                "instance": "rN0s48ZD7",
+                "action": "program",
+                "options": {
+                    "mixeffect": 0,
+                    "input": 3010
+                },
+                "delay": 0
+            }, {
+                "id": "MjU0g_vaLb",
+                "label": "ttXkyP09I:set_scene",
+                "instance": "ttXkyP09I",
+                "action": "set_scene",
+                "options": {
+                    "scene": "Host"
+                },
+                "delay": 0
+            }, {
+                "id": "_U380zyus3",
+                "label": "6b0hEB7MO:post",
+                "instance": "6b0hEB7MO",
+                "action": "post",
+                "options": {
+                    "url": "clear",
+                    "body": "{}",
+                    "header": "",
+                    "contenttype": "application/json"
+                },
+                "delay": 10
+            }, {
+                "id": "wsWA0QGi8L",
+                "label": "ttXkyP09I:preview_scene",
+                "instance": "ttXkyP09I",
+                "action": "preview_scene",
+                "options": {
+                    "scene": "Guest"
+                },
+                "delay": 10
+            }
+        ],
+        "30": [],
+        "31": [],
+        "32": []
+    },
+    "release_actions": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": [],
+        "10": [],
+        "11": [],
+        "12": [],
+        "13": [],
+        "14": [],
+        "15": [],
+        "16": [],
+        "17": [],
+        "18": [],
+        "19": [],
+        "20": [],
+        "21": [],
+        "22": [],
+        "23": [],
+        "24": [],
+        "25": [],
+        "26": [],
+        "27": [],
+        "28": [],
+        "29": [],
+        "30": [],
+        "31": [],
+        "32": []
+    },
+    "feedbacks": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": [],
+        "10": [],
+        "11": [],
+        "12": [],
+        "13": [],
+        "14": [],
+        "15": [],
+        "16": [],
+        "17": [],
+        "18": [],
+        "19": [],
+        "20": [],
+        "21": [],
+        "22": [],
+        "23": [],
+        "24": [],
+        "25": [],
+        "26": [],
+        "27": [],
+        "28": [],
+        "29": [],
+        "30": [],
+        "31": [],
+        "32": []
+    },
+    "page": {
+        "name": "ATEM Media"
+    }
+}

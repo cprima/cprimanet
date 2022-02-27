@@ -1,0 +1,6 @@
+id,name,description,category,owner,criticality,manual-or-automated,volumetrics,created_at,reviewed_at,retired_at,path,visibility,nickname
+BA_PRO_001,course design,lorem,education,cprima.net,,,,,,,biz/education/course-design,public,
+BA_PRO_002,good passwords,ipsum,ITSEC,cprima.net,,,,,,,biz/ITSEC/good-passwords,public,
+BA_PRO_003,Content creation,lorem ipsum,education,cprima.net,,,,,,,biz/education/content-creation,public,
+BA_PRO_004,streaming,foo,production,cprima.net,,,,,,,biz/production/video/streaming,public,
+BA_PRO_005,webinar,bar,production,cprima.net,,,,,,,biz/production/video/webinar,public,

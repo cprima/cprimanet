@@ -23,9 +23,9 @@
         {% endif %}
 		<link rel="stylesheet" href="{{ "/biz/marketing/presentation/reveal.js-4.2.1/plugin/title-footer/title-footer.css" | prepend: site.baseurl }}">
 		<link rel="stylesheet" href="{{ "/biz/marketing/presentation/reveal.js-4.2.1/plugin/gallery/gallery.css" | prepend: site.baseurl }}">
-		<link rel="stylesheet" href="{{ "/biz/marketing/presentation/reveal.js-4.2.1/plugin/verticator/verticator.css" | prepend: site.baseurl }}">
+		<!-- link rel="stylesheet" href="{{ "/biz/marketing/presentation/reveal.js-4.2.1/plugin/verticator/verticator.css" | prepend: site.baseurl }}" -->
 
-<!-- https://stackoverflow.com/a/34111675 -->
+<!-- https://stackoverflow.com/a/34111675
 <style>
 .fragment.current-visible.visible:not(.current-fragment) {
     display: none;
@@ -39,7 +39,40 @@
 .reveal h3 { font-size: 1.5em; }
 
 </style>
+// -->
 
+<style>
+.reveal .slides {
+	margin-left: auto;
+	margin-right: auto;
+    min-width: 1280px;
+}
+@font-face {
+    font-family: 'LinLibertineRegular'; /*a name to be used later*/
+    src: url('/tec/phy/LibertineOpenFontsProject/LinLibertine/LinLibertine_Rah.woff'); /*URL to font*/
+}
+.reveal h1 {
+  margin-top: 48px;
+  font-family: 'LinLibertineRegular';
+  color: #002636;
+  text-transform: none;
+}
+
+.reveal h2 {
+  margin-top: 96px;
+  font-family: 'LinLibertineRegular';
+  color: #002636;
+  text-transform: none;
+}
+
+.reveal h3 {
+  margin-top: 32px;
+  font-family: 'LinLibertineRegular';
+  color: #002636;
+  text-transform: none;
+}
+
+</style>
 		<!-- Code syntax highlighting -->
 		<link rel="stylesheet" href="{{ "/biz/marketing/presentation/reveal.js-4.2.1/plugin/highlight/monokai.css" | prepend: site.baseurl }}"  id="highlight-theme">
 
@@ -65,7 +98,8 @@
 
 				<section data-state="no-title-footer">
 					<p>
-						<small>Copyright © {% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %} 2021. All rights reserved.</small>
+                        <h2></h2>
+						<small>Copyright © {% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %} 2022. All rights reserved.</small>
 					</p>
 				</section>
 
@@ -81,20 +115,38 @@
 		</div>
 
 		<script src="{{ "/biz/marketing/presentation/reveal.js-4.2.1/dist/reveal.js" | prepend: site.baseurl }}"></script>
-		<script src="{{ "/biz/marketing/presentation/reveal.js-4.2.1/plugin/verticator/verticator.js" | prepend: site.baseurl }}"></script>
+		<!-- script src="{{ "/biz/marketing/presentation/reveal.js-4.2.1/plugin/verticator/verticator.js" | prepend: site.baseurl }}"></script -->
 
 		<script>
 
 			// Full list of configuration options available at:
 			// https://github.com/hakimel/reveal.js#configuration
+
 Reveal.initialize({
+
+  // The "normal" size of the presentation, aspect ratio will
+  // be preserved when the presentation is scaled to fit different
+  // resolutions. Can be specified using percentage units.
+  width: 1920,
+  height: 1080,
+
+  // Factor of the display size that should remain empty around
+  // the content
+  margin: 0.16,
+  margin: 0,
+
+  // Bounds for smallest/largest possible scale to apply to content
+  minScale: 0.2,
+  maxScale: 2.0,
+  minScale: 0.68,
+  maxScale: 1,
 
   // Display presentation control arrows
   controls: true,
 
   // Help the user learn the controls by providing hints, for example by
   // bouncing the down arrow when they first encounter a vertical slide
-  controlsTutorial: true,
+  controlsTutorial: false,
 
   // Determines where controls appear, "edges" or "bottom-right"
   controlsLayout: 'bottom-right',
@@ -130,25 +182,25 @@ Reveal.initialize({
 
   // Use 1 based indexing for # links to match slide number (default is zero
   // based)
-  hashOneBasedIndex: true,
+  hashOneBasedIndex: false,
 
   // Add the current slide number to the URL hash so that reloading the
   // page/copying the URL will return you to the same slide
-  hash: false,
+  hash: true,
 
   // Flags if we should monitor the hash and change slides accordingly
   respondToHashChanges: true,
 
   // Push each slide change to the browser history.  Implies `hash: true`
-  history: false,
+  history: true,
 
   // Enable keyboard shortcuts for navigation
   keyboard: true,
 
   // Optional function that blocks keyboard events when retuning false
   //
-  // If you set this to 'foucsed', we will only capture keyboard events
-  // for embdedded decks when they are in focus
+  // If you set this to 'focused', we will only capture keyboard events
+  // for embedded decks when they are in focus
   keyboardCondition: null,
 
   // Disables the default reveal.js slide layout (scaling and centering)
@@ -283,7 +335,7 @@ Reveal.initialize({
   defaultTiming: null,
 
   // Enable slide navigation via mouse wheel
-  mouseWheel: false,
+  mouseWheel: true,
 
   // Opens links in an iframe preview overlay
   // Add `data-preview-link` and `data-preview-link="false"` to customise each link
@@ -300,10 +352,10 @@ Reveal.initialize({
   focusBodyOnPageVisibilityChange: true,
 
   // Transition style
-  transition: 'slide', // none/fade/slide/convex/concave/zoom
+  transition: 'fade', // none/fade/slide/convex/concave/zoom
 
   // Transition speed
-  transitionSpeed: 'default', // default/fast/slow
+  transitionSpeed: 'fast', // default/fast/slow
 
   // Transition style for full page slide backgrounds
   backgroundTransition: 'fade', // none/fade/slide/convex/concave/zoom
@@ -337,9 +389,7 @@ Reveal.initialize({
   hideInactiveCursor: true,
 
   // Time before the cursor is hidden (in ms)
-  hideCursorTime: 5000,
-
-plugins: [ Verticator ]
+  hideCursorTime: 1
 
 });
 

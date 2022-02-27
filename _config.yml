@@ -71,3 +71,10 @@ defaults:
     values:
       permalink: /tec/phy/building-blocks/:title.html
       #categories: technology-physical_building-blocks
+  -
+    scope:
+      path: "biz/*/*/*/README.md"
+      type: "pages"
+    values:
+      categories: business
+      layout: bapro
