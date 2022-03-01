@@ -8,7 +8,7 @@ abstract: ""
 
 # Preview: Key Takeaways
 
-{% include youtubePlayer.html id="zOoyFPlM3qQ" %}
+{% include youtubePlayer.html id="ljX2GAtjWJI" %}
 
 Good sound for webinars or video conferences starts at the beginning of an audio signal chain with the *room sound* and the *microphone*. The room sound *is* greatly influenced by *reflective*, absorptive and *diffusive* qualities of the materials within. The microphone's *polar pattern* and frequency response feeds on *mic level* into the production workflow. A dedicated *audio interface* solves the analog-digital conversion in *hardware*; by the way acceptable hardware involved *is not* wireless. Distributing to YouTube demands for tight control of the normalized loudness and true peak, which can be achieved with compressor, limiter and e.g. the software Youlean Loudness Meter. While doing so an applied EQ ("equalizer") *curve* may "fix in post" some deficiencies at the beginning of the audio signal chain. Whether that happens analog at the beginning of the signal chain or digitally in post-production: Audio recording is best understood on the basis of electrical signals and their visual representations like *waveforms* and frequency spectrums.
 
@@ -24,7 +24,9 @@ There is no need to sign into answer the form. E-Mail addresses are **not collec
 
 By the way, any type of event benefits from a feedback form. It is good practice to always have such a form URL at hand.
 
+## Material
 
+For the text and key visuals of the preproduced packages click [here](https://www.cprima.net/tec/log/audio/2022/02/25/sound-good-in-webinars-audio-engineering-101.html).
 
 # Problem
 
@@ -136,7 +138,7 @@ In the past months I posted weekly snippets and short posts about automation, do
 
 The recording of the event is available at the livestream location on YouTube:
 
-{% include youtubePlayer.html id="Frg5-22oChs" %}
+{% include youtubePlayer.html id="xLMsvKSqVrM" %}
 
 ☛ webpage of the event: https://www.cprima.net/biz/consulting/workshops/2022/02/25/2022-02-25-live-event-sound-good-in-webinars.html 
 
