@@ -11,118 +11,118 @@ abstract: lorem ipsum
 
 ## Low Level
 
-define
-describe
-discuss
-explain
-explore
-identify
-indicate
-list
-memorize
-name
-recall
-recognize
-restate
-state
-summarize
-write
+- define
+- describe
+- discuss
+- explain
+- explore
+- identify
+- indicate
+- list
+- memorize
+- name
+- recall
+- recognize
+- restate
+- state
+- summarize
+- write
 
 ## Medium Level
 
-apply
-assemble
-calculate
-compare
-contrast
-combine
-defend
-demonstrate
-detect
-determine
-differentiate
-discriminate
-distinguish
-employ
-examine
-experiment
-implement
-investigate
-locate
-measure
-operate
-predict
-perform
-reproduce
-repair
-set up
-sequence
-solve
-specify
-use
-test
-verify
+- apply
+- assemble
+- calculate
+- compare
+- contrast
+- combine
+- defend
+- demonstrate
+- detect
+- determine
+- differentiate
+- discriminate
+- distinguish
+- employ
+- examine
+- experiment
+- implement
+- investigate
+- locate
+- measure
+- operate
+- predict
+- perform
+- reproduce
+- repair
+- set up
+- sequence
+- solve
+- specify
+- use
+- test
+- verify
 
 ## High Level
 
-analyze
-appraise
-argue 
-arrange
-assess
-build
-choose
-classify
-compose
-conclude
-critique
-debate
-diagram
-draw
-estimate
-extrapolate
-formulate
-generalize
-judge
-illustrate
-instruct
-label
-order
-organize
-plan
-prioritize
-propose
-rank
-represent
-score
-select
-theorize
-value
-weigh
+- analyze
+- appraise
+- argue 
+- arrange
+- assess
+- build
+- choose
+- classify
+- compose
+- conclude
+- critique
+- debate
+- diagram
+- draw
+- estimate
+- extrapolate
+- formulate
+- generalize
+- judge
+- illustrate
+- instruct
+- label
+- order
+- organize
+- plan
+- prioritize
+- propose
+- rank
+- represent
+- score
+- select
+- theorize
+- value
+- weigh
 
 ## Problematic verbs
 
 The following are verbs to avoid because these verbs are difficult to quantify and evaluate.
 For example, how does one assess a student’s understanding or appreciation?
 
-appreciate
-approximate
-be aware of
-be familiar with
-become acquainted
-comprehend
-cover
-demonstrate an understanding of
-familiarize
-gain knowledge of
-know
-learn (about)
-provide
-realize
-reflect
-see
-study
-understand
+- appreciate
+- approximate
+- be aware of
+- be familiar with
+- become acquainted
+- comprehend
+- cover
+- demonstrate an understanding of
+- familiarize
+- gain knowledge of
+- know
+- learn (about)
+- provide
+- realize
+- reflect
+- see
+- study
+- understand
 
 ## Source
 
