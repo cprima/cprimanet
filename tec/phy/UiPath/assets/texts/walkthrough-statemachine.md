@@ -1,5 +1,5 @@
 
-## observations
+##{{include.headingmodifier}} observations
 
 only Entry implemented
 
@@ -15,11 +15,11 @@ Rather: Orhestrator Queue dequeue operation. Dev must "fill"/enqueue the Queue f
 @see IPO input>process>output
 
 
-## Generic
+##{{include.headingmodifier}} Generic
 
 ![ISO 25001:2007 Software Product Quality Model](/biz/IT/Software-Engineering/resources/FSM-generic-example.svg){:class="resize"}
 
-## Specific
+##{{include.headingmodifier}} Specific
 
 ![ISO 25001:2007 Software Product Quality Model](/tec/phy/UiPath/assets/FSM-UiPath-REFramework.svg){:class="resize"}
 

@@ -6,57 +6,49 @@ date:   2022-01-01 00:00:00 +0100
 abstract: ""
 ---
 
-* TOC
-{:toc}
-
 ## Objectives
 
-- (recall how to) implement configuration for dev ( / test ) / prod environments
+As an architect or a developer, how can we design or implement with the REFramework basic software quality characteristics like:
 
-- investigate the control flow and logic structure
+- Portability
+  - _implement_ an adaptable config file for dev/(test/)prod environments
+- Reliability
+  - fault tolerance with retries of "System Exceptions a.k.a. Application Exceptions". This needs to be _planned_ and _contrasted_ against Business Rule Expections. _Diagramming_ the implemented state machine in comparison to textbook examples gives a high-level insight.
+- Functionality of
+  - solid handling of business rule violations. To achieve this the handling of Business Rule Expections needs to be _analyzed_.
+- Interoperability with
+  - emails, databases, spreadsheets and UiPath Orchestrator Queues. To achieve this the control flow and logic structure needs to be _investigated_.
+- Maintainability
+  - prepare insightful analysis of logfiles. Existing logging enhancements need to be _located_.
+  - set up test wrapper
 
-- analyze the handling of Business Rule Expections
-
-- plan for fault tolerance
-
-- locate the enhanced logging
-
-- set up test wrapper
-
-- diagram the implemented state machine in comaprison to textbook examples
-
-- critique omissions in the template
+Finally to critique omissions in the template gives the confidence to handle the REFramework like a Pro!
 
 
 ## Prerequisites
 
-arguments, parameters and variables
-
-
-## Perspective
-
-As an architect or a developer, how can we design or implement with the REFramework characteristics:
-
-- Portability
-  - adaptable config file
-- Functionality of
-  - correct handling of business rule violations
-- Reliability
-  - fault tolerance with retries of "System Exceptions"
-- Interoperability with
-  - emails, databases, spreadsheets and UiPath Orchestrator Queues
-- Maintainability
-  - analysis of logfiles
-  - test wrapper
+Understanding of arguments, parameters and variables in UiPath Studio.
 
 
 
-## Overview
+## Contents
 
-…
-GitHub repo out-of-date and unmaintained, but referenced in the documentation.
+- TOC
+{:toc}
 
-## Features
+
+
+
+## Adaptable config file
+
+{% include_relative assets/texts/AdaptableConfigFile.md headingmodifier="#" %}
+
+
+
+
+## Walkthrough Statemachine and retries
+
+{% include_relative assets/texts/walkthrough-statemachine.md headingmodifier="#" %}
 
 Error Handling: To retry or not to retry
 
@@ -67,12 +59,9 @@ Error Handling: To retry or not to retry
 |         |                |                    |   |   |
 |         |                |                    |   |   |
 
-## Walkthrough Statemachine
-
-{% include_relative assets/texts/walkthrough-statemachine.md headingmodifier="#" %}
 
 
-## Processing of a transaction item
+## Processing of a single transaction item and handling of business rule violations
 
 TransactionItem
 
@@ -83,51 +72,37 @@ TransactionData datatable
 if emails then redefine as List of MailMessages
 if spreadsheet then read spreadsheet as datatable rows
 
+By default not a single BRE is implemented. It is the responsibility of the developer to implement any such BRE.
 
 
-## (Adaptable) config file
-
-From the documentation:
-
-> One important variable that is passed to almost all the workflows invoked in Main.xaml is the Config dictionary. This variable is initialized by the InitAllSettings.xaml workflow in the Initialization state, and it contains all the configuration declared in the Config.xlsx file. Since it is a dictionary, the values in Config can be accessed by its keys, like Config(“Department”) or Config(“System1_URL”)
+CAVEAT: "transaction item" has NOT "database transaction integrity"
+> A database transaction symbolizes a unit of work performed within a database management system (or similar system) against a database, and treated in a coherent and reliable way independent of other transactions. A transaction generally represents any change in a database. Transactions in a database environment have two main purposes:
 >
-> For easier manipulation, this configuration file is an Excel workbook with three sheets:
-> - Settings: Configuration values to be used throughout the project and that usually depend on the environment being used. For example, names of queues, folder paths or URLs for web systems.
-> - Constants: Values that are supposed to be the same across all deployments of the workflow. For example, the department name or the bank name to be used as input in a certain screen.
-> - Assets: Values defined as assets in Orchest
->
-> @see: Documentation\REFramework Documentation-EN.pdf
-
-### Standard:
-
-1. Main.xaml > Initialization (State)
-1. If first run, read local configuration file (If)
-1. Invoke InitAllSettings workflow (InvokeWorkflowFile)
-  - { in_ConfigFile; value = Data\Config.xlsx, Type = String, Direction = In }
-
-The standard REFramework reads in Main.xaml during the first run of the Initialization state by invoking the InitAllSettings workflow the Excel file as located by the input argument in_ConfigFile, defaulting to Data\Config.xlsx. The location of this config file cannot be declared otherwise.
-
-### Customization:
-
-1. In Main.xaml, create an input string argument `in_ConfigFile` defaulting to  Data\Config_dev.xlsx
-1. In the InitAllSettings.xaml workflow file, remove the default value for in_ConfigFile
-1. In Main.xaml > Initialization (State) when invoking `Framework\InitAllSettings.xaml` change in the collection of the invoked workflow's argument the value for `in_ConfigFile` to `in_ConfigFile`.
-
-That way you can supply in UiPath Orchestrator a parameter for either Process or Job with a different location. This customization even allows for multiple Processes of the same Package with differing default config files. 
+> To provide reliable units of work that allow correct recovery from failures and keep a database consistent even in cases of system failure. For example: when execution prematurely and unexpectedly stops (completely or partially) in which case many operations upon a database remain uncompleted, with unclear status.
+> To provide isolation between programs accessing a database concurrently. If this isolation is not provided, the programs' outcomes are possibly erroneous.
+> …
+> A database transaction, by definition, must be atomic (it must either be complete in its entirety or have no effect whatsoever), consistent (it must conform to existing constraints in the database), isolated (it must not affect other transactions) and durable (it must get written to persistent storage).[1] Database practitioners often refer to these properties of database transactions using the acronym ACID.
+> @see: https://en.wikipedia.org/wiki/Database_transaction
 
 
 
+## From Orechestrator Queues on to emails, databases or spreadsheets
+
+queue vs dictionary
+
+single-shot vs. loop
+
+(OnEntry vs. OnExit)
 
 
 
+- Maintainability
+  - prepare insightful analysis of logfiles. Existing logging enhancements need to be _located_.
+  - set up test wrapper
 
 
 
-
-
-
-
-## Conclusions
+## Tipps & Tricks & Gotchas
 
 Prevent by all means any exception type other than Business Rule Exception if
 - you can't rollback the processing of an "transaction item" and/or
@@ -143,6 +118,12 @@ System.Exeception is worded "ApplicationException":
 `in_Config("LogMessage_ApplicationException").ToString+" Retry: "+io_RetryNumber.ToString+". "+in_SystemException.Message+" at Source: "+in_SystemException.Source` @see RetryCurrentTransaction.xaml
 
 
-## Tipps & Tricks
 
 Export to Excel is your friend, too!
+
+GitHub repo out-of-date and unmaintained, but referenced in the documentation.
+
+retries: not backoff implemented, rather "immediately"
+
+no batchsize
+
