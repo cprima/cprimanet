@@ -36,70 +36,22 @@ Understanding of arguments, parameters and variables in UiPath Studio.
 - TOC
 {:toc}
 
+## Preface
 
+Nota bene: There are two official REFramework versions without distinguishable versioning, here referred to as Classic and Modern version.
+Henceforth focus on the Modern version.
 
+Nota bene: Although the GitHub repo is prominently referred to from the documentation it is unmaintained since about 4 years.
 
-## Adaptable config file
+{% include_relative assets/texts/portability.md headingmodifier="#" %}
 
-{% include_relative assets/texts/AdaptableConfigFile.md headingmodifier="#" %}
+{% include_relative assets/texts/reliability.md headingmodifier="#" %}
 
+{% include_relative assets/texts/functionality.md headingmodifier="#" %}
 
+{% include_relative assets/texts/interoperability.md headingmodifier="#" %}
 
-
-## Walkthrough Statemachine and retries
-
-{% include_relative assets/texts/walkthrough-statemachine.md headingmodifier="#" %}
-
-Error Handling: To retry or not to retry
-
-
-|         | Initialization | GetTransactionData |   |   |
-|---------|----------------|--------------------|---|---|
-| Retries |                |        TRUE        |   |   |
-|         |                |                    |   |   |
-|         |                |                    |   |   |
-
-
-
-## Processing of a single transaction item and handling of business rule violations
-
-TransactionItem
-
-may be part of TransactionData (datatable) but unused if Orechstrator Queue
-
-TransactionData datatable
-
-if emails then redefine as List of MailMessages
-if spreadsheet then read spreadsheet as datatable rows
-
-By default not a single BRE is implemented. It is the responsibility of the developer to implement any such BRE.
-
-
-CAVEAT: "transaction item" has NOT "database transaction integrity"
-> A database transaction symbolizes a unit of work performed within a database management system (or similar system) against a database, and treated in a coherent and reliable way independent of other transactions. A transaction generally represents any change in a database. Transactions in a database environment have two main purposes:
->
-> To provide reliable units of work that allow correct recovery from failures and keep a database consistent even in cases of system failure. For example: when execution prematurely and unexpectedly stops (completely or partially) in which case many operations upon a database remain uncompleted, with unclear status.
-> To provide isolation between programs accessing a database concurrently. If this isolation is not provided, the programs' outcomes are possibly erroneous.
-> …
-> A database transaction, by definition, must be atomic (it must either be complete in its entirety or have no effect whatsoever), consistent (it must conform to existing constraints in the database), isolated (it must not affect other transactions) and durable (it must get written to persistent storage).[1] Database practitioners often refer to these properties of database transactions using the acronym ACID.
-> @see: https://en.wikipedia.org/wiki/Database_transaction
-
-
-
-## From Orechestrator Queues on to emails, databases or spreadsheets
-
-queue vs dictionary
-
-single-shot vs. loop
-
-(OnEntry vs. OnExit)
-
-
-
-- Maintainability
-  - prepare insightful analysis of logfiles. Existing logging enhancements need to be _located_.
-  - set up test wrapper
-
+{% include_relative assets/texts/maintainability.md headingmodifier="#" %}
 
 
 ## Tipps & Tricks & Gotchas

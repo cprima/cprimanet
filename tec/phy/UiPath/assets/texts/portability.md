@@ -1,5 +1,8 @@
 
-<!--## Adaptable config file -->
+#{{include.headingmodifier}} Portability: Adaptability for different or evolving usage environments
+
+
+##{{include.headingmodifier}} Adaptable config file
 
 From the documentation:
 
