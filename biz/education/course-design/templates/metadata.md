@@ -1,0 +1,20 @@
+- description:
+- format: series of videos, articles and code repositories
+- vendor: UiPath
+- resources:
+  - code https://github.com/rpapub/REFramework-Excel
+  - materials and additional code https://gitlab.com/rpapub/tutorials/starry-argon
+- dependencies: none
+- tested with: UiPath Studio v2022.10.3 and v2022.12.0-beta
+- last updated at: 2022-12-12
+- requirements
+  - technology
+  - skills
+  - time / effort
+- recommended reading
+  - Studio Templates
+  - https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History
+- outcomes
+  - SLO a
+- participation:
+- retention:

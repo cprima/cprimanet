@@ -160,8 +160,17 @@ id,category,checklistname,key,value,remark,component
 ,biz/production/video/streaming,Room reverberation,(fraction of) seconds for e.g. 60dB reduction,measured,,
 ,biz/production/video/streaming,Room reverberation,changes to room,made,,
 ,biz/production/video/streaming,Room reverberation,repeat,with success,,
-,,,,,,
-,,,,,,
-,,,,,,
+,tec/phy/Microsoft/Windows11,Custonize for screen recording,Rounded Corners,disabled,with github.com/valinet/Win11DisableRoundedCorners,TA_PTC_045
+,tec/phy/Microsoft/Windows11,Custonize for screen recording,taskbar,hidden,,TA_PTC_045
+,tec/phy/Microsoft/Windows11,Custonize for screen recording,Personalization> Themes > Desktop icon settings,unchecked,,TA_PTC_045
+,tec/phy/Microsoft/Windows11,Custonize for screen recording,16:9 windows snapping regions,configured,with github.com/microsoft/PowerToys,TA_PTC_045
+,tec/phy/Microsoft/Windows11,Custonize for screen recording,System Properties > Performance > Show shadows under windows,unchecked,,TA_PTC_045
+,tec/phy/Blackmagic/DaVinciResolve,Manage Source Media,What is the availability of all and any media,"online, not offline",,TA_PTC_046
+,tec/phy/Blackmagic/DaVinciResolve,Manage Source Media,Davinci Resolve Project Backup,done,,TA_PTC_046
+,tec/phy/Blackmagic/DaVinciResolve,Manage Source Media,Is it desired to transcode to eg FullHD format,yes/no,,TA_PTC_046
+,tec/phy/Blackmagic/DaVinciResolve,Manage Source Media,Davinci Resolve Project File Media Manager Entire Project,copy/transcode,,TA_PTC_046
+,tec/phy/Blackmagic/DaVinciResolve,Manage Source Media,Davinci Resolve Project File Media Manager Entire Project,re-link,,TA_PTC_046
+,tec/phy/Blackmagic/DaVinciResolve,Manage Source Media,Davinci Resolve Project Archive,done,,TA_PTC_046
+,tec/phy/Blackmagic/DaVinciResolve,Manage Source Media,Project Archive to archive destination,moved,,TA_PTC_046
 ,,,,,,
 ,,,,,,
