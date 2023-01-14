@@ -45,3 +45,26 @@ restart jenkins - just a timeout
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 495496d1951d4f38ac29601276a0ba4b
 
+
+## emails
+
+https://hasithaqa.wordpress.com/2019/03/24/how-to-send-e-mails-using-office365-mail-account-from-jenkins/
+
+https://issues.jenkins.io/browse/JENKINS-58813
+
+
+E-mail Notification
+SMTP server smtp.office365.com
+Default user e-mail suffix  @hotmail.com
+Use SMTP Authentication User Name rpapub@hotmail.com
+Use TLS
+SMTP Port 587
+Reply-To Address   rpapub@hotmail.com
+
+Jenkins Location
+System Admin e-mail address rpapub@hotmail.com
+
+
+## agents
+
+https://www.gdcorner.com/2019/12/27/JenkinsHomeLab-P2-LinuxAgents.html
