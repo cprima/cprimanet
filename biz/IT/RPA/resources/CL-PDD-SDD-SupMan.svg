@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="612"
+   height="92"
+   version="1.1"
+   id="svg114"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:lucid="lucid">
+  <defs
+     id="defs118" />
+  <g
+     transform="translate(66,-154)"
+     lucid:page-tab-id="v6znkGr-3XpD"
+     id="g112">
+    <path
+       d="m 360,160 h 180 v 80 H 360 Z"
+       stroke="#a5a5a5"
+       stroke-width="2"
+       fill="#f6edc5"
+       id="path2" />
+    <use
+       xlink:href="#a"
+       transform="translate(386.575,203.4625)"
+       id="use4" />
+    <use
+       xlink:href="#b"
+       transform="translate(454.525,203.4625)"
+       id="use6" />
+    <path
+       d="m 220,160 h 140 l 20,40 -20,40 H 220 Z"
+       stroke="#a5a5a5"
+       stroke-width="2"
+       fill="#f6edc5"
+       id="path8" />
+    <use
+       xlink:href="#c"
+       transform="translate(260.125,203.4625)"
+       id="use10" />
+    <path
+       d="m 80,160 h 140 l 20,40 -20,40 H 80 Z"
+       stroke="#a5a5a5"
+       stroke-width="2"
+       fill="#f6edc5"
+       id="path12" />
+    <use
+       xlink:href="#d"
+       transform="translate(141.05,203.4625)"
+       id="use14" />
+    <path
+       d="M -60,160 H 80 l 20,40 -20,40 H -60 Z"
+       stroke="#a5a5a5"
+       stroke-width="2"
+       fill="#f6edc5"
+       id="path16" />
+    <use
+       xlink:href="#e"
+       transform="translate(-16.425,203.4625)"
+       id="use18" />
+    <defs
+       id="defs110">
+      <path
+         fill="#6c7878"
+         d="m 185,-189 c -5,-48 -123,-54 -124,2 14,75 158,14 163,119 C 227,10 103,19 49,-13 32,-23 21,-39 16,-59 l 33,-7 c 5,56 141,63 141,-1 0,-78 -155,-14 -162,-118 -5,-82 145,-84 179,-34 5,7 8,16 11,25"
+         id="f" />
+      <path
+         fill="#6c7878"
+         d="M 84,4 C -5,8 30,-112 23,-190 h 32 v 120 c 0,31 7,50 39,49 72,-2 45,-101 50,-169 h 31 l 1,190 h -30 c -1,-10 1,-25 -2,-33 -11,22 -28,36 -60,37"
+         id="g" />
+      <path
+         fill="#6c7878"
+         d="m 115,-194 c 55,1 70,41 70,98 C 185,-39 169,2 115,4 84,4 66,-9 55,-30 L 56,75 H 24 l -1,-265 h 31 l 2,30 c 10,-21 28,-34 59,-34 z m -8,174 c 40,0 45,-34 45,-75 0,-41 -6,-73 -45,-74 -42,0 -51,32 -51,76 0,43 10,73 51,73"
+         id="h" />
+      <path
+         fill="#6c7878"
+         d="m 100,-194 c 62,-1 85,37 85,99 1,63 -27,99 -86,99 -59,0 -83,-39 -84,-99 0,-66 28,-99 85,-99 z m -1,174 c 44,1 53,-31 53,-75 0,-43 -8,-75 -51,-75 -43,0 -53,32 -53,75 0,43 10,74 51,75"
+         id="i" />
+      <path
+         fill="#6c7878"
+         d="M 114,-163 C 36,-179 61,-72 57,0 H 25 l -1,-190 h 30 c 1,12 -1,29 2,39 6,-27 23,-49 58,-41 v 29"
+         id="j" />
+      <path
+         fill="#6c7878"
+         d="m 59,-47 c -2,24 18,29 38,22 V -1 C 64,9 27,4 27,-40 V -167 H 5 v -23 h 24 l 9,-43 h 21 v 43 h 35 v 23 H 59 v 120"
+         id="k" />
+      <g
+         id="a">
+        <use
+           transform="scale(0.05)"
+           xlink:href="#f"
+           id="use26" />
+        <use
+           transform="matrix(0.05,0,0,0.05,12,0)"
+           xlink:href="#g"
+           id="use28" />
+        <use
+           transform="matrix(0.05,0,0,0.05,22,0)"
+           xlink:href="#h"
+           id="use30" />
+        <use
+           transform="matrix(0.05,0,0,0.05,32,0)"
+           xlink:href="#h"
+           id="use32" />
+        <use
+           transform="matrix(0.05,0,0,0.05,42,0)"
+           xlink:href="#i"
+           id="use34" />
+        <use
+           transform="matrix(0.05,0,0,0.05,52,0)"
+           xlink:href="#j"
+           id="use36" />
+        <use
+           transform="matrix(0.05,0,0,0.05,57.95,0)"
+           xlink:href="#k"
+           id="use38" />
+      </g>
+      <path
+         fill="#6c7878"
+         d="m 240,0 2,-218 C 219,-142 188,-73 162,0 H 139 L 58,-218 59,0 H 30 v -248 h 44 l 77,211 c 21,-75 51,-140 76,-211 h 43 V 0 h -30"
+         id="l" />
+      <path
+         fill="#6c7878"
+         d="M 141,-36 C 126,-15 110,5 73,4 37,3 15,-17 15,-53 c -1,-64 63,-63 125,-63 3,-35 -9,-54 -41,-54 -24,1 -41,7 -42,31 l -33,-3 c 5,-37 33,-52 76,-52 45,0 72,20 72,64 v 82 c -1,20 7,32 28,27 V -1 C 169,8 139,-3 141,-36 Z M 48,-53 c 0,20 12,33 32,33 41,-3 63,-29 60,-74 -43,2 -92,-5 -92,41"
+         id="m" />
+      <path
+         fill="#6c7878"
+         d="m 117,-194 c 89,-4 53,116 60,194 h -32 v -121 c 0,-31 -8,-49 -39,-48 C 34,-167 62,-67 57,0 H 25 l -1,-190 h 30 c 1,10 -1,24 2,32 11,-22 29,-35 61,-36"
+         id="n" />
+      <path
+         fill="#6c7878"
+         d="M 24,0 V -261 H 56 V 0 H 24"
+         id="o" />
+      <g
+         id="b">
+        <use
+           transform="scale(0.05)"
+           xlink:href="#l"
+           id="use45" />
+        <use
+           transform="matrix(0.05,0,0,0.05,14.95,0)"
+           xlink:href="#m"
+           id="use47" />
+        <use
+           transform="matrix(0.05,0,0,0.05,24.95,0)"
+           xlink:href="#n"
+           id="use49" />
+        <use
+           transform="matrix(0.05,0,0,0.05,34.95,0)"
+           xlink:href="#g"
+           id="use51" />
+        <use
+           transform="matrix(0.05,0,0,0.05,44.95,0)"
+           xlink:href="#m"
+           id="use53" />
+        <use
+           transform="matrix(0.05,0,0,0.05,54.95,0)"
+           xlink:href="#o"
+           id="use55" />
+      </g>
+      <path
+         fill="#6c7878"
+         d="m 30,-248 c 118,-7 216,8 213,122 C 240,-48 200,0 122,0 H 30 Z m 33,221 c 89,8 146,-16 146,-99 0,-83 -60,-101 -146,-95 v 194"
+         id="p" />
+      <path
+         fill="#6c7878"
+         d="m 0,4 72,-265 h 28 L 28,4 H 0"
+         id="q" />
+      <path
+         fill="#6c7878"
+         d="M 127,-220 V 0 H 93 V -220 H 8 v -28 h 204 v 28 h -85"
+         id="r" />
+      <g
+         id="c">
+        <use
+           transform="scale(0.05)"
+           xlink:href="#f"
+           id="use61" />
+        <use
+           transform="matrix(0.05,0,0,0.05,12,0)"
+           xlink:href="#p"
+           id="use63" />
+        <use
+           transform="matrix(0.05,0,0,0.05,24.95,0)"
+           xlink:href="#p"
+           id="use65" />
+        <use
+           transform="matrix(0.05,0,0,0.05,37.9,0)"
+           xlink:href="#q"
+           id="use67" />
+        <use
+           transform="matrix(0.05,0,0,0.05,42.9,0)"
+           xlink:href="#r"
+           id="use69" />
+        <use
+           transform="matrix(0.05,0,0,0.05,53.85,0)"
+           xlink:href="#p"
+           id="use71" />
+        <use
+           transform="matrix(0.05,0,0,0.05,66.8,0)"
+           xlink:href="#p"
+           id="use73" />
+      </g>
+      <path
+         fill="#6c7878"
+         d="m 30,-248 c 87,1 191,-15 191,75 0,78 -77,80 -158,76 V 0 H 30 Z m 33,125 c 57,0 124,11 124,-50 0,-59 -68,-47 -124,-48 v 98"
+         id="s" />
+      <g
+         id="d">
+        <use
+           transform="scale(0.05)"
+           xlink:href="#s"
+           id="use77" />
+        <use
+           transform="matrix(0.05,0,0,0.05,12,0)"
+           xlink:href="#p"
+           id="use79" />
+        <use
+           transform="matrix(0.05,0,0,0.05,24.95,0)"
+           xlink:href="#p"
+           id="use81" />
+      </g>
+      <path
+         fill="#6c7878"
+         d="m 212,-179 c -10,-28 -35,-45 -73,-45 -59,0 -87,40 -87,99 0,60 29,101 89,101 43,0 62,-24 78,-52 l 27,14 C 228,-24 195,4 139,4 59,4 22,-46 18,-125 c -6,-104 99,-153 187,-111 19,9 31,26 39,46"
+         id="t" />
+      <path
+         fill="#6c7878"
+         d="M 106,-169 C 34,-169 62,-67 57,0 H 25 v -261 h 32 l -1,103 c 12,-21 28,-36 61,-36 89,0 53,116 60,194 h -32 v -121 c 2,-32 -8,-49 -39,-48"
+         id="u" />
+      <path
+         fill="#6c7878"
+         d="m 100,-194 c 63,0 86,42 84,106 H 49 c 0,40 14,67 53,68 26,1 43,-12 49,-29 l 28,8 C 168,-13 142,4 102,4 44,4 14,-33 15,-96 c 1,-61 26,-98 85,-98 z m 52,81 c 6,-60 -76,-77 -97,-28 -3,7 -6,17 -6,28 h 103"
+         id="v" />
+      <path
+         fill="#6c7878"
+         d="m 96,-169 c -40,0 -48,33 -48,73 0,40 9,75 48,75 24,0 41,-14 43,-38 l 32,2 C 165,-20 140,4 97,4 38,4 21,-37 15,-95 c -10,-93 101,-131 147,-64 4,7 5,14 7,22 l -32,3 c -4,-21 -16,-35 -41,-35"
+         id="w" />
+      <path
+         fill="#6c7878"
+         d="M 143,0 79,-87 56,-68 V 0 H 24 v -261 h 32 v 163 l 83,-92 h 37 l -77,82 82,108 h -38"
+         id="x" />
+      <path
+         fill="#6c7878"
+         d="m 24,-231 v -30 h 32 v 30 z M 24,0 V -190 H 56 V 0 H 24"
+         id="y" />
+      <path
+         fill="#6c7878"
+         d="m 135,-143 c -3,-34 -86,-38 -87,0 15,53 115,12 119,90 4,78 -150,74 -157,8 l 28,-5 c 4,36 97,45 98,0 -10,-56 -113,-15 -118,-90 -4,-57 82,-63 122,-42 12,7 21,19 24,35"
+         id="z" />
+      <g
+         id="e">
+        <use
+           transform="scale(0.05)"
+           xlink:href="#t"
+           id="use91" />
+        <use
+           transform="matrix(0.05,0,0,0.05,12.95,0)"
+           xlink:href="#u"
+           id="use93" />
+        <use
+           transform="matrix(0.05,0,0,0.05,22.95,0)"
+           xlink:href="#v"
+           id="use95" />
+        <use
+           transform="matrix(0.05,0,0,0.05,32.95,0)"
+           xlink:href="#w"
+           id="use97" />
+        <use
+           transform="matrix(0.05,0,0,0.05,41.95,0)"
+           xlink:href="#x"
+           id="use99" />
+        <use
+           transform="matrix(0.05,0,0,0.05,50.95,0)"
+           xlink:href="#o"
+           id="use101" />
+        <use
+           transform="matrix(0.05,0,0,0.05,54.9,0)"
+           xlink:href="#y"
+           id="use103" />
+        <use
+           transform="matrix(0.05,0,0,0.05,58.85,0)"
+           xlink:href="#z"
+           id="use105" />
+        <use
+           transform="matrix(0.05,0,0,0.05,67.85,0)"
+           xlink:href="#k"
+           id="use107" />
+      </g>
+    </defs>
+  </g>
+</svg>

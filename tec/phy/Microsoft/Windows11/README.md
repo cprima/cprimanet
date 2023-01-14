@@ -10,3 +10,14 @@ System.IsPinnedToNameSpaceTree
 1. Tab Advanced
 1. Performance Options > Settings
 1. Show shadows under windows
+
+
+
+
+
+https://github.com/valinet/Win11DisableRoundedCorners/releases
+Win11DisableRoundedCorners
+
+Unable to restore DWM
+del C:\Windows\System32\uDWM_win11drc.bak
+https://github.com/valinet/Win11DisableRoundedCorners/issues/41
