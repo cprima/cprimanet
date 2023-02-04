@@ -59,13 +59,6 @@ defaults:
       layout: taptc
   -
     scope:
-      path: "tec/phy/*/*/README.md"
-      type: "pages"
-    values:
-      categories: technology-physical
-      layout: taptc
-  -
-    scope:
       path: "tec/phy/building-blocks"
       type: "posts" #index.md is of type technology-physical_building-blocks
     values:

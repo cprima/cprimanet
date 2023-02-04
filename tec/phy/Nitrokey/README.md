@@ -1,4 +1,6 @@
-
+---
+checklists: []
+---
 
 
 The Nitrokey HSM is a lightweight hardware security module in a USB key form factor containing the SmartCard-HSM.
@@ -39,9 +41,34 @@ https://devblogs.microsoft.com/commandline/connecting-usb-devices-to-wsl/
 
 https://askubuntu.com/a/1406206
 
+Admin Powershell:
+usbipd wsl list
+BUSID  VID:PID    DEVICE                                                        STATE
+1-7    20a0:4230  Microsoft Usbccid Smartcard Reader (WUDF)                     Not attached
+1-8    8087:0aaa  Intel(R) Wireless Bluetooth(R)                                Not attached
+4-1    046d:c52b  Logitech USB Input Device, USB Input Device                   Not attached
+
+usbipd wsl attach --busid 1-7
 
 
+sudo pcscd #<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<--------------------------------
 
+
+cat .ssh/config
+Host wambra
+    User tlwin
+    HostName wambra
+    PKCS11Provider opensc-pkcs11.so
+
+Host github.com
+    User git
+    HostName github.com
+    PKCS11Provider opensc-pkcs11.so
+
+Host companion
+    User companion
+    HostName 10.38.20.13
+    PKCS11Provider opensc-pkcs11.so
 
 
 

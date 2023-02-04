@@ -1,3 +1,6 @@
+---
+checklists: []
+---
 
 <https://www.makeuseof.com/windows-11-remove-onedrive-file-explorer/>
 HKEY_CURRENT_USER\Software\Classes\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}
