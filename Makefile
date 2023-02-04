@@ -1,4 +1,4 @@
 SHELL := /bin/bash
 
 serve:
-	bundle exec jekyll serve --livereload
+	export JEKYLL_LOG_LEVEL=debug && bundle exec jekyll serve --livereload
