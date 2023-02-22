@@ -1,0 +1,31 @@
+<svg width="1280" height="720" xmlns="http://www.w3.org/2000/svg">
+<style>
+.circle { fill: #cb4b16; }
+</style>
+    <path style="display:inline;opacity:1;fill:#eee8d5;stroke-width:5.99812;stroke-linecap:round;stroke-dasharray:23.9925,5.99812;stop-color:#000" transform="translate(-6110 -270)" d="M6110 270h1280v720H6110z"/>
+    <g style="display:inline">
+        <path style="fill:none;stroke:#fdf6e3;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in" d="m552 540 416 45M552 540l208-45v0l224-22.5M760 495l224 22.5M1032 585l176-45M1016 517.5l192 22.5M1016 472.5l192 67.5M1208 540l-176-180h176M1272 360h176M792 332.5 968 360M792 418l176-58M552 720h176M792 720h176M1032 720h176M1272 720h176M552 900h176M792 900h176M1032 900h176M728 332.5l-209 96.979L728 418M488 540l-136 90 167-200.521M488 720l-136-90 136 270" transform="translate(-276 -270)"/>
+        <g transform="translate(-276 -270)">
+            <circle id="circle_c1r1" class="circle" cx="352" cy="630" r="32"/>
+            <circle id="circle_c2r2" class="circle" cx="520" cy="540" r="32"/>
+            <circle id="circle_c2r3" class="circle" cx="520" cy="720" r="32"/>
+            <circle id="circle_c2r4" class="circle" cx="520" cy="900" r="32"/>
+            <circle id="circle_c3r11" class="circle" cx="760" cy="332.5" r="32"/>
+            <circle id="circle_c3r12" class="circle" cx="760" cy="418" r="32"/>
+            <circle id="circle_c3r3" class="circle" cx="760" cy="720" r="32"/>
+            <circle id="circle_c3r4" class="circle" cx="760" cy="900" r="32"/>
+            <circle id="circle_c4r1" class="circle" cx="1000" cy="360" r="32"/>
+            <circle id="circle_c4r111" class="circle" cx="1000" cy="472.5" r="16"/>
+            <circle id="circle_c4r112" class="circle" cx="1000" cy="517.5" r="16"/>
+            <circle id="circle_c4r221" class="circle" cx="1000" cy="585" r="32"/>
+            <circle id="circle_c4r3" class="circle" cx="1000" cy="720" r="32"/>
+            <circle id="circle_c4r4" class="circle" cx="1000" cy="900" r="32"/>
+            <circle id="circle_c5r1" class="circle" cx="1240" cy="360" r="32"/>
+            <circle id="circle_c5r2" class="circle" cx="1240" cy="540" r="32"/>
+            <circle id="circle_c5r3" class="circle" cx="1240" cy="720" r="32"/>
+            <circle id="circle_c5r4" class="circle" cx="1240" cy="900" r="32"/>
+            <circle id="circle_c6r1" class="circle" cx="1480" cy="360" r="32"/>
+            <circle id="circle_c6r3" class="circle" cx="1480" cy="720" r="32"/>
+        </g>
+    </g>
+</svg>
