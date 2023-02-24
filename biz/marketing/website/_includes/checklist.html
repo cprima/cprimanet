@@ -1,4 +1,10 @@
 
+{% if include.heading.size > 1 %}
+{% assign heading = include.heading | strip %}
+{% else %}
+{% assign heading = "h2" %}
+{% endif %}
+
 {% assign checklistnames = include.checklistnames | split: "," %}
 {% assign checklistcount = 0 %}
 
@@ -6,9 +12,9 @@
 {% assign checklistentrycount = 0 %}
 {% if forloop.first %}
 {% if checklistnames.size > 1 %}
-<h2>Checklists</h2>
+<{{heading}}>Checklists</{{heading}}>
 {% else %}
-<h2>Checklist</h2>
+<{{heading}}>Checklist</{{heading}}>
 {% endif %}
 {% endif %}
 
@@ -16,28 +22,6 @@
 
 {% assign checklistentries = site.data.checklists | where:"checklistname", needle %}
 
-<style>
-  table.checklist, table.checklist th, table.checklist td {
-    border: none;
-  }
-  table.checklist th {
-    border-bottom: 2px solid #cb4b16;
-    background-color: #eee8d5;
-  }
-  table.checklist td {
-    border-bottom: 1px solid #657b83;
-  }
-  table.checklist td.count {
-    padding-left: 2px;
-    padding-right: 8px;
-    vertical-align: top;
-    text-align: right;
-  }
-  table.checklist td.checkbox {
-    padding-left: 2px;
-    padding-right: 8px;
-  }
-</style>
 
 <table class="checklist" border="1">
   {% for row in checklistentries %}
