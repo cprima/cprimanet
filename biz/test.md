@@ -1,5 +1,5 @@
 ---
-layout: presentation_v1.0.4
+layout: presentation_v1.0.3
 title: "Yet Another Raspberry Pi Cluster"
 excerpt: "The slides of a lecture/presentation on 2016-03-20 @ Chemnitzer Linux Tage"
 author: "Christian Prior"

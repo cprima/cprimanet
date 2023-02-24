@@ -78,7 +78,7 @@ Die Definition von LCAP nimmt also explizit Bezug auf die Erstellung von nicht O
 
 ## develop and deploy
 
-Die Defeinition von LCAP verwendete das Adjektiv rapid in diesem Zusammenhang: …rapidly develop and deploy…
+Die Definition von LCAP verwendete das Adjektiv rapid in diesem Zusammenhang: …rapidly develop and deploy…
 
 Für Werkzeuge zum Entwickeln, bauen / packetieren und dabei oft auch debuggen wird typischerweise das Wort IDE verwendet:
 
