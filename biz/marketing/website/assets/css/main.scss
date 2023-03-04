@@ -35,14 +35,14 @@ img.resize {
 
 
 
-blockquote {
+.webpage blockquote {
   background: #eee8d5;
   border-left: 3px solid #cb4b16;
   margin: 1.5em 0px;
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
 }
-blockquote:before {
+.webpage blockquote:before {
   color: #cb4b16;
   content: open-quote;
   font-size: 4em;
@@ -50,7 +50,7 @@ blockquote:before {
   margin-right: 0.25em;
   vertical-align: -0.4em;
 }
-blockquote p:first-of-type {
+.webpage blockquote p:first-of-type {
   display: inline;
 }
 

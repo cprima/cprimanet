@@ -27,6 +27,8 @@
     min-width: 1280px;
 }
 
+
+
 @font-face {
     font-family: 'LinLibertineRegular';
     /*a name to be used later*/
@@ -50,6 +52,10 @@
     color: #002636;
     text-transform: none;
     background-color: rgba(203, 75, 22, 1)
+}
+
+.reveal section.no-bg h2 {
+    background-color: transparent !important;
 }
 
 .reveal h3 {
@@ -79,19 +85,39 @@ body.filterblur .backgrounds {
     filter: blur(5px);
 }
 
-.container {
+.reveal .container {
     display: flex;
 }
 
-.col {
+.reveal .col {
     flex: 1;
     padding-left: 0px;
 }
 
-.container> :first-child {
-    border-right: 1px solid #eee8d5;
+.reveal .container> :first-child {
+    border-right: 0px solid #eee8d5;
 }
 
-.container> :last-child {
-    border-left: 1px solid #eee8d5;
+.reveal .container> :last-child {
+    border-left: 0px solid #eee8d5;
+}
+
+
+.reveal blockquote {
+    background-color: #eee8d5 !important;
+    font-size: 1.3em;
+    text-align: left;
+    font-family: 'LinLibertineRegular';
+    font-style: normal !important;
+    line-height: 110%;
+}
+
+.reveal blockquote .current-fragment {
+    background-color: #b58900;
+    color: #002b36;
+}
+
+.reveal blockquote .highlight {
+    background-color: #b58900;
+    color: #002b36;
 }
