@@ -96,8 +96,8 @@ id,category,checklistname,key,value,remark,component
 95,biz/production/video/streaming,Streaming Preshow,ATEM Software Control restore,Latest net*.xml,,
 96,biz/production/video/streaming,Streaming Preshow,ATEM Software Control,Media Pool checked,,
 97,biz/production/video/streaming,Streaming Preshow,ATEM Mini,HDMI 1 is Cam 1,,
-98,biz/production/video/streaming,Streaming Preshow,ATEM Mini,HDMI 2 is ,,
-99,biz/production/video/streaming,Streaming Preshow,ATEM Mini,HDMI 2 is ,,
+98,biz/production/video/streaming,Streaming Preshow,ATEM Mini,"HDMI 2 is ",,
+99,biz/production/video/streaming,Streaming Preshow,ATEM Mini,"HDMI 2 is ",,
 100,biz/production/video/streaming,Streaming Preshow,ATEM Mini,HDMI 4 is Playoutbee,,
 101,biz/production/video/streaming,Streaming Preshow,ATEM Mini,Playoutbee mic On,,
 102,biz/production/video/streaming,Streaming Preshow,Camera,switched on,,
@@ -180,3 +180,7 @@ id,category,checklistname,key,value,remark,component
 179,tec/phy/Zoom,Hold Zoom HD Meeting,active speaker mode,enabled,,TA_PTC_048
 180,tec/phy/Zoom,Hold Zoom HD Meeting,bandwidth requirements,met,,TA_PTC_048
 181,tec/phy/Zoom,Hold Zoom HD Meeting,Full-screen mode,at least one attendee,,TA_PTC_048
+,tec/phy/Uniclass/KVM-Switch,Uniclass KVM switch toggle beep,USB 1.1 keyboard,inserted in console port,,
+,tec/phy/Uniclass/KVM-Switch,Uniclass KVM switch toggle beep,defined hotkey,is known,,
+,tec/phy/Uniclass/KVM-Switch,Uniclass KVM switch toggle beep,"if hotkey is not known (any of Scroll, Ctrl, Caps lock, Esc, F12 or Num Lock)",long press push button 4 and press hotkey,,
+,tec/phy/Uniclass/KVM-Switch,Uniclass KVM switch toggle beep,toggle beep acknowledgement,hotkey hotkey b,,
