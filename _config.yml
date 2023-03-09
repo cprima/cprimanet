@@ -7,6 +7,7 @@ description_de: >- # this means to ignore newlines until "baseurl:"
   A sysadmin's notepad, a publishing hub and more.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+host: 0.0.0.0
 mailchimp-audience: "448978308e"
 mailchimp-user: "7397e207aec2e90684a8a69be&amp"
 mailchimp-formaction: "https://gmail.us10.list-manage.com/subscribe/post?u=7397e207aec2e90684a8a69be&amp;id=448978308e"
@@ -54,6 +55,13 @@ defaults:
   -
     scope:
       path: "tec/phy/*/README.md"
+      type: "pages"
+    values:
+      categories: technology-physical
+      layout: taptc
+  -
+    scope:
+      path: "tec/phy/*/*/README.md"
       type: "pages"
     values:
       categories: technology-physical
