@@ -184,3 +184,20 @@ id,category,checklistname,key,value,remark,component
 ,tec/phy/Uniclass/KVM-Switch,Uniclass KVM switch toggle beep,defined hotkey,is known,,
 ,tec/phy/Uniclass/KVM-Switch,Uniclass KVM switch toggle beep,"if hotkey is not known (any of Scroll, Ctrl, Caps lock, Esc, F12 or Num Lock)",long press push button 4 and press hotkey,,
 ,tec/phy/Uniclass/KVM-Switch,Uniclass KVM switch toggle beep,toggle beep acknowledgement,hotkey hotkey b,,
+,,Update Android,GPS tracks,exported and downloaded,,
+,,Update Android,Android Personal Dictionary,exported?,,
+,,Update Android,Wifi passwords,exported?,,
+,,Update Android,Android Backup,performed,,
+,,Update Android,Contacts,exported,,
+,,Update Android,TWRP Backup,"system, data, and boot",,
+,,Update Android,wallpaper,exported,,
+,,Update Android,hostname,defined,,
+,,Update Android,.,,,
+,,Update Android,.,,,
+,,Update Android,.,,,
+,,Update Android,.,,,
+,tec/phy/GoldenCheetah,Initial Setup for Runners,Software,installed,,TA_PTC_055
+,tec/phy/GoldenCheetah,Initial Setup for Runners,Athlete profile,"created with name, gender, date of birth, weight, and any other relevant information",,TA_PTC_055
+,tec/phy/GoldenCheetah,Initial Setup for Runners,Device(s),"exist with export to FIT, TCX, …",,TA_PTC_055
+,tec/phy/GoldenCheetah,Initial Setup for Runners,Athlete Settings > Zones > Pace and Heartrate,created for Sport Run,,TA_PTC_055
+,tec/phy/GoldenCheetah,Initial Setup for Runners,Training data,"imported via File > Import with Sport metadata tag set to ""Run""",,TA_PTC_055

@@ -1,0 +1,62 @@
+digraph android_architecture_magisk {
+    rankdir=TB;
+
+    // Android Nodes
+    hardware [label="Hardware", shape=box];
+    bootloader [label="Bootloader", shape=box];
+    bootimg [label="boot.img", shape=box];
+    kernel [label="Linux Kernel\n- Foundation\n- Drivers\n- Memory Management\n- Process Management", shape=box];
+    hal [label="Hardware Abstraction Layer (HAL)\n- Bridge between OS and Hardware\n- Device-specific Implementations", shape=box];
+    runtime [label="Android Runtime\n- Dalvik/ART\n- Core Libraries", shape=box];
+    native_libs [label="Native C/C++ Libraries\n- libc\n- SQLite\n- OpenGL ES & Vulkan\n- Media Framework", shape=box];
+    app_framework [label="Application Framework\n- Activity Manager\n- Content Providers\n- Window Manager & View System", shape=box];
+    apps [label="Applications Layer\n- System Apps\n- User-installed Apps", shape=box];
+    zygote [label="Zygote Process", shape=ellipse, color=blue]; 
+    ramdisk [label="Ramdisk", shape=ellipse];
+    filesystem [label="Filesystem", shape=box];
+    subinary [label="su binary", shape=ellipse, color=red]; 
+
+    // Magisk Nodes
+    magisk [label="Magisk\n- Root Management\n- Magisk Modules", shape=ellipse, color=green];
+    magiskhide [label="MagiskHide\n- Hides root", shape=ellipse, color=green];
+    magiskmanager [label="Magisk Manager\n- User Interface\n- Module Management", shape=ellipse, color=green];
+
+    // Android Edges
+    hardware -> bootloader;
+    bootloader -> bootimg;
+    bootimg -> kernel [label="contains"];
+    kernel -> ramdisk [label="mounts"];
+    ramdisk -> filesystem [label="part of"];
+    kernel -> hal;
+    hal -> runtime;
+    runtime -> native_libs;
+    native_libs -> app_framework;
+    app_framework -> apps;
+    zygote -> apps [label="forks for"];
+    filesystem -> subinary [label="resides in"];
+
+    // Magisk Edges
+    bootimg -> magisk [label="modifies"];
+    magisk -> kernel [label="integrates"];
+    magisk -> subinary [label="provides"];
+    magisk -> magiskhide;
+    magisk -> magiskmanager;
+
+    // Subgraphs
+    subgraph cluster_os {
+        label = "Android OS";
+        kernel;
+        hal;
+        runtime;
+        native_libs;
+        app_framework;
+        zygote;
+    }
+
+    // Additional info
+    bootimg [tooltip="Contains the kernel and ramdisk"];
+    ramdisk [tooltip="A temporary filesystem used during the boot process"];
+    filesystem [tooltip="The main filesystem where all system and user data resides"];
+    subinary [tooltip="Provides root access when invoked"];
+    zygote [tooltip="Starts app processes in Android by forking"];
+}

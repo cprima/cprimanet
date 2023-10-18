@@ -16,11 +16,21 @@ System.IsPinnedToNameSpaceTree
 
 
 
-
-
 https://github.com/valinet/Win11DisableRoundedCorners/releases
 Win11DisableRoundedCorners
 
 Unable to restore DWM
 del C:\Windows\System32\uDWM_win11drc.bak
 https://github.com/valinet/Win11DisableRoundedCorners/issues/41
+
+
+Installation
+
+skip account: Shift F10 `netsh wlan disconnect` back arrow continue with limited Set up
+Windows Update
+PowerToys
+KeePass
+VSCode
+
+
+

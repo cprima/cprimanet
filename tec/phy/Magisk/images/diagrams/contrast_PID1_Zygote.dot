@@ -1,0 +1,31 @@
+digraph contrast_PID1_Zygote {
+    rankdir=TB;
+    node [shape=box, fontsize=12, style=filled, color="lightgray"];
+
+    // Subgraphs for clustering
+    subgraph cluster_0 {
+        label="Linux PID 1";
+        color=blue;
+        PID1_init [label="Initializes the system"];
+        PID1_services [label="Manages services"];
+        PID1_orphan [label="Adopts orphaned processes"];
+        PID1_lifespan [label="Runs from system start to shutdown"];
+        PID1_tools [label="Associated with init systems\n(e.g. systemd, SysV init)"];
+    }
+
+    subgraph cluster_1 {
+        label="Android Zygote";
+        color=green;
+        zygote_preload [label="Preloads classes and resources for app launch"];
+        zygote_fork [label="Forks pre-initialized processes for apps"];
+        zygote_lifespan [label="Starts early in boot process, but not the first"];
+        zygote_app_mgmt [label="Focused on Android application management"];
+    }
+
+    // Edges to indicate comparative aspects
+    PID1_init -> zygote_preload [dir=none, color="red", label="Initialization Role"];
+    PID1_services -> zygote_fork [dir=none, color="red", label="Process Management"];
+    PID1_orphan -> zygote_app_mgmt [dir=none, color="red", label="Role in Process Hierarchy"];
+    PID1_lifespan -> zygote_lifespan [dir=none, color="red", label="Lifespan"];
+    PID1_tools -> zygote_preload [dir=none, color="red", label="System Associations"];
+}

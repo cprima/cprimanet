@@ -25,3 +25,7 @@ https://discord.gg/openai
 
 
 https://pastebin.com/RhGZ7B9s
+
+
+https://ckovalev.com/midjourney-ai/guide/midjourney-ai-for-photographers
+
