@@ -1,3 +1,7 @@
+---
+abstract: "Harnessing the power of GitHub webhooks in Jenkins allows us to create dynamic and responsive CI/CD pipelines. By accessing the full payload of a webhook trigger, we gain the flexibility to make decisions based on any piece of data GitHub sends us. This forms the basis for many advanced Jenkins workflows, enabling tighter integration between source code management and CI/CD processes."
+---
+
 ### Accessing the Full Payload of a GitHub Trigger in Jenkins
 
 Webhooks in GitHub are incredibly useful for triggering actions externally, and Jenkins is often on the receiving end. When GitHub sends a webhook trigger, it includes a payload that contains detailed information about the event. In this article, we'll see how to access the full payload of a GitHub trigger in a Jenkins pipeline.
