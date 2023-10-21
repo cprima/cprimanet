@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1920"
+   height="1080"
+   viewBox="0 0 1920 1080"
+   version="1.1"
+   id="svg888"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="LCAPDefinitionRoadmap.svg"
+   inkscape:export-filename="LCAPDefinitionRoadmap.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs882">
+    <rect
+       x="115.05466"
+       y="1051.9283"
+       width="3476.2288"
+       height="79.790825"
+       id="rect9862" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5961"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="simplify"
+       id="path-effect5957"
+       is_visible="true"
+       lpeversion="1"
+       steps="1"
+       threshold="0.00457143"
+       smooth_angles="360"
+       helper_size="0"
+       simplify_individual_paths="false"
+       simplify_just_coalesce="false" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1406"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="simplify"
+       id="path-effect1402"
+       is_visible="true"
+       lpeversion="1"
+       steps="1"
+       threshold="0.00457143"
+       smooth_angles="360"
+       helper_size="0"
+       simplify_individual_paths="false"
+       simplify_just_coalesce="false" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1179"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="simplify"
+       id="path-effect1175"
+       is_visible="true"
+       lpeversion="1"
+       steps="1"
+       threshold="0.00457143"
+       smooth_angles="360"
+       helper_size="0"
+       simplify_individual_paths="false"
+       simplify_just_coalesce="false" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1169"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="simplify"
+       id="path-effect1165"
+       is_visible="true"
+       lpeversion="1"
+       steps="1"
+       threshold="0.00457143"
+       smooth_angles="360"
+       helper_size="0"
+       simplify_individual_paths="false"
+       simplify_just_coalesce="false" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5483"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="simplify"
+       id="path-effect5481"
+       is_visible="true"
+       lpeversion="1"
+       steps="1"
+       threshold="0.00457143"
+       smooth_angles="360"
+       helper_size="0"
+       simplify_individual_paths="false"
+       simplify_just_coalesce="false" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5477"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="simplify"
+       id="path-effect5475"
+       is_visible="true"
+       lpeversion="1"
+       steps="1"
+       threshold="0.00457143"
+       smooth_angles="360"
+       helper_size="0"
+       simplify_individual_paths="false"
+       simplify_just_coalesce="false" />
+    <rect
+       x="0"
+       y="359.5"
+       width="1920"
+       height="360"
+       id="rect1613" />
+    <rect
+       x="0"
+       y="359.5"
+       width="1920"
+       height="180"
+       id="rect1607" />
+    <rect
+       x="115.05466"
+       y="1051.9283"
+       width="3476.2288"
+       height="79.790825"
+       id="rect9862-0" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.23662297"
+     inkscape:cx="866.35713"
+     inkscape:cy="295.82926"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer6"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1350"
+     inkscape:window-height="689"
+     inkscape:window-x="228"
+     inkscape:window-y="195"
+     inkscape:window-maximized="0"
+     inkscape:pagecheckerboard="0"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1">
+    <sodipodi:guide
+       position="-5790,1080"
+       orientation="0,1920"
+       id="guide374"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-3870,1080"
+       orientation="1080,0"
+       id="guide376"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-3870,0"
+       orientation="0,-1920"
+       id="guide378"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-5790,0"
+       orientation="-1080,0"
+       id="guide380"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata885">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="backgrounds"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline"
+     transform="translate(-5790)">
+    <rect
+       style="opacity:1;mix-blend-mode:normal;fill:#fdf6e3;fill-opacity:1;stroke-width:6.94023;stroke-linecap:round;stop-color:#000000"
+       id="rect1460"
+       width="1920"
+       height="1080"
+       x="5790"
+       y="0"
+       inkscape:label="base3" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="visualization"
+     style="display:inline"
+     transform="translate(-5790)">
+    <g
+       id="g987"
+       style="display:none"
+       inkscape:label="rectangles"
+       transform="translate(5790)">
+      <rect
+         style="display:inline;fill:#b58900;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         id="rect398"
+         width="240"
+         height="180"
+         x="400"
+         y="270" />
+      <rect
+         style="display:inline;fill:#b58900;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         id="rect513"
+         width="240"
+         height="45"
+         x="880"
+         y="450" />
+      <rect
+         style="display:inline;fill:#b58900;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         id="rect515"
+         width="240"
+         height="180"
+         x="880"
+         y="270" />
+      <rect
+         style="display:inline;fill:#b58900;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         id="rect517"
+         width="240"
+         height="180"
+         x="1120"
+         y="270" />
+      <rect
+         style="display:inline;fill:#b58900;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         id="rect519"
+         width="240"
+         height="180"
+         x="1360"
+         y="270" />
+      <rect
+         style="display:inline;fill:#b58900;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         id="rect521"
+         width="240"
+         height="90"
+         x="880"
+         y="540" />
+      <rect
+         style="display:inline;fill:#b58900;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         id="rect523"
+         width="240"
+         height="180"
+         x="400"
+         y="450" />
+      <rect
+         style="display:inline;fill:#b58900;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         id="rect525"
+         width="240"
+         height="180"
+         x="640"
+         y="450" />
+      <rect
+         style="display:inline;fill:#b58900;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         id="rect527"
+         width="240"
+         height="180"
+         x="1120"
+         y="450" />
+      <rect
+         style="display:inline;fill:#b58900;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         id="rect535"
+         width="240"
+         height="180"
+         x="400"
+         y="630" />
+      <rect
+         style="display:inline;fill:#b58900;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         id="rect537"
+         width="240"
+         height="180"
+         x="640"
+         y="630" />
+      <rect
+         style="display:inline;fill:#b58900;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         id="rect539"
+         width="240"
+         height="180"
+         x="1120"
+         y="630" />
+      <rect
+         style="display:inline;fill:#b58900;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         id="rect541"
+         width="240"
+         height="180"
+         x="1360"
+         y="630" />
+      <rect
+         style="display:inline;fill:#b58900;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         id="rect543"
+         width="240"
+         height="180"
+         x="880"
+         y="630" />
+      <rect
+         style="display:inline;fill:#b58900;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         id="rect545"
+         width="240"
+         height="180"
+         x="400"
+         y="810" />
+      <rect
+         style="display:inline;fill:#b58900;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         id="rect547"
+         width="240"
+         height="180"
+         x="640"
+         y="810" />
+      <rect
+         style="display:inline;fill:#b58900;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         id="rect549"
+         width="240"
+         height="180"
+         x="1120"
+         y="810" />
+      <rect
+         style="display:inline;fill:#b58900;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         id="rect553"
+         width="240"
+         height="180"
+         x="880"
+         y="810" />
+      <rect
+         style="display:inline;fill:#b58900;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         id="rect699"
+         width="240"
+         height="45"
+         x="880"
+         y="495" />
+      <rect
+         style="display:inline;fill:#b58900;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         id="rect705"
+         width="240"
+         height="45"
+         x="640"
+         y="316" />
+      <rect
+         style="display:inline;fill:#b58900;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         id="rect707"
+         width="240"
+         height="45"
+         x="640"
+         y="360" />
+      <rect
+         style="display:inline;fill:#b58900;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         id="rect713"
+         width="240"
+         height="45"
+         x="640"
+         y="405" />
+    </g>
+    <g
+       id="g964"
+       inkscape:label="lines"
+       transform="translate(5790)">
+      <path
+         style="fill:none;stroke:#eee8d5;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         d="m 552,540 416,45"
+         id="path778" />
+      <path
+         style="fill:none;stroke:#eee8d5;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         d="m 552,540 208,-45 v 0 l 224,-22.5"
+         id="path843" />
+      <path
+         style="fill:none;stroke:#eee8d5;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         d="m 760,495 224,22.5"
+         id="path845" />
+      <path
+         style="fill:none;stroke:#eee8d5;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         d="m 1032,585 176,-45"
+         id="path910" />
+      <path
+         style="fill:none;stroke:#eee8d5;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         d="M 1016,517.5 1208,540"
+         id="path912" />
+      <path
+         style="fill:none;stroke:#eee8d5;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         d="M 1016,472.5 1208,540"
+         id="path914" />
+      <path
+         style="fill:none;stroke:#eee8d5;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         d="M 1208,540 1032,360 h 176"
+         id="path916" />
+      <path
+         style="fill:none;stroke:#eee8d5;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         d="m 1272,360 h 176"
+         id="path918" />
+      <path
+         style="fill:none;stroke:#eee8d5;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         d="M 792,332.5 968,360"
+         id="path920"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#eee8d5;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         d="M 792,418 968,360"
+         id="path922"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#eee8d5;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         d="M 552,720 H 728"
+         id="path924" />
+      <path
+         style="fill:none;stroke:#eee8d5;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         d="M 792,720 H 968"
+         id="path926" />
+      <path
+         style="fill:none;stroke:#eee8d5;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         d="m 1032,720 h 176"
+         id="path928" />
+      <path
+         style="fill:none;stroke:#eee8d5;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         d="m 1272,720 h 176"
+         id="path930" />
+      <path
+         style="fill:none;stroke:#eee8d5;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         d="M 552,900 H 728"
+         id="path932" />
+      <path
+         style="fill:none;stroke:#eee8d5;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         d="M 792,900 H 968"
+         id="path934" />
+      <path
+         style="fill:none;stroke:#eee8d5;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         d="m 1032,900 h 176"
+         id="path936" />
+      <path
+         style="fill:none;stroke:#eee8d5;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         d="M 728,332.5 519.00092,429.4786 728,418"
+         id="path938"
+         sodipodi:nodetypes="ccc" />
+      <path
+         style="fill:none;stroke:#eee8d5;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         d="M 488,540 352,630 519.00092,429.4786"
+         id="path940"
+         sodipodi:nodetypes="ccc" />
+      <path
+         style="fill:none;stroke:#eee8d5;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         d="M 488,720 352,630 488,900"
+         id="path942"
+         sodipodi:nodetypes="ccc" />
+    </g>
+    <g
+       id="g1008"
+       inkscape:label="circles"
+       transform="translate(5790)">
+      <circle
+         style="fill:#cb4b16;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         id="circle663"
+         cx="1000"
+         cy="360"
+         r="32" />
+      <circle
+         style="fill:#cb4b16;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         id="circle665"
+         cx="1240"
+         cy="360"
+         r="32" />
+      <circle
+         style="fill:#cb4b16;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         id="circle667"
+         cx="1480"
+         cy="360"
+         r="32" />
+      <circle
+         style="fill:#cb4b16;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         id="circle669"
+         cx="520"
+         cy="540"
+         r="32" />
+      <circle
+         style="fill:#cb4b16;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         id="circle671"
+         cx="1000"
+         cy="585"
+         r="32" />
+      <circle
+         style="fill:#cb4b16;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         id="circle675"
+         cx="1240"
+         cy="540"
+         r="32" />
+      <circle
+         style="fill:#cb4b16;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         id="circle679"
+         cx="760"
+         cy="720"
+         r="32" />
+      <circle
+         style="fill:#cb4b16;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         id="circle681"
+         cx="1240"
+         cy="720"
+         r="32" />
+      <circle
+         style="fill:#cb4b16;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         id="circle683"
+         cx="1000"
+         cy="720"
+         r="32" />
+      <circle
+         style="fill:#cb4b16;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         id="circle685"
+         cx="1480"
+         cy="720"
+         r="32" />
+      <circle
+         style="fill:#cb4b16;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         id="circle687"
+         cx="520"
+         cy="720"
+         r="32" />
+      <circle
+         style="fill:#cb4b16;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         id="circle689"
+         cx="760"
+         cy="900"
+         r="32" />
+      <circle
+         style="fill:#cb4b16;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         id="circle691"
+         cx="1240"
+         cy="900"
+         r="32" />
+      <circle
+         style="fill:#cb4b16;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         id="circle693"
+         cx="1000"
+         cy="900"
+         r="32" />
+      <circle
+         style="fill:#cb4b16;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         id="circle695"
+         cx="520"
+         cy="900"
+         r="32" />
+      <circle
+         style="fill:#cb4b16;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         id="circle701"
+         cx="1000"
+         cy="517.5"
+         r="16" />
+      <circle
+         style="fill:#cb4b16;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         id="circle703"
+         cx="1000"
+         cy="472.5"
+         r="16" />
+      <circle
+         style="fill:#cb4b16;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         id="circle1129"
+         cx="352"
+         cy="630"
+         r="32" />
+      <circle
+         style="fill:#cb4b16;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         id="circle1694"
+         cx="760"
+         cy="332.5"
+         r="32" />
+      <circle
+         style="fill:#cb4b16;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+         id="circle1696"
+         cx="760"
+         cy="418"
+         r="32" />
+    </g>
+    <rect
+       style="display:none;opacity:0.303085;fill:#657b83;stroke-width:5.99812;stroke-linecap:round;stroke-dasharray:23.9925, 5.99812;stop-color:#000000"
+       id="rect1274"
+       width="1280"
+       height="720"
+       x="6110"
+       y="270"
+       inkscape:export-filename="LCAPDefinitionRoadmap.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g1680"
+     inkscape:label="title_text"
+     style="display:inline"
+     transform="translate(-5790)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.3333px;line-height:1.25;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:none;opacity:1;mix-blend-mode:normal;fill:#002b36;fill-opacity:1;stroke:none"
+       x="345.20108"
+       y="511.89893"
+       id="text1674"
+       inkscape:label="middle2"><tspan
+         sodipodi:role="line"
+         id="tspan1672"
+         x="0"
+         y="0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.3333px;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#002b36">Title A Lorem ipsum dolor sit amet</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.3333px;line-height:1.25;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:none;opacity:1;mix-blend-mode:normal;fill:#002b36;fill-opacity:1;stroke:none"
+       x="622.26361"
+       y="597.89893"
+       id="text1678"
+       inkscape:label="middle1"><tspan
+         sodipodi:role="line"
+         id="tspan1676"
+         x="0"
+         y="0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.3333px;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#002b36">Title B Foo Bar Baz</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.3333px;line-height:1;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;display:inline;mix-blend-mode:normal;fill:#002b36;fill-opacity:1;stroke:none"
+       x="6758.8882"
+       y="167.89893"
+       id="text1674-9"
+       inkscape:label="top"><tspan
+         sodipodi:role="line"
+         id="tspan1672-3"
+         x="6758.8882"
+         y="167.89893"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.3333px;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#002b36">LCAP Definition – Roadmap</tspan></text>
+  </g>
+</svg>

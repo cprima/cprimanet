@@ -1,15 +1,57 @@
-PDD rpachallenge.com
+---
+title: Script
+author: Christian Prior-Mamulyan
+date: August 22, 2022
+---
+
+# StarryArgon series
+
+## A sample PDD for the rpachallenge.com
 
 
-What is a PDD?
+What is a PDD
 
-The PDD in the context of Checklist, PDD, SDD/TDD and Support Manual
+What is the context of a PDD
+- within RPA operating model
+- in relation to requirements management
+- within project management
 
-Excursion: Requirements Engineering
+What is the context of the context
 
-Chapters of the PDD
+prominent example templates
 
-diagramming
+major content
+- regarding requirements management (BA and SME)
+- towards the developer (-> effort estimation)
+- regarding project management (pre-requisites, out of scope, parallel intiviatives)
+ 
+
+importance of
+
+- input data
+- applications
+- user
+- exceptions and error situations
+
+clickpath and beyond
+
+- how to make screenshots efficient
+- how to crop in MS Word
+
+
+
+how to draw with draw.io
+
+- building blocks
+
+
+common misconceptions
+
+- RPA capabilities and the SME
+- reporting
+
+
+
 
 
 2.1.3

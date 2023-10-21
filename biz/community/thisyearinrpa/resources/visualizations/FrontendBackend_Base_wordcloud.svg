@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1920" height="1080" viewBox="0 0 1920 1080" xml:space="preserve">
+<desc>Created @ WordClouds.com</desc>
+<defs>
+</defs>
+<rect x="0" y="0" width="100%" height="100%" fill="#fff"></rect>
+<g transform="matrix(1 0 0 1 993 880)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="100" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-208.47" y="31.41" >metadata</tspan></text>
+</g>
+<g transform="matrix(0.76 -0.64 0.64 0.76 729 903)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-83.38" y="3.89" >http_headers.accept-encoding</tspan></text>
+</g>
+<g transform="matrix(0.73 0.68 -0.68 0.73 1205 865)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-37.21" y="3.89" >playlist_index</tspan></text>
+</g>
+<g transform="matrix(0.51 -0.86 0.86 0.51 723 871)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-34.46" y="3.89" >uploader_url</tspan></text>
+</g>
+<g transform="matrix(0.74 0.67 -0.67 0.74 941 937)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-29.97" y="3.89" >description</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1053 926)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-83.73" y="3.89" >http_headers.accept-language</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 835 928)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-80.62" y="3.89" >http_headers.sec-fetch-mode</tspan></text>
+</g>
+<g transform="matrix(0.04 -1 1 0.04 665 881)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-56.16" y="3.89" >http_headers.accept</tspan></text>
+</g>
+<g transform="matrix(0.94 -0.34 0.34 0.94 1293 829)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-38.94" y="3.89" >modified_date</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1046 939)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-69.25" y="3.89" >version.release_git_head</tspan></text>
+</g>
+<g transform="matrix(0.68 0.74 -0.74 0.68 1253 854)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-27.91" y="3.89" >like_count</tspan></text>
+</g>
+<g transform="matrix(0.72 -0.7 0.7 0.72 725 926)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-31.35" y="3.89" >subtitles.de</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1038 952)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-67.53" y="3.89" >http_headers.user-agent</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 863 948)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-67.53" y="3.89" >subtitles.en-rx01gsadufu</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1218 924)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-67.88" y="3.89" >webpage_url_basename</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1186 944)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-65.12" y="3.89" >channel_follower_count</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1179 960)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-63.74" y="3.89" >concurrent_view_count</tspan></text>
+</g>
+<g transform="matrix(0.53 -0.85 0.85 0.53 696 865)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-31.35" y="3.89" >subtitles.en</tspan></text>
+</g>
+<g transform="matrix(0.21 0.98 -0.98 0.21 641 889)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-34.12" y="3.89" >upload_date</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 582 825)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-58.58" y="3.89" >language_preference</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1330 853)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-59.27" y="3.89" >webpage_url_domain</tspan></text>
+</g>
+<g transform="matrix(0.92 -0.4 0.4 0.92 629 846)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-29.28" y="3.89" >live_status</tspan></text>
+</g>
+<g transform="matrix(0.31 -0.95 0.95 0.31 1281 888)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-25.5" y="3.89" >language</tspan></text>
+</g>
+<g transform="matrix(0.3 -0.95 0.95 0.3 1309 892)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-24.12" y="3.89" >uploader</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 852 853)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-53.75" y="3.89" >playable_in_embed</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1372 835)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-54.78" y="3.89" >playlist_uploader_id</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 545 811)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-52.36" y="3.89" >release_timestamp</tspan></text>
+</g>
+<g transform="matrix(0.98 -0.21 0.21 0.98 751 953)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-28.59" y="3.89" >categories</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 552 840)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-51.68" y="3.89" >source_preference</tspan></text>
+</g>
+<g transform="matrix(0.97 -0.25 0.25 0.97 1233 900)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-23.77" y="3.89" >was_live</tspan></text>
+</g>
+<g transform="matrix(0.65 -0.76 0.76 0.65 601 897)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-19.64" y="3.89" >alt_title</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1386 815)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-43.42" y="3.89" >audio_channels</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1375 867)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-44.09" y="3.89" >comment_count</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1306 940)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-46.51" y="3.89" >playlist_uploader</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 553 877)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-48.92" y="3.89" >subtitles.live_chat</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 579 923)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-48.91" y="3.89" >version.repository</tspan></text>
+</g>
+<g transform="matrix(0.78 -0.63 0.63 0.78 1337 894)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-19.99" y="3.89" >acodec</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 552 859)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-41" y="3.89" >duration_string</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1338 925)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-42.38" y="3.89" >dynamic_range</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1301 958)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-37.2" y="3.89" >extractor_key</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 617 956)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-41.34" y="3.89" >filesize_approx</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 614 940)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-37.55" y="3.89" >playlist_count</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1436 794)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-40.31" y="3.89" >subtitles.en-gb</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 979 848)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-33.76" y="3.89" >aspect_ratio</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 554 895)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-32.04" y="3.89" >channel_url</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 497 794)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-33.07" y="3.89" >format_note</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1429 850)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-33.76" y="3.89" >manifest_url</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 464 778)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-32.04" y="3.89" >playlist_title</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1391 900)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-35.84" y="3.89" >release_date</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1407 880)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-32.39" y="3.89" >uploader_id</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1471 773)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-31.01" y="3.89" >view_count</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 466 829)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-35.49" y="3.89" >webpage_url</tspan></text>
+</g>
+<g transform="matrix(0.12 0.99 -0.99 0.12 1505 714)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-23.77" y="3.89" >chapters</tspan></text>
+</g>
+<g transform="matrix(0.26 -0.97 0.97 0.26 486 861)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-19.64" y="3.89" >vcodec</tspan></text>
+</g>
+<g transform="matrix(0.34 0.94 -0.94 0.34 436 741)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-16.88" y="3.89" >album</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1461 818)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-26.88" y="3.89" >audio_ext</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1504 750)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-28.59" y="3.89" >availability</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 454 807)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-29.98" y="3.89" >channel_id</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 542 947)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-27.56" y="3.89" >display_id</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1385 940)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-25.83" y="3.89" >format_id</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 415 714)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-24.11" y="3.89" >has_drm</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1367 958)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-25.5" y="3.89" >n_entries</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 508 910)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-27.21" y="3.89" >playlist_id</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1415 923)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-29.63" y="3.89" >preference</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 493 890)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-24.8" y="3.89" >age_limit</tspan></text>
+</g>
+<g transform="matrix(0.88 -0.47 0.47 0.88 1074 851)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-8.27" y="3.89" >fps</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 450 846)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-26.53" y="3.89" >video_ext</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1479 830)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-41.68" y="3.89" >version.version</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 434 793)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-18.94" y="3.89" >playlist</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1514 785)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-22.05" y="3.89" >protocol</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1472 863)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-40.31" y="3.89" >subtitles.de-de</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 398 765)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-38.24" y="3.89" >subtitles.en-in</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 868 960)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-39.96" y="3.89" >subtitles.en-us</tspan></text>
+</g>
+<g transform="matrix(0.93 -0.38 0.38 0.93 1113 845)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-8.61" y="3.89" >vbr</tspan></text>
+</g>
+<g transform="matrix(0.47 -0.88 0.88 0.47 762 845)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-8.96" y="3.89" >abr</tspan></text>
+</g>
+<g transform="matrix(0.61 -0.79 0.79 0.61 1155 847)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-7.23" y="3.89" >tbr</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 398 732)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-16.89" y="3.89" >epoch</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 399 699)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-16.89" y="3.89" >height</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 509 928)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-17.22" y="3.89" >is_live</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1532 702)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-17.92" y="3.89" >quality</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1508 797)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-26.87" y="3.89" >resolution</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 449 865)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-26.87" y="3.89" >thumbnail</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 793 960)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-29.28" y="3.89" >subtitles.hi</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1454 806)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-21.71" y="3.89" >channel</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 402 744)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-19.29" y="3.89" >creator</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1540 714)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-22.4" y="3.89" >duration</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 403 777)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-24.11" y="3.89" >extractor</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1536 726)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-18.94" y="3.89" >filesize</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1485 841)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-19.29" y="3.89" >license</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1535 762)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-21.36" y="3.89" >location</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 691 832)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-11.71" y="3.89" >tags</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1205 838)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-11.71" y="3.89" >type</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1451 894)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-17.56" y="3.89" >format</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 456 876)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-17.57" y="3.89" >fulltitle</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1224 851)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-13.43" y="3.89" >track</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 769 913)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-14.47" y="3.89" >width</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 773 890)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-13.43" y="3.89" >artist</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1248 874)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-8.27" y="3.89" >ext</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 687 914)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-9.64" y="3.89" >title</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1253 912)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-6.89" y="3.89" >url</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1084 963)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-8.61" y="3.89" >asr</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1525 941)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="50" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-104.24" y="15.71" >metadata</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 480 961)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-83.38" y="3.89" >http_headers.accept-encoding</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1491 875)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-37.21" y="3.89" >playlist_index</tspan></text>
+</g>
+<g transform="matrix(0.34 0.94 -0.94 0.34 403 828)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-34.46" y="3.89" >uploader_url</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 448 903)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-29.97" y="3.89" >description</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1575 810)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-83.73" y="3.89" >http_headers.accept-language</tspan></text>
+</g>
+<g transform="matrix(0.05 -1 1 0.05 347 785)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-80.62" y="3.89" >http_headers.sec-fetch-mode</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1496 908)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-56.16" y="3.89" >http_headers.accept</tspan></text>
+</g>
+<g transform="matrix(0.16 0.99 -0.99 0.16 1570 763)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-38.94" y="3.89" >modified_date</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1547 888)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-69.25" y="3.89" >version.release_git_head</tspan></text>
+</g>
+<g transform="matrix(0.99 -0.15 0.15 0.99 456 931)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-27.91" y="3.89" >like_count</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 427 891)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-31.35" y="3.89" >subtitles.de</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 426 948)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-67.53" y="3.89" >http_headers.user-agent</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1583 845)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-67.53" y="3.89" >subtitles.en-rx01gsadufu</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 404 917)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-67.88" y="3.89" >webpage_url_basename</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 342 878)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-65.12" y="3.89" >channel_follower_count</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1651 764)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-63.74" y="3.89" >concurrent_view_count</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 341 696)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-31.35" y="3.89" >subtitles.en</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1589 703)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-34.12" y="3.89" >upload_date</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 360 930)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-58.58" y="3.89" >language_preference</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1596 868)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-59.27" y="3.89" >webpage_url_domain</tspan></text>
+</g>
+<g transform="matrix(0.58 -0.82 0.82 0.58 322 748)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-29.28" y="3.89" >live_status</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1552 832)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-25.5" y="3.89" >language</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 311 712)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-24.12" y="3.89" >uploader</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 279 793)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-53.75" y="3.89" >playable_in_embed</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1643 787)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-54.78" y="3.89" >playlist_uploader_id</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1635 739)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-52.36" y="3.89" >release_timestamp</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 369 902)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-28.59" y="3.89" >categories</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 280 826)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-51.68" y="3.89" >source_preference</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 293 730)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-23.77" y="3.89" >was_live</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 379 855)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-19.64" y="3.89" >alt_title</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1641 823)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-43.42" y="3.89" >audio_channels</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1603 902)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-44.09" y="3.89" >comment_count</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 250 776)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-46.51" y="3.89" >playlist_uploader</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 282 857)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-48.92" y="3.89" >subtitles.live_chat</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 299 891)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-48.91" y="3.89" >version.repository</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 696 960)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-19.99" y="3.89" >acodec</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 255 755)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-41" y="3.89" >duration_string</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 263 811)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-42.38" y="3.89" >dynamic_range</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 316 943)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-37.2" y="3.89" >extractor_key</tspan></text>
+</g>
+<g transform="matrix(0.87 -0.5 0.5 0.87 1680 869)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-41.34" y="3.89" >filesize_approx</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 264 843)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-37.55" y="3.89" >playlist_count</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 283 909)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-40.31" y="3.89" >subtitles.en-gb</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1697 800)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-33.76" y="3.89" >aspect_ratio</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 301 961)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-32.04" y="3.89" >channel_url</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1658 915)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-33.07" y="3.89" >format_note</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 240 870)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-33.76" y="3.89" >manifest_url</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 254 924)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-32.04" y="3.89" >playlist_title</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1671 960)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-35.84" y="3.89" >release_date</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1694 893)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-32.39" y="3.89" >uploader_id</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1671 938)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-31.01" y="3.89" >view_count</tspan></text>
+</g>
+<g transform="matrix(0.24 0.97 -0.97 0.24 370 811)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-35.49" y="3.89" >webpage_url</tspan></text>
+</g>
+<g transform="matrix(0.09 -1 1 0.09 203 809)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-23.77" y="3.89" >chapters</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1585 715)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-19.64" y="3.89" >vcodec</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1532 738)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-16.88" y="3.89" >album</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1707 836)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-26.88" y="3.89" >audio_ext</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 239 941)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-28.59" y="3.89" >availability</tspan></text>
+</g>
+<g transform="matrix(0.33 0.94 -0.94 0.33 197 883)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-29.98" y="3.89" >channel_id</tspan></text>
+</g>
+<g transform="matrix(0.8 0.6 -0.6 0.8 1707 916)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="6.197689943364535" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-13.78" y="1.95" >display_id</tspan></text>
+</g>
+<g transform="matrix(0.73 0.69 -0.69 0.73 626 907)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="6.197689943364535" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-12.92" y="1.95" >format_id</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 237 961)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-24.11" y="3.89" >has_drm</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1253 884)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="6.197689943364535" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-12.75" y="1.95" >n_entries</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 747 939)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="6.197689943364535" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-13.61" y="1.95" >playlist_id</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1380 803)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="6.197689943364535" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-14.81" y="1.95" >preference</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1222 935)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="6.197689943364535" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-12.4" y="1.95" >age_limit</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1033 851)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-8.27" y="3.89" >fps</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1488 761)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="6.197689943364535" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-13.27" y="1.95" >video_ext</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1616 727)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-41.68" y="3.89" >version.version</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1229 861)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="6.197689943364535" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-9.47" y="1.95" >playlist</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 458 767)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="6.197689943364535" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-11.02" y="1.95" >protocol</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 996 858)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="6.197689943364535" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-20.15" y="1.95" >subtitles.de-de</tspan></text>
+</g>
+<g transform="matrix(0.43 -0.9 0.9 0.43 373 727)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="6.197689943364535" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-19.12" y="1.95" >subtitles.en-in</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1620 751)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-39.96" y="3.89" >subtitles.en-us</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 938 958)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-8.61" y="3.89" >vbr</tspan></text>
+</g>
+<g transform="matrix(0.19 -0.98 0.98 0.19 748 862)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-8.96" y="3.89" >abr</tspan></text>
+</g>
+<g transform="matrix(0.57 0.82 -0.82 0.57 1667 847)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-7.23" y="3.89" >tbr</tspan></text>
+</g>
+<g transform="matrix(0.42 0.91 -0.91 0.42 1549 785)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-16.89" y="3.89" >epoch</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1429 783)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="6.197689943364535" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-8.44" y="1.95" >height</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 204 842)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-17.22" y="3.89" >is_live</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1631 715)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-17.92" y="3.89" >quality</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 367 960)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-26.87" y="3.89" >resolution</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 799 841)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="6.197689943364535" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-13.44" y="1.95" >thumbnail</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 871 938)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="6.197689943364535" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-14.64" y="1.95" >subtitles.hi</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 251 743)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-21.71" y="3.89" >channel</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1704 812)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-19.29" y="3.89" >creator</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1043 962)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="6.197689943364535" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-11.2" y="1.95" >duration</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 766 899)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="6.197689943364535" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-12.05" y="1.95" >extractor</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1639 799)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-18.94" y="3.89" >filesize</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1627 925)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-19.29" y="3.89" >license</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1181 934)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="6.197689943364535" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-10.68" y="1.95" >location</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1689 752)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-11.71" y="3.89" >tags</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 323 813)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-11.71" y="3.89" >type</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1417 805)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="6.197689943364535" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-8.78" y="1.95" >format</tspan></text>
+</g>
+<g transform="matrix(1 0.09 -0.09 1 571 914)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="6.197689943364535" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-8.78" y="1.95" >fulltitle</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1723 824)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-13.43" y="3.89" >track</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1527 920)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-14.47" y="3.89" >width</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 297 742)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-13.43" y="3.89" >artist</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1551 751)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-8.27" y="3.89" >ext</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1423 913)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-9.64" y="3.89" >title</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 330 772)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-6.89" y="3.89" >url</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1454 784)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="12.39537988672907" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(38,138,210); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-8.61" y="3.89" >asr</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 1379 825)" style=""  >
+		<text xml:space="preserve" font-family="Helvetica" font-size="6.25" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,42,54); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-13.03" y="1.96" >metadata</tspan></text>
+</g>
+</svg>

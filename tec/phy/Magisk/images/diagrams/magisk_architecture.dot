@@ -1,0 +1,31 @@
+digraph magisk_architecture {
+    rankdir=TB; // Top to Bottom direction
+    node [shape=box];
+
+    // Nodes definition
+    boot_image [label="Boot Image\n- Contains ramdisk"];
+    overlay_fs [label="Overlay Filesystem\n- Systemless modifications"];
+    su_binary [label="`su` Binary\n- Grants root access"];
+    manager [label="Magisk Manager\n- Management interface"];
+    zygote [label="Zygote Process\n- First Android OS process\n- Manages app processes"];
+    zygisk [label="Zygisk\n- Magisk in Zygote\n- New way to run root apps/modules"];
+    apps [label="Regular Apps\n- Netflix, Banking apps, etc."];
+    root_apps [label="Root Apps & Modules\n- Run within Zygote via Zygisk"];
+    dynamic_mgmt [label="Dynamic Management\n- On-the-fly settings"];
+    safetynet [label="SafetyNet\n- Google's tamper detection"];
+
+    // Edges definition
+    boot_image -> overlay_fs [label="modifies"];
+    overlay_fs -> su_binary [label="injects"];
+    manager -> su_binary [label="controls"];
+    manager -> dynamic_mgmt;
+    manager -> overlay_fs [label="manages"];
+    su_binary -> zygote [label="previously hooked into"];
+    zygote -> apps [label="launches"];
+    zygote -> zygisk [label="facilitates"];
+    zygisk -> root_apps [label="runs"];
+    overlay_fs -> safetynet [label="hides from"];
+    su_binary -> safetynet [label="hides from"];
+    manager -> safetynet [label="hides from"];
+    zygisk -> safetynet [label="hides from"];
+}

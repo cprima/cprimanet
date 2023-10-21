@@ -1,0 +1,27 @@
+digraph zygisk_architecture {
+    rankdir=TB; // Top to Bottom direction
+    node [shape=box];
+
+    // Nodes definition
+    zygote [label="Zygote Process\n- First Android OS process\n- Manages app processes"];
+    magisk [label="Magisk\n- Provides root access"];
+    zygisk [label="Zygisk\n- Magisk in Zygote\n- New way to run root apps/modules"];
+    apps [label="Regular Apps\n- Netflix, Banking apps, etc."];
+    root_apps [label="Root Apps & Modules\n- Run within Zygote via Zygisk"];
+    optimization [label="Android App Launch Optimization\n- Improves performance"];
+
+    // Edges definition
+    magisk -> zygote [label="hooks into"];
+    zygote -> zygisk [label="facilitates"];
+    zygote -> apps [label="launches"];
+    zygisk -> root_apps [label="runs"];
+    optimization -> zygisk [label="benefits"];
+    
+    // Advantages
+    {
+        rank=same;
+        advantages [shape=ellipse, color=blue, label="Zygisk Advantages\n- Improved Compatibility\n- Enhanced Security\n- Better Performance"];
+    }
+
+    zygisk -> advantages;
+}

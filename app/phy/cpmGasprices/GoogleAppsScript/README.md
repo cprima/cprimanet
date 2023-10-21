@@ -1,3 +1,7 @@
+---
+checklists: []
+---
+
 # German gas prices by API into Google sheets
 
 ## Preprequisites

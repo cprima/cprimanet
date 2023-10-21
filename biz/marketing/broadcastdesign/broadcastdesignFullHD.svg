@@ -5,9 +5,9 @@
    viewBox="0 0 1920 1080"
    version="1.1"
    id="svg888"
-   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
    sodipodi:docname="broadcastdesignFullHD.svg"
-   inkscape:export-filename="C:\Users\cpm\Desktop\host.png"
+   inkscape:export-filename="broadcastdesignFullHD.png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -41,19 +41,21 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.59010417"
-     inkscape:cx="917.63459"
-     inkscape:cy="539.73521"
+     inkscape:cx="1026.09"
+     inkscape:cy="540.58252"
      inkscape:document-units="px"
-     inkscape:current-layer="layer7"
+     inkscape:current-layer="layer6"
      inkscape:document-rotation="0"
      showgrid="false"
      units="px"
      inkscape:window-width="1920"
      inkscape:window-height="1057"
-     inkscape:window-x="1912"
+     inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:pagecheckerboard="0" />
+     inkscape:pagecheckerboard="0"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
   <metadata
      id="metadata885">
     <rdf:RDF>
@@ -69,7 +71,7 @@
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="hg"
-     style="display:none">
+     style="display:inline">
     <image
        width="1920"
        height="1080"
@@ -83,14 +85,14 @@
      inkscape:label="background_base3"
      inkscape:groupmode="layer"
      id="layer1"
-     style="display:none">
+     style="display:inline">
     <rect
        style="opacity:1;mix-blend-mode:normal;fill:#fdf6e3;fill-opacity:1;stroke-width:4;stroke-linecap:round;stop-color:#000000"
        id="rect1451"
        width="1920"
        height="1080"
-       x="-2.8614008"
-       y="-2.8614008" />
+       x="0"
+       y="0" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -109,7 +111,7 @@
      inkscape:groupmode="layer"
      id="g1680"
      inkscape:label="text"
-     style="display:none">
+     style="display:inline">
     <rect
        style="opacity:1;fill:#859900;fill-opacity:1;stroke-width:1.11803"
        id="rect878"
@@ -223,7 +225,7 @@
      inkscape:groupmode="layer"
      id="g1537"
      inkscape:label="lowerthird-app"
-     style="display:none">
+     style="display:inline">
     <rect
        style="display:inline;fill:#b58900;fill-opacity:1;stroke:none;stroke-width:0.873478"
        id="rect1535"
@@ -236,7 +238,7 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="app"
-     style="display:none">
+     style="display:inline">
     <path
        id="rect4399-1-5"
        style="display:inline;fill:#b58900;fill-opacity:1;stroke:none;stroke-width:0.707107;stroke-miterlimit:4;stroke-dasharray:none"
@@ -247,7 +249,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="goldencut"
-     style="display:none">
+     style="display:inline">
     <path
        style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 0,269.5 H 1920"
@@ -278,7 +280,7 @@
      inkscape:groupmode="layer"
      id="g860"
      inkscape:label="lowerthird-base2"
-     style="display:none">
+     style="display:inline">
     <rect
        style="display:inline;fill:#eee8d5;fill-opacity:1;stroke:none;stroke-width:0.873478"
        id="rect858"

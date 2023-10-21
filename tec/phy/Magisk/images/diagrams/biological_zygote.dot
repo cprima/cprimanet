@@ -1,0 +1,27 @@
+digraph biological_zygote {
+    rankdir=TB;
+    node [shape=ellipse];
+
+    labelloc="t"; // Position of the title
+    label="Zygote Formation"; // Title
+
+    // Biological Nodes
+    sperm [label="Sperm"];
+    egg [label="Egg"];
+    zygote [label="Zygote", shape=box, color=blue];
+    division [label="Cell Division", shape=box, color=green];
+    embryo [label="Embryo", shape=box, color=lightblue];
+
+    // Edges
+    sperm -> zygote [label="fertilizes"];
+    egg -> zygote [label="is fertilized by"];
+    zygote -> division [label="undergoes"];
+    division -> embryo [label="forms"];
+
+    // Additional info
+    sperm [tooltip="Male reproductive cell"];
+    egg [tooltip="Female reproductive cell"];
+    zygote [tooltip="Initial cell formed when two gamete cells fuse"];
+    division [tooltip="Rapid cell divisions post fertilization"];
+    embryo [tooltip="Early stage of development post division"];
+}

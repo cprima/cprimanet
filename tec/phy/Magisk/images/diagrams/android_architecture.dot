@@ -1,0 +1,25 @@
+digraph android_architecture {
+    rankdir=TB; // Top to Bottom direction
+    node [shape=box];
+
+    // Nodes definition
+    kernel [label="Linux Kernel\n- Foundation\n- Drivers\n- Memory Management\n- Process Management"];
+    hal [label="Hardware Abstraction Layer (HAL)\n- Bridge between OS and Hardware\n- Device-specific Implementations"];
+    runtime [label="Android Runtime\n- Dalvik/ART\n- Core Libraries"];
+    native_libs [label="Native C/C++ Libraries\n- libc\n- SQLite\n- OpenGL ES & Vulkan\n- Media Framework"];
+    app_framework [label="Application Framework\n- Activity Manager\n- Content Providers\n- Window Manager & View System"];
+    apps [label="Applications Layer\n- System Apps\n- User-installed Apps"];
+
+    // Edges definition
+    kernel -> hal;
+    hal -> runtime;
+    runtime -> native_libs;
+    native_libs -> app_framework;
+    app_framework -> apps;
+
+    // Custom ROM Components
+    {
+        rank=same;
+        custom [shape=ellipse, color=red, label="Custom ROM Components\n- Modified System UI\n- Custom Boot Animations\n- Pre-configured Settings\n- Additional Apps\n- Performance Tweaks\n- Security Enhancements"];
+    }
+}

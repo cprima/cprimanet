@@ -1,5 +1,6 @@
-
-
+---
+checklists: []
+---
 
 
 
@@ -44,3 +45,37 @@ cp -f wrapper/lib/wrapper.jar sonarqube/bin/linux-pi/lib/wrapper.jar
 chown -R sonarqube:sonarqube /opt/sonarqube/
 
 initial login admin:admin
+
+
+https://computingforgeeks.com/install-sonarqube-code-review-centos/
+
+
+sonar-scanner
+https://docs.sonarqube.org/latest/analyzing-source-code/scanners/sonarscanner/
+
+
+https://stackoverflow.com/a/51448773
+
+/etc/sysctl.conf
+vm.max_map_count=262144
+
+sysctl --system
+sysctl vm.max_map_count
+
+sudo vim /etc/systemd/system/sonarqube.service
+[Unit]
+Description=SonarQube service
+After=syslog.target network.target
+
+[Service]
+Type=forking
+ExecStart=/opt/sonarqube/bin/linux-pi/sonar.sh start
+ExecStop=/opt/sonarqube/bin/linux-pi/sonar.sh stop
+LimitNOFILE=65536
+LimitNPROC=4096
+User=sonar
+Group=sonar
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
