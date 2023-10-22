@@ -1,0 +1,14 @@
+php:
+  label: "PHP"
+  extension: "php"
+  highlight: "php"
+
+python:
+  label: "Python"
+  extension: "py"
+  highlight: "python"
+
+java:
+  label: "Java"
+  extension: "java"
+  highlight: "java"
