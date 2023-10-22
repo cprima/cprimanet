@@ -1,5 +1,11 @@
 ## Roadmap
 
+### 2023-10-21
+
+- wrote a internal tabbed interface component for Jekyll
+
+- Brainstormed iterations for homelab physical tech components.
+
 ### 2023-10-20
 
 - for the Jenkins "UiPath Plugin" learned how to setup the API token in the Community Edition Orchestrator
