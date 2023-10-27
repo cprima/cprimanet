@@ -1,5 +1,29 @@
 ## Roadmap
 
+### 2023-10-26
+
+- Running Jenkins on Port 80 with iptables on GNU/Linux
+- Minimal Example Pack and Deploy
+- initial increment version implementation
+
+### 2023-10-25
+
+- 12-factor app vs Jenkins UiPath
+- initial Postman Collection to replay GitHub webhook events
+- initial repo folder structure
+
+### 2023-10-24
+
+- build once or customize per environment
+
+### 2023-10-23
+
+- how to version bump?
+
+### 2023-10-22
+
+- requirements
+
 ### 2023-10-21
 
 - wrote a internal tabbed interface component for Jekyll
