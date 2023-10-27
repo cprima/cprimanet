@@ -89,3 +89,36 @@ To be defined based on team size, current state of projects, and any existing in
 ---
 
 End of brief.
+
+```
++--------+   +--------+     +----------+     +------------+     +-----------+
+|  Git   |   |Jenkins |     |  Sonar   |     |  UiPath    |     |Production |
+|  Repo  |   |        |     |  Qube    |     |Orchestrator|     |Environment|
++--------+   +--------+     +----------+     +------------+     +-----------+
+     |             |               |                |                |
+     | 1. Commit   |               |                |                |
+     |-----------> |               |                |                |
+     |             | 2. Build/Test |                |                |
+     |             |-------------> |                |                |
+     |             | 3. Code       |                |                |
+     |             |    Quality    |                |                |
+     |             |    Scan       |                |                |
+     |             |-------------->|                |                |
+     |             |               | 4. Feedback    |                |
+     |             |               |<-------------- |                |
+     |             | 5. Package    |                |                |
+     |             |    (if Sonar  |                |                |
+     |             |     passed)   |                |                |
+     |             |-------------> |                |                |
+     |             |               | 6. Deploy to   |                |
+     |             |               |    UiPath      |                |
+     |             |               |    Orchestrator|                |
+     |             |               |--------------> |                |
+     |             |               | 7. Deploy to   |                |
+     |             |               |    Production  |                |
+     |             |               |    (if UAT     |                |
+     |             |               |     passed)    |                |
+     |             |               |--------------> |                |
+
+
+```

@@ -1,4 +1,17 @@
-## Roadmap
+## Changelog
+
+### 2023-10-29
+
+- [ ] extract from MinimalExamples Jenkins Freestyle Jobs into Jenkinsfiles and versioncontrol them
+- [ ] announcement post/article
+- [ ] cleanup cprima.net site
+- [ ] setup project repo including GitHub Pages
+- [ ] write from Jenkins Job into Pull Request
+
+### 2023-10-27
+
+- setup Jenins service account on GitHub
+- create ssh key for Jenkins service account
 
 ### 2023-10-26
 
