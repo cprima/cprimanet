@@ -14,12 +14,15 @@
 {% capture file_content %}{% include_relative _code_samples/{{ include.id }}-{{ internal_tab }}.{{ language.extension }} %}{% endcapture %}
 
 <div id="{{ include.id }}-{{ internal_tab }}" class="inline-tab-content {% if forloop.first %}active-content{% endif %}">
+    {% comment %}
     {% if language.highlight %}
-        {% highlight {{ language.highlight }} %}
-        {{ file_content }}
-        {% endhighlight %}
+
+        {{ language.highlight }}
     {% else %}
         <pre>{{ file_content | escape }}</pre>
     {% endif %}
+    {% endcomment %}
+
+    <pre>{{ file_content | escape }}</pre>
 </div>
 {% endfor %}
