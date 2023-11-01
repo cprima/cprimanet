@@ -1,12 +1,34 @@
 ## Changelog
 
-### 2023-10-29
+### todo
 
-- [ ] extract from MinimalExamples Jenkins Freestyle Jobs into Jenkinsfiles and versioncontrol them
-- [ ] announcement post/article
 - [ ] cleanup cprima.net site
 - [ ] setup project repo including GitHub Pages
 - [ ] write from Jenkins Job into Pull Request
+- [ ] extract from MinimalExamples Jenkins Freestyle Jobs into Jenkinsfiles and versioncontrol them
+- [ ] write UiPath Project minimal example
+
+### 2023-11-01
+
+- wrote project brief
+- saved technical writing publishing documents
+- experimental HTML template with Bootstrap 5
+
+### 2023-10-31
+
+- 2 variants for pull request templates in .github
+- refined base Jekyll setup and confirmed baseurl is working
+
+### 2023-10-30
+
+- published scripts/python/uipath_to_sonar_converter.py
+- got first feedback from community @carlosevp ! (y)
+- initial GitHub pages setup
+
+### 2023-10-29
+
+- announcement post/article
+- initial import Workflow Analyzer results into SonarQube
 
 ### 2023-10-27
 
