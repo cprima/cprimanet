@@ -3,7 +3,7 @@ TA_PTC_001,Editor,VS Code,Visual Studio Code is a code editor redefined and opti
 TA_PTC_002,Automation,Companion,"Bitfocus Companion enables the reasonably priced Elgato Streamdeck to be a professional shotbox surface for an increasing amount of different presentation switchers, video playback software and broadcast equipment.",Bitfocus AS,v2.1.3,https://bitfocus.io/companion/,Companion,"macOS, Windows",,2020-06-06,2021-05-08,,Bitfocus/companion,public,TA_PTC_002
 TA_PTC_003,Graphics,Inkscape,-,,,,Inkscape,,,,,,,,TA_PTC_003
 TA_PTC_004,,Pandoc,-,,,,Pandoc,,,,,,,,TA_PTC_004
-TA_PTC_005,Video,ATEM-Mini,-,,,,ATEM Mini,,,,,,,,TA_PTC_005
+TA_PTC_005,Video,ATEM-Mini,"ATEM Mini switchers make it easy to create professional multi camera productions for live streaming to YouTube and innovative business presentations using Zoom, Teams or Skype",Blackmagic Design,,https://www.blackmagicdesign.com/products/atemmini,ATEM Mini,,,,2023-11-18,,Blackmagic/ATEM-Mini,public,TA_PTC_005
 TA_PTC_006,Graphics,H2R Graphics,-,,,,H2R Graphics,,,,,,,,TA_PTC_006
 TA_PTC_007,Projectionmapping,MadMapper,MadMapper is the advanced tool for video and light mapping,garageCube,4.1.0,https://madmapper.com/,MadMapper,macOS 10.13+ / Windows 10 64bit,,2021-09-01,,,madmapper,public,TA_PTC_007
 TA_PTC_008,Digital Audio Workstation,Live,-,Ableton,,,Ableton Live,,,,,,,,TA_PTC_008

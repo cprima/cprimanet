@@ -201,3 +201,11 @@ id,category,checklistname,key,value,remark,component
 ,tec/phy/GoldenCheetah,Initial Setup for Runners,Device(s),"exist with export to FIT, TCX, …",,TA_PTC_055
 ,tec/phy/GoldenCheetah,Initial Setup for Runners,Athlete Settings > Zones > Pace and Heartrate,created for Sport Run,,TA_PTC_055
 ,tec/phy/GoldenCheetah,Initial Setup for Runners,Training data,"imported via File > Import with Sport metadata tag set to ""Run""",,TA_PTC_055
+,tec/phy/Blackmagic/DaVinciResolve,foo,a,1,,TA_PTC_046
+,tec/phy/Blackmagic/DaVinciResolve,foo,b,2,,TA_PTC_046
+,tec/phy/Blackmagic/DaVinciResolve,foo,c,3,,TA_PTC_046
+,tec/phy/Blackmagic/DaVinciResolve,foo,d,4,,TA_PTC_046
+,tec/phy/Blackmagic/ATEM-Mini,bar,a,1,,TA_PTC_005
+,tec/phy/Blackmagic/ATEM-Mini,bar,b,2,,TA_PTC_005
+,tec/phy/Blackmagic/ATEM-Mini,bar,c,3,,TA_PTC_005
+,tec/phy/Blackmagic/ATEM-Mini,bar,d,4,,TA_PTC_005
