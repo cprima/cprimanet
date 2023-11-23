@@ -1,0 +1,12 @@
+digraph G {
+    node [shape=rectangle];
+
+    BillOfMaterials [label="Bill of Materials\n- List of components\n- Quantities\n- Costs"];
+    WorkInstructions [label="Work Instructions\n- Assembly steps\n- Tools required\n- Safety guidelines"];
+    SkillsMatrix [label="Skills Matrix\n- Required skills\n- Worker proficiency\n- Training needs"];
+    Product [label="Product\n- Final assembled product\n- Operational system"];
+
+    BillOfMaterials -> WorkInstructions [label=" guides "];
+    SkillsMatrix -> WorkInstructions [label=" informs "];
+    WorkInstructions -> Product [label=" results in "];
+}
