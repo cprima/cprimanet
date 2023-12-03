@@ -1,0 +1,6 @@
+projectKey=test-03
+serverUrl=http://brubu:9000
+serverVersion=9.8.0.63668
+dashboardUrl=http://brubu:9000/dashboard?id=test-03
+ceTaskId=AYt7cFHw_s7uteym4SHu
+ceTaskUrl=http://brubu:9000/api/ce/task?id=AYt7cFHw_s7uteym4SHu
