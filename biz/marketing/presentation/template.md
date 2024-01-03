@@ -1,13 +1,28 @@
 ---
 layout: presentation_v1.1.0
 title: "cprima.net presentation template"
-date:   2023-03-25 00:00:00 +0100
+date: 2023-03-25 00:00:00 +0100
 abstract: Starting with a definition, digging into individual aspects
 excerpt: Starting with a definition, digging into individual aspects
 published: true
 _titleimagefull: /biz/community/thisyearinrpa/resources/images/trends-from-tags-2022-Q4.png
 ---
 
+<section>
+
+<section>
+  <h2>Some Slide</h2>
+
+  <aside class="notes">
+    Shhh, these are your private notes 📝
+  </aside>
+</section>
+
+<section data-markdown="example.md" data-separator="^\n\n\n"
+         data-separator-vertical="^\n\n" data-separator-notes="^Note:">
+</section>
+
+</section>
 
 <section>
 <h2>Intelligent Automation and Low-Code</h2>
@@ -38,7 +53,6 @@ _titleimagefull: /biz/community/thisyearinrpa/resources/images/trends-from-tags-
 <h2>bar</h2>
 </section>
 
-
 <section data-background-opacity="0.1" data-state="filterblur" data-background="/biz/IT/IntelligentAutomation/resources/images/intelligent-automation-capabilities.png">
 <h2>Low-Code and Intelligent Automation</h2>
 <p>RPA and Low-Code: Sister technologies in the Intelligent Automation space</p>
@@ -65,7 +79,6 @@ _titleimagefull: /biz/community/thisyearinrpa/resources/images/trends-from-tags-
 </ul>
 </section>
 
-
 <section class="center present" style="top: 178.5px; display: block;" data-fragment="0" data-appearance-can-start="true">
     <h2>Inside fragments</h2>
     <p class="animate__fadeInDown animate__animated">Like this <span class="animate__fadeInDown animate__faster animate__animated" style="font-size: 0.9em; animation-delay: 300ms;">(click next)</span>:</p>
@@ -88,7 +101,6 @@ _titleimagefull: /biz/community/thisyearinrpa/resources/images/trends-from-tags-
                 <p><small>Seems not to work when transition via spacebar //CPM</small></p>
 </section>
 
-
 <section data-markdown>
   <textarea data-template>
     ## Slide 1
@@ -107,7 +119,6 @@ _titleimagefull: /biz/community/thisyearinrpa/resources/images/trends-from-tags-
         Markdown content
     </script>
 </section>
-
 
 <section data-markdown>
   <script type="text/template">
@@ -130,16 +141,10 @@ _titleimagefull: /biz/community/thisyearinrpa/resources/images/trends-from-tags-
     <section>Vertical Slide 2</section>
 </section>
 
-
-
-
-
 <section class="center no-bg">
 <div style="width: 80%; margin: 0 auto;"><h2 class="r-fit-text">Chapter h2</h2></div>
 <p>RPA and Low-Code: Sister technologies in the Intelligent Automation space</p>
 </section>
-
-
 
 <section data-auto-animate>
   <div data-id="box" style="height: 50px; background: salmon;"></div>
@@ -147,8 +152,6 @@ _titleimagefull: /biz/community/thisyearinrpa/resources/images/trends-from-tags-
 <section data-auto-animate>
   <div data-id="box" style="height: 200px; background: blue;"></div>
 </section>
-
-
 
 <section class="center no-bg" data-auto-animate data-transition="none">
 <h2>test svg</h2>
@@ -189,7 +192,6 @@ _titleimagefull: /biz/community/thisyearinrpa/resources/images/trends-from-tags-
 </svg>
 <h2>&nbsp;</h2>
 </section>
-
 
 <section data-auto-animate data-transition="none">
   <div data-id="box" style="height: 50px; background: salmon;"></div>
