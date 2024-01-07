@@ -19,7 +19,11 @@ https://github.com/saltstack/salt-bootstrap
 
 sudo curl -L https://bootstrap.saltproject.io | sudo sh -s -- -P -A salt-master stable
 
-## rpi
+## rpi minion
+
+### 2023-12 Debian 12 bookworm supported
+
+### Debain 11
 
 sudo apt-get install -y curl gnupg
 curl -L https://repo.saltproject.io/py3/debian/11/arm64/latest/SALTSTACK-GPG-KEY.pub | sudo apt-key add -
