@@ -8,16 +8,75 @@ published: true
 _titleimagefull: /biz/community/thisyearinrpa/resources/images/trends-from-tags-2022-Q4.png
 ---
 
-<script>
-  var slideData = {
-    slideId: "custom-slide",
-    targetDivId: "custom-content",
-    items: ["Item 1", "Item 2", "Item 3"]
-  };
-</script>
-<section id="custom-slide">
-  <h2>CustomSlideContent</h2>
-  <div id="custom-content"></div>
+<section id="custom-slide1">
+  <h2>Custom Slide Content 1</h2>
+  <div id="custom-content1"></div>
+  <script type="application/json">
+    {
+      "targetDivId": "custom-content1",
+      "items": ["Item 1", "Item 2", "Item 3"]
+    }
+  </script>
+</section>
+
+<section id="custom-slide2">
+  <h2>Custom Slide Content 2</h2>
+  <div id="custom-content2"></div>
+  <script type="application/json">
+    {
+      "targetDivId": "custom-content2",
+      "items": ["Item A", "Item B", "Item C"]
+    }
+  </script>
+</section>
+
+<section>
+    <h2>Jeopardy Game</h2>
+    <div class="jeopardy-game-container"></div>
+    <script type="application/json" id="jeopardy-data">
+[
+    [
+        { "label": "Culture", "question": "question1", "answer": "answer1" },
+        { "label": "Code", "question": "question2", "answer": "answer2" },
+        { "label": "Build", "question": "question3", "answer": "answer3" },
+        { "label": "Test", "question": "question4", "answer": "answer4" },
+        { "label": "Release", "question": "question5", "answer": "answer5" },
+        { "label": "Deploy", "question": "question6", "answer": "answer6" }
+    ],
+    [
+        { "label": "50", "question": "question1-50", "answer": "answer1-50" },
+        { "label": "50", "question": "question2-50", "answer": "answer2-50" },
+        { "label": "50", "question": "question3-50", "answer": "answer3-50" },
+        { "label": "50", "question": "question4-50", "answer": "answer4-50" },
+        { "label": "50", "question": "question5-50", "answer": "answer5-50" },
+        { "label": "50", "question": "question6-50", "answer": "answer6-50" }
+    ],
+    [
+        { "label": "", "question": "question1-100", "answer": "answer1-100" },
+        { "label": "100", "question": "question2-100", "answer": "answer2-100" },
+        { "label": "100", "question": "question3-100", "answer": "answer3-100" },
+        { "label": "100", "question": "question4-100", "answer": "answer4-100" },
+        { "label": "", "question": "", "answer": "-" },
+        { "label": "100", "question": "question6-100", "answer": "answer6-100" }
+    ],
+    [
+        { "label": "250", "question": "question1-250", "answer": "answer1-250" },
+        { "label": "250", "question": "question2-250", "answer": "answer2-250" },
+        { "label": "250", "question": "question3-250", "answer": "answer3-250" },
+        { "label": "250", "question": "question4-250", "answer": "answer4-250" },
+        { "label": "250", "question": "question5-250", "answer": "answer5-250" },
+        { "label": "250", "question": "question6-250", "answer": "answer6-250" }
+    ],
+    [
+        { "label": "500", "question": "question1-500", "answer": "answer1-500" },
+        { "label": "500", "question": "question2-500", "answer": "answer2-500" },
+        { "label": "500", "question": "question3-500", "answer": "answer3-500" },
+        { "label": "500", "question": "question4-500", "answer": "answer4-500" },
+        { "label": "500", "question": "question5-500", "answer": "answer5-500" },
+        { "label": "500", "question": "question6-500", "answer": "answer6-500" }
+    ]
+]
+    </script>
 </section>
 
 <section><!-- begin vertical -->
@@ -820,34 +879,6 @@ This will only display in the notes window.
 <section><!-- begin vertical -->
 
 <section data-markdown># Discussion</section>
-
-<style>
-.jeopardy-grid-container {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr); /* 6 columns */
-  gap: 10px;
-  margin: 20px;
-  text-align: center;
-  align-items: stretch; /* Make all items in a row stretch to the tallest one's height */
-}
-.jeopardy-grid-container .cell {
-    border: 1px solid #ddd;
-    padding: 20px;
-    background-color: #eee8d5;
-    display: flex; /* Flex layout to allow content to center vertically */
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
-    min-height: 20px; /* Optional: Set a minimum height for shorter cells */
-}
-.jeopardy-grid-container .header {
-  font-weight: bold;
-  background-color: #2aa198;
-  color: white;
-}
-.jeopardy-grid-container .question:hover {
-  background-color: #fdf6e3;
-}
-</style>
 
 <section>
 <h2>Q&A Jeopardy style</h2>

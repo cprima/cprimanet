@@ -1,5 +1,5 @@
 const CustomSlideContent = {
-  id: "custom-slide-content", // Explicitly adding an id property
+  id: "custom-slide-content-plugin", // Adding the required 'id' property
 
   init: function (reveal) {
     reveal.on("ready", (event) => {
@@ -12,10 +12,12 @@ const CustomSlideContent = {
   },
 
   processData: function (slide) {
-    if (slide.id === slideData.slideId) {
-      const targetDiv = slide.querySelector("#" + slideData.targetDivId);
+    const dataScript = slide.querySelector('script[type="application/json"]');
+    if (dataScript) {
+      const data = JSON.parse(dataScript.innerHTML);
+      const targetDiv = slide.querySelector("#" + data.targetDivId);
       if (targetDiv) {
-        targetDiv.innerHTML = this.createList(slideData.items);
+        targetDiv.innerHTML = this.createList(data.items);
       }
     }
   },
