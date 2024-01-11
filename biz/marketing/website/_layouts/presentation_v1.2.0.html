@@ -30,6 +30,9 @@
 		<!-- Code syntax highlighting -->
 		<link rel="stylesheet" href="{{ "/biz/marketing/presentation/reveal.js-5.0.4/css/highlight/solarized-light.css" | prepend: site.baseurl }}"  id="highlight-theme">
 
+
+		<link rel="stylesheet" href="{{ "/biz/marketing/presentation/reveal.js-5.0.4/plugin/customSlideContent/customSlideStyle.css" | prepend: site.baseurl }}">
+
 	</head>
 
 	<body>
@@ -79,6 +82,9 @@
 		<script src="{{ "/biz/marketing/presentation/reveal.js-5.0.4/plugin/highlight/highlight.js" | prepend: site.baseurl }}"></script>
 		<script src="{{ "/biz/marketing/presentation/reveal.js-5.0.4/plugin/appearance/appearance.js" | prepend: site.baseurl }}"></script>
 		<!-- script src="{{ "/biz/marketing/presentation/reveal.js-5.0.4/plugin/verticator/verticator.js" | prepend: site.baseurl }}"></script -->
+
+
+		<script src="{{ "/biz/marketing/presentation/reveal.js-5.0.4/plugin/customSlideContent/customSlideContent.js" | prepend: site.baseurl }}"></script>
 
 		<script>
 
@@ -372,7 +378,7 @@ Reveal.initialize({
     // Time before the cursor is hidden (in ms)
     hideCursorTime: 1000,
 
-    plugins: [ RevealNotes, RevealMarkdown, RevealHighlight, Appearance  ]
+    plugins: [ RevealNotes, RevealMarkdown, RevealHighlight, Appearance, CustomSlideContent ]
 
     //,showNotes: 'separate-page'
 

@@ -8,6 +8,18 @@ published: true
 _titleimagefull: /biz/community/thisyearinrpa/resources/images/trends-from-tags-2022-Q4.png
 ---
 
+<script>
+  var slideData = {
+    slideId: "custom-slide",
+    targetDivId: "custom-content",
+    items: ["Item 1", "Item 2", "Item 3"]
+  };
+</script>
+<section id="custom-slide">
+  <h2>CustomSlideContent</h2>
+  <div id="custom-content"></div>
+</section>
+
 <section><!-- begin vertical -->
 
 <!-- Intro/frame/act1/hook/…
