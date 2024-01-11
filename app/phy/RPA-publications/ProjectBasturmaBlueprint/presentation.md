@@ -71,17 +71,27 @@ This will only display in the notes window.
 - many initiatives
 - vendor tool
 
+### eat your own dog food
+
+- DevOps contains "Automation" which in turn requires standardization
+- DevOps for (not just) RPA is based on standardzing source code management (Git)
+- …
+
 ### pro CI/CD for RPA
 
 - automate the RPA delivery pipeline: eat your own dog food
 - raise the bar, raise the value, raise the price?
-- governance, compliance
-- security
+- governance, compliance, security
 - …
 
 Note:
 This will only display in the notes window.
 
+- No Git expert? No CI/CD!
+
+</section>
+
+<section data-markdown data-background="/biz/marketing/keyvisuals/eat-own-dogfood.png">
 </section>
 
 <section data-markdown>
@@ -101,38 +111,40 @@ This will only display in the notes window.
 
 <section><!-- begin vertical -->
 
-<section data-markdown># About</section>
+<!-- section data-markdown># About</section //-->
+
+<section>
+<h2>About</h2>
+<span class="r-fit-text">
+<p>Nicht erst in der Phase "Operations" nach Abschluß des initialen "Development" können RPA Projekte von einer CI/CD-Pipeline profitieren:
+Den RPA Code automatisiert in Pakete zu bauen, auf Herz oder auch auf Nieren zu testen und in einen Feed für den Orchestrator (Tenant) zu deployen, um das build-Projekt oder einen Change zu releasen, das sollte nicht nur auf dem Fundament einer Automatisierung beruhen, sondern erfodert überraschenderweise auch einen kulturellen Überbau.</p>
+
+<p>CI/CD steht für Continous Integration, Continous Delivery (oder auch Continous Deployment).</p>
+
+<p>Übertragen auf UiPath RPA Projekte besteht eine solche Pipeline aus Bausteinen wie</p>
+
+<ul>
+<li>Umgang mit der Versionsnummer (im Semantic Versioning Schema)</li>
+<li>einem strukturierten Umgang mit der Quellcodeverwaltung, bsw in Git repositories</li>
+<li>der Chance auf vollautomatisierte Code-Qualitäts-Analysen</li>
+<li>und einem fein granularen Blick auf jeden Schritt zwischen drag&drop-Programmierung und der Ausführung auf einem Roboter</li>
+</ul>
+
+<p>In diesem Beitrag soll in schneller Folge zwischen Vogelperspektive und Codezeilen gewechselt werden, um die Chancen und Herausforderungen einer CI/CD-Pipeline für UiPath RPA Projekte einschätzen zu können.</p>
+</span>
+</section>
 
 <section data-markdown>
 
 ## About Me
 
-- bar
-- baz
+- Nothing to sell, just here to share my experience
+- content based on personal research in my free time
 
 Note:
 This will only display in the notes window.
 
 </section>
-
-<!-- section data-markdown>
-
-## In Scope, Out of Scope
-
-### In Scope:
-
-- Code, Build, Test, Release, Deploy
-- (Culture), Automation
-
-### Out of Scope:
-
-- Plan, Operate, Monitor
-- Lean, Measurement, Sharing
-
-Note:
-This will only display in the notes window.
-
-</section> //-->
 
 <style>
         .pillars-container {
@@ -147,7 +159,7 @@ This will only display in the notes window.
             color: #fdf6e3;
         }
 
-        .roof-container {
+        .pillars-container .roof-container {
             width: 100%;
             display: flex;
             justify-content: center;
@@ -156,7 +168,7 @@ This will only display in the notes window.
           margin-bottom: 20px;
         }
 
-        .roof {
+        .pillars-container .roof {
             width: calc(100% - 10px); /* Adjust as needed */
             height: 30px; /* Height of the triangle */
             background-color: #b58900; /* Roof color */
@@ -165,7 +177,7 @@ This will only display in the notes window.
             justify-content: center;
         }
 
-        .roof-text {
+        .pillars-container .roof-text {
             width: 100%; /* Full width */
             background-color: #b58900; /* Same color as the roof */
             text-align: center;
@@ -174,36 +186,48 @@ This will only display in the notes window.
             border-radius: 5px; /* Rounded bottom right corner */
         }
 
-        .pillars {
+        .pillars-container .pillars {
             display: flex;
             justify-content: space-around;
             width: 100%;
-            height: 300px;
+            min-height: 300px; /* Minimum height */
+            max-height: 700px; /* Maximum height */
+            overflow: auto; /* Enable scrolling if content exceeds max height */
         }
 
-        .pillar {
+        .pillars-container .pillar {
             width: 15%; /* Adjusted width for each pillar */
-            height: 100%;
             border-radius: 5px;
             background-color: #93a1a1; /* Default pillar color */
             margin: 0 1%; /* Space between pillars */
             color: #002636;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0px;
+            font-size: 60%; /* Set the font size to 60% inside the pillar */
+
+        }
+        .pillars-container .pillar ul {
+            padding-left: 10px;
+            padding-bottom: 10px;
         }
 
-        .pillar .label, .pillar .sub-label {
+        .pillars-container .pillar .label, .pillars-container .pillar .sub-label {
             background-color: #657b83; /* Label background */
             width: 100%;
             padding: 5px 0; /* Padding for the label */
             text-align: center;
             color: #fdf6e3;
+            font-size: 1.4em;
         }
 
-        .pillar .label {
+        .pillars-container .pillar .label {
             border-top-left-radius: 5px;
             border-top-right-radius: 5px;
         }
 
-        .pillar .sub-label {
+        .pillars-container .pillar .sub-label {
             font-size: 80%; /* Smaller font size for sub-label */
             margin-top: -1px;
         }
@@ -223,7 +247,7 @@ This will only display in the notes window.
 
 <section>
 
-    <h2>In Scope</h2>
+    <h2>In Scope: Culture, Code, Build, Release</h2>
 
 <div width="90%">
     <div class="pillars-container">
@@ -234,26 +258,60 @@ This will only display in the notes window.
         <div class="pillars">
             <div class="pillar fragment fade-up">
                 <div class="label">Code</div>
-                <div class="sub-label">Sub-Label 1</div>
+                <!-- div class="sub-label">Sub-Label 1</div -->
+<ul>
+<li>Git template repo(s)</li>
+<li>manual Workflow Analyzer</li>
+<li>automated Workflow Analyzer on push</li>
+<li>code review(s)</li>
+<li>Git workflow</li>
+<li>Configurability</li>
+</ul>
             </div>
             <div class="pillar fragment fade-up">
                 <div class="label">Build</div>
-                <div class="sub-label">Sub-Label 2</div>
+                <!-- div class="sub-label">Sub-Label 2</div -->
+<ul>
+<li>version number increment</li>
+<li>project.json</li>
+<li>handle process vs. library, dependencies</li>
+<li>build scripts</li>
+<li>build runner(s)</li>
+<li>build trigger(s)</li>
+<li>uipcli.exe</li>
+</ul>
             </div>
-            <div class="pillar fragment fade-up">
-                <div class="label">Test</div>
-                <div class="sub-label">Sub-Label 3</div>
+            <div class="pillar fragment fade-up" style="background-color: #839496 !important; color: #073642;">
+                <div class="label" style="color: #eee8d5;">Test</div>
+                <!-- div class="sub-label">Sub-Label 3</div -->
+<ul>
+<li>user acceptance testing</li>
+<li>(automated testing)</li>
+<li>(Canary)</li>
+</ul>
             </div>
             <div class="pillar fragment fade-up">
                 <div class="label">Release</div>
-                <div class="sub-label">Sub-Label 4</div>
+                <!-- div class="sub-label">Sub-Label 4</div -->
+<ul>
+<li>publish to Orchestrator test tenant feed(?)</li>
+<li>publish to Orchestrator prod tenant feed(?)</li>
+<li>deployment script(s)</li>
+</ul>
             </div>
-            <div class="pillar fragment fade-up">
-                <div class="label">Deploy</div>
-                <div class="sub-label">Sub-Label 5</div>
+            <div class="pillar fragment fade-up" style="background-color: #839496 !important; color: #073642;">
+                <div class="label" style="color: #eee8d5;">Deploy</div>
+                <!-- div class="sub-label">Sub-Label 5</div -->
+<ul>
+<li>approval</li>
+<li>set active version in UiPath Orchestrator tenant (folder)</li>
+</ul>
             </div>
         </div>
-        <div class="foundation fragment fade-up">Automation, Lean IT, Measure, Share</div>
+        <div class="foundation fragment fade-up">Automation<span style="font-size: 60%;"> </span></div>
+        <!-- div class="foundation fragment fade-up">Lean IT</div -->
+        <!-- div class="foundation fragment fade-up">Measure</div -->
+        <!-- div class="foundation fragment fade-up">Share</div -->
     </div>
 </div>
 <aside class="notes">
@@ -261,15 +319,10 @@ This will only display in the notes window.
 </aside>
 </section>
 
-<section data-markdown>
-
-## About Slides Structure
-
-- building blocks, …, vision
-- domains: off-the-shelf technology, biz processes, custom apps / scripts
+<section data-markdown data-background="/biz/marketing/keyvisuals/TOGAF-Cube_Business-Data-Application-Technology_Vision-ArchitectureDomain-BuildingBlocks.svg">
 
 Note:
-This will only display in the notes window.
+Some slides will be about building blocks, some about the vision, some in between.
 
 </section>
 
@@ -299,22 +352,19 @@ This will only display in the notes window.
 
 <section data-markdown># What is out there?</section>
 
-<section data-markdown>
+<section data-markdown data-background="/biz/IT/resources/DevOps_CALMS-circles.png">
 
 ## DevOps Framework(s)
-
-- CALMS
 
 Note:
 This will only display in the notes window.
 
+- CALMS
+
 </section>
 
-<section data-markdown>
-
+<section data-markdown data-background="/biz/IT/resources/DevSecOps-infinity.svg">
 ## Devops inifinity loop
-
-- …
 
 Note:
 This will only display in the notes window.
@@ -477,13 +527,26 @@ This will only display in the notes window.
 
 <section data-markdown>
 
-## foo
+## [Culture] How much complexity?
 
-- bar
-- baz
+- LowCode vs. "HighCode"
+- upskilling paths
+- prerequisites "Git"
+- …
 
 Note:
 This will only display in the notes window.
+
+</section>
+
+<section>
+<h2>Git can be a beast</h2>
+<div class="r-stack">
+  <img class="fragment" src="/tec/phy/Git/assets/images/octocat-morph-cute-to-ugly_1of4.png" width="960" height="540">
+  <img class="fragment" src="/tec/phy/Git/assets/images/octocat-morph-cute-to-ugly_2of4.png" width="960" height="540">
+  <img class="fragment" src="/tec/phy/Git/assets/images/octocat-morph-cute-to-ugly_3of4.png" width="960" height="540">
+  <img class="fragment" src="/tec/phy/Git/assets/images/octocat-morph-cute-to-ugly_4of4.png" width="960" height="540">
+</div>
 
 </section>
 
@@ -501,7 +564,7 @@ This will only display in the notes window.
 
 <section data-markdown>
 
-### Beyond the UiPath Studio
+### [Code, Culture] Beyond the UiPath Studio
 
 - new projects should NOT start in UiPath Studio but in a version control system
 - Use separate Git client (GUI or CLI) to manage the code
@@ -524,9 +587,9 @@ Git Clients:
 
 <section data-markdown>
 
-### Code Review
+### [Culture] Code Review
 
-- It's a culture thing
+- It's really a culture thing
 - …
 
 Note:
@@ -536,7 +599,7 @@ This will only display in the notes window.
 
 <section data-markdown>
 
-### Modern
+### [Code] Modern
 
 1. Process
 2. Library (Object Repository!)
@@ -549,7 +612,7 @@ Since Object Repository availability: towards more library projects
 
 <section data-markdown>
 
-### Git & Compagnie
+### [Code, Automation] Git & Compagnie
 
 - automated Workflow Analyzer: "Static Code Analysis"
 - defined branching strategy
@@ -564,7 +627,7 @@ This will only display in the notes window.
 
 <section data-markdown>
 
-### deepdive: Static Code Analysis
+### [Code] deepdive: Static Code Analysis
 
 - low hanging fruit
 - template quality!
@@ -589,10 +652,10 @@ This will only display in the notes window.
 
 <section data-markdown>
 
-### projct.json projectVersion
+### [Code, Automation] project.json projectVersion
 
 - SemVer? Really?
-- increment: human or automation?
+- increment: human or automation? Pre or post build?
 - automated commit?
 - …
 
@@ -603,10 +666,11 @@ This will only display in the notes window.
 
 <section data-markdown>
 
-### build runners
+### [Automation] build runners
 
 - Windows
 - uipcli.exe vs. UiPath Studio
+- self-hosted vs. SAAS
 - …
 
 Note:
@@ -616,7 +680,7 @@ This will only display in the notes window.
 
 <section data-markdown>
 
-### build script(s)
+### [Automation] build script(s)
 
 - custom
 - skills needed to develop and maintain
@@ -631,11 +695,12 @@ This will only display in the notes window.
 
 <section data-markdown>
 
-### dependencies and libraries
+### [Code, Build, Automation] Dependencies and Libraries
 
 - libraries are built differently
 - library naming conventions and dependency management
 - …
+- dependency substitution necessary? (depends on naming scheme e.g. Object Repository Descriptor) Libraries
 
 Note:
 This will only display in the notes window.
@@ -652,19 +717,7 @@ This will only display in the notes window.
 //
 //-->
 
-<section data-markdown>## Deepdive Test</section>
-
-<section data-markdown>
-
-### foo
-
-- bar
-- baz
-
-Note:
-This will only display in the notes window.
-
-</section>
+<section><h2>Deepdive Test</h2><span class="r-fit-text">Out of Scope</span><aside class="notes">This will only display in the notes window.</aside></section>
 
 </section><!-- end vertical -->
 
@@ -680,10 +733,16 @@ This will only display in the notes window.
 
 <section data-markdown>
 
-### foo
+### hands-on
 
-- bar
-- baz
+- publish UiPath Orchestrator feed(s)
+- can be automated without UiPath Studio (uipcli.exe)
+- can be automated via API calls to UiPath Orcehstrator API
+
+### RPA pecularities
+
+- delta test and prod environments
+- to be discussed: test after release?
 
 Note:
 This will only display in the notes window.
@@ -700,19 +759,7 @@ This will only display in the notes window.
 //
 //-->
 
-<section data-markdown>## Deepdive Deploy</section>
-
-<section data-markdown>
-
-### foo
-
-- bar
-- baz
-
-Note:
-This will only display in the notes window.
-
-</section>
+<section><h2>Deepdive Deploy</h2><span class="r-fit-text">Out of Scope</span><aside class="notes">This will only display in the notes window.</aside></section>
 
 </section><!-- end vertical -->
 
@@ -757,6 +804,326 @@ This will only display in the notes window.
 </section><!-- end vertical -->
 
 <!-- discussion ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+<section><!-- begin vertical -->
+
+<section data-markdown># Discussion</section>
+
+<style>
+.jeopardy-grid-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* 6 columns */
+  gap: 10px;
+  margin: 20px;
+  text-align: center;
+  align-items: stretch; /* Make all items in a row stretch to the tallest one's height */
+}
+.jeopardy-grid-container .cell {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #eee8d5;
+    display: flex; /* Flex layout to allow content to center vertically */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    min-height: 20px; /* Optional: Set a minimum height for shorter cells */
+}
+.jeopardy-grid-container .header {
+  font-weight: bold;
+  background-color: #2aa198;
+  color: white;
+}
+.jeopardy-grid-container .question:hover {
+  background-color: #fdf6e3;
+}
+</style>
+
+<section>
+<h2>Q&A Jeopardy style</h2>
+<div id="jeopardy-grid-container1" class="jeopardy-grid-container"></div>
+</section>
+
+<style>
+/* body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fdf6e3;
+  color: #657b83;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}*/
+
+#carousel-container {
+  margin: auto;
+  position: relative;
+  background-color: #eee8d5; /* Solarized Light secondary background */
+}
+
+#carousel-container .carousel-item {
+  display: none;
+  position: relative;
+  color: #657b83; /* Solarized Light primary text */
+}
+
+#carousel-container .carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
+#carousel-container .text-overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 43, 54, 1.0); /* Solarized Dark background with transparency */
+  color: #eee8d5; /* Solarized Light text */
+  width: 100%;
+  text-align: center;
+}
+
+#carousel-container .carousel-navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+#carousel-container .nav-element, #carousel-container .nav-dot {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;  /* Standardized width for all navigation elements */
+  height: 25px; /* Standardized height for all navigation elements */
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 20px; /* Font size adjusted for nav-element */
+  border-radius: 50%;
+  line-height: 1; /* Standardize line-height */
+}
+
+#carousel-container .nav-element {
+  background-color: #268bd2; /* Solarized Light blue */
+}
+
+#carousel-container .nav-dot {
+  font-size: 15px; /* Smaller font size for dots if needed */
+  background-color: #93a1a1; /* Solarized Light grey */
+}
+
+#carousel-container .nav-dot.active {
+  background-color: #2aa198; /* Cyan for active dot */
+}
+
+#carousel-container #back.inactive, #carousel-container #forward.inactive {
+  color: #93a1a1; /* Solarized Light muted text color */
+  cursor: default;
+}
+
+/* Additional styling for Rewind and Show Collage buttons */
+#carousel-container #rewind, #carousel-container #show-collage {
+  /* Optional additional styles */
+}
+
+#carousel-container .collage-container {
+    display: none;
+    /* background-color: #fff; /* Set your desired background color */
+    overflow: auto; /* Add scrollbar when content overflows */
+    position: relative;
+}
+
+#carousel-container .collage-item:nth-child(odd) {
+    background-color: #002b36; /* Use your desired base0 color */
+}
+
+#carousel-container .collage-item:nth-child(even) {
+    background-color: #073642; /* Use your desired base1 color */
+}
+</style>
+
+<script>
+const carouselList = [
+  {
+    img: "https://dummyimage.com/1920x1080/002b36/eee8d5&text=one",
+    text:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.",
+    title: "Lorem ipsum"
+  },
+  {
+    img: "https://dummyimage.com/1920x1080/073642/93a1a1&text=two",
+    text:
+      "Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie.",
+    title: "Cras elementum"
+  },
+  {
+    img: "https://dummyimage.com/1920x1080/b58900/002b36&text=three",
+    text:
+      "Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies.",
+    title: "Etiam ullamcorper"
+  },
+  {
+    img: "https://dummyimage.com/1920x1080/dc322f/eee8d5&text=four",
+    text:
+      "Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim.",
+    title: "Curabitur et"
+  },
+  {
+    img: "https://dummyimage.com/1920x1080/6c71c4/073642&text=five",
+    text:
+      "Phasellus fermentum in, dolor. Pellentesque facilisis. Nulla imperdiet sit amet magna. Vestibulum dapibus, mauris nec malesuada fames ac.",
+    title: "Phasellus fermentum"
+  }
+];
+
+document.addEventListener("DOMContentLoaded", () => {
+  const container = document.querySelector("#carousel-container");
+  const carouselItem = container.querySelector(".carousel-item");
+  const img = carouselItem.querySelector("img");
+  const textOverlay = carouselItem.querySelector(".text-overlay");
+  const collageContainer = container.querySelector(".collage-container");
+  const carouselNavigation = container.querySelector(".carousel-navigation");
+  const forwardButton = container.querySelector("#forward");
+  const showCollageButton = document.getElementById("show-collage");
+  let currentIndex = 0;
+  let isCollageShown = false;
+
+  function createNavDots() {
+    carouselList.forEach((_, index) => {
+      const dot = document.createElement("div");
+      dot.className = "nav-dot";
+      dot.addEventListener("click", () => {
+        if (isCollageShown) {
+          toggleCollageDisplay(false);
+        }
+        displayItem(index, false);
+      });
+      dot.addEventListener("dblclick", () => displayItem(index, true));
+      carouselNavigation.insertBefore(dot, forwardButton); // Insert before the Forward button
+    });
+  }
+
+  function displayItem(index, showText) {
+    currentIndex = index;
+    const item = carouselList[index];
+    img.src = item.img;
+    img.alt = item.title || "Carousel image";
+    textOverlay.textContent = showText ? item.text : "";
+    carouselItem.style.display = "block";
+    updateNavigationState();
+  }
+
+  function updateNavigationState() {
+    document.querySelectorAll(".nav-dot").forEach((dot, index) => {
+      dot.classList.toggle("active", index === currentIndex);
+    });
+  }
+
+  function toggleCollageDisplay(show) {
+    collageContainer.style.display = show ? "block" : "none";
+    carouselItem.style.display = show ? "none" : "block";
+    isCollageShown = show;
+    updateNavigationState(); // Update navigation dots
+  }
+
+function showCollage() {
+    collageContainer.innerHTML = '';
+    carouselList.forEach((item, index) => {
+        const collageItem = document.createElement('div');
+        collageItem.className = 'collage-item';
+        collageItem.textContent = item.text;
+        collageContainer.appendChild(collageItem);
+
+        // Add zebra background color based on index
+        if (index % 2 === 0) {
+            collageItem.style.backgroundColor = '#base0_color'; // Use your desired base0 color
+        } else {
+            collageItem.style.backgroundColor = '#base1_color'; // Use your desired base1 color
+        }
+    });
+
+    toggleCollageDisplay(true);
+
+    // Calculate and set the height based on the width
+    const containerWidth = container.offsetWidth;
+    const height = (containerWidth * 9 / 16);
+    collageContainer.style.height = height + 'px';
+}
+
+
+  // Event Listeners
+  document
+    .getElementById("rewind")
+    .addEventListener("click", () => displayItem(0, false));
+  document
+    .getElementById("back")
+    .addEventListener(
+      "click",
+      () => currentIndex > 0 && displayItem(currentIndex - 1, false)
+    );
+  document
+    .getElementById("forward")
+    .addEventListener(
+      "click",
+      () =>
+        currentIndex < carouselList.length - 1 &&
+        displayItem(currentIndex + 1, false)
+    );
+
+  showCollageButton.addEventListener("click", () => {
+    if (isCollageShown) {
+      toggleCollageDisplay(false);
+    } else {
+      showCollage();
+    }
+  });
+
+  img.addEventListener("click", () =>
+    displayItem(currentIndex, !textOverlay.textContent)
+  );
+
+  createNavDots();
+  displayItem(0, false); // Initialize with the first item
+});
+
+</script>
+
+<section>
+<h2>Carousel</h2>
+<!-- div class="r-stretch" -->
+<div style="width: 1080px !important; margin: 0 auto;">
+<div id="carousel-container" >
+  <div class="carousel-item">
+    <img src="" alt="carousel image">
+    <div class="text-overlay"></div>
+  </div>
+  <div class="collage-container" style="display: none;"></div> <!-- Collage container -->
+  <div class="carousel-navigation">
+    <div id="rewind" class="nav-element">&#8634;</div> <!-- Rewind button -->
+    <div id="back" class="nav-element">&#9664;</div> <!-- Back button -->
+    <div id="nav-dots-container"></div> <!-- Navigation dots will be inserted here -->
+    <div id="forward" class="nav-element">&#9654;</div> <!-- Forward button -->
+    <div id="show-collage" class="nav-element">&#9733;</div> <!-- Show Collage button -->
+  </div>
+</div>
+</div>
+</section>
+
+<script>
+<!-- prettier-ignore-start -->
+
+var jeopardyInitializations = [];
+
+// CSV Data
+const csvData2 = `Culture,question1,answer1,Code,question2,answer2,Build,question3,answer3,Test,question4,answer4,Release,question5,answer5,Deploy,question6,answer6
+50,question1-50,answer1-50,50,question2-50,answer2-50,50,question3-50,answer3-50,50,question4-50,answer4-50,50,question5-50,answer5-50,50,question6-50,answer6-50
+"",question1-100,answer1-100,100,question2-100,answer2-100,100,question3-100,answer3-100,100,question4-100,answer4-100,"","","-",100,question6-100,answer6-100
+250,question1-250,answer1-250,250,question2-250,answer2-250,250,question3-250,answer3-250,250,question4-250,answer4-250,250,question5-250,answer5-250,250,question6-250,answer6-250
+500,question1-500,answer1-500,500,question2-500,answer2-500,500,question3-500,answer3-500,500,question4-500,answer4-500,500,question5-500,answer5-500,500,question6-500,answer6-500`;
+
+jeopardyInitializations.push({ containerId: 'jeopardy-grid-container1', csvData: csvData2 });
+
+<!-- prettier-ignore-end -->
+</script>
+
+</section><!-- end vertical -->
+
+<!-- appendix ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
 <section><!-- begin vertical -->
 

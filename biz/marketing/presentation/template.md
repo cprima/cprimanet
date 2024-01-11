@@ -24,6 +24,198 @@ _titleimagefull: /biz/community/thisyearinrpa/resources/images/trends-from-tags-
 
 </section>
 
+<!-- discussion ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+<section><!-- begin vertical -->
+
+<section data-markdown># Discussion</section>
+
+<style>
+.jeopardy-grid-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* 6 columns */
+  gap: 10px;
+  margin: 20px;
+  text-align: center;
+  align-items: stretch; /* Make all items in a row stretch to the tallest one's height */
+}
+.jeopardy-grid-container .cell {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #eee8d5;
+    display: flex; /* Flex layout to allow content to center vertically */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    min-height: 20px; /* Optional: Set a minimum height for shorter cells */
+}
+.jeopardy-grid-container .header {
+  font-weight: bold;
+  background-color: #2aa198;
+  color: white;
+}
+.jeopardy-grid-container .question:hover {
+  background-color: #fdf6e3;
+}
+</style>
+
+<section>
+<h2>Q&A Jeopardy style</h2>
+<div id="jeopardy-grid-container" class="jeopardy-grid-container"></div>
+</section>
+
+<script>
+<!-- prettier-ignore-start -->
+// CSV Data
+const csvData = `
+One-question,column1answer,Two-Question,column2answer,Three-question,column3answer,Four-question,column4answer,Five-question,column5answer,Six-question,column6answer
+"What is the <answer /> to life, the universe and ""everything""?",answer 42,question 2,answer 2,question 3,answer 3,question 4,answer 4,question 5,answer 5,question 6,answer 6
+question 1,answer 1,question 2,answer 2,question 3,answer 3,question 4,answer 4,question 5,answer 5,question 6,answer 6
+question 1,answer 1,question 2,answer 2,question 3,answer 3,question 4,answer 4,question 5,answer 5,question 6,answer 6
+question 1,answer 1,question 2,answer 2,question 3,answer 3,"What is the <answer /> to life, the universe and ""everything""?",answer 42,question 5,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",question 6,answer 6
+`;
+
+// Function to parse CSV data
+function parseCSV(csvString) {
+  const rows = csvString.trim().split("\n");
+  return rows.map((row) => {
+    const regex = /"((?:[^"]|"")*)"|([^,]+)/g;
+    const fields = [];
+    let match;
+
+    while ((match = regex.exec(row))) {
+      if (match[1] !== undefined) {
+        //fields.push(escapeHTML(match[1].replace(/""/g, '"')));
+        fields.push(match[1].replace(/""/g, '"'));
+      } else {
+        //fields.push(escapeHTML(match[2]));
+        fields.push(match[2]);
+      }
+    }
+
+    return fields;
+  });
+}
+
+// Populate Grid
+function populateGrid(rows) {
+const gridContainer = document.getElementById("jeopardy-grid-container");
+
+// Extracting headers from the first row
+const headers = rows[0]
+.filter((_, index) => index % 2 === 0)
+.map((header) => header.replace(/-?_?question/i, "").trim());
+
+// Add headers
+headers.forEach((headerText, columnIndex) => {
+const header = document.createElement("div");
+header.className = `cell header row-0 column-${columnIndex}`;
+header.textContent = headerText;
+header.onclick = () => toggleColumnQuestions(columnIndex);
+gridContainer.appendChild(header);
+});
+
+// Add questions and answers (starting from the second row)
+rows.slice(1).forEach((row, rowIndex) => {
+for (let i = 0; i < 12; i += 2) {
+const questionDiv = document.createElement("div");
+questionDiv.className = `cell question column-${Math.floor(i / 2)} row-${rowIndex + 1}`;
+questionDiv.textContent = row[i];
+questionDiv.dataset.answer = row[i + 1];
+questionDiv.onclick = () => toggleQuestionAnswer(questionDiv);
+gridContainer.appendChild(questionDiv);
+}
+});
+}
+
+// Toggle Question/Answer
+function toggleQuestionAnswer(element) {
+if (element.dataset.answerShown === "true") {
+element.textContent = element.dataset.question;
+element.dataset.answerShown = "false";
+} else {
+element.dataset.question = element.textContent;
+element.textContent = element.dataset.answer;
+element.dataset.answerShown = "true";
+}
+}
+
+// Initialize
+const parsedData = parseCSV(csvData);
+populateGrid(parsedData);
+
+// Toggle Questions in a Column
+let lastClickTime = 0;
+let clickCount = 0;
+let clickTimer = null;
+
+function toggleColumnQuestions(columnIndex) {
+// Prevent default double-click behavior (text selection)
+if (event) {
+event.preventDefault();
+}
+const currentTime = new Date().getTime();
+if (currentTime - lastClickTime < 400) {
+// 400 ms for quick successions
+clickCount++;
+} else {
+clickCount = 1;
+}
+lastClickTime = currentTime;
+
+// Clear the existing timer if it exists
+if (clickTimer) {
+clearTimeout(clickTimer);
+}
+
+clickTimer = setTimeout(() => {
+const questions = document.querySelectorAll(
+`.question.column-${columnIndex}`
+);
+
+    if (clickCount === 2) {
+      questions.forEach((questionDiv) => {
+        if (questionDiv.dataset.answerShown === "true") {
+          toggleQuestionAnswer(questionDiv);
+        }
+      });
+    } else if (clickCount >= 4) {
+      questions.forEach((questionDiv) => {
+        if (questionDiv.dataset.answerShown !== "true") {
+          toggleQuestionAnswer(questionDiv);
+        }
+      });
+    } else {
+      questions.forEach((questionDiv) => toggleQuestionAnswer(questionDiv));
+    }
+
+    // Reset click count after action
+    clickCount = 0;
+
+}, 400); // Delay to allow for subsequent clicks
+
+// Clear any text selection
+if (window.getSelection) {
+window.getSelection().removeAllRanges();
+} else if (document.selection) {
+// For older versions of IE
+document.selection.empty();
+}
+
+}
+
+function escapeHTML(text) {
+return text
+.replace(/&/g, "&amp;")
+.replace(/</g, "&lt;")
+.replace(/>/g, "&gt;")
+.replace(/"/g, "&quot;")
+.replace(/'/g, "&#039;");
+}
+<!-- prettier-ignore-end -->
+</script>
+
+</section><!-- end vertical -->
+
 <section>
 <h2>Intelligent Automation and Low-Code</h2>
 <img src="{{ "/biz/IT/IntelligentAutomation/resources/images/intelligent-automation-capabilities.png" | prepend: site.baseurl }}" alt="" class="resize">
