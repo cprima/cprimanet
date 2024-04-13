@@ -56,7 +56,7 @@
 				<section data-state="no-title-footer">
 					<p>
             <h2>Copyright</h2>
-						<small>Copyright © 2023 {% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}.<br />Except where otherwise noted, this work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) License</a>.<br /><img src="{{ "/biz/resources/creativecommons/images/cc-by-sa_88x31.png" | prepend: site.baseurl }}" /></small>
+						<small>Copyright © 2024 {% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}.<br />Except where otherwise noted, this work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) License</a>.<br /><img src="{{ "/biz/resources/creativecommons/images/cc-by-sa_88x31.png" | prepend: site.baseurl }}" /></small>
 					</p>
 				</section>
 
@@ -68,7 +68,7 @@
 
 
 			</div>
-
+<footer id="title-footer" style="bottom: 5px !important;"><p>Copyright © 2024 {% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}. Except where otherwise noted, this work is licensed under a Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) License.</p></footer>
 		</div>
 
 		<script src="{{ "/biz/marketing/presentation/reveal.js-5.0.4/dist/reveal.js" | prepend: site.baseurl }}"></script>
@@ -79,6 +79,7 @@
 		<script src="{{ "/biz/marketing/presentation/reveal.js-5.0.4/plugin/highlight/highlight.js" | prepend: site.baseurl }}"></script>
 		<script src="{{ "/biz/marketing/presentation/reveal.js-5.0.4/plugin/appearance/appearance.js" | prepend: site.baseurl }}"></script>
 		<!-- script src="{{ "/biz/marketing/presentation/reveal.js-5.0.4/plugin/verticator/verticator.js" | prepend: site.baseurl }}"></script -->
+		<script src="{{ "/biz/marketing/presentation/reveal.js-5.0.4/plugin/cpmFooter/plugin.js" | prepend: site.baseurl }}"></script>
 
 		<script>
 
@@ -372,7 +373,7 @@ Reveal.initialize({
     // Time before the cursor is hidden (in ms)
     hideCursorTime: 1000,
 
-    plugins: [ RevealNotes, RevealMarkdown, RevealHighlight, Appearance  ]
+    plugins: [ RevealNotes, RevealMarkdown, RevealHighlight, Appearance, cpmFooter ]
 
     //,showNotes: 'separate-page'
 
@@ -381,7 +382,6 @@ Reveal.initialize({
 		</script>
 
 		<script src="{{ "/biz/marketing/presentation/reveal.js-5.0.4/plugin/tagcloud/tagcloud.js" | prepend: site.baseurl }}"></script>
-		<script src="{{ "/biz/marketing/presentation/reveal.js-5.0.4/plugin/title-footer/title-footer.js" | prepend: site.baseurl }}"></script>
 		<script src="{{ "/biz/marketing/website/assets/js/jeopardy.js" | prepend: site.baseurl }}"></script>
 
 	</body>
