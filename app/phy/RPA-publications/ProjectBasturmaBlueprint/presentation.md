@@ -190,8 +190,8 @@ This will only display in the notes window.
             display: flex;
             justify-content: space-around;
             width: 100%;
-            min-height: 300px; /* Minimum height */
-            max-height: 700px; /* Maximum height */
+            min-height: 350px; /* Minimum height */
+            max-height: 800px; /* Maximum height */
             overflow: auto; /* Enable scrolling if content exceeds max height */
         }
 
@@ -285,17 +285,17 @@ This will only display in the notes window.
                 <div class="label" style="color: #eee8d5;">Test</div>
                 <!-- div class="sub-label">Sub-Label 3</div -->
 <ul>
-<li>user acceptance testing</li>
 <li>(automated testing)</li>
-<li>(Canary)</li>
+<li>(Canary?)</li>
+<li style="text-decoration: line-through">user acceptance testing</li>
 </ul>
             </div>
             <div class="pillar fragment fade-up">
                 <div class="label">Release</div>
                 <!-- div class="sub-label">Sub-Label 4</div -->
 <ul>
-<li>publish to Orchestrator test tenant feed(?)</li>
-<li>publish to Orchestrator prod tenant feed(?)</li>
+<li>publish to Orchestrator test tenant feed(!)</li>
+<li>publish to Orchestrator prod tenant feed(!)</li>
 <li>deployment script(s)</li>
 </ul>
             </div>
@@ -303,8 +303,10 @@ This will only display in the notes window.
                 <div class="label" style="color: #eee8d5;">Deploy</div>
                 <!-- div class="sub-label">Sub-Label 5</div -->
 <ul>
-<li>approval</li>
-<li>set active version in UiPath Orchestrator tenant (folder)</li>
+<li>Staging Environment Testing</li>
+<li>approvals, schedule</li>
+<li>set active version prod tenant</li>
+<li>Smoketest</li>
 </ul>
             </div>
         </div>
@@ -1138,3 +1140,5 @@ jeopardyInitializations.push({ containerId: 'jeopardy-grid-container1', csvData:
 </section>
 
 </section><!-- end vertical -->
+
+<!-- footer id="title-footer" style="bottom: 5px !important;"><p>Copyright © 2024 {% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}. Except where otherwise noted, this work is licensed under a Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) License.</p></footer //-->
