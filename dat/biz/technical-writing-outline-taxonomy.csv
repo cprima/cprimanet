@@ -1,0 +1,15 @@
+Type,Description
+Book/Document,The entirety of the content. The full guide or set of instructions detailing the CI/CD pipeline for UiPath RPA projects.
+Part,Large thematic divisions within a book/document. Used to group several chapters around a common theme.
+Chapter,A major section of a part or book/document. Encompasses a primary topic and can be further divided into sub-sections.
+Section,A segment of a chapter focusing on a specific sub-topic. Denoted by secondary or tertiary headings.
+Subsection,A division of a section focusing on granular details or specific aspects of the section's topic.
+Appendix,Supplementary material at the end of a book/document. Provides additional information that would otherwise disrupt the flow of the main content.
+Glossary,A list of terms and their definitions related to the content. Useful for specialized content where specific jargon or terms might be used.
+Bibliography/References,A section detailing the sources and references used throughout the document.
+Index,An alphabetical list of terms, topics, or subjects mentioned in the document, with page numbers or links for quick access.
+Summary/Conclusion,A brief recapitulation of the key points covered in a chapter or the entire document.
+Foreword/Introduction,An initial section that introduces the purpose, scope, and importance of the document.
+Sidebar/Boxout,Short pieces of text set apart from the main content. They might provide additional information, context, or highlight important points.
+Case Study/Example,Practical examples illustrating a concept.
+Checklist,A list of items to be checked or things to be done.

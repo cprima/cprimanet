@@ -1,7 +1,7 @@
 title: cprima.net
 email: cprior@gmail.com
 author: Christian Prior-Mamulyan
-description: >- 
+description: >-
   A sysadmin's notepad, a publishing hub and more.
 description_de: >- # this means to ignore newlines until "baseurl:"
   A sysadmin's notepad, a publishing hub and more.
@@ -14,6 +14,7 @@ mailchimp-formaction: "https://gmail.us10.list-manage.com/subscribe/post?u=7397e
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 #markdown: Pandoc
 #plugins:
 #  - jekyll-feed
@@ -24,57 +25,51 @@ permalink: /:categories/:year/:month/:day/:title:output_ext
 feed:
   path: /biz/marketing/website/feed.xml
 
-source:        .
-layouts_dir:  ./biz/marketing/website/_layouts
+source: .
+layouts_dir: ./biz/marketing/website/_layouts
 includes_dir: ./biz/marketing/website/_includes
-destination:  ./biz/marketing/website/_site
-data_dir:     ./dat
+destination: ./biz/marketing/website/_site
+data_dir: ./dat
 sass:
-    sass_dir: ./biz/marketing/website/assets/_sass
+  sass_dir: ./biz/marketing/website/assets/_sass
 
 exclude:
-#  - app
+  #  - app
   - data
   - tec/phy/*/settings
 #  - tec
 
 defaults:
-  -
-    scope:
+  - scope:
       path: "" # an empty string here means all files in the project
       type: "posts" # previously `post` in Jekyll 2.2.
     values:
       layout: "post"
-  -
-    scope:
+  - scope:
       path: "app/log/building-blocks"
       type: "posts" #index.md is of type application_logical_building-blocks
     values:
       permalink: /app/log/building-blocks/:title.html
       categories: application_logical_building-blocks
-  -
-    scope:
+  - scope:
       path: "tec/phy/*/README.md"
       type: "pages"
     values:
       categories: technology-physical
       layout: taptc
-  -
-    scope:
+  - scope:
       path: "tec/phy/*/*/README.md"
       type: "pages"
     values:
       categories: technology-physical
       layout: taptc
-  -
-    scope:
+  - scope:
       path: "tec/phy/building-blocks"
       type: "posts" #index.md is of type technology-physical_building-blocks
     values:
       permalink: /tec/phy/building-blocks/:title.html
       #categories: technology-physical_building-blocks
-  -
-    scope:
+  - scope:
       path: "biz/*/*/*/README.md"
       type: "pages"
     values:
