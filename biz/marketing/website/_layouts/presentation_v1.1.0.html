@@ -30,7 +30,7 @@
 
 
 		<!-- Code syntax highlighting -->
-		<link rel="stylesheet" href="{{ "/biz/marketing/presentation/reveal.js-4.4.0/plugin/highlight/monokai.css" | prepend: site.baseurl }}"  id="highlight-theme">
+		<link rel="stylesheet" href="{{ "/biz/marketing/presentation/reveal.js-4.4.0/css/highlight/solarized-light.css" | prepend: site.baseurl }}"  id="highlight-theme">
 
 	</head>
 
@@ -374,7 +374,7 @@ Reveal.initialize({
     // Time before the cursor is hidden (in ms)
     hideCursorTime: 1000,
 
-    plugins: [ RevealNotes, RevealMarkdown, Appearance  ]
+    plugins: [ RevealNotes, RevealMarkdown, RevealHighlight, Appearance  ]
 
     //,showNotes: 'separate-page'
 

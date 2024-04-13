@@ -1,8 +1,8 @@
+TA_PTC_046
 
-
+tec/phy/Blackmagic/DaVinciResolve/DavinciResolve.md
 
 SoftClipper
-
 
 bg music normalized to -30dB, then on channel reduced by another -10dB
 
@@ -26,5 +26,3 @@ zoom and mouse in main timeline, not in compund clips
 todo
 ticker lower third for explanations
 asset handling for series of videos
-
-

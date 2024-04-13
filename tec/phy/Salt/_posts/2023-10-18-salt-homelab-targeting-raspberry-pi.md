@@ -60,25 +60,29 @@ These groups can then be easily targeted:
 sudo salt -N raspberrypi_group test.ping
 ```
 
-### **3. State Files**
+### **3. Minion roles**
 
-State files define the desired state for systems. A sample state was provided to ensure the installation of certain Linux packages:
+Minions can be assigned roles using a config file. For instance, a minion can be assigned the role `webserver` in `/etc/salt/minion.d/grains.conf`:
 
 ```yaml
-install_essential_packages:
-  pkg.installed:
-    - pkgs:
-        - vim
-        - git
-        - screen
+grains:
+  roles:
+    - webserver
 ```
 
-For debugging or logging purposes within state files:
+In a top.sls file, minions can be targeted based on their roles:
 
 ```yaml
-log_message:
-  test.nop:
-    - name: "This is a log message."
+base:
+  "G@roles:webserver":
+    - match: grain
+    - apache
+```
+
+Or on the command line:
+
+```bash
+sudo salt -G 'roles:webserver' test.ping
 ```
 
 ### **Conclusion**

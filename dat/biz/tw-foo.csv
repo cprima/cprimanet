@@ -1,0 +1,30 @@
+section,description
+Title,The title should be clear and indicative of the content.
+Introduction - Brief Overview,A short paragraph summarizing the main focus of the article.
+Introduction - Problem Statement,Outline the problem or need that the article addresses.
+Introduction - Purpose,State what the reader will learn or accomplish by reading the article.
+Introduction - Scope,Clearly define the scope of the article to set reader expectations.
+Prerequisites - Required Knowledge,List any necessary background knowledge or skills.
+Prerequisites - Tools and Technologies,Mention specific software, tools, or platforms.
+Prerequisites - Setup Requirements,Provide instructions or links to setup documentation.
+Main Content - Concepts and Processes,Explain the core concepts and processes involved.
+Main Content - Use Cases,Specific examples where the tool or process applies.
+Main Content - Walkthroughs,Step-by-step guides to perform certain tasks.
+Main Content - Screenshots and Code Snippets,Visual aids and examples enhance understanding.
+Main Content - Technical Explanation,Detailed analysis of how things work internally.
+Main Content - Diagrams,Workflow or architecture diagrams to illustrate complex systems.
+Main Content - Best Practices,Recommendations for efficient and effective use.
+Main Content - Troubleshooting,Common problems and their solutions.
+Practical Application - Tutorial,A practical and detailed tutorial showing the implementation.
+Practical Application - Sample Project,A reference to a sample project or repository for practice.
+Advanced Considerations - Optimization Tips,Ways to refine and improve upon the basic setup.
+Advanced Considerations - Scalability,Discussion on how to scale the solution for larger applications.
+Advanced Considerations - Security,Notes on securing the implementation.
+Summary - Recap,A quick summary of what was covered.
+Summary - Further Reading/Resources,Links to additional resources for in-depth learning.
+Summary - Next Steps,Suggest follow-up actions or topics to explore next.
+FAQs,Address common queries related to the topic.
+Conclusion - Final Thoughts,Your closing thoughts on the topic.
+Conclusion - Call to Action,Encourage the reader to try out the tutorial or explore related topics.
+References,List of all external resources, papers, or documentation cited.
+Appendices,Any supplementary material that is too detailed for the main body.

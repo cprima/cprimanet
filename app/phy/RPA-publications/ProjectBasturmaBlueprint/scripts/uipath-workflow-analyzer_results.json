@@ -1,0 +1,134 @@
+[
+  {
+    "ErrorCode": "ST-USG-010",
+    "Description": "Dependency package UiPath.UIAutomation.Activities is not used.",
+    "RuleName": "Unused Dependencies",
+    "FilePath": null,
+    "ActivityId": null,
+    "ActivityDisplayName": null,
+    "WorkflowDisplayName": null,
+    "Item": {
+      "Name": "UiPath.UIAutomation.Activities",
+      "Type": 4
+    },
+    "ErrorSeverity": 4,
+    "Recommendation": "Remove unused packages in order to improve process execution time. [Learn more.](https://docs.uipath.com/studio/lang-en/v2021.10/docs/st-usg-010)",
+    "DocumentationLink": "https://docs.uipath.com/studio/lang-en/v2021.10/docs/st-usg-010"
+  },
+  {
+    "ErrorCode": "ST-USG-010",
+    "Description": "Dependency package UiPath.Testing.Activities is not used.",
+    "RuleName": "Unused Dependencies",
+    "FilePath": null,
+    "ActivityId": null,
+    "ActivityDisplayName": null,
+    "WorkflowDisplayName": null,
+    "Item": {
+      "Name": "UiPath.Testing.Activities",
+      "Type": 4
+    },
+    "ErrorSeverity": 4,
+    "Recommendation": "Remove unused packages in order to improve process execution time. [Learn more.](https://docs.uipath.com/studio/lang-en/v2021.10/docs/st-usg-010)",
+    "DocumentationLink": "https://docs.uipath.com/studio/lang-en/v2021.10/docs/st-usg-010"
+  },
+  {
+    "ErrorCode": "ST-USG-010",
+    "Description": "Dependency package UiPath.System.Activities is not used.",
+    "RuleName": "Unused Dependencies",
+    "FilePath": null,
+    "ActivityId": null,
+    "ActivityDisplayName": null,
+    "WorkflowDisplayName": null,
+    "Item": {
+      "Name": "UiPath.System.Activities",
+      "Type": 4
+    },
+    "ErrorSeverity": 4,
+    "Recommendation": "Remove unused packages in order to improve process execution time. [Learn more.](https://docs.uipath.com/studio/lang-en/v2021.10/docs/st-usg-010)",
+    "DocumentationLink": "https://docs.uipath.com/studio/lang-en/v2021.10/docs/st-usg-010"
+  },
+  {
+    "ErrorCode": "ST-USG-010",
+    "Description": "Dependency package UiPath.Mail.Activities is not used.",
+    "RuleName": "Unused Dependencies",
+    "FilePath": null,
+    "ActivityId": null,
+    "ActivityDisplayName": null,
+    "WorkflowDisplayName": null,
+    "Item": {
+      "Name": "UiPath.Mail.Activities",
+      "Type": 4
+    },
+    "ErrorSeverity": 4,
+    "Recommendation": "Remove unused packages in order to improve process execution time. [Learn more.](https://docs.uipath.com/studio/lang-en/v2021.10/docs/st-usg-010)",
+    "DocumentationLink": "https://docs.uipath.com/studio/lang-en/v2021.10/docs/st-usg-010"
+  },
+  {
+    "ErrorCode": "ST-USG-010",
+    "Description": "Dependency package UiPath.Excel.Activities is not used.",
+    "RuleName": "Unused Dependencies",
+    "FilePath": null,
+    "ActivityId": null,
+    "ActivityDisplayName": null,
+    "WorkflowDisplayName": null,
+    "Item": {
+      "Name": "UiPath.Excel.Activities",
+      "Type": 4
+    },
+    "ErrorSeverity": 4,
+    "Recommendation": "Remove unused packages in order to improve process execution time. [Learn more.](https://docs.uipath.com/studio/lang-en/v2021.10/docs/st-usg-010)",
+    "DocumentationLink": "https://docs.uipath.com/studio/lang-en/v2021.10/docs/st-usg-010"
+  },
+  {
+    "ErrorCode": "ST-ANA-003",
+    "Description": "Expand to see details",
+    "RuleName": "Project Workflow Count",
+    "FilePath": "project.json",
+    "ActivityId": null,
+    "ActivityDisplayName": null,
+    "WorkflowDisplayName": null,
+    "Item": null,
+    "ErrorSeverity": 3,
+    "Recommendation": "Project workflow count:\r\n* Totals: 1 Folders and 1 workflows\r\n",
+    "DocumentationLink": "https://docs.uipath.com/studio/lang-en/v2021.10/docs/st-ana-003"
+  },
+  {
+    "ErrorCode": "ST-ANA-009",
+    "Description": "Expand to see details",
+    "RuleName": "File Activities Stats",
+    "FilePath": "C:\\Users\\cpm\\Documents\\UiPath\\BlankProcess2\\Main.xaml",
+    "ActivityId": null,
+    "ActivityDisplayName": null,
+    "WorkflowDisplayName": null,
+    "Item": null,
+    "ErrorSeverity": 3,
+    "Recommendation": "Activities: 1",
+    "DocumentationLink": "https://docs.uipath.com/studio/lang-en/v2021.10/docs/st-ana-009"
+  },
+  {
+    "ErrorCode": "ST-USG-020",
+    "Description": "Log Message not used in workflow Main.",
+    "RuleName": "Minimum Log Messages",
+    "FilePath": "C:\\Users\\cpm\\Documents\\UiPath\\BlankProcess2\\Main.xaml",
+    "ActivityId": null,
+    "ActivityDisplayName": null,
+    "WorkflowDisplayName": null,
+    "Item": null,
+    "ErrorSeverity": 2,
+    "Recommendation": "Using Log Message activities is important both during development and after release. They help understanding the flow path which is very useful for maintenance and, when an error occurs, to easily identify the source and the cause. [Learn more.](https://docs.uipath.com/studio/lang-en/v2021.10/docs/st-usg-020)",
+    "DocumentationLink": "https://docs.uipath.com/studio/lang-en/v2021.10/docs/st-usg-020"
+  },
+  {
+    "ErrorCode": "ST-MRD-008",
+    "Description": "Sequence Main Sequence is empty.",
+    "RuleName": "Empty Sequence",
+    "FilePath": "C:\\Users\\cpm\\Documents\\UiPath\\BlankProcess2\\Main.xaml",
+    "ActivityId": "1.1",
+    "ActivityDisplayName": "Main Sequence",
+    "WorkflowDisplayName": null,
+    "Item": null,
+    "ErrorSeverity": 4,
+    "Recommendation": "Remove empty sequences because they can clutter the workflow. [Learn more.](https://docs.uipath.com/studio/lang-en/v2021.10/docs/st-mrd-008)",
+    "DocumentationLink": "https://docs.uipath.com/studio/lang-en/v2021.10/docs/st-mrd-008"
+  }
+]

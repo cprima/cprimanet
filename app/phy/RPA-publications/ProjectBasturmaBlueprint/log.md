@@ -1,4 +1,73 @@
-## Roadmap
+## Changelog
+
+### todo
+
+- [ ] cleanup cprima.net site
+- [ ] setup project repo including GitHub Pages
+- [ ] write from Jenkins Job into Pull Request
+- [ ] extract from MinimalExamples Jenkins Freestyle Jobs into Jenkinsfiles and versioncontrol them
+- [ ] write UiPath Project minimal example
+
+### 2023-11-01
+
+- wrote project brief
+- saved technical writing publishing documents
+- experimental HTML template with Bootstrap 5
+
+### 2023-10-31
+
+- 2 variants for pull request templates in .github
+- refined base Jekyll setup and confirmed baseurl is working
+
+### 2023-10-30
+
+- published scripts/python/uipath_to_sonar_converter.py
+- got first feedback from community @carlosevp ! (y)
+- initial GitHub pages setup
+
+### 2023-10-29
+
+- announcement post/article
+- initial import Workflow Analyzer results into SonarQube
+
+### 2023-10-27
+
+- setup Jenins service account on GitHub
+- create ssh key for Jenkins service account
+
+### 2023-10-26
+
+- Running Jenkins on Port 80 with iptables on GNU/Linux
+- Minimal Example Pack and Deploy
+- initial increment version implementation
+
+### 2023-10-25
+
+- 12-factor app vs Jenkins UiPath
+- initial Postman Collection to replay GitHub webhook events
+- initial repo folder structure
+
+### 2023-10-24
+
+- build once or customize per environment
+
+### 2023-10-23
+
+- how to version bump?
+
+### 2023-10-22
+
+- requirements
+
+### 2023-10-21
+
+- wrote a internal tabbed interface component for Jekyll
+
+- Brainstormed iterations for homelab physical tech components.
+
+### 2023-10-22
+
+- added DietPi installation bog posts
 
 ### 2023-10-20
 

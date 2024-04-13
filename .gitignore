@@ -1,4 +1,3 @@
-
 *~
 *.sw[mnpcod]
 *.log
@@ -12,7 +11,6 @@ npm-debug.log*
 _site/
 Gemfile.lock
 
-
 .idea/
 .sass-cache/
 
@@ -21,3 +19,10 @@ HexagonalGridSolarized_30mins.mkv
 .ipynb_checkpoints
 
 Thumbs.db
+
+# LibreOffice lock files
+.~lock.*#
+
+#SonarQube
+scanner-report
+.sonar_lock

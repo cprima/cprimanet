@@ -1,0 +1,8 @@
+:2015 {
+    header Content-Type text/html
+    respond "<html><head><title>Hello World!</title></head><body>Hello World!</body></html>"
+}
+
+:2016 {
+    reverse_proxy localhost:8008
+}

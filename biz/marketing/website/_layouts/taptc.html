@@ -27,6 +27,13 @@ layout: default
   </div>
 {% endunless %}
 
+
+
+{% assign has_checklists = 'maybe' %}
+{% assign checklists_to_include = page.checklists %}
+{% include checklist.html checklistsarray=checklists_to_include heading="h3" %}
+
+
 {% assign has_posts = 'maybe' %}
 {% for post in site.posts %}
 {% if post.component == page.component %}
