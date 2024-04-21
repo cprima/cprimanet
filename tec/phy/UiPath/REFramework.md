@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Yet another perspective on the UiPath REFramework"
-component: 
-date:   2022-01-01 00:00:00 +0100
+component:
+date: 2022-01-01 00:00:00 +0100
 abstract: ""
 ---
 
@@ -24,17 +24,14 @@ As an architect or a developer, how can we design or implement with the REFramew
 
 Finally to critique omissions in the template gives the confidence to handle the REFramework like a Pro!
 
-
 ## Prerequisites
 
 Understanding of arguments, parameters and variables in UiPath Studio.
 
-
-
 ## Contents
 
 - TOC
-{:toc}
+  {:toc}
 
 ## Preface
 
@@ -43,24 +40,23 @@ Henceforth focus on the Modern version.
 
 Nota bene: Although the GitHub repo is prominently referred to from the documentation it is unmaintained since about 4 years.
 
-{% include_relative assets/texts/portability.md headingmodifier="#" %}
+{% include_relative resources/texts/portability.md headingmodifier="#" %}
 
-{% include_relative assets/texts/reliability.md headingmodifier="#" %}
+{% include_relative resources/texts/reliability.md headingmodifier="#" %}
 
-{% include_relative assets/texts/functionality.md headingmodifier="#" %}
+{% include_relative resources/texts/functionality.md headingmodifier="#" %}
 
-{% include_relative assets/texts/interoperability.md headingmodifier="#" %}
+{% include_relative resources/texts/interoperability.md headingmodifier="#" %}
 
-{% include_relative assets/texts/maintainability.md headingmodifier="#" %}
-
+{% include_relative resources/texts/maintainability.md headingmodifier="#" %}
 
 ## Tipps & Tricks & Gotchas
 
 Prevent by all means any exception type other than Business Rule Exception if
+
 - you can't rollback the processing of an "transaction item" and/or
 - your processing is not idempotent!
-Any exception like SelectorNotFound or System.IO.FileNotFoundException will be retried!
-
+  Any exception like SelectorNotFound or System.IO.FileNotFoundException will be retried!
 
 //todo
 //check
@@ -69,8 +65,6 @@ The RetryNumber is "in the current REFramework" only checked in RetryCurrentTran
 System.Exeception is worded "ApplicationException":
 `in_Config("LogMessage_ApplicationException").ToString+" Retry: "+io_RetryNumber.ToString+". "+in_SystemException.Message+" at Source: "+in_SystemException.Source` @see RetryCurrentTransaction.xaml
 
-
-
 Export to Excel is your friend, too!
 
 GitHub repo out-of-date and unmaintained, but referenced in the documentation.
@@ -78,4 +72,3 @@ GitHub repo out-of-date and unmaintained, but referenced in the documentation.
 retries: not backoff implemented, rather "immediately"
 
 no batchsize
-
