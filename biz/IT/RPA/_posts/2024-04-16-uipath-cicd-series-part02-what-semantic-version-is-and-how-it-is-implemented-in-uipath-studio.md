@@ -24,6 +24,17 @@ This notation allows for a core version and an optional pre-release designation,
 
 It’s good practice to reflect version changes in your commit messages or pull request titles. This approach not only ensures that each increment is documented and traceable, aligning development work with versioning strategy, but it also lays the groundwork for version increments in automated build scripts.
 
-🔍 Stay tuned for a sample implementation of version increments in PowerShell!
+### Example Git log
 
-Until then: Why not start your next project at version 0.1.0 and adhere in your commit messages to SemVer best practices?
+```
+cpm@host:/mnt/t/example$  git log --all --decorate --oneline --graph
+* 36c3d50 (HEAD -> master) Merging development changes
+* 23c2383 (tag: v2.0.0) Breaking: new input argument for config file
+* 536ff71 (tag: v1.1.0) Feature: Added reporting
+* 409121f (tag: v1.0.1) Fix: bug
+* 0996c07 (tag: v1.0.0) Major: Release to Production
+* d09d6db (tag: v0.2.1) Fix: bug detected during UAT
+* 6969130 (tag: v0.2.0) Feature: Implemented requirement foo
+* 83a5dac (tag: v0.1.1) Minor: Refactored code
+* 3ceda6a (tag: v0.1.0) Initial version
+```
