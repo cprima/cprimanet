@@ -4,7 +4,6 @@ title: "Automating Version Management Using PowerShell in UiPath RPA Projects"
 date: 2024-04-23 03:30:00 +0000
 categories: RPA CI/CD Automation
 tags: [UiPath, RPA, CI/CD, PowerShell, Version Control, Automation, Git, SemVer]
-author: "Your Name"
 excerpt: "Explore automating version management using PowerShell in UiPath RPA projects. This post delves into a sample implementation based on Git commit messages, sharing insights and code examples to enhance your CI/CD pipeline."
 ---
 
@@ -24,17 +23,17 @@ The entire script is available as a gist: [View Gist](https://gist.github.com/cp
 📜 At the core, the script contains:
 
 ```powershell
-$projectJson = Get-Content "".\project.json"" -Raw | ConvertFrom-Json
-$commitMessage = (git log --format=%B -n 1) -join "" ""
+$projectJson = Get-Content ".\project.json" -Raw | ConvertFrom-Json
+$commitMessage = (git log --format=%B -n 1) -join " "
 $incrementedVersion = Increment-SemVer -semVerString $projectJson.projectVersion -commitMessage $commitMessage
 
 $projectJson.projectVersion = $incrementedVersion
-$projectJson | ConvertTo-Json -Depth 99 | Set-Content "".\project.json""
+$projectJson | ConvertTo-Json -Depth 99 | Set-Content ".\project.json"
 
-git add "".\project.json"" && git commit -m ""Version bump in project.json"" && git push
+git add ".\project.json" && git commit -m "Version bump in project.json" && git push
 ```
 
-Here is what Increment-SemVer does (for demonstration purposes with hardcoded parameters):
+Here is what Increment-SemVer does to a projectVersion of 0.2.3:
 
 --commitMessage 'BREAKING CHANGE: Refactoring output arguments for use via Orchestrator API, incompatible with previous versions.'
 👉 Major increment to 1.0.0
@@ -47,6 +46,4 @@ Here is what Increment-SemVer does (for demonstration purposes with hardcoded pa
 
 🔑 Key point is: The words in the commit message determine the version increment.
 
-It might come as a surprise to RPA developers that this approach bypasses the UiPath Studio ""publish"" function and has requirements on well-crafted commit messages. But as RPA (and UiPath Studio) matures, our skillset also has to converge towards best practices in other coding environments.
-
-#UiPath #RPA #CICD #Automation #PowerShell #DeveloperExperience
+It might come as a surprise to RPA developers that this approach bypasses the UiPath Studio "publish" function and has requirements on well-crafted commit messages. But as RPA (and UiPath Studio) matures, our skillset also has to converge towards best practices in other coding environments.
