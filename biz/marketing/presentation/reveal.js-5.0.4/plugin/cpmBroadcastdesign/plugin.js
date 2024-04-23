@@ -78,7 +78,7 @@ const addLowerThird = function (lowerThirdContent, config) {
 
   // Set text content based on layout
   switch (layout) {
-    case "single-line":
+    case "one-line":
       lowerThird.textContent = lowerThirdContent.content.line1 || "";
       break;
     case "two-line":
