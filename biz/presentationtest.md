@@ -21,9 +21,43 @@ titleimagefull: "/app/phy/RPA-publications/ProjectBasturmaBlueprint/images/cprim
     <h1>Slide 5</h1>
 </section>
 
-<section data-lower-third='{"visibility": "expanded", "layout": "two-line", "content": {"line1": "Title", "line2": "Subtitle"}}'>
+<section data-lower-third='{"visibility": "expanded", "layout": "one-line", "content": {"line1": "Foobar"}}'>
     <h1>Slide 6</h1>
 </section>
+
+<section>
+<h2>Slide with wordcloud</h2>
+<p class="stretch" wordcloud-activate="once" wordcloud='{ "minRotation": 0.1, "maxRotation": 0.9, "rotateRatio": 0.8, "rotationSteps": 99, "color": "random-dark", "backgroundColor": "" }'>
+30 Les Misérables
+20 Victor Hugo
+15 Jean Valjean
+15 Javert
+15 Fantine
+15 Cosette
+12 Éponine
+12 Marius
+12 Enjolras
+10 Thénardiers
+10 Gavroche
+10 Bishop Myriel
+10 Patron-Minette
+10 God
+8 ABC Café
+8 Paris
+8 Digne
+8 Elephant of the Bastille
+5 silverware
+5 Bagne of Toulon
+5 loaf of bread
+5 Rue Plumet
+5 revolution
+5 barricade
+4 sewers
+4 Fex urbis lex orbis
+</p>
+</section>
+
+
 
 <section data-lower-third='{"visibility": "collapsed", "layout": "two-line", "content": {"line1": "Title", "line2": "Subtitle"}}'>
 <h2>Example Code</h2>
