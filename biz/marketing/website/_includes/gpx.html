@@ -1,0 +1,455 @@
+{% assign gpxfilename = include.gpxfilename %}
+{% assign gpxfilename2 = include.gpxfilename2 %}
+
+
+<script src="/biz/marketing/website/assets/js/vendor/GPXParser-3.1.0.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/simplify-js@1.2.4/simplify.min.js"></script>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+<!-- Example placeholder for the Plotly chart -->
+<div id="plotlyChart4" style="width:100%;height:500px;"></div>
+<div id="plotlyChart5" style="width:100%;height:256px;"></div>
+<div id="plotlyChart6" style="width:100%;height:256px;"></div>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  // Configuration variables
+  const timeZone = 'Europe/Berlin';
+  const tolerance = 10; // Increase tolerance for more aggressive simplification
+  const highQuality = true; // Set to true for high-quality simplification
+  const speedCutoff = 5; // Speed cutoff in km/h
+  const pauseDurationThreshold = 120; // Pause duration threshold in seconds (e.g., 2 minutes)
+
+  // Create a new gpxParser object
+  let gpx = new gpxParser();
+
+  // Load and parse the GPX file
+  fetch('{{gpxfilename}}')
+    .then(response => response.text())
+    .then(gpxText => {
+      gpx.parse(gpxText); // Parse the GPX file content
+
+      let points = []; // Array to store points to be simplified
+      let elapsedPauseTime = 0; // To track the total pause time
+      let pauseStartIndex = null; // To store the index where the pause starts
+
+      let track = gpx.tracks[0]; // Assuming you're working with the first track
+
+      track.points.forEach((point, index) => {
+        if (index > 0) { // Skip the first point since there's no previous point to compare to
+          let prevPoint = track.points[index - 1];
+
+          // Calculate time difference in seconds
+          let timeDiff = (new Date(point.time) - new Date(prevPoint.time)) / 1000;
+          
+          // Calculate distance between the two points
+          let distance = gpx.calcDistanceBetween(prevPoint, point); // in meters
+
+          // Calculate speed in m/s and convert to km/h
+          let speed = (distance / timeDiff) * 3.6; // m/s to km/h
+
+          // Check for pause condition
+          if (speed < speedCutoff) {
+            if (pauseStartIndex === null) {
+              pauseStartIndex = index;
+              elapsedPauseTime = 0; // Reset the pause timer
+
+              // Insert an explicit 0 speed data point to create a vertical drop
+              let date = new Date(prevPoint.time);
+              date = new Date(date.toLocaleString('en-US', { timeZone: timeZone }));
+              points.push({ x: date.getTime(), y: 0 });
+            }
+            speed = 0; // Consider it a pause
+          } else {
+            // If speed is above the cutoff, reset pause-related variables
+            if (elapsedPauseTime >= pauseDurationThreshold) { // Check if pause was long enough
+              for (let i = pauseStartIndex; i < index; i++) {
+                points[i].y = 0; // Reset speed to 0 for all paused points
+              }
+            }
+            pauseStartIndex = null;
+            elapsedPauseTime = 0;
+          }
+
+          // Accumulate pause time if speed is 0
+          if (points.length > 0 && points[points.length - 1].y === 0) {
+            elapsedPauseTime += timeDiff;
+          }
+
+          // Convert time to the specified timezone
+          let date = new Date(point.time);
+          date = new Date(date.toLocaleString('en-US', { timeZone: timeZone }));
+
+          // Store the time and speed values
+          points.push({ x: date.getTime(), y: speed });
+        }
+      });
+
+      // Log the number of points before simplification
+      console.log('Number of points before simplification:', points.length);
+
+      // Simplify the points using simplify-js
+      let simplifiedPoints = simplify(points, tolerance, highQuality);
+
+      // Log the number of points after simplification
+      console.log('Number of points after simplification:', simplifiedPoints.length);
+
+      // Extract simplified time and speed values for plotting
+      let timeValues = simplifiedPoints.map(p => new Date(p.x));
+      let speedValues = simplifiedPoints.map(p => p.y);
+
+      // Create the plot using Plotly
+      const trace = {
+        x: timeValues,
+        y: speedValues,
+        type: 'scatter',
+        mode: 'lines',
+        line: {
+          color: '#268bd2', // Solarized Blue for the line
+          width: 1.5,       // Thicker line for better visibility
+        },
+      };
+
+      const layout = {
+        title: 'Speed over Time (Simplified)',
+        xaxis: {
+          //title: 'Time (24h format)',
+          color: '#586e75', // Solarized Base1 for axis labels
+          tickcolor: '#657b83', // Solarized Base0 for axis ticks
+        },
+        yaxis: {
+          title: 'Speed (km/h)',
+          color: '#586e75', // Solarized Base1 for axis labels
+          tickcolor: '#657b83', // Solarized Base0 for axis ticks
+          showgrid: false, // Optional: remove grid lines for clarity
+          range: [0, Math.max(...speedValues)], // Start y-axis at 0
+        },
+        plot_bgcolor: '#fdf6e3', // Solarized Base03 (Background)
+        paper_bgcolor: '#fdf6e3', // Solarized Base03 (Background)
+        margin: {
+          l: 50,
+          r: 50,
+          b: 80, // Increased bottom margin to prevent overlap
+          t: 40,
+          pad: 10,
+        },
+        showlegend: false, // Hide the legend if the graph is simple
+      };
+
+  // Plotly configuration to remove the watermark
+  const config = {
+    displaylogo: false,
+    modeBarButtonsToRemove: ['sendDataToCloud']
+  };
+
+      Plotly.newPlot('plotlyChart4', [trace], layout, config);
+    })
+    .catch(error => console.error("Error loading GPX file:", error));
+});
+</script>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  // Configuration variables
+  const timeZone = 'Europe/Berlin';
+  const tolerance = 10; // Tolerance level for simplification
+  const highQuality = true; // High-quality simplification
+
+  // Create a new gpxParser object
+  let gpx = new gpxParser();
+
+  // Load and parse the GPX file
+  fetch('{{gpxfilename}}')
+    .then(response => response.text())
+    .then(gpxText => {
+      gpx.parse(gpxText); // Parse the GPX file content
+
+      let elevationPoints = []; // Array to store elevation data
+
+      let track = gpx.tracks[0]; // Assuming you're working with the first track
+
+      track.points.forEach((point) => {
+        if (point.ele !== undefined) { // Check if elevation data is present
+          // Convert time to the specified timezone
+          let date = new Date(point.time);
+          date = new Date(date.toLocaleString('en-US', { timeZone: timeZone }));
+
+          // Store the time and elevation values
+          elevationPoints.push({ x: date.getTime(), y: point.ele });
+        }
+      });
+
+      // Simplify the elevation points using simplify-js
+      let simplifiedElevationPoints = simplify(elevationPoints, tolerance, highQuality);
+
+      // Extract simplified time and elevation values for plotting
+      let timeValues = simplifiedElevationPoints.map(p => new Date(p.x));
+      let elevationValues = simplifiedElevationPoints.map(p => p.y);
+
+      // Create the elevation plot using Plotly
+      const trace = {
+        x: timeValues,
+        y: elevationValues,
+        type: 'scatter',
+        mode: 'lines',
+        fill: 'tozeroy', // Area fill from the line to the x-axis
+        fillcolor: 'rgba(147, 161, 161, 0.3)', // Solarized Base1 (light grey) with transparency
+        line: {
+          color: 'rgba(0,0,0,0)', // Make the line transparent to only show the fill
+          width: 0,       // Set line width to 0 for good measure
+        },
+        name: 'Elevation (m)',
+      };
+
+      const layout = {
+        title: 'Elevation over Time (Simplified Douglas-Peuker)',
+        xaxis: {
+          //title: 'Time (24h format)',
+          color: '#586e75', // Solarized Base1 for axis labels
+          tickcolor: '#657b83', // Solarized Base0 for axis ticks
+        },
+        yaxis: {
+          title: 'Elevation (m)',
+          color: '#586e75', // Solarized Base1 for axis labels
+          tickcolor: '#657b83', // Solarized Base0 for axis ticks
+          showgrid: false, // Optional: remove grid lines for clarity
+        },
+        plot_bgcolor: '#fdf6e3', // Solarized Base03 (Background)
+        paper_bgcolor: '#fdf6e3', // Solarized Base03 (Background)
+        margin: {
+          l: 80,
+          r: 50,
+          b: 80,
+          t: 40,
+          pad: 10,
+        },
+        showlegend: false, // No legend needed for a single plot
+      };
+
+      Plotly.newPlot('plotlyChart5', [trace], layout);
+    })
+    .catch(error => console.error("Error loading GPX file:", error));
+});
+</script>
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const timeZone = 'Europe/Berlin';
+  let gpx = new gpxParser();
+
+  fetch('{{gpxfilename2}}')
+    .then(response => response.text())
+    .then(gpxText => {
+      try {
+        gpx.parse(gpxText);
+
+        console.log("Parsed GPX object:", gpx);
+
+        if (gpx && gpx.tracks.length > 0) {
+          let elevationPoints = [];
+          let annotations = [];
+          let markerPoints = [];
+          let nutritionPoints = [];
+          let undulatingStartPoints = [];
+          let undulatingEndPoints = [];
+          let track = gpx.tracks[0]; // Assume the first track
+
+          // Process trackpoints for elevation data and annotations
+          track.points.forEach((point, index) => {
+            if (point.ele !== undefined) {
+              let date = new Date(point.time);
+              date = new Date(date.toLocaleString('en-US', { timeZone: timeZone }));
+              elevationPoints.push({ x: date.getTime(), y: point.ele });
+
+              if (point.extensions) {
+                if (point.extensions.TerrainAnalysis) {
+                  let terrainAnalysis = point.extensions.TerrainAnalysis;
+                  let isBottomOfAscend = terrainAnalysis.isBottomOfAscend === 'true';
+                  let isPeakOfAscend = terrainAnalysis.isPeakOfAscend === 'true';
+                  let elevationDelta = terrainAnalysis.ElevationDelta;
+                  let isBeginOfUndulatingTerrain = terrainAnalysis.isBeginOfUndulatingTerrain === 'true';
+                  let isEndOfUndulatingTerrain = terrainAnalysis.isEndOfUndulatingTerrain === 'true';
+                  let cumulativeElevationGain = terrainAnalysis.CumulativeElevationGain;
+
+                  if (isBottomOfAscend) {
+                    markerPoints.push({ x: date.getTime(), y: point.ele });
+                  }
+
+                  if (isPeakOfAscend && elevationDelta) {
+                    annotations.push({
+                      x: date.getTime(),
+                      y: point.ele,
+                      text: `Δ ${elevationDelta} m`,
+                      showarrow: true,
+                      arrowhead: 2,
+                      ax: 0,
+                      ay: -50,
+                      yshift: 10,
+                    });
+                  }
+
+                  if (isBeginOfUndulatingTerrain) {
+                    undulatingStartPoints.push({ x: date.getTime(), y: point.ele });
+                  }
+
+                  if (isEndOfUndulatingTerrain && cumulativeElevationGain) {
+                    undulatingEndPoints.push({
+                      x: date.getTime(),
+                      y: point.ele,
+                      text: `Σ ${cumulativeElevationGain} m`,
+                      showarrow: true,
+                      arrowhead: 2,
+                      ax: 0,
+                      ay: -50,
+                      yshift: 10,
+                    });
+                  }
+                }
+              }
+            }
+          });
+
+          // Process waypoints for nutrition stops and other markers
+          gpx.waypoints.forEach((waypoint, index) => {
+            if (waypoint.name.includes("Nutrition")) {
+              let date = new Date(waypoint.time);
+              date = new Date(date.toLocaleString('en-US', { timeZone: timeZone }));
+              nutritionPoints.push({ x: date.getTime(), y: 20 }); // Adjusted for visibility
+            }
+          });
+
+          // Debug output
+          console.log("Total Bottom of Ascend markers:", markerPoints.length);
+          console.log("Total Peak of Ascend annotations:", annotations.length);
+          console.log("Total Nutrition Stops:", nutritionPoints.length);
+          console.log("Total Begin of Undulating Terrain markers:", undulatingStartPoints.length);
+          console.log("Total End of Undulating Terrain markers:", undulatingEndPoints.length);
+
+          const trace = {
+            x: elevationPoints.map(p => new Date(p.x)),
+            y: elevationPoints.map(p => p.y),
+            type: 'scatter',
+            mode: 'lines',
+            fill: 'tozeroy',
+            fillcolor: 'rgba(147, 161, 161, 0.3)',
+            line: {
+              color: '#268bd2',
+              width: 1.5,
+            },
+            name: 'Elevation (m)',
+          };
+
+          const markerTrace = {
+            x: markerPoints.map(p => new Date(p.x)),
+            y: markerPoints.map(p => p.y),
+            type: 'scatter',
+            mode: 'markers',
+            marker: {
+              color: '#b58900',
+              size: 8,
+              symbol: 'circle',
+            },
+            name: 'Bottom of Ascend',
+          };
+
+          const peakTrace = {
+            x: annotations.map(a => new Date(a.x)),
+            y: annotations.map(a => a.y),
+            mode: 'markers',
+            marker: {
+              color: '#268bd2',
+              size: 8,
+              symbol: 'circle',
+            },
+            showlegend: true,
+            name: 'Peak of Ascend',
+          };
+
+          const undulatingStartTrace = {
+            x: undulatingStartPoints.map(p => new Date(p.x)),
+            y: undulatingStartPoints.map(p => p.y),
+            type: 'scatter',
+            mode: 'markers',
+            marker: {
+              color: '#cb4b16',  // Solarized orange
+              size: 8,
+              symbol: 'circle',
+            },
+            showlegend: true,
+            name: 'Begin of Undulating Terrain',
+          };
+
+          const undulatingEndTrace = {
+            x: undulatingEndPoints.map(a => new Date(a.x)),
+            y: undulatingEndPoints.map(a => a.y),
+            mode: 'markers',
+            marker: {
+              color: '#6c71c4',  // Solarized violet
+              size: 8,
+              symbol: 'circle',
+            },
+            showlegend: true,
+            name: 'End of Undulating Terrain',
+          };
+
+          const nutritionTrace = {
+            x: nutritionPoints.map(p => new Date(p.x)),
+            y: nutritionPoints.map(p => p.y),
+            mode: 'markers',
+            marker: {
+              color: '#2aa198',
+              size: 8,
+              symbol: 'diamond',
+            },
+            name: 'Nutrition Stop',
+          };
+
+          const layout = {
+            title: 'Elevation over Time (Preprocessed)',
+            xaxis: {
+              //title: 'Time (24h format)',
+              color: '#586e75',
+              tickcolor: '#657b83',
+            },
+            yaxis: {
+              title: 'Elevation (m)',
+              color: '#586e75',
+              tickcolor: '#657b83',
+              showgrid: false,
+            },
+            plot_bgcolor: '#fdf6e3',
+            paper_bgcolor: '#fdf6e3',
+            margin: {
+              l: 80,
+              r: 50,
+              b: 80,
+              t: 40,
+              pad: 10,
+            },
+            showlegend: true,
+            annotations: annotations.concat(undulatingEndPoints), // Combine peak and undulating annotations
+          };
+
+          Plotly.newPlot('plotlyChart6', [trace, markerTrace, peakTrace, undulatingStartTrace, undulatingEndTrace, nutritionTrace], layout);
+        } else {
+          console.error("No valid tracks or points found in the GPX file.");
+        }
+      } catch (error) {
+        console.error("An error occurred during GPX parsing:", error);
+      }
+    })
+    .catch(error => console.error("Error loading GPX file:", error));
+});
+</script>
+
+
+
+
+
+
+
