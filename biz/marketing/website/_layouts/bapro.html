@@ -7,7 +7,7 @@ layout: default
     <h1 class="post-title">{{ page.title }}</h1>
   </header>
 
-  {% assign component = site.data.taptc  | where:"id", page.component | first %}
+  {% assign component = site.data.bapro  | where:"id", page.component | first %}
 
 {% unless page.content == '' %}
   <div class="post-content">

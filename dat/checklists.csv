@@ -242,13 +242,26 @@ id,category,checklistname,key,value,remark,component
 ,biz/production/photography/products,Perform product photoshoot,turntable,ROTATED 90+360+90 deg CLOCKWISE,,
 ,biz/production/photography/products,Perform product photoshoot,ATEM Mini recording,STOPPED,,
 ,biz/production/photography/products,Perform product photoshoot,part,REMOVED,,
-,biz/health/sport/cycling,preparation,USB charger,TESTED,,
-,biz/health/sport/cycling,preparation,chain,HEALTHY,,
-,biz/health/sport/cycling,preparation,bar ribbon,CHECKED,,
-,biz/health/sport/cycling,preparation,foo,bar,,
-,biz/health/sport/cycling,packlist,USB cable,,,
-,biz/health/sport/cycling,packlist,bottles,,,
-,biz/health/sport/cycling,packlist,d,d,,
-,biz/health/sport/cycling,packlist,d,d,,
-,biz/health/sport/cycling,packlist,d,d,,
-,biz/health/sport/cycling,packlist,d,d,,
+,biz/health/maintenance/sport/cycling,long-distance cyling preparation,USB charger,TESTED,,BA_PRO_007
+,biz/health/maintenance/sport/cycling,long-distance cyling preparation,chain,HEALTHY,,BA_PRO_007
+,biz/health/maintenance/sport/cycling,long-distance cyling preparation,bar ribbon,CHECKED,,BA_PRO_007
+,biz/health/maintenance/sport/cycling,long-distance cyling preparation,bottles,CHECKED,,BA_PRO_007
+,biz/health/maintenance/sport/cycling,long-distance cyling preparation,nutrition,PREPARED,,BA_PRO_007
+,biz/health/maintenance/sport/cycling,long-distance cyling preparation,recovery food,AVAILABLE,,BA_PRO_007
+,biz/health/maintenance/sport/cycling,long-distance cyling preparation,clothes,AT HAND,,BA_PRO_007
+,biz/health/maintenance/sport/cycling,long-distance cyling preparation,tire pressure,CHECKED,,BA_PRO_007
+,biz/health/maintenance/sport/cycling,long-distance cyling preparation,map updates,CHECKED,,BA_PRO_007
+,biz/health/maintenance/sport/cycling,long-distance cyling preparation,foo,,,BA_PRO_007
+,biz/health/maintenance/sport/cycling,long-distance cyling packlist,USB cable,,,BA_PRO_007
+,biz/health/maintenance/sport/cycling,long-distance cyling packlist,bottles,,,BA_PRO_007
+,biz/health/maintenance/sport/cycling,long-distance cyling packlist,bicycle lock,,,BA_PRO_007
+,biz/health/maintenance/sport/cycling,long-distance cyling packlist,keys,,,BA_PRO_007
+,biz/health/maintenance/sport/cycling,long-distance cyling packlist,food,,,BA_PRO_007
+,biz/health/maintenance/sport/cycling,long-distance cyling packlist,salt,,,BA_PRO_007
+,biz/health/maintenance/sport/cycling,long-distance cyling packlist,drinks,,,BA_PRO_007
+,biz/health/maintenance/sport/cycling,long-distance cyling packlist,gloves,,,BA_PRO_007
+,biz/health/maintenance/sport/cycling,long-distance cyling packlist,cap,,,BA_PRO_007
+,biz/health/maintenance/sport/cycling,long-distance cyling on-the-road,timer reminder drink,set every 30min,,BA_PRO_007
+,biz/health/maintenance/sport/cycling,long-distance cyling on-the-road,timer reminder food,set every 60min,,BA_PRO_007
+,biz/health/maintenance/sport/cycling,long-distance cyling on-the-road,"set waypoint ascends, nutrition, undulating",,,BA_PRO_007
+,biz/health/maintenance/sport/cycling,long-distance cyling on-the-road,foo,,,BA_PRO_007
