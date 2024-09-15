@@ -2,6 +2,7 @@
 layout: page
 title:  "my long-distance cycling (learnings)"
 categories: [ biz/health/maintenance/sport ]
+checklists: ["long-distance cyling preparation", "long-distance cyling packlist", "long-distance cyling on-the-road"]
 component: BA_PRO_007
 ---
 
@@ -12,8 +13,7 @@ todo:
 - my change in focus over time
 - carbs, fluid, protein, electrolytes, fat
 
-
-{% include checklist.html checklistnames="preparation, packlist, on-the-road" heading="h2" %}
+{% include checklist.html heading="h2" %}
 
 ## Visualizing a GPX recording with custom markers
 
