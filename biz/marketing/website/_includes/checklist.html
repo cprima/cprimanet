@@ -2,7 +2,7 @@
 {% if include.checklistnames and include.checklistnames != "" %}
 {% assign checklistnames = include.checklistnames | split: "," %}
 {% else %}
-{% assign checklistnames = include.checklistsarray %}
+{% assign checklistnames = page.checklists %}
 {% endif %}
 
 {% if include.heading.size > 1 %}
@@ -10,7 +10,6 @@
 {% else %}
 {% assign heading = "h2" %}
 {% endif %}
-
 
 {% assign checklistcount = 0 %}
 
@@ -28,10 +27,8 @@
 
 {% assign checklistentries = site.data.checklists | where:"checklistname", needle %}
 
-
 <table class="checklist" border="1">
   {% for row in checklistentries %}
-
     {% if forloop.first %}
     <tr>
         <th colspan="4">{{checklistcount | plus:1}}. {{ row.checklistname }}</th>
