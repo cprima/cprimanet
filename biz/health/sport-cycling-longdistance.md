@@ -25,9 +25,11 @@ The following visualizations are based on
   - the delta or summary of elevation
   - and where food was eaten
 
-{% include gpx.html gpxfilename="/dat/geodata/gpx/2024-08-20-2024-08-20_LDK-WOB.gpx" gpxfilename2="/dat/geodata/gpx/2024-08-20-2024-08-20_LDK-WOB_processed.gpx" %}
+{% include gpx.html gpxfilename="/dat/geodata/gpx/2024-08-20-2024-08-20_LDK-WOB_processed.gpx" %}
 
-{% include gpx.html gpxfilename="/dat/geodata/gpx/2024-08-20-2024-08-20_LDK-WOB.gpx" gpxfilename2="/dat/geodata/gpx/WOB-Gilserberg-LDK_2024-08-31_05-00.gpx" %}
+{% include gpx.html gpxfilename="/dat/geodata/gpx/WOB-Gilserberg-LDK_2024-08-31_05-00.gpx" %}
+
+{% include gpx.html gpxfilename="/dat/geodata/gpx/WOB-Arendsee-WOB_2024-09-14_07-41.gpx" %}
 
 ## Solar calculations
 

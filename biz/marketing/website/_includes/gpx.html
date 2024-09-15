@@ -1,248 +1,308 @@
 {% assign gpxfilename = include.gpxfilename %}
-{% assign gpxfilename2 = include.gpxfilename2 %}
-{% assign random_number = "now" | date: "%s%N" | modulo: 1000 %}
-
+{% assign cleaned_filename = gpxfilename | replace: '[^a-zA-Z0-9]', '' %}
+{% assign max_elevation = include.max_elevation | default: 1200 %}
 
 <script>
-if (!document.querySelector('script[src="/biz/marketing/website/assets/js/vendor/GPXParser-3.1.0.js"]')) {
+  if (!document.querySelector('script[src="/biz/marketing/website/assets/js/vendor/GPXParser-3.1.0.js"]')) {
     var script = document.createElement('script');
     script.src = "/biz/marketing/website/assets/js/vendor/GPXParser-3.1.0.js";
     document.head.appendChild(script);
-}
-
+  }
 </script>
 <script src="https://cdn.jsdelivr.net/npm/simplify-js@1.2.4/simplify.min.js"></script>
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
-<!-- Example placeholder for the Plotly chart -->
-<div id="plotlyChart{{random_number}}" style="width:100%;height:256px;"></div>
+<style>
+  /* Style for the loading spinner */
+  .spinner {
+    border: 6px solid #f3f3f3;
+    border-top: 6px solid #3498db;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
+  }
 
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
 
+    100% {
+      transform: rotate(360deg);
+    }
+  }
 
+  .loading-message {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #586e75;
+  }
+</style>
+
+<div id="plotlyChart{{ cleaned_filename }}" style="width:100%;height:256px;">
+  <div class="loading-message">
+    <div class="spinner"></div>
+    <p>Loading data... Please wait.</p>
+  </div>
+</div>
 
 <script>
-document.addEventListener("DOMContentLoaded", function() {
-  // Constants
-  const timeZone = 'Europe/Berlin';
-  const gpxFileName = '{{gpxfilename2}}';
-  const plotlyChartId = 'plotlyChart{{ random_number }}';
-  
-  // Initialize GPX Parser
-  let gpx = new gpxParser();
+  document.addEventListener("DOMContentLoaded", function () {
+    const timeZone = 'Europe/Berlin';
+    const gpxFileName = '{{gpxfilename}}';
+    const plotlyChartId = 'plotlyChart{{ cleaned_filename }}';
+    const maxElevation = {{ max_elevation }};
 
-  // Fetch and process the GPX file
-  fetch(gpxFileName)
-    .then(response => response.text())
-    .then(gpxText => {
-      try {
-        gpx.parse(gpxText);
+    // Initialize GPX Parser
+    let gpx = new gpxParser();
 
-        console.log("Parsed GPX object:", gpx);
+    // Utility function to sanitize the desc field by removing unwanted markup or HTML tags
+    function sanitizeDesc(desc) {
+      if (desc.startsWith("<![CDATA[")) {
+        return desc.substring(9, desc.length - 3).trim();
+      } else {
+        const div = document.createElement('div');
+        div.innerHTML = desc;
+        return div.textContent || div.innerText || '';
+      }
+    }
 
-        if (gpx && gpx.tracks.length > 0) {
-          let elevationPoints = [];
-          let annotations = [];
-          let markerPoints = [];
-          let nutritionPoints = [];
-          let undulatingStartPoints = [];
-          let undulatingEndPoints = [];
-          let track = gpx.tracks[0]; // Assume the first track
+    // Fetch and process the GPX file
+    fetch(gpxFileName)
+      .then(response => response.text())
+      .then(gpxText => {
+        try {
+          // Remove the loading spinner and message
+          const chartDiv = document.getElementById(plotlyChartId);
+          chartDiv.innerHTML = '';
 
-          // Process trackpoints for elevation data and annotations
-          track.points.forEach((point, index) => {
-            if (point.ele !== undefined) {
-              let date = new Date(point.time);
-              date = new Date(date.toLocaleString('en-US', { timeZone: timeZone }));
-              elevationPoints.push({ x: date.getTime(), y: point.ele });
+          gpx.parse(gpxText);
 
-              if (point.extensions) {
-                if (point.extensions.TerrainAnalysis) {
-                  let terrainAnalysis = point.extensions.TerrainAnalysis;
-                  let isBottomOfAscend = terrainAnalysis.isBottomOfAscend === 'true';
-                  let isPeakOfAscend = terrainAnalysis.isPeakOfAscend === 'true';
-                  let elevationDelta = terrainAnalysis.ElevationDelta;
-                  let isBeginOfUndulatingTerrain = terrainAnalysis.isBeginOfUndulatingTerrain === 'true';
-                  let isEndOfUndulatingTerrain = terrainAnalysis.isEndOfUndulatingTerrain === 'true';
-                  let cumulativeElevationGain = terrainAnalysis.CumulativeElevationGain;
+          console.log("Parsed GPX object:", gpx);
 
-                  if (isBottomOfAscend) {
-                    markerPoints.push({ x: date.getTime(), y: point.ele });
-                  }
+          if (gpx && gpx.tracks.length > 0) {
+            let elevationPoints = [];
+            let annotations = [];
+            let markerPoints = [];
+            let nutritionPoints = [];
+            let undulatingStartPoints = [];
+            let undulatingEndPoints = [];
+            let maxElevationInTrack = 0;
+            let track = gpx.tracks[0]; // Assume the first track
 
-                  if (isPeakOfAscend && elevationDelta) {
-                    annotations.push({
-                      x: date.getTime(),
-                      y: point.ele,
-                      text: `Δ ${elevationDelta} m`,
-                      showarrow: true,
-                      arrowhead: 2,
-                      ax: 0,
-                      ay: -50,
-                      yshift: 10,
-                    });
-                  }
+            // Process trackpoints for elevation data and annotations
+            track.points.forEach((point, index) => {
+              if (point.ele !== undefined) {
+                let date = new Date(point.time);
+                date = new Date(date.toLocaleString('en-US', { timeZone: timeZone }));
+                elevationPoints.push({ x: date.getTime(), y: point.ele });
+                maxElevationInTrack = Math.max(maxElevationInTrack, point.ele);
 
-                  if (isBeginOfUndulatingTerrain) {
-                    undulatingStartPoints.push({ x: date.getTime(), y: point.ele });
-                  }
+                if (point.extensions) {
+                  if (point.extensions.TerrainAnalysis) {
+                    let terrainAnalysis = point.extensions.TerrainAnalysis;
+                    let isBottomOfAscend = terrainAnalysis.isBottomOfAscend === 'true';
+                    let isPeakOfAscend = terrainAnalysis.isPeakOfAscend === 'true';
+                    let elevationDelta = terrainAnalysis.ElevationDelta;
+                    let isBeginOfUndulatingTerrain = terrainAnalysis.isBeginOfUndulatingTerrain === 'true';
+                    let isEndOfUndulatingTerrain = terrainAnalysis.isEndOfUndulatingTerrain === 'true';
+                    let cumulativeElevationGain = terrainAnalysis.CumulativeElevationGain;
 
-                  if (isEndOfUndulatingTerrain && cumulativeElevationGain) {
-                    undulatingEndPoints.push({
-                      x: date.getTime(),
-                      y: point.ele,
-                      text: `Σ ${cumulativeElevationGain} m`,
-                      showarrow: true,
-                      arrowhead: 2,
-                      ax: 0,
-                      ay: -50,
-                      yshift: 10,
-                    });
+                    if (isBottomOfAscend) {
+                      markerPoints.push({ x: date.getTime(), y: point.ele });
+                    }
+
+                    if (isPeakOfAscend && elevationDelta) {
+                      annotations.push({
+                        x: date.getTime(),
+                        y: point.ele,
+                        text: `Δ ${elevationDelta} m`,
+                        showarrow: true,
+                        arrowhead: 2,
+                        ax: 0,
+                        ay: -50,
+                        yshift: 10,
+                      });
+                    }
+
+                    if (isBeginOfUndulatingTerrain) {
+                      undulatingStartPoints.push({ x: date.getTime(), y: point.ele });
+                    }
+
+                    if (isEndOfUndulatingTerrain && cumulativeElevationGain) {
+                      undulatingEndPoints.push({
+                        x: date.getTime(),
+                        y: point.ele,
+                        text: `Σ ${cumulativeElevationGain} m`,
+                        showarrow: true,
+                        arrowhead: 2,
+                        ax: 0,
+                        ay: -50,
+                        yshift: 10,
+                      });
+                    }
                   }
                 }
               }
-            }
-          });
+            });
 
-          // Process waypoints for nutrition stops and other markers
-          gpx.waypoints.forEach((waypoint, index) => {
-            if (waypoint.name.includes("Nutrition")) {
-              let date = new Date(waypoint.time);
-              date = new Date(date.toLocaleString('en-US', { timeZone: timeZone }));
-              nutritionPoints.push({ x: date.getTime(), y: 20 }); // Adjusted for visibility
-            }
-          });
+            // Process waypoints for nutrition stops and other markers
+            gpx.waypoints.forEach((waypoint, index) => {
+              if (waypoint.name.includes("Nutrition")) {
+                let date = new Date(waypoint.time);
+                date = new Date(date.toLocaleString('en-US', { timeZone: timeZone }));
 
-          // Debug output
-          console.log("Total Bottom of Ascend markers:", markerPoints.length);
-          console.log("Total Peak of Ascend annotations:", annotations.length);
-          console.log("Total Nutrition:", nutritionPoints.length);
-          console.log("Total Begin of Undulating Terrain markers:", undulatingStartPoints.length);
-          console.log("Total End of Undulating Terrain markers:", undulatingEndPoints.length);
+                let sanitizedDesc = waypoint.desc ? sanitizeDesc(waypoint.desc) : '';
 
-          // Plotly traces and layout
-          const trace = {
-            x: elevationPoints.map(p => new Date(p.x)),
-            y: elevationPoints.map(p => p.y),
-            type: 'scatter',
-            mode: 'lines',
-            fill: 'tozeroy',
-            fillcolor: 'rgba(147, 161, 161, 0.3)',
-            line: {
-              color: '#268bd2',
-              width: 1.5,
-            },
-            name: 'Elevation (m)',
-          };
+                nutritionPoints.push({
+                  x: date.getTime(),
+                  y: 2,  // Adjusted for visibility
+                  text: sanitizedDesc,  // Store the sanitized description
+                  name: waypoint.name,  // Store the name for the hovertemplate
+                });
+              }
+            });
 
-          const markerTrace = {
-            x: markerPoints.map(p => new Date(p.x)),
-            y: markerPoints.map(p => p.y),
-            type: 'scatter',
-            mode: 'markers',
-            marker: {
-              color: '#b58900',
-              size: 8,
-              symbol: 'circle',
-            },
-            name: 'Bottom of Ascend',
-          };
+            // Debug output
+            console.log("Total Bottom of Ascend markers:", markerPoints.length);
+            console.log("Total Peak of Ascend annotations:", annotations.length);
+            console.log("Total Nutrition:", nutritionPoints.length);
+            console.log("Total Begin of Undulating Terrain markers:", undulatingStartPoints.length);
+            console.log("Total End of Undulating Terrain markers:", undulatingEndPoints.length);
 
-          const peakTrace = {
-            x: annotations.map(a => new Date(a.x)),
-            y: annotations.map(a => a.y),
-            mode: 'markers',
-            marker: {
-              color: '#268bd2',
-              size: 8,
-              symbol: 'circle',
-            },
-            showlegend: true,
-            name: 'Peak of Ascend',
-          };
+            // Determine tick values based on max elevation from the track
+            const maxTrackElevation = Math.ceil(maxElevationInTrack / 100) * 100;
+            const tickValues = [0, (maxTrackElevation > 200 ? maxTrackElevation / 2 : null), maxTrackElevation].filter(val => val !== null);
 
-          const undulatingStartTrace = {
-            x: undulatingStartPoints.map(p => new Date(p.x)),
-            y: undulatingStartPoints.map(p => p.y),
-            type: 'scatter',
-            mode: 'markers',
-            marker: {
-              color: '#cb4b16',  // Solarized orange
-              size: 8,
-              symbol: 'circle',
-            },
-            showlegend: true,
-            name: 'Begin of Undulating Terrain',
-          };
+            // Plotly traces and layout
+            const trace = {
+              x: elevationPoints.map(p => new Date(p.x)),
+              y: elevationPoints.map(p => p.y),
+              type: 'scatter',
+              mode: 'lines',
+              fill: 'tozeroy',
+              fillcolor: 'rgba(147, 161, 161, 0.3)',
+              line: {
+                color: '#268bd2',
+                width: 1.5,
+              },
+              name: 'Elevation (m)',
+              hovertemplate: '%{y:.0f} m<extra></extra>'  // Rounds to nearest meter and adds " m" suffix
+            };
 
-          const undulatingEndTrace = {
-            x: undulatingEndPoints.map(a => new Date(a.x)),
-            y: undulatingEndPoints.map(a => a.y),
-            mode: 'markers',
-            marker: {
-              color: '#6c71c4',  // Solarized violet
-              size: 8,
-              symbol: 'circle',
-            },
-            showlegend: true,
-            name: 'End of Undulating Terrain',
-          };
 
-          const nutritionTrace = {
-            x: nutritionPoints.map(p => new Date(p.x)),
-            y: nutritionPoints.map(p => p.y),
-            mode: 'markers',
-            marker: {
-              color: '#2aa198',
-              size: 8,
-              symbol: 'diamond',
-            },
-            name: 'Nutrition',
-          };
+            const markerTrace = {
+              x: markerPoints.map(p => new Date(p.x)),
+              y: markerPoints.map(p => p.y),
+              type: 'scatter',
+              mode: 'markers',
+              marker: {
+                color: '#b58900',
+                size: 8,
+                symbol: 'circle',
+              },
+              name: 'Bottom of Ascend',
+            };
 
-          const layout = {
-            title: 'Elevation over Time (Preprocessed)',
-            xaxis: {
-              //title: 'Time (24h format)',
-              color: '#586e75',
-              tickcolor: '#657b83',
-            },
-            yaxis: {
-              title: 'Elevation (m)',
-              color: '#586e75',
-              tickcolor: '#657b83',
-              showgrid: false,
-            },
-            plot_bgcolor: '#fdf6e3',
-            paper_bgcolor: '#fdf6e3',
-            margin: {
-              l: 80,
-              r: 50,
-              b: 80,
-              t: 40,
-              pad: 10,
-            },
-            showlegend: true,
-            annotations: annotations.concat(undulatingEndPoints), // Combine peak and undulating annotations
-          };
+            const peakTrace = {
+              x: annotations.map(a => new Date(a.x)),
+              y: annotations.map(a => a.y),
+              mode: 'markers',
+              marker: {
+                color: '#268bd2',
+                size: 8,
+                symbol: 'circle',
+              },
+              showlegend: true,
+              name: 'Peak of Ascend',
+            };
 
-          // Plot the graph
-          Plotly.newPlot(plotlyChartId, [trace, markerTrace, peakTrace, undulatingStartTrace, undulatingEndTrace, nutritionTrace], layout);
-        } else {
-          console.error("No valid tracks or points found in the GPX file.");
+            const undulatingStartTrace = {
+              x: undulatingStartPoints.map(p => new Date(p.x)),
+              y: undulatingStartPoints.map(p => p.y),
+              type: 'scatter',
+              mode: 'markers',
+              marker: {
+                color: '#cb4b16',  // Solarized orange
+                size: 8,
+                symbol: 'circle',
+              },
+              showlegend: true,
+              name: 'Begin of Undulating Terrain',
+            };
+
+            const undulatingEndTrace = {
+              x: undulatingEndPoints.map(a => new Date(a.x)),
+              y: undulatingEndPoints.map(a => a.y),
+              mode: 'markers',
+              marker: {
+                color: '#6c71c4',  // Solarized violet
+                size: 8,
+                symbol: 'circle',
+              },
+              showlegend: true,
+              name: 'End of Undulating Terrain',
+            };
+
+            const nutritionTrace = {
+              x: nutritionPoints.map(p => new Date(p.x)),
+              y: nutritionPoints.map(p => p.y),
+              mode: 'markers',
+              marker: {
+                color: '#2aa198',
+                size: 8,
+                symbol: 'diamond',
+              },
+              name: 'Nutrition',
+              customdata: nutritionPoints.map(p => p.text),  // Add the sanitized description as customdata
+              hovertemplate: 'Nutrition<br>%{customdata}<extra></extra>',  // Use customdata in hovertemplate
+              cliponaxis: false  // Ensure markers are not clipped by the axis
+            };
+
+
+            // Set plot title based on GPX metadata "name" or no title
+            let plotTitle = gpx.metadata.name ? gpx.metadata.name : '';
+
+            const layout = {
+              title: plotTitle,
+              xaxis: {
+                color: '#586e75',
+                tickcolor: '#657b83',
+              },
+              yaxis: {
+                title: 'Elevation (m)',
+                color: '#586e75',
+                tickcolor: '#657b83',
+                showgrid: false,
+                range: [0, maxElevation],  // Use max_elevation as the range
+                tickvals: tickValues,  // Dynamically calculated tick values
+              },
+              plot_bgcolor: '#fdf6e3',
+              paper_bgcolor: '#fdf6e3',
+              margin: {
+                l: 80,
+                r: 50,
+                b: 80,
+                t: 40,
+                pad: 10,
+              },
+              showlegend: true,
+              annotations: annotations.concat(undulatingEndPoints),  // Combine peak and undulating annotations
+            };
+
+            // Plot the graph
+            Plotly.newPlot(plotlyChartId, [trace, markerTrace, peakTrace, undulatingStartTrace, undulatingEndTrace, nutritionTrace], layout);
+          } else {
+            console.error("No valid tracks or points found in the GPX file.");
+          }
+        } catch (error) {
+          console.error("An error occurred during GPX parsing:", error);
         }
-      } catch (error) {
-        console.error("An error occurred during GPX parsing:", error);
-      }
-    })
-    .catch(error => console.error("Error loading GPX file:", error));
-});
+      })
+      .catch(error => console.error("Error loading GPX file:", error));
+  });
 </script>
-
-
-
-
-
-
-
-

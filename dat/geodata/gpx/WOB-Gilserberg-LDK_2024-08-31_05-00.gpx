@@ -8,7 +8,9 @@
  xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v2"
  xmlns:locus="http://www.locusmap.eu">
 	<metadata>
+		<name>Wolfsburg–Gilserberg–Lahn-Dill-Kreis 2024-09-02</name>
 		<desc>File with points/tracks from Locus Map Classic/3.70.11</desc>
+		<author>Christian Prior-Mamulyan</author>
 		<time>2024-09-02T08:42:05.751Z</time>
 	</metadata>
 <wpt lat="52.1712223" lon="10.4758820">
