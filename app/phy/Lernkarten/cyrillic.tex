@@ -1,0 +1,65 @@
+\documentclass[a4paper,backgrid,12pt]{flacards}
+\usepackage{libertine}
+\usepackage{tipa}
+\usepackage[T2A,T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,german,russian]{babel}
+
+\usepackage{etoolbox}
+\pretocmd{\card}{\def\curhint{#1}}{}{}
+
+\pagesetup{3}{6}
+
+\renewcommand{\cardtextstylef}{\Huge}
+\renewcommand{\cardtextstyleb}{\small}
+\renewcommand{\frfoot}{}
+\renewcommand{\brfoot}{}
+%\renewcommand{\bcfoot}{\let\\\relax\footnotesize\curhint}
+
+\newcounter{mycounter}
+\renewcommand{\flfoot}{\footnotesize\themycounter}
+\renewcommand{\brfoot}{\footnotesize\themycounter}
+
+
+\begin{document}
+
+%https://de.wikipedia.org/wiki/Liste_der_IPA-Zeichen
+%https://tex.stackexchange.com/questions/443137/armenian-characters-using-babel
+%https://de.overleaf.com/articles/addition-flashcards-1-to-9/hzyjfrtszzqx
+%https://tex.stackexchange.com/questions/816/cyrillic-in-latex
+
+\setcounter{mycounter}{1}\card{А а\bigbreak \footnotesize Анна}{A a \textipa{[a]}\bigbreak \footnotesize Anna~}
+\setcounter{mycounter}{2}\card{Б б\bigbreak \footnotesize Борис}{B b \textipa{[b]}\bigbreak \footnotesize Boris~}
+\setcounter{mycounter}{3}\card{В в\bigbreak \footnotesize Василий}{V v \textipa{[v]}\bigbreak \footnotesize Wassili~}
+\setcounter{mycounter}{4}\card{Г г\bigbreak \footnotesize Григорий}{G g \textipa{[g]}\bigbreak \footnotesize Grigori~}
+\setcounter{mycounter}{5}\card{Д д\bigbreak \footnotesize Дмитрий}{D d \textipa{[d]}\bigbreak \footnotesize Dmitri~}
+\setcounter{mycounter}{6}\card{Е е\bigbreak \footnotesize Елена}{E e \textipa{[\textsuperscript{j}\textepsilon], [j\textepsilon]}\bigbreak \footnotesize Jelena~}
+\setcounter{mycounter}{7}\card{Ë ë\bigbreak \footnotesize ёж}{Jo jo \textipa{[\textsuperscript{j}\textopeno], [j\textopeno]}\bigbreak \footnotesize josch 'Igel'~}
+\setcounter{mycounter}{8}\card{Ж ж\bigbreak \footnotesize Женя}{Ž ž \textipa{[\textrevepsilon]}\bigbreak \footnotesize Schenja~}
+\setcounter{mycounter}{9}\card{З з\bigbreak \footnotesize Зинаида, Зия}{Z z \textipa{[z]}\bigbreak \footnotesize Sinaida, Sija~}
+\setcounter{mycounter}{10}\card{И и\bigbreak \footnotesize Иван}{I i \textipa{[\textsuperscript{j}i], [I], [ji]}\bigbreak \footnotesize Iwan~}
+\setcounter{mycounter}{11}\card{Й й\bigbreak \footnotesize Иван краткий}{J j \textipa{[j]}\bigbreak \footnotesize kurzer Iwan~}
+\setcounter{mycounter}{12}\card{К к\bigbreak \footnotesize Константин}{K k \textipa{[k]}\bigbreak \footnotesize Konstantin~}
+\setcounter{mycounter}{13}\card{Л л\bigbreak \footnotesize Леонид}{L l \textipa{[l]}\bigbreak \footnotesize Leonid~}
+\setcounter{mycounter}{14}\card{М м\bigbreak \footnotesize Мария}{M m \textipa{[m]}\bigbreak \footnotesize Marija~}
+\setcounter{mycounter}{15}\card{Н н\bigbreak \footnotesize Николай}{N n \textipa{[n]}\bigbreak \footnotesize Nikolai~}
+\setcounter{mycounter}{16}\card{О о\bigbreak \footnotesize Ольга}{O o \textipa{[\textopeno]}\bigbreak \footnotesize Olga~}
+\setcounter{mycounter}{17}\card{П п\bigbreak \footnotesize Павел}{P p \textipa{[p]}\bigbreak \footnotesize Pawel~}
+\setcounter{mycounter}{18}\card{Р р\bigbreak \footnotesize Роман}{R r \textipa{[r]}\bigbreak \footnotesize Roman~}
+\setcounter{mycounter}{19}\card{С с\bigbreak \footnotesize Семён}{S s \textipa{[s]}\bigbreak \footnotesize Semjon~}
+\setcounter{mycounter}{20}\card{Т т\bigbreak \footnotesize Татьяна}{T t \textipa{[t]}\bigbreak \footnotesize Tatjana~}
+\setcounter{mycounter}{21}\card{У у\bigbreak \footnotesize Ульяна}{U u \textipa{[u]}\bigbreak \footnotesize Uljana~}
+\setcounter{mycounter}{22}\card{Ф ф\bigbreak \footnotesize Фëдор}{F f \textipa{[f]}\bigbreak \footnotesize Fjodor~}
+\setcounter{mycounter}{23}\card{Х х\bigbreak \footnotesize Харитон}{H h \textipa{[x]}\bigbreak \footnotesize Chariton~}
+\setcounter{mycounter}{24}\card{Ц ц\bigbreak \footnotesize цапля}{C c \textipa{[\texttslig]}\bigbreak \footnotesize zaplja ‘Reiher’~}
+\setcounter{mycounter}{25}\card{Ч ч\bigbreak \footnotesize Человек}{Č č \textipa{[t\textesh\textsuperscript{j}]}\bigbreak \footnotesize tschelowek ‘Mensch’~}
+\setcounter{mycounter}{26}\card{Ш ш\bigbreak \footnotesize Шура}{Š š \textipa{[\textesh]}\bigbreak \footnotesize Schura~}
+\setcounter{mycounter}{27}\card{Щ щ\bigbreak \footnotesize щука}{Ŝ ŝ \textipa{[\textesh\textsuperscript{j}]}\bigbreak \footnotesize schtschuka ‘Hecht’~}
+\setcounter{mycounter}{28}\card{Ъ ъ\bigbreak \footnotesize твёрдый знак}{'' \bigbreak \footnotesize twjordy snak ‘hartes Zeichen’~}
+\setcounter{mycounter}{29}\card{Ы ы\bigbreak \footnotesize игрек}{Y y \textipa{[\textbari]}\bigbreak \footnotesize igrek ‘Ypsilon’~}
+\setcounter{mycounter}{30}\card{Ь ь\bigbreak \footnotesize мягкий знак}{' \textipa{[\textsuperscript{j}]}\bigbreak \footnotesize mjagki snak ‘weiches Zeichen’~}
+\setcounter{mycounter}{31}\card{Э э\bigbreak \footnotesize эхо}{È è \textipa{[\textepsilon]}\bigbreak \footnotesize Echo~}
+\setcounter{mycounter}{32}\card{Ю ю\bigbreak \footnotesize Юрий}{Û û \textipa{[\textsuperscript{j}u], [ju]}\bigbreak \footnotesize Juri~}
+\setcounter{mycounter}{33}\card{Я я\bigbreak \footnotesize Яков}{Â â \textipa{[\textsuperscript{j}a], [ja]}\bigbreak \footnotesize Jakow~}
+
+\end{document}

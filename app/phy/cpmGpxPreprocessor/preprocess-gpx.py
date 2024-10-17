@@ -174,4 +174,5 @@ def process_gpx(file_path, output_dir=None):
         print(f"Failed to parse the written GPX file: {e}")
 
 # Example usage:
-process_gpx('../../../dat/geodata/gpx/2024-08-20-2024-08-20_LDK-WOB.gpx')
+#process_gpx('../../../dat/geodata/gpx/WOB-Warburg-LDK_2024-08-13_2024-08-13.gpx')
+process_gpx('./dat/geodata/gpx/WOB-Gilserberg-LDK_2024-08-31_05-00.gpx')

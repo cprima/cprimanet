@@ -133,3 +133,190 @@ Version              : 3.5
 SmartCard-HSM has never been initialized. Please use --initialize to set SO-PIN and user PIN.
 
 
+
+sc-hsm-tool.exe 
+
+
+
+Firmware Update
+Firmware updates for the SmartCard-HSM are available in the PKI-as-a-Service Portal.
+
+The firmware can only be updated on an empty SmartCard-HSM. You need to remove all keys, certificates and data files first.
+
+During the firmware update, the SmartCard-HSM receives a new device authentication certificate, so any previous registration at the PKI-as-a-Service portal will need to be renewed.
+
+https://www.smartcard-hsm.com/firmware.html
+
+
+
+# 2024-10
+
+https://github.com/johndoe31415/hsmwiz
+
+https://www.youtube.com/watch?v=qbKkrArkXkY
+
+
+PowerShell Admin
+usbipd list
+Connected:
+BUSID  VID:PID    DEVICE                                                        STATE
+1-7    20a0:4230  Microsoft Usbccid Smartcard Reader (WUDF)                     Not shared
+1-8    8087:0aaa  Intel(R) Wireless Bluetooth(R)                                Not shared
+3-1    046d:c52b  Logitech USB Input Device, USB Input Device                   Not shared
+
+usbipd bind --busid 1-7
+
+PowerShell User (or Admin)
+
+ usbipd attach --wsl --busid 1-7
+
+
+WSL
+sudo pcscd
+sc-hsm-tool
+Using reader with a card: Nitrokey Nitrokey HSM (DENK02009140000         ) 00 00
+Version              : 3.6
+Config options       :
+  User PIN reset with SO-PIN enabled
+SO-PIN tries left    : 15
+User PIN tries left  : 3
+DKEK shares          : 1
+DKEK key check value : E94F16B464D58B35
+
+
+
+## mechanisms
+
+pkcs11-tool --list-mechanisms
+Using slot 0 with a present token (0x0)
+Supported mechanisms:
+  SHA-1, digest
+  SHA224, digest
+  SHA256, digest
+  SHA384, digest
+  SHA512, digest
+  MD5, digest
+  RIPEMD160, digest
+  GOSTR3411, digest
+  ECDSA, keySize={192,521}, hw, sign, other flags=0x1d00000
+  ECDSA-SHA1, keySize={192,521}, hw, sign, other flags=0x1d00000
+  ECDH1-COFACTOR-DERIVE, keySize={192,521}, hw, derive, other flags=0x1d00000
+  ECDH1-DERIVE, keySize={192,521}, hw, derive, other flags=0x1d00000
+  ECDSA-KEY-PAIR-GEN, keySize={192,521}, hw, generate_key_pair, other flags=0x1d00000
+  RSA-X-509, keySize={1024,4096}, hw, decrypt, sign, verify
+  RSA-PKCS, keySize={1024,4096}, hw, decrypt, sign, verify
+  SHA1-RSA-PKCS, keySize={1024,4096}, sign, verify
+  SHA224-RSA-PKCS, keySize={1024,4096}, sign, verify
+  SHA256-RSA-PKCS, keySize={1024,4096}, sign, verify
+  SHA384-RSA-PKCS, keySize={1024,4096}, sign, verify
+  SHA512-RSA-PKCS, keySize={1024,4096}, sign, verify
+  MD5-RSA-PKCS, keySize={1024,4096}, sign, verify
+  RIPEMD160-RSA-PKCS, keySize={1024,4096}, sign, verify
+  RSA-PKCS-PSS, keySize={1024,4096}, hw, sign, verify
+  SHA1-RSA-PKCS-PSS, keySize={1024,4096}, sign, verify
+  SHA224-RSA-PKCS-PSS, keySize={1024,4096}, sign, verify
+  SHA256-RSA-PKCS-PSS, keySize={1024,4096}, sign, verify
+  SHA384-RSA-PKCS-PSS, keySize={1024,4096}, sign, verify
+  SHA512-RSA-PKCS-PSS, keySize={1024,4096}, sign, verify
+  RSA-PKCS-KEY-PAIR-GEN, keySize={1024,4096}, generate_key_pair
+
+
+pkcs11-tool --login --keypairgen --key-type rsa:4096 --label "SSH CA"
+pkcs15-tool --read-ssh-key 7ce88a769c6a39d7d796eb3280a4b39953aa5151
+# scp to ssh server
+pkcs11-tool --login --keypairgen --key-type EC:secp256r1 --label "SSH HSM cpm 2024-10"
+pkcs11-tool --list-objects
+pkcs15-tool --read-ssh-key d29f8be82376c1bc8f561dccbe1e0df245c9e213
+vim .ssh/id-SSH-HSM-cpm-2024-10.pub
+
+
+list all keys on HSM
+
+  ssh-keygen -D /usr/lib/x86_64-linux-gnu/pkcs11/opensc-pkcs11.so -e
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDAVTz/9UKAjNu+nAqxO06S70p+QOD97/Lhp/wgaEBaFR2ycBJoGBKSb87ZhiMnuZA+zVvmdf9v8LIWM+vEUls+YuHIy54F04vXrr2/RQfn942R/pfvJDxC973q7YVeLpMc95N/5fedzfxh8RJBNAL0E6NzErTgQYHrwsM1ScVD5QYMV7kJFSRfl+Zls4u3uUWKWpVoFvL0+g/kxqM+2z4QLsWmuNNZ6VCX8mmzO+sJMZK+gL5eWAN5z0ThrY3WVHrBKncj5XsRulNw6DZ+kyMyzsUDw2Ii31wkLgrSSkyWzczNq2ozA2vS/jxTrEpzcsmaiCIOCy74YUqXEjPtDbpicSiWsCmNFzA0UKi9kDyEISNJcD9i5cA/iLCL/kBzgIvAM/AirGuwX2U21aAL/5639dQQkumMKF5c60A8ADqD5HdSCzUhV+eALROwtUXo/H8OwX4ZzS8pWW3/H5hmDXzq3lb1gBloY0oQQqOnQMT2wUAcuBNarmbQqV0C0/XCzzrH2Kyw3vTRnzY4vKLlp/ei1I2wG75A/FQ27A56OPsqfQ0kQLArCsEVPTNxwboO7SYRTb8mH6gqz4qh7HH05ZCcdg3R3FYnlYurWLFwHWivPAeWyayEVamcIb+YFraSRf/hlS3Y9yox0yHPfecHEFnexoWD0WOJDX1FXo3DlIRDJQ== SSH CA
+ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBJrdY2PEJpsQ72kxF22X9PLeJ5OleMsJJ9AgB5cN8e8zwLD487Ldk5uAvaQw+/qyb6gYTI18cwpu31inANMkCzs= SSH HSM cpm 2024-10
+
+ssh-keygen -D /usr/lib/x86_64-linux-gnu/pkcs11/opensc-pkcs11.so -s ~/.ssh/id-SSH-CA.pub -I "SSH HSM cpm thru 2024-11-30" -V "-1d:20241130" ~/.ssh/id-SSH-HSM-cpm-2024-10.pub
+
+
+## backup restore
+
+pkcs15-tool --dump
+Using reader with a card: Nitrokey Nitrokey HSM (DENK02009140000         ) 00 00
+PKCS#15 Card [net.cprima.hsm02]:
+        Version        : 0
+        Serial number  : DENK0200914
+        Manufacturer ID: www.CardContact.de
+        Flags          :
+
+PIN [UserPIN]
+        Object Flags   : [0x03], private, modifiable
+        Auth ID        : 02
+        ID             : 01
+        Flags          : [0x812], local, initialized, exchangeRefData
+        Length         : min_len:6, max_len:15, stored_len:0
+        Pad char       : 0x00
+        Reference      : 129 (0x81)
+        Type           : ascii-numeric
+        Path           : e82b0601040181c31f0201::
+        Tries left     : 3
+
+PIN [SOPIN]
+        Object Flags   : [0x01], private
+        ID             : 02
+        Flags          : [0x9A], local, unblock-disabled, initialized, soPin
+        Length         : min_len:16, max_len:16, stored_len:0
+        Pad char       : 0x00
+        Reference      : 136 (0x88)
+        Type           : bcd
+        Path           : e82b0601040181c31f0201::
+        Tries left     : 15
+
+Private RSA Key [SSH CA]
+        Object Flags   : [0x03], private, modifiable
+        Usage          : [0x2E], decrypt, sign, signRecover, unwrap
+        Access Flags   : [0x1D], sensitive, alwaysSensitive, neverExtract, local
+        ModLength      : 4096
+        Key ref        : 1 (0x01)
+        Native         : yes
+        Auth ID        : 01
+        ID             : 7ce88a769c6a39d7d796eb3280a4b39953aa5151
+        MD:guid        : 44dc72b1-c69b-f695-7950-93c7f35b79ab
+
+Private EC Key [SSH HSM cpm 2024-10]
+        Object Flags   : [0x03], private, modifiable
+        Usage          : [0x10C], sign, signRecover, derive
+        Access Flags   : [0x1D], sensitive, alwaysSensitive, neverExtract, local
+        FieldLength    : 256
+        Key ref        : 2 (0x02)
+        Native         : yes
+        Auth ID        : 01
+        ID             : d29f8be82376c1bc8f561dccbe1e0df245c9e213
+        MD:guid        : ec5c9944-c887-6acd-439a-472a518ad785
+
+Public RSA Key [SSH CA]
+        Object Flags   : [0x00]
+        Usage          : [0x51], encrypt, wrap, verify
+        Access Flags   : [0x02], extract
+        ModLength      : 4096
+        Key ref        : 0 (0x00)
+        Native         : no
+        ID             : 7ce88a769c6a39d7d796eb3280a4b39953aa5151
+        DirectValue    : <present>
+
+Public EC Key [SSH HSM cpm 2024-10]
+        Object Flags   : [0x00]
+        Usage          : [0x40], verify
+        Access Flags   : [0x02], extract
+        FieldLength    : 256
+        Key ref        : 0 (0x00)
+        Native         : no
+        ID             : d29f8be82376c1bc8f561dccbe1e0df245c9e213
+        DirectValue    : <present>
+
+sc-hsm-tool --wrap-key wrapped-key-SSH-CA-1.bin --key-reference 1
+sc-hsm-tool --wrap-key wrapped-key-SSH-HSM-cpm-2024-10-1.bin --key-reference 2
+
+
+
+

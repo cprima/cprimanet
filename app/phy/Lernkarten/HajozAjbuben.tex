@@ -1,0 +1,90 @@
+\documentclass[a4paper,backgrid,12pt]{flacards}
+\usepackage{libertine}
+\usepackage{tipa}
+\usepackage[OT6,T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,german]{babel}
+
+\newcommand{\armenian}{\fontencoding{OT6}\fontfamily{cmr}\selectfont}
+\DeclareTextFontCommand{\textarmenian}{\armenian}
+
+\usepackage{etoolbox}
+\pretocmd{\card}{\def\curhint{#1}}{}{}
+
+\pagesetup{3}{6}
+
+\renewcommand{\cardtextstylef}{\Huge}
+\renewcommand{\cardtextstyleb}{\small}
+%\renewcommand{\fchead}{\textarmenian{Հայոց այբուբեն}}
+\renewcommand{\frfoot}{}
+\renewcommand{\brfoot}{}
+%\renewcommand{\bcfoot}{\let\\\relax\footnotesize\curhint}
+
+\newcommand{\majuskel}{foo}
+\newcommand{\minuskel}{bar}
+\renewcommand{\bcfoot}{\let\\\relax\footnotesize \majuskel\hphantom{--}\minuskel}
+
+
+\newcounter{mycounter}
+\renewcommand{\flfoot}{\footnotesize\themycounter}
+\renewcommand{\brfoot}{\footnotesize\themycounter}
+
+
+\newcommand{\myarmeniancard}[8]{%
+    \setcounter{mycounter}{#1}%
+    %used this way to reference in \bcfoot
+    \renewcommand{\majuskel}{\textarmenian{#2}}%
+    \renewcommand{\minuskel}{\textarmenian{#3}}%
+    \card{\textarmenian{\majuskel\hspace{1cm}\minuskel\bigbreak \footnotesize #7}}%
+    {#4 #5 #6\bigbreak \footnotesize #8~}%
+}
+
+\begin{document}
+
+%https://de.wikipedia.org/wiki/Liste_der_IPA-Zeichen
+%https://tex.stackexchange.com/questions/443137/armenian-characters-using-babel
+%https://de.overleaf.com/articles/addition-flashcards-1-to-9/hzyjfrtszzqx
+%https://tex.stackexchange.com/questions/816/cyrillic-in-latex
+
+\myarmeniancard{1}{Ա}{ա}{~}{a}{\textipa{[a]}}{Արմինե}{Schatz}
+\myarmeniancard{2}{Բ}{բ}{~}{b}{\textipa{[b]}}{բժշկագիտություն}{Medizinwissenschaft}
+\myarmeniancard{3}{Գ}{գ}{~}{g}{\textipa{[g]}}{Գյումրի}{Gyumri}
+\myarmeniancard{4}{Դ}{դ}{~}{d}{\textipa{[d]}}{դեսպանատուն}{Botschaft}
+\myarmeniancard{5}{Ե}{ե}{~}{(j)e}{\textipa{[j\textepsilon], [\textepsilon]}}{Երևան}{Yerevan}
+\myarmeniancard{6}{Զ}{զ}{~}{s}{\textipa{[z]}}{զբոսաշրջություն}{Tourismus}
+\myarmeniancard{7}{Է}{է}{~}{e}{\textipa{[\textepsilon]}}{էպիկենտրոն}{Epizentrum}
+\myarmeniancard{8}{Ը}{ը}{~}{e}{\textipa{[\textschwa]}}{ընդդիմություն, ընդեղեն}{Opposition, Getreide}
+\myarmeniancard{9}{Թ}{թ}{~}{t}{\textipa{[t\textsuperscript{h}]}}{թարգմանիչ}{Dolmetscher}
+\myarmeniancard{10}{Ժ}{ժ}{~}{sch}{\textipa{[\textyogh]}}{ժուռնալիստ, ժամանակագիր}{Journalist, Chronist}
+\myarmeniancard{11}{Ի}{ի}{~}{i}{\textipa{[i]}}{իմաստություն, իմունային համակարգ}{Weisheit, Immunsystem}
+\myarmeniancard{12}{Լ}{լ}{~}{l}{\textipa{[l]}}{Լոռու մարզ}{Lori Marz}
+\myarmeniancard{13}{Խ}{խ}{~}{ch}{\textipa{[x]}}{խնձորենի}{Apfelbaum}
+\myarmeniancard{14}{Ծ}{ծ}{~}{z}{\texttoptiebar{[ts]}}{~}{~}
+\myarmeniancard{15}{Կ}{կ}{~}{k}{\textipa{[k]}}{~}{~}
+\myarmeniancard{16}{Հ}{հ}{~}{h}{\textipa{[h]}}{Հայաստան, Հովհաննես , Հարություն}{Hayastan, Hovhannes, Harutjun}
+\myarmeniancard{17}{Ձ}{ձ}{~}{ds}{\texttoptiebar{[dz]}}{~}{~}
+\myarmeniancard{18}{Ղ}{ղ}{~}{gh}{\textipa{[\textscr]}}{~}{~}
+\myarmeniancard{19}{Ճ}{ճ}{~}{tsch}{\texttoptiebar{[t\textesh]}}{~}{~}
+\myarmeniancard{20}{Մ}{մ}{~}{m}{\textipa{[m]}}{Մեսրոպ, մամուլ}{Mesrop, Mamul}
+\myarmeniancard{21}{Յ}{յ}{~}{j}{\textipa{[j]}}{~}{~}
+\myarmeniancard{22}{Ն}{ն}{~}{n}{\textipa{[n], [\ng]}}{Նոր Նորք, Նարինէ}{Nor Nork, Narine}
+\myarmeniancard{23}{Շ}{շ}{~}{sch}{\textipa{[\textesh]}}{~}{~}
+\myarmeniancard{24}{Ո}{ո}{~}{(w)o}{\textipa{[vo], [o]}}{~}{~}
+\myarmeniancard{25}{Չ}{չ}{~}{tsch}{\texttoptiebar{[t\textesh\textsuperscript{h}]}}{~}{~}
+\myarmeniancard{26}{Պ}{պ}{~}{p}{\textipa{[p]}}{~}{~}
+\myarmeniancard{27}{Ջ}{ջ}{~}{dsch}{\texttoptiebar{[d\textyogh]}}{Ջերմուկ}{Jermuk}
+\myarmeniancard{28}{Ռ}{ռ}{~}{r}{\textipa{[r]}}{~}{~}
+\myarmeniancard{29}{Ս}{ս}{~}{s}{\textipa{[s]}}{Սրբուհի, Սոնա}{Srbuhi, Sona}
+\myarmeniancard{30}{Վ}{վ}{~}{w}{\textipa{[v]}}{Վանաձոր, Վիքիպեդիա}{Vanadzor, Wikipedia}
+\myarmeniancard{31}{Տ}{տ}{~}{t}{\textipa{[t]}}{Տաթևիկ, Տիգրան}{Dtatevik, Tigran}
+\myarmeniancard{32}{Ր}{ր}{~}{r}{\textipa{[\textturnr]}}{~}{~}
+\myarmeniancard{33}{Ց}{ց}{~}{z}{\texttoptiebar{[ts\textsuperscript{h}]}}{~}{~}
+\myarmeniancard{34}{Ւ}{ւ}{~}{w,u}{\textipa{[v], [u]}}{~}{~}
+\myarmeniancard{35}{Փ}{փ}{~}{p}{\textipa{p\textsuperscript{h}}}{~}{~}
+\myarmeniancard{36}{Ք}{ք}{~}{k}{\textipa{k\textsuperscript{h}}}{Քանաքեր-Զեյթուն}{}
+\myarmeniancard{38}{Օ}{օ}{~}{o}{\textipa{[o]}}{~}{~}
+\myarmeniancard{39}{Ֆ}{ֆ}{~}{f}{\textipa{[f]}}{~}{~}
+\myarmeniancard{34}{Ու}{ու}{~}{u}{\textipa{[u]}}{~}{~}
+\myarmeniancard{37}{}{և}{~}{(j)ew}{\texttoptiebar{[ew]}}{~}{~}
+
+\end{document}

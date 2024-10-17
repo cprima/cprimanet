@@ -1,8 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtrkx="http://www.garmin.com/xmlschemas/TrackStatsExtension/v1" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v2" xmlns:locus="http://www.locusmap.eu" version="1.1" creator="Locus Map, Android" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
   <metadata>
+    <name>Wolfsburg–Gilserberg–Lahn-Dill-Kreis 2024-08-31</name>
     <desc>File with points/tracks from Locus Map Classic/3.70.11</desc>
-    <time>2024-09-02T08:42:05.751Z</time>
+    <author>Christian Prior-Mamulyan</author>
+    <time>2024-09-02T03:00:35.001Z</time>
   </metadata>
   <wpt lat="52.1712223" lon="10.4758820">
     <ele>99.00</ele>
@@ -62,15 +64,15 @@
   </wpt>
   <wpt lat="52.3032526" lon="10.6194537">
     <ele>76.00</ele>
-    <time>2024-09-01T12:12:05.475Z</time>
-    <name>Nutrition 2024-09-01 14:12:06</name>
+    <time>2024-08-31T03:57:59.999Z</time>
+    <name>Nutrition 2024-08-31 05:57:59</name>
     <desc>Banane</desc>
     <sym>restaurant-fastfood</sym>
   </wpt>
   <wpt lat="51.7032279" lon="9.9927108">
     <ele>122.00</ele>
-    <time>2024-09-01T12:31:29.339Z</time>
-    <name>Nutrition 2024-09-01 14:31:29</name>
+    <time>2024-08-31T08:18:59.999Z</time>
+    <name>Nutrition 2024-08-31 10:18:59</name>
     <desc>Brokkoli Brötchen doppelte Espresso 5g Zucker</desc>
     <sym>restaurant-fastfood</sym>
   </wpt>

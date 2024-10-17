@@ -28,6 +28,7 @@ The following visualizations are based on
 {% include gpx.html gpxfilename="/dat/geodata/gpx/2024-08-20-2024-08-20_LDK-WOB_processed.gpx" %}
 
 {% include gpx.html gpxfilename="/dat/geodata/gpx/WOB-Gilserberg-LDK_2024-08-31_05-00.gpx" %}
+{% include gpx.html gpxfilename="/dat/geodata/gpx/WOB-Gilserberg-LDK_2024-08-31_05-00_processed.gpx" %}
 
 {% include gpx.html gpxfilename="/dat/geodata/gpx/WOB-Arendsee-WOB_2024-09-14_07-41.gpx" %}
 
