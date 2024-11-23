@@ -1,11 +1,4 @@
----
-layout: post
-title: "ISO 25001:2007 Software Product Quality Model"
-component:
-date: 2022-01-01 00:00:00 +0100
-abstract: ""
----
-
+<section>
 <style>
   /* Table Styling */
   .quality-table {
@@ -16,62 +9,62 @@ abstract: ""
     color: #002b36;
   }
 
-  /* Header Row Styling */
-  .quality-table th,
-  .quality-table td {
-    border: 1px solid #586e75;
-    padding: 10px;
-    vertical-align: top;
-  }
+/_ Header Row Styling _/
+.quality-table th,
+.quality-table td {
+border: 1px solid #586e75;
+padding: 10px;
+vertical-align: top;
+}
 
-  /* Main Header Styling */
-  .quality-table .header-row{
-    background-color: #268bd2;
-    color: #fdf6e3;
-    font-size: 1.3em;
-    text-align: center;
-    font-weight: bold;
-    display: none;
-  }
+/_ Main Header Styling _/
+.quality-table .header-row{
+background-color: #268bd2;
+color: #fdf6e3;
+font-size: 1.3em;
+text-align: center;
+font-weight: bold;
+display: none;
+}
 
-  /* Category Headers Styling */
-  .quality-table th {
-    background-color: #586e75;
-    color: #002b36;
-    font-weight: bold;
-    font-size: 1.1em;
-    text-align: center;
-  }
+/_ Category Headers Styling _/
+.quality-table th {
+background-color: #586e75;
+color: #002b36;
+font-weight: bold;
+font-size: 1.1em;
+text-align: center;
+}
 
-  /* Sub-characteristics Cells */
-  .quality-table td {
-    background-color: #eee8d5;
-    color: #073642;
-    font-size: 0.9em;
-  }
+/_ Sub-characteristics Cells _/
+.quality-table td {
+background-color: #eee8d5;
+color: #073642;
+font-size: 0.9em;
+}
 
-/* Highlight Styling */
+/_ Highlight Styling _/
 .quality-table td span.highlight {
-  color: #cb4b16;  /* Solarized Orange for emphasis */
-  font-weight: bold;
+color: #cb4b16; /_ Solarized Orange for emphasis _/
+font-weight: bold;
 }
 
-/* Highlight Styling for Header */
+/_ Highlight Styling for Header _/
 .quality-table th.highlight-header {
-  background-color: #cb4b16; /* Solarized Orange background */
-  color: #fdf6e3; /* Light text for contrast */
-  font-weight: bold; /* Ensures boldness */
-  border-color: #cb4b16; /* Matches border color with background */
-  cursor: pointer; /* Indicates interactivity */
+background-color: #cb4b16; /_ Solarized Orange background _/
+color: #fdf6e3; /_ Light text for contrast _/
+font-weight: bold; /_ Ensures boldness _/
+border-color: #cb4b16; /_ Matches border color with background _/
+cursor: pointer; /_ Indicates interactivity _/
 }
 
-/* Highlight Styling for Table Cells */
+/_ Highlight Styling for Table Cells _/
 .quality-table td.highlight {
-  background-color: #b58900; /* Solarized Yellow background */
-  color: #fdf6e3; /* Light text for contrast */
-  font-weight: bold; /* Emphasized text */
-  border-color: #b58900; /* Matches border color with background */
-  cursor: pointer; /* Indicates interactivity */
+background-color: #b58900; /_ Solarized Yellow background _/
+color: #fdf6e3; /_ Light text for contrast _/
+font-weight: bold; /_ Emphasized text _/
+border-color: #b58900; /_ Matches border color with background _/
+cursor: pointer; /_ Indicates interactivity _/
 }
 </style>
 
@@ -152,8 +145,6 @@ abstract: ""
   </tr>
 </table>
 
-@see: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
-
 <script>
 // Add event listeners to all <span> elements inside the table
 document.querySelectorAll('.quality-table td span').forEach(span => {
@@ -181,3 +172,6 @@ document.querySelectorAll('.quality-table th').forEach(header => {
 });
  
 </script>
+<p>Source: iso25000.com</p>
+
+</section>
