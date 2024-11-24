@@ -7,9 +7,10 @@ if (-not (Test-Path $TargetDir)) {
     New-Item -ItemType Directory -Path $TargetDir -Force | Out-Null
 }
 
-# Find and process markdown files
+# Find and process markdown files, excluding 'biz/marketing/website/_site'
 Get-ChildItem -Path $RepoRoot -Filter "*.md" -Recurse | Where-Object {
-    $_.DirectoryName -match 'resources[/\\]slides'
+    $_.DirectoryName -match 'resources[/\\]slides' -and
+    $_.FullName -notmatch 'biz[/\\]marketing[/\\]website[/\\]_site'
 } | ForEach-Object {
     $relativePath = $_.FullName.Substring($RepoRoot.Length + 1)
     $NewFileName = $relativePath -replace "[/\\]", "_"

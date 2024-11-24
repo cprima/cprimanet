@@ -1,4 +1,4 @@
-<section>
+
 <style>
   /* Table Styling */
   .quality-table {
@@ -9,63 +9,69 @@
     color: #002b36;
   }
 
-/_ Header Row Styling _/
-.quality-table th,
-.quality-table td {
-border: 1px solid #586e75;
-padding: 10px;
-vertical-align: top;
-}
+  /* Header Row Styling */
+  .quality-table th,
+  .quality-table td {
+    border: 1px solid #586e75;
+    padding: 10px;
+    vertical-align: top;
+  }
 
-/_ Main Header Styling _/
-.quality-table .header-row{
-background-color: #268bd2;
-color: #fdf6e3;
-font-size: 1.3em;
-text-align: center;
-font-weight: bold;
-display: none;
-}
+  /* Main Header Styling */
+  .quality-table .header-row{
+    background-color: #268bd2;
+    color: #fdf6e3;
+    font-size: 0.9em;
+    text-align: center;
+    font-weight: bold;
+    display: none;
+  }
 
-/_ Category Headers Styling _/
-.quality-table th {
-background-color: #586e75;
-color: #002b36;
-font-weight: bold;
-font-size: 1.1em;
-text-align: center;
-}
+  /* Category Headers Styling */
+  .quality-table th {
+    background-color: #586e75;
+    color: #002b36;
+    font-weight: bold;
+    font-size: 0.6em;
+    text-align: center;
+  }
 
-/_ Sub-characteristics Cells _/
-.quality-table td {
-background-color: #eee8d5;
-color: #073642;
-font-size: 0.9em;
-}
+  /* Sub-characteristics Cells */
+  .quality-table td {
+    background-color: #eee8d5;
+    color: #073642;
+    font-size: 0.5em;
+  }
 
-/_ Highlight Styling _/
+/* Highlight Styling */
 .quality-table td span.highlight {
-color: #cb4b16; /_ Solarized Orange for emphasis _/
-font-weight: bold;
+  color: #cb4b16;  /* Solarized Orange for emphasis */
+  font-weight: bold;
 }
 
-/_ Highlight Styling for Header _/
+/* Highlight Styling for Header */
 .quality-table th.highlight-header {
-background-color: #cb4b16; /_ Solarized Orange background _/
-color: #fdf6e3; /_ Light text for contrast _/
-font-weight: bold; /_ Ensures boldness _/
-border-color: #cb4b16; /_ Matches border color with background _/
-cursor: pointer; /_ Indicates interactivity _/
+  background-color: #cb4b16; /* Solarized Orange background */
+  color: #fdf6e3; /* Light text for contrast */
+  font-weight: bold; /* Ensures boldness */
+  border-color: #cb4b16; /* Matches border color with background */
+  cursor: pointer; /* Indicates interactivity */
 }
 
-/_ Highlight Styling for Table Cells _/
+/* Highlight Styling for Table Cells */
 .quality-table td.highlight {
-background-color: #b58900; /_ Solarized Yellow background _/
-color: #fdf6e3; /_ Light text for contrast _/
-font-weight: bold; /_ Emphasized text _/
-border-color: #b58900; /_ Matches border color with background _/
-cursor: pointer; /_ Indicates interactivity _/
+  background-color: #b58900; /* Solarized Yellow background */
+  color: #fdf6e3; /* Light text for contrast */
+  font-weight: bold; /* Emphasized text */
+  border-color: #b58900; /* Matches border color with background */
+  cursor: pointer; /* Indicates interactivity */
 }
+
+.quality-table td span {
+  display: block; /* Treat each line like a block for spacing */
+  margin-bottom: 0.6em; /* Adjust spacing as needed */
+}
+
 </style>
 
 <table class="quality-table">
@@ -85,61 +91,61 @@ cursor: pointer; /_ Indicates interactivity _/
   </tr>
   <tr>
     <td id="functional_suitability_cell">
-      <span>Functional Completeness</span><br>
-      <span>Functional Correctness</span><br>
+      <span>Functional Completeness</span>
+      <span>Functional Correctness</span>
       <span>Functional Appropriateness</span>
     </td>
     <td id="performance_efficiency_cell">
-      <span>Time Behaviour</span><br>
-      <span>Resource Utilization</span><br>
+      <span>Time Behaviour</span>
+      <span>Resource Utilization</span>
       <span>Capacity</span>
     </td>
     <td id="compatibility_cell">
-      <span>Co-existence</span><br>
+      <span>Co-existence</span>
       <span>Interoperability</span>
     </td>
     <td id="interaction_capability_cell">
-      <span>Appropriateness Recognizability</span><br>
-      <span>Learnability</span><br>
-      <span>Operability</span><br>
-      <span>User Error Protection</span><br>
-      <span>User Engagement</span><br>
-      <span>Inclusivity</span><br>
-      <span>User Assistance</span><br>
+      <span>Appropriateness Recognizability</span>
+      <span>Learnability</span>
+      <span>Operability</span>
+      <span>User Error Protection</span>
+      <span>User Engagement</span>
+      <span>Inclusivity</span>
+      <span>User Assistance</span>
       <span>Self-descriptiveness</span>
     </td>
     <td id="reliability_cell">
-      <span>Faultlessness</span><br>
-      <span>Availability</span><br>
-      <span>Fault Tolerance</span><br>
+      <span>Faultlessness</span>
+      <span>Availability</span>
+      <span>Fault Tolerance</span>
       <span>Recoverability</span>
     </td>
     <td id="security_cell">
-      <span>Confidentiality</span><br>
-      <span>Integrity</span><br>
-      <span>Non-repudiation</span><br>
-      <span>Accountability</span><br>
-      <span>Authenticity</span><br>
+      <span>Confidentiality</span>
+      <span>Integrity</span>
+      <span>Non-repudiation</span>
+      <span>Accountability</span>
+      <span>Authenticity</span>
       <span>Resistance</span>
     </td>
     <td id="maintainability_cell">
-      <span>Modularity</span><br>
-      <span>Reusability</span><br>
-      <span>Analysability</span><br>
-      <span>Modifiability</span><br>
+      <span>Modularity</span>
+      <span>Reusability</span>
+      <span>Analysability</span>
+      <span>Modifiability</span>
       <span>Testability</span>
     </td>
     <td id="flexibility_cell">
-      <span>Adaptability</span><br>
-      <span>Scalability</span><br>
-      <span>Installability</span><br>
+      <span>Adaptability</span>
+      <span>Scalability</span>
+      <span>Installability</span>
       <span>Replaceability</span>
     </td>
     <td id="safety_cell">
-      <span>Operational Constraint</span><br>
-      <span>Risk Identification</span><br>
-      <span>Fail Safe</span><br>
-      <span>Hazard Warning</span><br>
+      <span>Operational Constraint</span>
+      <span>Risk Identification</span>
+      <span>Fail Safe</span>
+      <span>Hazard Warning</span>
       <span>Safe Integration</span>
     </td>
   </tr>
@@ -173,5 +179,4 @@ document.querySelectorAll('.quality-table th').forEach(header => {
  
 </script>
 <p>Source: iso25000.com</p>
-
-</section>
+<!-- prettier-ignore-end -->
