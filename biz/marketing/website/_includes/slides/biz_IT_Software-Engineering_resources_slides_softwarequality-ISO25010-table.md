@@ -1,4 +1,3 @@
-
 <style>
   /* Table Styling */
   .quality-table {
@@ -15,6 +14,7 @@
     border: 1px solid #586e75;
     padding: 10px;
     vertical-align: top;
+  line-height: 1.2; /* Set a consistent line height to accomodate reveal.js and Jekyll layouts*/
   }
 
   /* Main Header Styling */
@@ -68,9 +68,13 @@
 }
 
 .quality-table td span {
-  display: block; /* Treat each line like a block for spacing */
-  margin-bottom: 0.5em; /* Adjust spacing as needed */
+  display: block; /* Ensure block layout */
+  font-size: inherit; /* Inherit font size from parent */
+  margin: 0; /* Remove any margin */
+  padding: 0; /* Remove any padding */
+margin-bottom: 0.5em; /* Adjust spacing as needed */
 }
+
 
 </style>
 
@@ -178,5 +182,4 @@ document.querySelectorAll('.quality-table th').forEach(header => {
 });
  
 </script>
-<p>Source: iso25000.com</p>
 <!-- prettier-ignore-end -->
