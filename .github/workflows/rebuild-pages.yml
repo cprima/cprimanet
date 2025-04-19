@@ -1,15 +1,47 @@
-#https://seankilleen.com/2020/02/how-to-deploy-github-pages-on-a-schedule-to-publish-future-posts/
-
-name: Build every hour
+name: Scheduled Rebuild for Jekyll Future Posts
 
 on:
   schedule:
-   - cron: '0 * * * *'
+    - cron: '0 */6 * * *'  # ⏰ Every 6 hours
+  workflow_dispatch:       # 🧪 Allow manual trigger
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "scheduled-pages-deploy"
+  cancel-in-progress: false
+
 jobs:
-  curl:
+  rebuild:
     runs-on: ubuntu-latest
+
     steps:
-    - name: curl
-      uses: wei/curl@master
-      with:
-        args: "-X POST -H 'Authorization: token ${{ secrets.PAGES_ACCESS_TOKEN }}' -H 'Accept: application/vnd.github.ant-man-preview+json' https://api.github.com/repos/cprima/cprimanet/pages/builds"
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Build with Jekyll
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: production
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: biz/marketing/website/_site  # ✅ your custom destination path
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
