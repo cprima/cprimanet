@@ -35,11 +35,18 @@ The test environment consisted of an Intel NUC system equipped with dual HDMI ou
 
 The objective was to establish a stable dual-monitor configuration where the PA279CRV consistently initialized as the primary display at 3840×2160 resolution, preferably running at 29.97 Hz to remain within the HDMI 2.0 bandwidth constraints imposed by the NUC's integrated graphics. The KVM was used to facilitate seamless input and peripheral sharing between systems, without sacrificing display quality or configuration stability.
 
-![Initial display layout showing PA279CRV as primary monitor in landscape orientation.](../../../../tec/phy/ASUS/resources/images/display-settings__windows__001__layout-dual-monitors-first__en__900x1600.png)
+<!-- ![Initial display layout showing PA279CRV as primary monitor in landscape orientation.](../../../../tec/phy/ASUS/resources/images/display-settings__windows__001__layout-dual-monitors-first__en__900x1600.png) -->
 
-![Advanced display settings for PA279CRV set to 3840×2160 @ 29.97 Hz.](../../../../tec/phy/ASUS/resources/images/display-settings__windows__002__layout-dual-monitors-first-Advanced-Settings-Refresh-Rate__en__900x1600.png)
+<img src="{{ "/tec/phy/ASUS/resources/images/display-settings__windows__001__layout-dual-monitors-first__en__900x1600.png" | prepend: site.baseurl }}" alt="Initial display layout showing PA279CRV as primary monitor in landscape orientation." class="resize">
 
-![Windows display layout showing PA248CRV (secondary monitor) in portrait orientation.](../../../../tec/phy/ASUS/resources/images/display-settings__windows__003__layout-dual-monitors-second__en__900x1600.png)
+
+<!-- ![Advanced display settings for PA279CRV set to 3840×2160 @ 29.97 Hz.](../../../../tec/phy/ASUS/resources/images/display-settings__windows__002__layout-dual-monitors-first-Advanced-Settings-Refresh-Rate__en__900x1600.png) -->
+
+<img src="{{ "/tec/phy/ASUS/resources/images/display-settings__windows__002__layout-dual-monitors-first-Advanced-Settings-Refresh-Rate__en__900x1600.png" | prepend: site.baseurl }}" alt="Advanced display settings for PA279CRV set to 3840×2160 @ 29.97 Hz." class="resize">
+
+<!-- ![Windows display layout showing PA248CRV (secondary monitor) in portrait orientation.](../../../../tec/phy/ASUS/resources/images/display-settings__windows__003__layout-dual-monitors-second__en__900x1600.png)-->
+
+<img src="{{ "/tec/phy/ASUS/resources/images/display-settings__windows__003__layout-dual-monitors-second__en__900x1600.png" | prepend: site.baseurl }}" alt="Windows display layout showing PA248CRV (secondary monitor) in portrait orientation." class="resize">
 
 ## 2. The Mystery – Wake-Up Timing and Display Downgrades
 
@@ -54,9 +61,13 @@ In addition to resolution downgrades, the display ordering within Windows occasi
 
 Attempts to resolve the issue through static configuration alone proved unreliable, prompting a more detailed investigation into timing, cabling, and monitor response behavior.
 
-![Advanced display settings for PA248CRV confirming 29.97 Hz refresh rate and 1920×1200 signal resolution.](../../../../tec/phy/ASUS/resources/images/display-settings__windows__004__layout-dual-monitors-second-Advanced-Settings-Refresh-Rate__en__900x1600.png)
+<!-- ![Advanced display settings for PA248CRV confirming 29.97 Hz refresh rate and 1920×1200 signal resolution.](../../../../tec/phy/ASUS/resources/images/display-settings__windows__004__layout-dual-monitors-second-Advanced-Settings-Refresh-Rate__en__900x1600.png) -->
 
-![CRU configuration for the PA279CRV monitor showing two detailed resolutions: 3840×2160 at 29.97 Hz and 60 Hz. These were prioritized to manage HDMI 2.0 bandwidth constraints.](../../../../tec/phy/ASUS/resources/images/cru-main__cru__005__pa279crv-detailed-res__en__774x815.png)
+<img src="{{ "/tec/phy/ASUS/resources/images/display-settings__windows__004__layout-dual-monitors-second-Advanced-Settings-Refresh-Rate__en__900x1600.png" | prepend: site.baseurl }}" alt="Advanced display settings for PA248CRV confirming 29.97 Hz refresh rate and 1920×1200 signal resolution." class="resize">
+
+<!-- ![CRU configuration for the PA279CRV monitor showing two detailed resolutions: 3840×2160 at 29.97 Hz and 60 Hz. These were prioritized to manage HDMI 2.0 bandwidth constraints.](../../../../tec/phy/ASUS/resources/images/cru-main__cru__005__pa279crv-detailed-res__en__774x815.png) -->
+
+<img src="{{ "/tec/phy/ASUS/resources/images/display-settings__windows__003__layout-dual-monitors-second__en__900x1600.png" | prepend: site.baseurl }}" alt="CRU configuration for the PA279CRV monitor showing two detailed resolutions: 3840×2160 at 29.97 Hz and 60 Hz. These were prioritized to manage HDMI 2.0 bandwidth constraints." class="resize">
 
 ## 3. The Investigation – Reproducing, Ruling Out, Rewiring
 
@@ -90,9 +101,13 @@ Some approaches proved ineffective. For example:
 
 Collectively, these steps clarified that resolution fallback and display reordering were linked more to EDID availability timing than to configuration alone, setting the stage for deeper insights into the role of hardware timing and KVM behavior.
 
-![CTA-861 extension block for the PA279CRV. Includes the same 29.97 Hz 4K detailed resolution, plus additional HDMI 2.1 capability and video feature metadata.](../../../../tec/phy/ASUS/resources/images/cru-extension__cru__006__pa279crv-cta861-block__en__540x701.png)
+<!-- ![CTA-861 extension block for the PA279CRV. Includes the same 29.97 Hz 4K detailed resolution, plus additional HDMI 2.1 capability and video feature metadata.](../../../../tec/phy/ASUS/resources/images/cru-extension__cru__006__pa279crv-cta861-block__en__540x701.png) -->
 
-![CRU configuration for the secondary PA248CRV monitor, with a single detailed resolution of 1920×1200 at 29.97 Hz. No standard resolutions are defined to prevent fallback behavior.](../../../../tec/phy/ASUS/resources/images/cru-main__cru__007__pa248crv-detailed-res__en__871x977.png)
+<img src="{{ "/tec/phy/ASUS/resources/images/cru-extension__cru__006__pa279crv-cta861-block__en__540x701.png" | prepend: site.baseurl }}" alt="CTA-861 extension block for the PA279CRV. Includes the same 29.97 Hz 4K detailed resolution, plus additional HDMI 2.1 capability and video feature metadata." class="resize">
+
+<!-- ![CRU configuration for the secondary PA248CRV monitor, with a single detailed resolution of 1920×1200 at 29.97 Hz. No standard resolutions are defined to prevent fallback behavior.](../../../../tec/phy/ASUS/resources/images/cru-main__cru__007__pa248crv-detailed-res__en__871x977.png) -->
+
+<img src="{{ "/tec/phy/ASUS/resources/images/cru-main__cru__007__pa248crv-detailed-res__en__871x977.png" | prepend: site.baseurl }}" alt="CRU configuration for the secondary PA248CRV monitor, with a single detailed resolution of 1920×1200 at 29.97 Hz. No standard resolutions are defined to prevent fallback behavior." class="resize">
 
 ## 4. Findings – What Actually Happens
 
@@ -114,13 +129,21 @@ Other key findings include:
 - The physical state of the monitors (e.g., powered off, source cycling) significantly impacts which EDIDs are processed first.
 - Fixing the PA279CRV input to HDMI2 and allowing PA248CRV to scan inputs helped preserve correct initialization order.
 
-![Intel Graphics Command Center – General display settings for dual-monitor setup. Primary (PA279CRV) and secondary (PA248CRV) displays shown with flipped orientation applied.](../../../../tec/phy/ASUS/resources/images/graphics-settings__intel__008__pa279crv-Display-General__en__2800x1575.png)
+<!-- ![Intel Graphics Command Center – General display settings for dual-monitor setup. Primary (PA279CRV) and secondary (PA248CRV) displays shown with flipped orientation applied.](../../../../tec/phy/ASUS/resources/images/graphics-settings__intel__008__pa279crv-Display-General__en__2800x1575.png) -->
 
-![Intel Graphics Command Center – Monitor information confirming EDID data for PA279CRV, including 4K support and HDMI connector identification.](../../../../tec/phy/ASUS/resources/images/graphics-settings__intel__009__pa279crv-Display-Information__en__2800x1575.png)
+<img src="{{ "/tec/phy/ASUS/resources/images/graphics-settings__intel__008__pa279crv-Display-General__en__2800x1575.png" | prepend: site.baseurl }}" alt="Intel Graphics Command Center – General display settings for dual-monitor setup. Primary (PA279CRV) and secondary (PA248CRV) displays shown with flipped orientation applied." class="resize">
 
-![System-level GPU information showing Intel UHD Graphics, DirectX 12 support, GOP version, and shared memory allocation relevant for display handling.](../../../../tec/phy/ASUS/resources/images/graphics-settings__intel__010__pa279crv-System-GPUs__en__2800x1575.png)
+<!-- ![Intel Graphics Command Center – Monitor information confirming EDID data for PA279CRV, including 4K support and HDMI connector identification.](../../../../tec/phy/ASUS/resources/images/graphics-settings__intel__009__pa279crv-Display-Information__en__2800x1575.png) -->
 
-![Hardware overview in Intel Graphics Command Center, confirming dual display detection and physical hardware configuration including CPU, storage, and RAM.](../../../../tec/phy/ASUS/resources/images/graphics-settings__intel__011__pa279crv-System-Hardware__en__2800x1575.png)
+<img src="{{ "/tec/phy/ASUS/resources/images/graphics-settings__intel__009__pa279crv-Display-Information__en__2800x1575.png" | prepend: site.baseurl }}" alt="Intel Graphics Command Center – Monitor information confirming EDID data for PA279CRV, including 4K support and HDMI connector identification." class="resize">
+
+<!-- ![Intel Graphics Command Center – Monitor information confirming EDID data for PA279CRV, including 4K support and HDMI connector identification.](../../../../tec/phy/ASUS/resources/images/graphics-settings__intel__010__pa279crv-System-GPUs__en__2800x1575.png) -->
+
+<img src="{{ "/tec/phy/ASUS/resources/images/graphics-settings__intel__010__pa279crv-System-GPUs__en__2800x1575.png" | prepend: site.baseurl }}" alt="ntel Graphics Command Center – Monitor information confirming EDID data for PA279CRV, including 4K support and HDMI connector identification." class="resize">
+
+<!-- ![Hardware overview in Intel Graphics Command Center, confirming dual display detection and physical hardware configuration including CPU, storage, and RAM.](../../../../tec/phy/ASUS/resources/images/graphics-settings__intel__011__pa279crv-System-Hardware__en__2800x1575.png) -->
+
+<img src="{{ "/tec/phy/ASUS/resources/images/graphics-settings__intel__011__pa279crv-System-Hardware__en__2800x1575.png" | prepend: site.baseurl }}" alt="Hardware overview in Intel Graphics Command Center, confirming dual display detection and physical hardware configuration including CPU, storage, and RAM." class="resize">
 
 ## 5. Mitigations – What Works Reliably
 
