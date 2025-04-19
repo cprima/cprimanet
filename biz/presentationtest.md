@@ -1,5 +1,5 @@
 ---
-layout: presentation_v1.2.1
+layout: presentation_v1.2.2
 theme: solarized
 ticker___: foobar
 self-contained: false

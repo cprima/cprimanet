@@ -1,5 +1,5 @@
 ---
-layout: presentation_v1.1.0
+layout: presentation_v1.2.2
 title: "cprima.net presentation template"
 date: 2023-03-25 00:00:00 +0100
 abstract: Starting with a definition, digging into individual aspects

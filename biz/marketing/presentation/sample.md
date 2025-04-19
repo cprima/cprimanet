@@ -1,5 +1,5 @@
 ---
-layout: presentation_v1.0.3
+layout: presentation_v1.2.2
 title: "Sample Presentation"
 excerpt: "excerpt"
 author: "Christian Prior-Mamulyan"

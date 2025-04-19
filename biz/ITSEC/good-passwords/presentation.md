@@ -1,5 +1,5 @@
 ---
-layout: presentation_v1.0.2
+layout: presentation_v1.2.2
 title: "Vorsätzlich gute Passwörter"
 excerpt: "excerpt"
 author: "Christian Prior-Mamulyan"

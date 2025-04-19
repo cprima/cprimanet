@@ -1,5 +1,5 @@
 ---
-layout: presentation_v1.2.0
+layout: presentation_v1.2.2
 title: "CI/CD with UiPath RPA"
 date: 2024-01-01 00:00:00 +0100
 abstract: Project Basturma Pipelines
