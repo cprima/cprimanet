@@ -37,7 +37,7 @@ sass:
 exclude:
   - data
   - tec/phy/*/settings
-  - tec/phy/Blackmagic/**/*.pdf
+  - tec/phy/**/resources/**/*.pdf
 
 defaults:
   - scope:
