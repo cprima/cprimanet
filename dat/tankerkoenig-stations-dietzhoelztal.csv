@@ -1,0 +1,17 @@
+id,name,brand,street,place,lat,lng,dist,diesel,e5,e10,isOpen,houseNumber,postCode
+aa842438-c80d-46c1-828f-2cadb756d015,Tankstelle Eibelshausen,Roth- Energie,Eiershäuser Str.,Eibelshausen,50.80733,8.34906,3.5,1.569,1.769,1.709,true,49,35713
+c7f10377-ac4b-4a53-8230-ef35a1636d67,Shell Dietzhoelztal Hauptstr. 13,Shell,Hauptstr.,Dietzhoelztal,50.831925,8.320652,3.6,1.639,1.819,1.779,true,13,35716
+aa842438-c80d-46c1-828f-2cadb756d016,Tankstelle Ewersbach,Roth- Energie,Hauptstr.,Dietzhölztal,50.83524,8.3064,3.7,1.569,1.769,1.709,true,156,35716
+bd752d39-d09f-4851-b013-1537283ddeee,Wilhelm Claas GmbH,Wilhelm Claas GmbH,Auf der Langaar,Dillenburg,50.7689,8.293,3.8,1.559,1.759,1.699,true,1,35684
+515dcbdd-f9de-48b1-8828-00d64b7a118e,Aral Tankstelle,ARAL,Kasseler Straße,Dillenburg,50.7499542,8.276847,6.1,1.629,1.829,1.769,true,32,35683
+49e6f3e8-55ce-40b7-8108-add0f2a2b126,Access Tankstelle Dillenburg,Access,Kasseler Str. B253,Dillenburg,50.749561,8.276969,6.1,1.619,1.819,1.759,true,,35683
+b009c28a-6be3-49a5-8012-3db50637a5a1,Shell Dillenburg Frankfurter Str. 175,Shell,Frankfurter Str.,Dillenburg,50.73528,8.290547,7.5,1.629,1.829,1.769,true,175,35683
+aa842438-c80d-46c1-828f-2cadb756d013,Tankstelle Dillenburg,Roth- Energie,Am Güterbahnhof Str.,Dillenburg,50.73098,8.29436,8,1.559,1.759,1.699,true,28,35683
+00060166-0002-4444-8888-acdc00000002,Tankstelle Jung Lixfeld,,Schelde-Lahn-Str.,Lixfeld,50.806198120117,8.415060043335,8.1,1.579,1.739,1.679,true,54,35719
+a82eaf56-e326-1466-e100-00000630df04,ENI,Agip,Hohleichenrain,Haiger,50.742459,8.22191,8.7,1.619,1.789,1.729,true,8,35708
+405af169-0d22-45af-be33-69decd9e8ed8,A. Wächtler GmbH & Co. KG,,Rolfesstr.,Dillenburg,50.724747,8.2897,8.7,1.559,1.759,,true,3,35683
+aa842438-c80d-46c1-828f-2cadb756d017,Tankstelle Haiger,Roth- Energie,Rodenbacher Straße.,Haiger,50.74602,8.20235,9.3,1.599,1.719,1.659,true,19,35708
+89540af1-abae-43ab-ab9a-e8151144d08e,Shell Haiger Bahnhofstr. 42,Shell,Bahnhofstr.,Haiger,50.74126,8.209538,9.3,1.659,1.739,1.709,true,42,35708
+ada9f055-b84a-4873-848c-9f25e084ae93,Aral Tankstelle,ARAL,Löhrstraße,Haiger,50.74159,8.207649,9.4,1.659,1.759,1.699,true,6,35708
+ce780245-3e31-458f-b8dc-aa87bf67a166,Aral Tankstelle,ARAL,Wetzlarer Straße,Netphen,50.8620377,8.200172,9.6,1.639,1.799,1.739,true,32,57250
+a9b391b1-3cbb-4f85-8a78-da54731f683a,Gebr.Reitz GmbH & Co.KG,BFT,Dietetestr.,Breidenbach,50.854643,8.4117398,9.7,1.549,1.709,1.649,true,54,35236

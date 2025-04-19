@@ -1,0 +1,5 @@
+<LEDFixtureLibrary>
+ <LEDFixture group="CPM" favorite="1" product="Stairville Led Bar 240/8 RGB DMX">
+  <PixelMapping width="1" height="1" type="RGBL" avoidCrossUniversePixels="1">1 </PixelMapping>
+ </LEDFixture>
+</LEDFixtureLibrary>

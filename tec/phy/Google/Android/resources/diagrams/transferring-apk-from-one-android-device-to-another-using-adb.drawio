@@ -1,0 +1,25 @@
+<mxfile host="Electron" modified="2024-04-13T07:55:41.735Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.1.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="NKvmfSTx6ohq37V28hj_" version="24.1.0" type="device">
+  <diagram name="Page-1" id="s1lPQYj2TPWVhiLx2glE">
+    <mxGraphModel dx="1098" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5W_DyZHJr-HLIw55QGlu-1" value="rooted phone" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;fillColor=#2aa198;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;shape=mxgraph.gcp2.phone_android" vertex="1" parent="1">
+          <mxGeometry x="180" y="170" width="56" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5W_DyZHJr-HLIw55QGlu-2" value="target phone" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;fillColor=#d33682;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;shape=mxgraph.gcp2.phone_android" vertex="1" parent="1">
+          <mxGeometry x="590" y="170" width="56" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5W_DyZHJr-HLIw55QGlu-3" value="PC to execute `adb` command" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#6c71c4;shape=mxgraph.azure.laptop;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="321" y="165" width="183.33" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="5W_DyZHJr-HLIw55QGlu-5" value="pull" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.08;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;" edge="1" parent="1" source="5W_DyZHJr-HLIw55QGlu-1" target="5W_DyZHJr-HLIw55QGlu-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5W_DyZHJr-HLIw55QGlu-6" value="install-multiple" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.92;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="5W_DyZHJr-HLIw55QGlu-3" target="5W_DyZHJr-HLIw55QGlu-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,77 @@
+---
+layout: default
+---
+
+<div class="main-container">
+  <div class="main wrapper clearfix">
+    <article>
+      <!--
+            <header>
+                <h1>article header h1</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec.</p>
+            </header>
+-->
+      <section>
+        <!-- prettier-ignore -->
+        {% assign currentDate = 'now' | date: '%s' | plus: 0 %}
+{% assign thirtyDaysAgo = currentDate | minus: 2592000 %}
+
+{% for post in site.posts %}
+  {% assign postDate = post.date | date: '%s' | plus: 0 %}
+  {% if postDate >= thirtyDaysAgo %}
+        <h3>
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h3>
+        <p>{{ post.abstract }}</p>
+        {% endif %} {% endfor %}
+
+        <!--
+                <h2>Sound Good in Webinars: Setup, Analysis and Evaluation of Improved Audio</h2>
+                <p>YouTuber Anders Jensen asked on LinkedIn if someone could help to improve the audio of his YouTube video and livestreams.</p>
+
+<p>Well, I have repeated professional testimonials that I like to help other people fulfilling their potential.</p>
+
+<p>Join Anders Jensen and me on a live session where
+<ul>
+<li>we are going to wrap up first improvements for his video channel and his teaching business</li>
+<li>I share the condensed learning of my past 2 years</li>
+<li>and paint a roadmap for future improvements.</li>
+</ul></p>
+                {% include youtubePlayer.html id="Frg5-22oChs" %}
+                <p>Participants will
+<ul>
+<li>be able to derive actionable ideas from this journey for their own improvements</li>
+<li>distinguish elements of good audio to apply to their own online presence</li>
+<li>rank these by difficulty and affordability</li>
+<li>recognize basic terms and concepts of audio engineering</li>
+</ul>
+</p>
+
+
+<p>Important to note:<br />
+
+This is a hobby of mine. The event is not aimed at collecting email addresses or generate leads. On the other hand I hope I will figure out a good way to also answer (follow-up) questions. I have a few ideas in mind.</p>
+//-->
+      </section>
+      <!--
+            <section>
+                <h2>article section h2</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>
+            </section>
+            <footer>
+                <h3>article footer h3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor.</p>
+            </footer>
+-->
+    </article>
+    <!--
+
+        <aside>
+            <h3>aside</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices.</p>
+        </aside>
+-->
+  </div>
+  <!-- #main -->
+</div>
+<!-- #main-container -->

@@ -1,0 +1,386 @@
+{
+    "version": 2,
+    "type": "page",
+    "config": {
+        "1": {
+            "style": "pageup"
+        },
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {
+            "style": "png",
+            "text": "Hue red",
+            "size": "auto",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 0,
+            "latch": false,
+            "relative_delay": false
+        },
+        "6": {
+            "style": "png",
+            "text": "Hue yellow",
+            "size": "auto",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 0,
+            "latch": false,
+            "relative_delay": false
+        },
+        "7": {
+            "style": "png",
+            "text": "Hue green",
+            "size": "auto",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 0,
+            "latch": false,
+            "relative_delay": false
+        },
+        "8": {
+            "style": "png",
+            "text": "Hue off",
+            "size": "auto",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 0,
+            "latch": false,
+            "relative_delay": false
+        },
+        "9": {
+            "style": "pagenum"
+        },
+        "10": {},
+        "11": {},
+        "12": {},
+        "13": {
+            "style": "png",
+            "text": "Licht An",
+            "size": "auto",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 0,
+            "latch": false,
+            "relative_delay": false
+        },
+        "14": {},
+        "15": {},
+        "16": {
+            "style": "png",
+            "text": "Licht Aus",
+            "size": "auto",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 0,
+            "latch": false,
+            "relative_delay": false
+        },
+        "17": {
+            "style": "pagedown"
+        },
+        "18": {},
+        "19": {},
+        "20": {},
+        "21": {
+            "style": "png",
+            "text": "host lowerthird",
+            "size": "auto",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 0,
+            "latch": false,
+            "relative_delay": false
+        },
+        "22": {},
+        "23": {},
+        "24": {},
+        "25": {},
+        "26": {},
+        "27": {},
+        "28": {},
+        "29": {},
+        "30": {},
+        "31": {},
+        "32": {}
+    },
+    "instances": {
+        "qhXcokpuL": {
+            "instance_type": "generic-http",
+            "product": "HTTP Requests",
+            "label": "http",
+            "enabled": true
+        },
+        "bitfocus-companion": {
+            "instance_type": "bitfocus-companion",
+            "label": "internal",
+            "id": "bitfocus-companion",
+            "_configIdx": 2
+        },
+        "rN0s48ZD7": {
+            "instance_type": "bmd-atem",
+            "product": "ATEM",
+            "label": "atem",
+            "_configIdx": 1,
+            "enabled": true,
+            "host": "10.38.20.31",
+            "modelID": 13,
+            "presets": 0,
+            "fadeFps": 10
+        }
+    },
+    "actions": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [{
+                "id": "3dTS-ZqMa",
+                "label": "qhXcokpuL:put",
+                "instance": "qhXcokpuL",
+                "action": "put",
+                "options": {
+                    "url": "http://10.38.20.16/api/HzWYr7eWNfw8t6PTd1VyJbFoLzV0eCgf0b5xdFE8/lights/6/state",
+                    "body": "{\"on\":true, \"sat\":254, \"bri\":254,\"xy\":[0.675,0.322]}",
+                    "header": ""
+                },
+                "delay": 0
+            }, {
+                "id": "qeCoDx10zG",
+                "label": "bitfocus-companion:custom_variable_set_value",
+                "instance": "bitfocus-companion",
+                "action": "custom_variable_set_value",
+                "options": {
+                    "name": "myPresence",
+                    "value": "red"
+                },
+                "delay": 0
+            }
+        ],
+        "6": [{
+                "id": "YX4hS-Xzh",
+                "label": "qhXcokpuL:put",
+                "instance": "qhXcokpuL",
+                "action": "put",
+                "options": {
+                    "url": "http://10.38.20.16/api/HzWYr7eWNfw8t6PTd1VyJbFoLzV0eCgf0b5xdFE8/lights/6/state",
+                    "body": "{\"on\":true, \"sat\":254, \"bri\":254,\"xy\":[0.5,0.45]}",
+                    "header": ""
+                },
+                "delay": 0
+            }, {
+                "id": "BHoRIxLuTs",
+                "label": "bitfocus-companion:custom_variable_set_value",
+                "instance": "bitfocus-companion",
+                "action": "custom_variable_set_value",
+                "options": {
+                    "name": "myPresence",
+                    "value": "yellow"
+                },
+                "delay": 0
+            }
+        ],
+        "7": [{
+                "id": "q2w87Ime6",
+                "label": "qhXcokpuL:put",
+                "instance": "qhXcokpuL",
+                "action": "put",
+                "options": {
+                    "url": "http://10.38.20.16/api/HzWYr7eWNfw8t6PTd1VyJbFoLzV0eCgf0b5xdFE8/lights/6/state",
+                    "body": "{\"on\":true, \"sat\":254, \"bri\":254,\"xy\":[0.2,0.7]}",
+                    "header": ""
+                },
+                "delay": 0
+            }, {
+                "id": "qFY3ljOWcy",
+                "label": "bitfocus-companion:custom_variable_set_value",
+                "instance": "bitfocus-companion",
+                "action": "custom_variable_set_value",
+                "options": {
+                    "name": "myPresence",
+                    "value": "green"
+                },
+                "delay": 0
+            }
+        ],
+        "8": [{
+                "id": "UwaIeCFbj",
+                "label": "qhXcokpuL:put",
+                "instance": "qhXcokpuL",
+                "action": "put",
+                "options": {
+                    "url": "http://10.38.20.16/api/HzWYr7eWNfw8t6PTd1VyJbFoLzV0eCgf0b5xdFE8/lights/6/state",
+                    "body": "{\"on\":false}",
+                    "header": ""
+                },
+                "delay": 0
+            }, {
+                "id": "A4Oj15BEYQ",
+                "label": "bitfocus-companion:custom_variable_set_value",
+                "instance": "bitfocus-companion",
+                "action": "custom_variable_set_value",
+                "options": {
+                    "name": "myPresence",
+                    "value": "off"
+                },
+                "delay": 0
+            }
+        ],
+        "9": [],
+        "10": [],
+        "11": [],
+        "12": [],
+        "13": [{
+                "id": "huRkrzTu3",
+                "label": "qhXcokpuL:get",
+                "instance": "qhXcokpuL",
+                "action": "get",
+                "options": {
+                    "url": "http://10.38.20.82/addons/xmlapi/statechange.cgi?ise_id=1501&new_value=true",
+                    "header": ""
+                },
+                "delay": 0
+            }
+        ],
+        "14": [],
+        "15": [],
+        "16": [{
+                "id": "-jGrN-Pg7",
+                "label": "qhXcokpuL:get",
+                "instance": "qhXcokpuL",
+                "action": "get",
+                "options": {
+                    "url": "http://10.38.20.82/addons/xmlapi/statechange.cgi?ise_id=1501&new_value=false",
+                    "header": ""
+                },
+                "delay": 0
+            }
+        ],
+        "17": [],
+        "18": [],
+        "19": [],
+        "20": [],
+        "21": [{
+                "id": "YVQ6jPV6C",
+                "label": "rN0s48ZD7:macrorun",
+                "instance": "rN0s48ZD7",
+                "action": "macrorun",
+                "options": {
+                    "macro": 13,
+                    "action": "run"
+                },
+                "delay": 0
+            }
+        ],
+        "22": [],
+        "23": [],
+        "24": [],
+        "25": [],
+        "26": [],
+        "27": [],
+        "28": [],
+        "29": [],
+        "30": [],
+        "31": [],
+        "32": []
+    },
+    "release_actions": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": [],
+        "10": [],
+        "11": [],
+        "12": [],
+        "13": [],
+        "14": [],
+        "15": [],
+        "16": [],
+        "17": [],
+        "18": [],
+        "19": [],
+        "20": [],
+        "21": [],
+        "22": [],
+        "23": [],
+        "24": [],
+        "25": [],
+        "26": [],
+        "27": [],
+        "28": [],
+        "29": [],
+        "30": [],
+        "31": [],
+        "32": []
+    },
+    "feedbacks": {
+        "5": [{
+                "id": "Y9uSBIjo9u",
+                "type": "variable_value",
+                "instance_id": "bitfocus-companion",
+                "options": {
+                    "variable": "internal:custom_myPresence",
+                    "op": "eq",
+                    "value": "red"
+                },
+                "style": {
+                    "color": 16777215,
+                    "bgcolor": 16711680
+                }
+            }
+        ],
+        "6": [{
+                "id": "7NIIx_2cbj",
+                "type": "variable_value",
+                "instance_id": "bitfocus-companion",
+                "options": {
+                    "variable": "internal:custom_myPresence",
+                    "op": "eq",
+                    "value": "yellow"
+                },
+                "style": {
+                    "color": 0,
+                    "bgcolor": 16776960
+                }
+            }
+        ],
+        "7": [{
+                "id": "zSHpQOb0xd",
+                "type": "variable_value",
+                "instance_id": "bitfocus-companion",
+                "options": {
+                    "variable": "internal:custom_myPresence",
+                    "op": "eq",
+                    "value": "green"
+                },
+                "style": {
+                    "color": 16777215,
+                    "bgcolor": 65280
+                }
+            }
+        ],
+        "8": [],
+        "9": [],
+        "11": [],
+        "13": [],
+        "14": [],
+        "16": [],
+        "21": [],
+        "22": []
+    },
+    "page": {
+        "name": "PAGE"
+    }
+}

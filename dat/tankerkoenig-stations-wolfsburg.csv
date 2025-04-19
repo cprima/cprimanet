@@ -1,0 +1,26 @@
+id,name,brand,street,place,lat,lng,dist,diesel,e5,e10,isOpen,houseNumber,postCode
+da6eedef-5964-4617-b0e5-4023ef3f2104,Sb Wolfsburg Hubertusstr. 8,SB,Hubertusstr.,Wolfsburg,52.451012,10.79625,1.3,1.579,1.769,1.709,true,8,38448
+005056ba-7cb6-1ed2-bceb-79dff61a8d26,star Tankstelle,STAR,Schulenburgallee,Wolfsburg,52.440433,10.807963,1.6,1.579,1.769,1.709,true,2,38448
+01b50dfd-5470-431b-b209-bbc9f1f69681,LEO Wolfsburg,LEO,Carl-Grete-Str.,Wolfsburg,52.4457,10.8354,1.7,1.579,1.769,1.709,true,34,38448
+42f01e8b-ec07-4844-a39d-8b75a525d90b,Aral Tankstelle,ARAL,Wolfsburger Straße,Wolfsburg,52.4382744,10.8303185,2.1,1.609,1.799,1.739,true,41,38448
+a6ff27d8-4fa5-4d80-9724-b5aa87455535,Shell Wolfsburg Helmstedter Str. 40,Shell,Helmstedter Str.,Wolfsburg,52.434719,10.850562,3.2,1.609,1.769,1.739,true,40,38448
+a7890dd5-3d45-4d37-823a-e68225308e10,Esso Tankstelle,ESSO,BERLINER RING 10,WOLFSBURG,52.42584,10.797348,3.4,1.619,1.809,1.749,true,,38440
+005056ba-7cb6-1ed2-bceb-7a4d9fd46d26,star Tankstelle,STAR,Berliner Ring,Wolfsburg,52.423382,10.797877,3.6,1.579,1.769,1.709,true,20,38440
+ad4f2ed6-c44e-4f8f-9ae6-a4ec955dfb60,Shell Wolfsburg Nordsteimker Str. 7-9,Shell,Nordsteimker Str.,Wolfsburg,52.417518,10.805122,4.1,1.589,1.779,1.719,true,7-9,38446
+014ad61d-37f1-4efc-9e3e-e54c3650ea77,Aral Tankstelle,ARAL,Heinr.-Nordhoff-Str.,Wolfsburg,52.4271965,10.77158,4.2,1.629,1.819,1.759,true,117,38440
+fb48f03e-c16e-435d-a845-6e235612f88f,Shell Wolfsburg Heinrich-Nordhoff Str. 119-121,Shell,Heinrich-Nordhoff Str.,Wolfsburg,52.426201,10.768519,4.4,1.589,1.779,1.719,true,119-121,38440
+7ad1103c-70ad-4e0c-b203-83c89e47449a,Tankstelle Reislingen Herr Rainer Dürkop,,Sandkrugstraße,Wolfsburg,52.41884,10.84663,4.5,1.529,1.719,1.659,true,27,38446
+66f8583b-127a-4298-9782-149a3a87dc30,Shell Wolfsburg Braunschweiger Str. 89,Shell,Braunschweiger Str.,Wolfsburg,52.411998,10.782174,5.2,1.609,1.799,1.739,true,89,38440
+e1a15081-254a-9107-e040-0b0a3dfe563c,"Wolfsburg, Grauhorststr. 10",HEM,Grauhorststr.,Wolfsburg,52.423626,10.753604,5.4,1.579,1.769,1.709,true,10,38440
+6f5f00c9-f3d2-11e9-b0e4-005056a2a083,Wolfsburg,CLASSIC,Breslauer Straße,Wolfsburg,52.41918,10.754,5.7,1.579,1.769,1.709,true,45,38440
+fc549e08-daf7-4dd1-8cf0-49cbf3f0bb92,Bft Wolfsburg Breslauer Straße 221,bft,Breslauer Straße,Wolfsburg,52.4161,10.7517,6,1.579,1.769,1.709,true,221,38440
+135914b6-91f1-4418-8905-e8b20cab3883,Raiffeisen Waren GmbH,Raiffeisen,Hauptstr.,Ruehen,52.4893,10.8843,6.1,1.579,1.769,1.709,true,38 h,38471
+d55cf695-fc95-4a10-bc2b-3acf835c74bf,Raiffeisen Waren GmbH,Raiffeisen,Maschweg,Jembke,52.4991,10.7628,6.1,1.579,1.769,1.709,true,2,38477
+51d4b684-a095-1aa0-e100-80009459e03a,Supermarkt-Tankstelle WOLFSBURG HEHLINGER STR. 21,Supermarkt-Tankstelle,HEHLINGER STR.,WOLFSBURG,52.3972,10.8378,6.5,1.559,1.749,1.689,true,21,38446
+720e0a99-fe07-4824-a734-ac40544f633f,Aral Tankstelle,ARAL,Wolfsburger Straße,Weyhausen,52.4626122,10.7188778,6.6,1.589,1.799,1.739,true,24,38554
+0b77096c-801b-4417-ac06-44ec8246b28b,Shell Wolfsburg Braunschweiger Str. 201-203,Shell,Braunschweiger Str.,Wolfsburg,52.399986,10.754061,7.3,1.589,1.779,1.719,true,201-203,38444
+51a1160e-0a82-4179-99a7-09cd0d0c20b1,Shell Wolfsburg Braunschweiger Str. 208,Shell,Braunschweiger Str.,Wolfsburg,52.400652,10.752286,7.3,1.589,1.779,1.719,true,208,38444
+551a96b8-9cc1-4726-9279-acfecf1e228b,Aral Tankstelle,ARAL,Hinterm Hagen,Wolfsburg,52.419117,10.7212992,7.5,1.599,1.789,1.729,true,21,38442
+005056ba-7cb6-1ed2-bceb-6e004fe9cd20,star Tankstelle,STAR,Viehtrift,Wolfsburg,52.420299,10.711243,8,1.579,1.769,1.709,true,18,38442
+005056ba-7cb6-1ed2-bceb-678c687b4d1f,star Tankstelle,STAR,Vorsfelder Straße,Velpke,52.409488,10.93219,9.4,1.579,1.769,1.709,true,9,38458
+ad463e44-4c27-4c71-8292-7c70597b90aa,Freie Tankstelle Ehmen,Freie Tankstelle,Mörser Straße,Wolfsburg,52.3931,10.712,9.7,1.539,1.729,1.709,true,82,38442

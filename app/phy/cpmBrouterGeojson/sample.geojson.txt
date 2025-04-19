@@ -1,0 +1,70 @@
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "creator": "BRouter-1.7.0",
+        "name": "brouter_fastbike_0",
+        "track-length": "3709947",
+        "filtered ascend": "29516",
+        "plain-ascend": "272",
+        "total-time": "770283.535539588",
+        "total-energy": "75522167.14314568",
+        "cost": "7629453",
+        "messages": [
+          [
+            "Longitude",
+            "Latitude",
+            "Elevation",
+            "Distance",
+            "CostPerKm",
+            "ElevCost",
+            "TurnCost",
+            "NodeCost",
+            "InitialCost",
+            "WayTags",
+            "NodeTags",
+            "Time",
+            "Energy"
+          ],
+          [
+            "-122390140",
+            "37615363",
+            "-8192",
+            "0",
+            "7100",
+            "0",
+            "0",
+            "0",
+            "0",
+            "reversedirection=yes highway=unclassified surface=asphalt foot=yes bicycle=no oneway=yes",
+            "traffic_calming=rumble_strip",
+            "0",
+            "16"
+          ],
+…
+        ],
+        "times": [
+          0.168,
+…
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.39014,
+            37.615363,
+            10.25
+          ],
+…
+          [
+            -94.614263,
+            39.129478,
+            245.75
+          ]
+        ]
+      }
+    }
+  ]
+}

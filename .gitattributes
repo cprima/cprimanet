@@ -1,0 +1,12 @@
+# Exclude from linguist language analysis
+biz/marketing/presentation/reveal* linguist-vendored
+
+# Binary files (no diffing or merging)
+*.pdf   binary diff=none merge=union
+*.zip   binary diff=none merge=union
+*.gpkg  binary diff=none merge=union
+*.wav   binary diff=none merge=union
+
+# Text handling
+*.txt   text
+*       text=auto

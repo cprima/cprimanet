@@ -1,0 +1,61 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+
+  {% assign component = site.data.taptc  | where:"id", page.component | first %}
+
+  <h2>Profile for {{ component.name }}</h2>
+
+  <dl>
+      <dt>Name</dt><dd>{{ component.productname }}</dd>
+      <dt>Vendor</dt><dd>{{ component.vendor }}</dd>
+      <dt>Source</dt><dd><a href="{{ component.source }}" >{{ component.source }}</a></dd>
+      <dt>Description</dt><dd>{{ component.description }}</dd>
+      <dt>Version active with cprima.net</dt><dd>{{ component.version }}</dd>
+  </dl>
+  <!-- /building-blocks /settings /kb ##Installation ##Dependencies ##Updates -->
+  <hr />
+
+{% unless page.content == '' %}
+  <div class="post-content">
+    {{ content }}
+  </div>
+{% endunless %}
+
+
+
+{% assign has_checklists = 'maybe' %}
+{% assign checklists_to_include = page.checklists %}
+{% include checklist.html checklistsarray=checklists_to_include heading="h3" %}
+
+
+{% assign has_posts = 'maybe' %}
+{% for post in site.posts %}
+{% if post.component == page.component %}
+{% assign has_posts = 'indeed' %}
+{% endif %}
+{% endfor %}
+
+{% if has_posts == 'indeed' %}
+{% assign postcount = 'init' %}
+{% for post in site.posts %}
+
+{% if postcount == 'init' %}
+<h2>Posts</h2>
+{% endif %}
+
+{% assign postcount = 'looped' %}
+
+{% if post.component == page.component %}
+  <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+  <p>{{ post.abstract }} </p>
+{% endif %}
+{% endfor %}
+{% endif %}
+
+</article>

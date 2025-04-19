@@ -1,0 +1,94 @@
+{
+    "issues": [
+        {
+            "engineId": "uipath-workflow-analyzer",
+            "ruleId": "ST-USG-010",
+            "type": "CODE_SMELL",
+            "severity": "BLOCKER",
+            "primaryLocation": {
+                "message": "Dependency package UiPath.UIAutomation.Activities is not used. Recommendation: Remove unused packages in order to improve process execution time. [Learn more.](https://docs.uipath.com/studio/lang-en/v2021.10/docs/st-usg-010)",
+                "filePath": "unknown_path"
+            }
+        },
+        {
+            "engineId": "uipath-workflow-analyzer",
+            "ruleId": "ST-USG-010",
+            "type": "CODE_SMELL",
+            "severity": "BLOCKER",
+            "primaryLocation": {
+                "message": "Dependency package UiPath.Testing.Activities is not used. Recommendation: Remove unused packages in order to improve process execution time. [Learn more.](https://docs.uipath.com/studio/lang-en/v2021.10/docs/st-usg-010)",
+                "filePath": "unknown_path"
+            }
+        },
+        {
+            "engineId": "uipath-workflow-analyzer",
+            "ruleId": "ST-USG-010",
+            "type": "CODE_SMELL",
+            "severity": "BLOCKER",
+            "primaryLocation": {
+                "message": "Dependency package UiPath.System.Activities is not used. Recommendation: Remove unused packages in order to improve process execution time. [Learn more.](https://docs.uipath.com/studio/lang-en/v2021.10/docs/st-usg-010)",
+                "filePath": "unknown_path"
+            }
+        },
+        {
+            "engineId": "uipath-workflow-analyzer",
+            "ruleId": "ST-USG-010",
+            "type": "CODE_SMELL",
+            "severity": "BLOCKER",
+            "primaryLocation": {
+                "message": "Dependency package UiPath.Mail.Activities is not used. Recommendation: Remove unused packages in order to improve process execution time. [Learn more.](https://docs.uipath.com/studio/lang-en/v2021.10/docs/st-usg-010)",
+                "filePath": "unknown_path"
+            }
+        },
+        {
+            "engineId": "uipath-workflow-analyzer",
+            "ruleId": "ST-USG-010",
+            "type": "CODE_SMELL",
+            "severity": "BLOCKER",
+            "primaryLocation": {
+                "message": "Dependency package UiPath.Excel.Activities is not used. Recommendation: Remove unused packages in order to improve process execution time. [Learn more.](https://docs.uipath.com/studio/lang-en/v2021.10/docs/st-usg-010)",
+                "filePath": "unknown_path"
+            }
+        },
+        {
+            "engineId": "uipath-workflow-analyzer",
+            "ruleId": "ST-ANA-003",
+            "type": "CODE_SMELL",
+            "severity": "CRITICAL",
+            "primaryLocation": {
+                "message": "Expand to see details Recommendation: Project workflow count:\r\n* Totals: 1 Folders and 1 workflows\r\n",
+                "filePath": "project.json"
+            }
+        },
+        {
+            "engineId": "uipath-workflow-analyzer",
+            "ruleId": "ST-ANA-009",
+            "type": "CODE_SMELL",
+            "severity": "CRITICAL",
+            "primaryLocation": {
+                "message": "Expand to see details Recommendation: Activities: 1",
+                "filePath": "C:\\Users\\cpm\\Documents\\UiPath\\BlankProcess2\\Main.xaml"
+            }
+        },
+        {
+            "engineId": "uipath-workflow-analyzer",
+            "ruleId": "ST-USG-020",
+            "type": "CODE_SMELL",
+            "severity": "MAJOR",
+            "primaryLocation": {
+                "message": "Log Message not used in workflow Main. Recommendation: Using Log Message activities is important both during development and after release. They help understanding the flow path which is very useful for maintenance and, when an error occurs, to easily identify the source and the cause. [Learn more.](https://docs.uipath.com/studio/lang-en/v2021.10/docs/st-usg-020)",
+                "filePath": "C:\\Users\\cpm\\Documents\\UiPath\\BlankProcess2\\Main.xaml"
+            }
+        },
+        {
+            "engineId": "uipath-workflow-analyzer",
+            "ruleId": "ST-MRD-008",
+            "type": "CODE_SMELL",
+            "severity": "BLOCKER",
+            "primaryLocation": {
+                "message": "Sequence Main Sequence is empty. Recommendation: Remove empty sequences because they can clutter the workflow. [Learn more.](https://docs.uipath.com/studio/lang-en/v2021.10/docs/st-mrd-008)",
+                "filePath": "C:\\Users\\cpm\\Documents\\UiPath\\BlankProcess2\\Main.xaml"
+            }
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+digraph git_workflow {
+    node [shape=box];
+
+    start [shape=ellipse, label="Create Repo from Template\nVersion: 0.5.0"];
+    main [shape=box, label="Main Branch\n(Production)"];
+    integration [shape=box, label="Integration Branch\n(Staging)"];
+    feature [shape=box, label="Feature/Development Branches"];
+    pr [shape=diamond, label="Pull Request"];
+    review [shape=diamond, label="Code Review"];
+    merge [shape=diamond, label="Merge"];
+    ci_cd [shape=circle, label="CI/CD Pipeline\nVersion Increment"];
+    tag [shape=diamond, label="Tag Release"];
+
+    start -> feature [label="Branch out"];
+    feature -> pr [label="Create PR"];
+    pr -> review [label="Request Review"];
+    review -> merge [label="Approve and Merge"];
+    merge -> integration [label="To Integration"];
+    integration -> ci_cd [label="Run Tests & Increment Version"];
+    ci_cd -> main [label="To Main Branch"];
+    main -> tag [label="Tag and Release"];
+
+    edge [style=dashed];
+    main -> integration [label="Regular Updates"];
+    integration -> feature [label="Regular Updates"];
+}

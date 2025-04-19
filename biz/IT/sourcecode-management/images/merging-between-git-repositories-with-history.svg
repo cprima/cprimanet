@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1920"
+   height="1080"
+   viewBox="0 0 1920 1080"
+   version="1.1"
+   id="svg888"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="merging-between-git-repositories-with-history.svg"
+   inkscape:export-filename="merging-between-git-repositories-with-history.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs882">
+    <marker
+       style="overflow:visible"
+       id="Arrow1L"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow1L"
+       markerWidth="8.75"
+       markerHeight="5"
+       viewBox="0 0 8.75 5"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="arrow1L"
+         transform="scale(-0.5)" />
+    </marker>
+    <rect
+       x="115.05466"
+       y="1051.9283"
+       width="3476.2288"
+       height="79.790825"
+       id="rect9862" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5961"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="simplify"
+       id="path-effect5957"
+       is_visible="true"
+       lpeversion="1"
+       steps="1"
+       threshold="0.00457143"
+       smooth_angles="360"
+       helper_size="0"
+       simplify_individual_paths="false"
+       simplify_just_coalesce="false" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1406"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="simplify"
+       id="path-effect1402"
+       is_visible="true"
+       lpeversion="1"
+       steps="1"
+       threshold="0.00457143"
+       smooth_angles="360"
+       helper_size="0"
+       simplify_individual_paths="false"
+       simplify_just_coalesce="false" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1179"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="simplify"
+       id="path-effect1175"
+       is_visible="true"
+       lpeversion="1"
+       steps="1"
+       threshold="0.00457143"
+       smooth_angles="360"
+       helper_size="0"
+       simplify_individual_paths="false"
+       simplify_just_coalesce="false" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1169"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="simplify"
+       id="path-effect1165"
+       is_visible="true"
+       lpeversion="1"
+       steps="1"
+       threshold="0.00457143"
+       smooth_angles="360"
+       helper_size="0"
+       simplify_individual_paths="false"
+       simplify_just_coalesce="false" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5483"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="simplify"
+       id="path-effect5481"
+       is_visible="true"
+       lpeversion="1"
+       steps="1"
+       threshold="0.00457143"
+       smooth_angles="360"
+       helper_size="0"
+       simplify_individual_paths="false"
+       simplify_just_coalesce="false" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5477"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="simplify"
+       id="path-effect5475"
+       is_visible="true"
+       lpeversion="1"
+       steps="1"
+       threshold="0.00457143"
+       smooth_angles="360"
+       helper_size="0"
+       simplify_individual_paths="false"
+       simplify_just_coalesce="false" />
+    <rect
+       x="0"
+       y="359.5"
+       width="1920"
+       height="360"
+       id="rect1613" />
+    <rect
+       x="0"
+       y="359.5"
+       width="1920"
+       height="180"
+       id="rect1607" />
+    <rect
+       x="115.05466"
+       y="1051.9283"
+       width="3476.2288"
+       height="79.790825"
+       id="rect9862-0" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.428125"
+     inkscape:cx="971.67883"
+     inkscape:cy="481.16788"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer6"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1656"
+     inkscape:window-height="973"
+     inkscape:window-x="55"
+     inkscape:window-y="43"
+     inkscape:window-maximized="0"
+     inkscape:pagecheckerboard="0"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
+  <metadata
+     id="metadata885">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="backgrounds"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline">
+    <rect
+       style="opacity:1;mix-blend-mode:normal;fill:#fdf6e3;fill-opacity:1;stroke-width:6.94025;stroke-linecap:round;stop-color:#000000"
+       id="rect1460"
+       width="1920"
+       height="1080"
+       x="0"
+       y="0"
+       inkscape:label="base3" />
+    <rect
+       style="display:none;opacity:1;mix-blend-mode:normal;fill:#eee8d5;fill-opacity:1;stroke-width:6.94023;stroke-linecap:round;stop-color:#000000"
+       id="rect1451"
+       width="5780"
+       height="1080"
+       x="0"
+       y="0"
+       inkscape:label="base2" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="visualization"
+     style="display:inline">
+    <path
+       style="fill:#cb4b16;stroke:#002b36;stroke-width:4;stroke-dasharray:none;marker-end:url(#Arrow1L);stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+       d="M 770.6824,626.47424 H 1783.6309"
+       id="path1833"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="display:inline;fill:#cb4b16;stroke:#002b36;stroke-width:4;stroke-linecap:round;stroke-dasharray:none;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+       d="m 1018.0891,559.80766 36.1379,66.87303"
+       id="path3936"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#cb4b16;stroke:#002b36;stroke-width:4;stroke-dasharray:none;marker-end:url(#Arrow1L);stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+       d="M 170.6824,386.47424 H 1783.6309"
+       id="path2107" />
+    <circle
+       style="fill:#cb4b16;stroke:#002b36;stroke-width:4;stroke-dasharray:none;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+       id="path2165"
+       cx="891.09473"
+       cy="627.00732"
+       r="22.189781" />
+    <circle
+       style="fill:#cb4b16;stroke:#002b36;stroke-width:4;stroke-dasharray:none;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+       id="circle2167"
+       cx="225.40137"
+       cy="386.47424"
+       r="22.189781" />
+    <circle
+       style="fill:#cb4b16;stroke:#002b36;stroke-width:4;stroke-dasharray:none;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+       id="circle2223"
+       cx="483.60742"
+       cy="386.47424"
+       r="22.189781" />
+    <circle
+       style="fill:#cb4b16;stroke:#002b36;stroke-width:4;stroke-dasharray:none;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+       id="circle2225"
+       cx="612.70996"
+       cy="386.47424"
+       r="22.189781" />
+    <circle
+       style="fill:#cb4b16;stroke:#002b36;stroke-width:4;stroke-dasharray:none;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+       id="circle2227"
+       cx="354.50439"
+       cy="386.47424"
+       r="22.189781" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.3333px;line-height:1;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;display:inline;mix-blend-mode:normal;fill:#002b36;fill-opacity:1;stroke:none"
+       x="968.88818"
+       y="167.89893"
+       id="text1674-9-6"
+       inkscape:label="top"><tspan
+         sodipodi:role="line"
+         id="tspan1672-3-0"
+         x="968.88818"
+         y="167.89893"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.3333px;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#002b36">Merging between Git repositories with history</tspan></text>
+    <circle
+       style="fill:#2aa198;stroke:#002b36;stroke-width:4;stroke-dasharray:none;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+       id="circle3876"
+       cx="1054.5986"
+       cy="627.00732"
+       r="11.867054" />
+    <path
+       style="display:inline;fill:#cb4b16;stroke:#002b36;stroke-width:3.99999;stroke-linecap:round;stroke-dasharray:none;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+       d="m 1363.4047,511.91021 72.4739,116.42212"
+       id="path4091"
+       sodipodi:nodetypes="cc" />
+    <circle
+       style="fill:#2aa198;stroke:#002b36;stroke-width:4;stroke-dasharray:none;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+       id="circle4093"
+       cx="1434.5986"
+       cy="627.00732"
+       r="11.867054" />
+    <path
+       style="fill:#cb4b16;stroke:#002b36;stroke-width:4;stroke-dasharray:none;marker-end:url(#Arrow1L);stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+       d="M 170.6824,786.47424 H 1783.6309"
+       id="path4099" />
+    <circle
+       style="fill:#cb4b16;stroke:#002b36;stroke-width:4;stroke-dasharray:none;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+       id="circle4101"
+       cx="891.09473"
+       cy="787.00732"
+       r="22.189781" />
+    <circle
+       style="fill:#2aa198;stroke:#002b36;stroke-width:4;stroke-dasharray:none;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+       id="circle4103"
+       cx="1054.5986"
+       cy="787.00732"
+       r="11.867054" />
+    <circle
+       style="fill:#cb4b16;stroke:#002b36;stroke-width:4;stroke-dasharray:none;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+       id="circle4121"
+       cx="225.40137"
+       cy="786.47424"
+       r="22.189781" />
+    <circle
+       style="fill:#cb4b16;stroke:#002b36;stroke-width:4;stroke-dasharray:none;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+       id="circle4123"
+       cx="483.60742"
+       cy="786.47424"
+       r="22.189781" />
+    <circle
+       style="fill:#cb4b16;stroke:#002b36;stroke-width:4;stroke-dasharray:none;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+       id="circle4125"
+       cx="612.70996"
+       cy="786.47424"
+       r="22.189781" />
+    <circle
+       style="fill:#cb4b16;stroke:#002b36;stroke-width:4;stroke-dasharray:none;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+       id="circle4127"
+       cx="354.50439"
+       cy="786.47424"
+       r="22.189781" />
+    <rect
+       style="fill:#b58900;stroke:none;stroke-width:4;stroke-linecap:round;stroke-dasharray:none;stop-color:#000000;-moz-transition:500ms ease-in;-webkit-transition:500ms ease-in"
+       id="rect4482"
+       width="342.71454"
+       height="37.987633"
+       x="1022.3629"
+       y="468.23889" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g1680"
+     inkscape:label="title_text"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.3333px;line-height:1.25;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:none;opacity:1;mix-blend-mode:normal;fill:#002b36;fill-opacity:1;stroke:none"
+       x="345.20108"
+       y="511.89893"
+       id="text1674"
+       inkscape:label="middle2"><tspan
+         sodipodi:role="line"
+         id="tspan1672"
+         x="0"
+         y="0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.3333px;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#002b36">Title A Lorem ipsum dolor sit amet</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.3333px;line-height:1.25;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:none;opacity:1;mix-blend-mode:normal;fill:#002b36;fill-opacity:1;stroke:none"
+       x="622.26361"
+       y="597.89893"
+       id="text1678"
+       inkscape:label="middle1"><tspan
+         sodipodi:role="line"
+         id="tspan1676"
+         x="0"
+         y="0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.3333px;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#002b36">Title B Foo Bar Baz</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;display:inline;mix-blend-mode:normal;fill:#002b36;fill-opacity:1;stroke:none"
+       x="1769.5366"
+       y="427.23419"
+       id="text1674-9"
+       inkscape:label="top"><tspan
+         sodipodi:role="line"
+         id="tspan1672-3"
+         x="1769.5366"
+         y="427.23419"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;fill:#002b36">initial repo</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;display:inline;mix-blend-mode:normal;fill:#002b36;fill-opacity:1;stroke:none"
+       x="1769.5366"
+       y="667.23419"
+       id="text2384"
+       inkscape:label="top"><tspan
+         sodipodi:role="line"
+         id="tspan2382"
+         x="1769.5366"
+         y="667.23419"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;fill:#002b36">sucessor repo</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;display:inline;mix-blend-mode:normal;fill:#002b36;fill-opacity:1;stroke:none"
+       x="1018.042"
+       y="556.06183"
+       id="text3880"
+       inkscape:label="top"><tspan
+         sodipodi:role="line"
+         id="tspan3878"
+         x="1018.042"
+         y="556.06183"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;fill:#002b36">add initial repo as a remote</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;display:inline;mix-blend-mode:normal;fill:#002b36;fill-opacity:1;stroke:none"
+       x="1358.042"
+       y="496.06183"
+       id="text4097"
+       inkscape:label="top"><tspan
+         sodipodi:role="line"
+         id="tspan4095"
+         x="1358.042"
+         y="496.06183"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;fill:#002b36">merge from remote with --allow-unrelated-history</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;display:inline;mix-blend-mode:normal;fill:#002b36;fill-opacity:1;stroke:none"
+       x="1769.5366"
+       y="827.23419"
+       id="text4109"
+       inkscape:label="top"><tspan
+         sodipodi:role="line"
+         id="tspan4107"
+         x="1769.5366"
+         y="827.23419"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:'Linux Libertine';-inkscape-font-specification:'Linux Libertine, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;fill:#002b36">sucessor repo after the merge</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+digraph Network {
+    DSL_Modem [label="DSL Modem"];
+    OpenWRT_Router [label="OpenWRT Router\n(R7800)"];
+    WiFi_Clients [label="WiFi Clients"];
+    Switch1 [label="Switch #1"];
+    Switch2 [label="Switch #2"];
+    HomeLab [label="HomeLab"];
+    
+    Devices_Switch1 [label="Clients"];
+    Devices_Switch2 [label="Clients"];
+    Devices_WiFi [label="Clients"];
+    
+    DSL_Modem -> OpenWRT_Router;
+    OpenWRT_Router -> WiFi_Clients;
+    OpenWRT_Router -> Devices_WiFi;
+    OpenWRT_Router -> Switch1;
+    
+    Switch1 -> Devices_Switch1;
+    Switch1 -> Switch2;
+    Switch1 -> HomeLab;
+    Switch2 -> Devices_Switch2;
+}

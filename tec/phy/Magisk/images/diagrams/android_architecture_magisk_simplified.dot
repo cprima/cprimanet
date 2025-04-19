@@ -1,0 +1,49 @@
+digraph android_architecture_magisk {
+    rankdir=TB;
+    node [shape=box];
+    graph [style=filled, bgcolor="#fdf6e3", splines=polyline, fontsize=12];
+
+    // Title
+    label="Android Architecture with Magisk & Overlay Filesystem";
+    fontsize=20;
+    fontcolor=black;
+    labelloc="t"
+
+    // Android Nodes
+    hardware [label="Hardware"];
+    bootloader [label="Bootloader"];
+    bootimg [label="boot.img"];
+    kernel [label="Kernel"];
+    os_components [label="OS Components\n(HAL, Runtime, Libraries, Framework)", shape=ellipse];
+    apps_zygote [label="Zygote & Apps", shape=ellipse, color=blue];
+    filesystem [label="Filesystem"];
+    subinary [label="su binary", color=red]; 
+
+    // Magisk Nodes
+    magisk [label="Magisk", color=green];
+    magisk_tools [label="Magisk Tools\n(MagiskHide, Manager)", shape=ellipse, color=green];
+    overlayfs [label="Overlay Filesystem"];
+
+    // Edges
+    hardware -> bootloader -> bootimg -> kernel;
+    kernel -> os_components -> apps_zygote;
+    kernel -> filesystem;
+    filesystem -> subinary;
+
+    // Magisk Edges
+    bootimg -> magisk [label="modifies"];
+    kernel -> overlayfs [label="interacts"];
+    overlayfs -> os_components [style=dashed, label="overlays"];
+    overlayfs -> magisk [style=dashed, label="managed by"];
+    magisk -> subinary [label="provides"];
+    magisk -> magisk_tools;
+
+    // Additional info
+    bootimg [tooltip="Contains kernel and ramdisk"];
+    os_components [tooltip="Includes HAL, Runtime, Libraries, and Framework"];
+    apps_zygote [tooltip="Apps are forked from Zygote"];
+    subinary [tooltip="Provides root access"];
+    magisk [tooltip="Root management and modules"];
+    magisk_tools [tooltip="MagiskHide and Magisk Manager"];
+    overlayfs [tooltip="Allows Magisk to overlay modifications without altering the original system"];
+}

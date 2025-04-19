@@ -1,0 +1,3 @@
+id,category,name,description,owner,lifecycle_status,initial_live_date,last_release_date,next_release_date,retirement_date,characteristics,capacity,path,visibility,nickname
+AC_PAC_001,finance,FOREX,lorem,cprima.net,live,,,,,,,app/phy/cpmForexRates,public,foo
+AC_PAC_002,finance,Gasprices,ipsum,cprima.net,live,,,,,,,app/phy/cpmGasprices,public,bar
