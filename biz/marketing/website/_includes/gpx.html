@@ -1,6 +1,7 @@
 {% assign gpxfilename = include.gpxfilename %}
 {% assign cleaned_filename = gpxfilename | replace: '[^a-zA-Z0-9]', '' %}
 {% assign max_elevation = include.max_elevation | default: 1200 %}
+{% assign use_index_as_x = include.use_index_as_x | default: false %}
 
 <script>
   if (!document.querySelector('script[src="/biz/marketing/website/assets/js/vendor/GPXParser-3.1.0.js"]')) {
@@ -56,6 +57,7 @@
     const gpxFileName = '{{gpxfilename}}';
     const plotlyChartId = 'plotlyChart{{ cleaned_filename }}';
     const maxElevation = {{ max_elevation }};
+    const useIndexAsX = {{ use_index_as_x }};
 
     // Initialize GPX Parser
     let gpx = new gpxParser();
@@ -97,9 +99,10 @@
             // Process trackpoints for elevation data and annotations
             track.points.forEach((point, index) => {
               if (point.ele !== undefined) {
-                let date = new Date(point.time);
-                date = new Date(date.toLocaleString('en-US', { timeZone: timeZone }));
-                elevationPoints.push({ x: date.getTime(), y: point.ele });
+                //let date = new Date(point.time);
+                let xValue = useIndexAsX ? index : new Date(point.time).getTime();elevationPoints.push({ x: xValue, y: point.ele });
+                //date = new Date(date.toLocaleString('en-US', { timeZone: timeZone }));
+                //elevationPoints.push({ x: date.getTime(), y: point.ele });
                 maxElevationInTrack = Math.max(maxElevationInTrack, point.ele);
 
                 if (point.extensions) {
@@ -180,7 +183,7 @@
 
             // Plotly traces and layout
             const trace = {
-              x: elevationPoints.map(p => new Date(p.x)),
+              x: elevationPoints.map(p => useIndexAsX ? p.x : new Date(p.x)),
               y: elevationPoints.map(p => p.y),
               type: 'scatter',
               mode: 'lines',
@@ -193,7 +196,6 @@
               name: 'Elevation (m)',
               hovertemplate: '%{y:.0f} m<extra></extra>'  // Rounds to nearest meter and adds " m" suffix
             };
-
 
             const markerTrace = {
               x: markerPoints.map(p => new Date(p.x)),
@@ -272,6 +274,9 @@
               xaxis: {
                 color: '#586e75',
                 tickcolor: '#657b83',
+                type: useIndexAsX ? 'linear' : 'date',
+                title: useIndexAsX ? '' : 'Time',
+                showticklabels: !useIndexAsX,
               },
               yaxis: {
                 title: 'Elevation (m)',

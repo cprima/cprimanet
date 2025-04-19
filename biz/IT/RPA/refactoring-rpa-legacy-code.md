@@ -9,9 +9,10 @@ dummycontent: true
 titleimagefull: "/app/phy/RPA-publications/ProjectBasturmaBlueprint/images/cprima_pipelines_valves_nodes_fe463353-c3ea-484c-a68c-21ad1189e24e.png"
 ---
 
-<section>
+<section data-ticker='{"visibility": "visible"}' >
 <h2>Software Quality</h2>
 {% include slides/biz_IT_Software-Engineering_resources_slides_softwarequality-ISO25010-table.md %}
+<p class="r-stretch">Source: iso25000.com</p>
 </section>
 
 <section>

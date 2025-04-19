@@ -57,7 +57,7 @@ const setup = function (event, config) {
   if (lowerThirdData) {
     const lowerThirdContent = JSON.parse(lowerThirdData);
     addLowerThird(lowerThirdContent, config);
-    //expandLowerThird();
+    toggleLowerThird();
   }
 };
 
@@ -104,10 +104,12 @@ const expandLowerThird = function () {
   }
 };
 
-const toggleLowerThird = function () {
+async function toggleLowerThird(delay = 500) {
   const lowerThird = document.querySelector(".lower-third");
   if (lowerThird) {
     if (lowerThird.classList.contains("expanded")) {
+      // Wait for the specified delay time (in milliseconds)
+      await new Promise((resolve) => setTimeout(resolve, delay));
       lowerThird.classList.remove("expanded");
       lowerThird.classList.add("collapsed");
     } else {
@@ -115,7 +117,7 @@ const toggleLowerThird = function () {
       lowerThird.classList.add("expanded");
     }
   }
-};
+}
 
 const addTicker = function (tickerContent, config) {
   const ticker = document.createElement("div");

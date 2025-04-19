@@ -1,0 +1,666 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
+  <diagram name="Transitions-RetryBehaviour" id="zG8Qm_4_bcAHKLbd32R2">
+    <mxGraphModel dx="2048" dy="1173" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FDF6E3" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-20" value="RetryBehaviour" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=0;expand=0;collapsible=0;bpmnShapeType=call;verticalAlign=top;align=left;spacingLeft=5;fillColor=none;fontColor=#002B36;labelBackgroundColor=#FDF6E3;strokeColor=#EEE8D5;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="883" y="200" width="720" height="905" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-21" value="RetryCurrentTransaction" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=0;expand=0;collapsible=0;bpmnShapeType=call;verticalAlign=top;align=center;spacingLeft=5;fillColor=none;labelPosition=center;verticalLabelPosition=middle;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;strokeColor=#EEE8D5;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="1287.5" y="440" width="283" height="425" as="geometry" />
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-19" value="States and Transitions" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=0;expand=0;collapsible=0;bpmnShapeType=call;verticalAlign=top;align=left;spacingLeft=5;fillColor=none;fontColor=#002B36;strokeColor=#EEE8D5;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="55" y="205" width="720" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-59" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#002B36;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="TzcAuzkuNYcPW-0L9tEV-45" target="TzcAuzkuNYcPW-0L9tEV-57" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-45" value="Job&lt;br&gt;triggered" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;fillColor=#268bd2;strokeColor=#657b83;fontColor=#002b36;container=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="893" y="287.5" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-49" value="Process Transaction" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=1;arcSize=10;dashed=1;fillColor=none;gradientColor=none;dashPattern=8 3 1 3;strokeWidth=2;whiteSpace=wrap;html=1;verticalAlign=top;container=0;strokeColor=#839496;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="1243" y="232.5" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-50" value="Invoke Workflow Process.xaml" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=0;expand=0;collapsible=0;bpmnShapeType=call;isLoopSub=1;strokeColor=#657B83;align=center;verticalAlign=middle;fontFamily=Linux Biolinum;fontSize=12;fontColor=#002B36;fillColor=#eee8d5;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="1253" y="272.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-57" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Initialization&lt;/span&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=0;expand=0;collapsible=0;bpmnShapeType=call;isLoopSub=1;strokeColor=#657B83;align=center;verticalAlign=middle;fontFamily=Linux Biolinum;fontSize=12;fontColor=#002B36;fillColor=#eee8d5;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="963" y="272.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-61" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#002B36;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="TzcAuzkuNYcPW-0L9tEV-58" target="TzcAuzkuNYcPW-0L9tEV-49" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-58" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Get TransactionData&lt;/span&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=0;expand=0;collapsible=0;bpmnShapeType=call;isLoopSub=1;strokeColor=#657B83;align=center;verticalAlign=middle;fontFamily=Linux Biolinum;fontSize=12;fontColor=#002B36;fillColor=#eee8d5;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="1103" y="272.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-60" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#002B36;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="TzcAuzkuNYcPW-0L9tEV-57" target="TzcAuzkuNYcPW-0L9tEV-58" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-19" value="Set Transaction Status" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=0;expand=0;collapsible=0;bpmnShapeType=call;verticalAlign=top;align=center;spacingLeft=5;fillColor=none;labelPosition=center;verticalLabelPosition=middle;strokeColor=#EEE8D5;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="910.5" y="440" width="350" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-65" value="Set Transaction Status Success" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=0;expand=0;collapsible=0;bpmnShapeType=call;isLoopSub=1;strokeColor=#657B83;align=center;verticalAlign=middle;fontFamily=Linux Biolinum;fontSize=12;fontColor=#002B36;fillColor=#eee8d5;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="1394" y="272.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-67" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#002B36;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="TzcAuzkuNYcPW-0L9tEV-50" target="oyNAImsMHjDIJeGBLhRw-65" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-68" value="End&lt;br&gt;Process" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;fillColor=#859900;strokeColor=#657B83;fontColor=#002b36;container=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="1543" y="287.5000000000001" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-69" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#002B36;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="TzcAuzkuNYcPW-0L9tEV-49" target="oyNAImsMHjDIJeGBLhRw-68" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-75" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#002B36;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="oyNAImsMHjDIJeGBLhRw-65" target="oyNAImsMHjDIJeGBLhRw-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1454" y="420" />
+              <mxPoint x="1000" y="420" />
+              <mxPoint x="1000" y="495" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-76" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#002B36;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="TzcAuzkuNYcPW-0L9tEV-53" target="oyNAImsMHjDIJeGBLhRw-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1280" y="400" />
+              <mxPoint x="1000" y="400" />
+              <mxPoint x="1000" y="495" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-77" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#002B36;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="TzcAuzkuNYcPW-0L9tEV-54" target="oyNAImsMHjDIJeGBLhRw-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1345" y="410" />
+              <mxPoint x="1000" y="410" />
+              <mxPoint x="1000" y="495" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-93" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#002B36;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="oyNAImsMHjDIJeGBLhRw-78" target="oyNAImsMHjDIJeGBLhRw-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1270.5" y="960" />
+              <mxPoint x="1270.5" y="653" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-94" value="&lt;div&gt;&lt;font data-font-src=&quot;https://fonts.cdnfonts.com/css/linux-biolinum&quot;&gt;RPA UiPath REFramework&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.cdnfonts.com/css/linux-libertine-o&quot; face=&quot;Linux Libertine O&quot;&gt;The vendor-provided REFramework project template is feature-rich and inherently complex. While UiPath Studio’s graphical editor offers a flowchart-like representation of the program structure, creating simplified, targeted diagrams can significantly enhance understanding by focusing on specific aspects of the workflow.&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.cdnfonts.com/css/linux-libertine-o&quot; face=&quot;Linux Libertine O&quot;&gt;The transitions between the states are based on TransactionItem being Nothing or not, and variables holding a UiPath.Core.BusinessRuleException or System.Exception.&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.cdnfonts.com/css/linux-libertine-o&quot; face=&quot;Linux Libertine O&quot;&gt;The file Main.xaml contains the state machine and is also defined as the main entrypoint. It implements the Performer functionality of the Dispatcher-Performer model for scaling automations.&lt;br&gt;Other entrypoints could be added and triggered from UiPath Orchestrator, e.g. to implement the Dispatcher.&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#002B36;fontStyle=1;fontSize=16;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="20" y="10" width="790" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-100" value="&lt;span style=&quot;color: rgb(253, 246, 227);&quot;&gt;Copyright © 2024-2025 Christian Prior-Mamulyan · License CC BY-SA 4.0&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#193f47;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="10" y="1120" width="810" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-101" value="&lt;span style=&quot;color: rgb(253, 246, 227);&quot;&gt;Copyright © 2024-2025 Christian Prior-Mamulyan · License CC BY-SA 4.0&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#193f47;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="838" y="1120" width="810" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-102" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Notes&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.cdnfonts.com/css/linux-libertine-o&quot; face=&quot;Linux Libertine O&quot;&gt;RetryCurrentTransaction &quot;just&quot; sets variables.&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;font data-font-src=&quot;https://fonts.cdnfonts.com/css/linux-libertine-o&quot; face=&quot;Linux Libertine O&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;RetryNumber is taken from &lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;TransactionItem.RetryNo if Orchestrator Queues are used, else incremented when System.Exceptions ocurred.&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font data-font-src=&quot;https://fonts.cdnfonts.com/css/linux-libertine-o&quot; face=&quot;Linux Libertine O&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;QueueRetry&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;is determined by &lt;font style=&quot;font-size: 10px;&quot;&gt;`&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;font style=&quot;&quot;&gt;in_TransactionItem isNot Nothing AndAlso (in_TransactionItem.GetType is GetType(UiPath.Core.QueueItem))&lt;/font&gt;`&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.cdnfonts.com/css/linux-libertine-o&quot; face=&quot;Linux Libertine O&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;font data-font-src=&quot;https://fonts.cdnfonts.com/css/linux-libertine-o&quot; face=&quot;Linux Libertine O&quot;&gt;TransactionNumber is incremented when B&lt;span style=&quot;background-color: initial;&quot;&gt;REs ocurred, not incremented when System.Exceptions.&lt;/span&gt;&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;container=0;fontColor=#002B36;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="1287.5" y="876.25" width="302.5" height="233.75" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-103" value="&lt;div&gt;RPA UiPath REFramework&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font face=&quot;Linux Libertine O&quot;&gt;The vendor-provided REFramework project template is feature-rich and inherently complex. While UiPath Studio’s graphical editor offers a flowchart-like representation of the program structure, creating simplified, targeted diagrams can significantly enhance understanding by focusing on specific aspects of the workflow.&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font face=&quot;Linux Libertine O&quot;&gt;The retry behavior is based on config items from the Config.xlsx, variables and exceptions. Retries can happen at runtime within the project code or as a result of the setup of a project-external UiPath Orchestrator Queue.&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font face=&quot;Linux Libertine O&quot;&gt;The major distinction is that UiPath.Core.BusinessRuleExceptions are not retried, all other exceptions conditionally as depicted in the diagram.&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#002B36;fontStyle=1;fontSize=16;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="848" y="10" width="790" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-109" value="invoked" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=top;labelBackgroundColor=none;verticalAlign=bottom;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;fillColor=#268bd2;strokeColor=#657b83;fontColor=#002b36;labelPosition=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="1304.5" y="490" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-110" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;strokeColor=#002B36;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="oyNAImsMHjDIJeGBLhRw-109" target="oyNAImsMHjDIJeGBLhRw-45" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-47" value="max&lt;br&gt;retries&lt;br&gt;reached?" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=middle;labelBackgroundColor=none;verticalAlign=middle;align=right;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fontColor=#002B36;strokeColor=#657B83;fillColor=#b58900;labelPosition=left;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="1340.5" y="575" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-56" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=#FDF6E3;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;strokeColor=#002B36;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="oyNAImsMHjDIJeGBLhRw-47" target="oyNAImsMHjDIJeGBLhRw-50" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-55" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=#FDF6E3;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#002B36;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="oyNAImsMHjDIJeGBLhRw-45" target="oyNAImsMHjDIJeGBLhRw-47" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-46" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=#FDF6E3;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;strokeColor=#002B36;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="oyNAImsMHjDIJeGBLhRw-47" target="oyNAImsMHjDIJeGBLhRw-54" edge="1">
+          <mxGeometry x="-0.6667" y="-6" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-45" value="retries configured?" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=top;labelBackgroundColor=none;verticalAlign=bottom;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fontColor=#002B36;strokeColor=#657B83;fillColor=#b58900;labelPosition=center;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="1380.5" y="485" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-48" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#FDF6E3;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#002B36;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="oyNAImsMHjDIJeGBLhRw-50" target="oyNAImsMHjDIJeGBLhRw-52" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-49" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#FDF6E3;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;strokeColor=#002B36;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="oyNAImsMHjDIJeGBLhRw-50" target="oyNAImsMHjDIJeGBLhRw-58" edge="1">
+          <mxGeometry x="0.5385" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-50" value="Queue&lt;br&gt;based?" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=middle;labelBackgroundColor=none;verticalAlign=middle;align=right;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fontColor=#002B36;strokeColor=#657B83;fillColor=#b58900;labelPosition=left;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="1408" y="625" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-51" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;strokeColor=#002B36;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="oyNAImsMHjDIJeGBLhRw-52" target="oyNAImsMHjDIJeGBLhRw-57" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-52" value="Increment retry counter" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=0;expand=0;collapsible=0;taskMarker=abstract;strokeColor=#657B83;fillColor=#eee8d5;fontColor=#002B36;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="1438" y="675" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-53" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;strokeColor=#002B36;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="oyNAImsMHjDIJeGBLhRw-54" target="oyNAImsMHjDIJeGBLhRw-59" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-54" value="Reset retry counter" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=0;expand=0;collapsible=0;taskMarker=abstract;strokeColor=#657B83;fillColor=#eee8d5;fontColor=#002B36;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="1300.5" y="675" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-57" value="return" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;fillColor=#859900;strokeColor=#657B83;fontColor=#002b36;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="1483" y="795" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-58" value="return" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;fillColor=#859900;strokeColor=#657B83;fontColor=#002b36;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="1413" y="795" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-59" value="return" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;fillColor=#859900;strokeColor=#657B83;fontColor=#002b36;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="1345.5" y="795" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-60" value="return" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;fillColor=#859900;strokeColor=#657B83;fontColor=#002b36;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="1470.5" y="560" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-61" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=#FDF6E3;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;strokeColor=#002B36;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="oyNAImsMHjDIJeGBLhRw-45" target="oyNAImsMHjDIJeGBLhRw-60" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-84" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;labelBackgroundColor=#FDF6E3;strokeColor=#002B36;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="oyNAImsMHjDIJeGBLhRw-22" target="oyNAImsMHjDIJeGBLhRw-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-22" value="successful?" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=top;labelBackgroundColor=none;verticalAlign=bottom;align=right;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fontColor=#002B36;strokeColor=#657B83;fillColor=#b58900;labelPosition=left;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="980.5" y="495" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-79" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;labelBackgroundColor=#FDF6E3;strokeColor=#002B36;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="oyNAImsMHjDIJeGBLhRw-23" target="oyNAImsMHjDIJeGBLhRw-64" edge="1">
+          <mxGeometry x="0.6154" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-23" value="BRE?" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=top;labelBackgroundColor=none;verticalAlign=bottom;align=right;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fontColor=#002B36;strokeColor=#657B83;fillColor=#b58900;labelPosition=left;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="1090.5" y="545" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-64" value="Set transaction status errortype Failed" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=0;expand=0;collapsible=0;taskMarker=abstract;strokeColor=#657B83;fillColor=#eee8d5;fontColor=#002B36;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="960.5" y="625" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-25" value="Set transaction status errortype Application" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=0;expand=0;collapsible=0;taskMarker=abstract;strokeColor=#657B83;fillColor=#eee8d5;fontColor=#002B36;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="1110.5" y="625" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-26" value="Set RetryNumber to TransactionItem&lt;br&gt;.RetryNo" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=0;expand=0;collapsible=0;taskMarker=abstract;strokeColor=#657B83;fillColor=#eee8d5;fontColor=#002B36;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="1110.5" y="725" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-63" value="Increment consecutive exceptions counter" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=0;expand=0;collapsible=0;taskMarker=abstract;strokeColor=#657B83;fillColor=#eee8d5;fontColor=#002B36;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="1110.5" y="825" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-78" value="Retry Current Transaction" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=0;expand=0;collapsible=0;bpmnShapeType=call;isLoopSub=1;strokeColor=#657B83;align=center;verticalAlign=middle;fontFamily=Linux Biolinum;fontSize=12;fontColor=#002B36;fillColor=#eee8d5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="1110.5" y="935" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-81" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;labelBackgroundColor=#FDF6E3;strokeColor=#002B36;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="oyNAImsMHjDIJeGBLhRw-25" target="oyNAImsMHjDIJeGBLhRw-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-82" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;labelBackgroundColor=#FDF6E3;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#002B36;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="oyNAImsMHjDIJeGBLhRw-26" target="oyNAImsMHjDIJeGBLhRw-63" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1132.4512195121952" y="825" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-85" value="Increment TransactionNumber" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=0;expand=0;collapsible=0;taskMarker=abstract;strokeColor=#657B83;fillColor=#eee8d5;fontColor=#002B36;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="920.5" y="925" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-86" value="Reset RetryNumber" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=0;expand=0;collapsible=0;taskMarker=abstract;strokeColor=#657B83;fillColor=#eee8d5;fontColor=#002B36;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="920.5" y="725" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-87" value="Reset max consecutive exceptions counter" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=0;expand=0;collapsible=0;taskMarker=abstract;strokeColor=#657B83;fillColor=#eee8d5;fontColor=#002B36;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="920.5" y="825" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-89" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;labelBackgroundColor=#FDF6E3;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#002B36;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="oyNAImsMHjDIJeGBLhRw-22" target="oyNAImsMHjDIJeGBLhRw-86" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="950.5" y="515" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-90" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;labelBackgroundColor=#FDF6E3;strokeColor=#002B36;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="oyNAImsMHjDIJeGBLhRw-86" target="oyNAImsMHjDIJeGBLhRw-87" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-91" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;labelBackgroundColor=#FDF6E3;strokeColor=#002B36;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="oyNAImsMHjDIJeGBLhRw-87" target="oyNAImsMHjDIJeGBLhRw-85" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-92" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;labelBackgroundColor=#FDF6E3;strokeColor=#002B36;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" target="oyNAImsMHjDIJeGBLhRw-86" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010.5" y="705.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-62" value="QueueRetry?" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=top;labelBackgroundColor=none;verticalAlign=bottom;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fontColor=#002B36;strokeColor=#657B83;fillColor=#b58900;labelPosition=center;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="1150.5" y="545" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-104" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;strokeColor=#002B36;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="oyNAImsMHjDIJeGBLhRw-23" target="oyNAImsMHjDIJeGBLhRw-62" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-105" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;labelBackgroundColor=#FDF6E3;strokeColor=#002B36;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="oyNAImsMHjDIJeGBLhRw-62" target="oyNAImsMHjDIJeGBLhRw-25" edge="1">
+          <mxGeometry x="-0.25" y="-2" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1170.5" y="605" />
+              <mxPoint x="1170.5" y="605" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-106" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;labelBackgroundColor=#FDF6E3;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#002B36;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="oyNAImsMHjDIJeGBLhRw-62" target="oyNAImsMHjDIJeGBLhRw-63" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1250.5" y="565" />
+              <mxPoint x="1250.5" y="865" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-108" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;strokeColor=#002B36;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="oyNAImsMHjDIJeGBLhRw-63" target="oyNAImsMHjDIJeGBLhRw-78" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-7" value="Get TransactionData" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=1;arcSize=10;dashed=1;fillColor=none;gradientColor=none;dashPattern=8 3 1 3;strokeWidth=2;whiteSpace=wrap;html=1;verticalAlign=top;strokeColor=#839496;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="380" y="470" width="350" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-46" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#002B36;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="TzcAuzkuNYcPW-0L9tEV-1" target="TzcAuzkuNYcPW-0L9tEV-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="168" y="284" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-1" value="Job&lt;br&gt;triggered" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=top;labelBackgroundColor=none;verticalAlign=bottom;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;fillColor=#268bd2;strokeColor=#657b83;fontColor=#002b36;labelPosition=center;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="80" y="260" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-2" value="Initialization" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=1;arcSize=10;dashed=1;fillColor=none;gradientColor=none;dashPattern=8 3 1 3;strokeWidth=2;whiteSpace=wrap;html=1;verticalAlign=top;strokeColor=#839496;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="170" y="250" width="178" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-3" value="reset SystemException" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;strokeColor=#657B83;fillColor=#eee8d5;fontColor=#002B36;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="198" y="275" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-39" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#002B36;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="TzcAuzkuNYcPW-0L9tEV-42" target="TzcAuzkuNYcPW-0L9tEV-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="495" />
+              <mxPoint x="170" y="495" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-43" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#002B36;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="TzcAuzkuNYcPW-0L9tEV-5" target="TzcAuzkuNYcPW-0L9tEV-42" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="415" />
+              <mxPoint x="170" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-5" value="SysExcp" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;align=left;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=throwing;symbol=escalation;strokeColor=#93a1a1;fontFamily=Linux Biolinum;fontSize=12;fontColor=#002B36;fillColor=#dc322f;labelPosition=right;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="235" y="370" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-11" value="Process Transaction" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=1;arcSize=10;dashed=1;fillColor=none;gradientColor=none;dashPattern=8 3 1 3;strokeWidth=2;whiteSpace=wrap;html=1;verticalAlign=top;strokeColor=#839496;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="440" y="845" width="310" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-13" value="Invoke Workflow Process.xaml" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;bpmnShapeType=call;isLoopSub=1;strokeColor=#657B83;align=center;verticalAlign=middle;fontFamily=Linux Biolinum;fontSize=12;fontColor=#002B36;fillColor=#eee8d5;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="610" y="880" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-14" value="SysExcp" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#FDF6E3;verticalAlign=middle;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=throwing;symbol=escalation;strokeColor=#93a1a1;fontFamily=Linux Biolinum;fontSize=12;fontColor=#002B36;fillColor=#dc322f;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="630" y="970" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-15" value="BRE" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#FDF6E3;verticalAlign=middle;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=boundInt;symbol=error;strokeColor=#93a1a1;fontFamily=Linux Biolinum;fontSize=12;fontColor=#002B36;fillColor=#dc322f;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="520.0000000000001" y="970" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-16" value="End Process" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=1;arcSize=10;dashed=1;fillColor=none;gradientColor=none;dashPattern=8 3 1 3;strokeWidth=2;whiteSpace=wrap;html=1;verticalAlign=top;strokeColor=#839496;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="90" y="540" width="258" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-17" value="End Process" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;strokeColor=#657B83;fillColor=#eee8d5;fontColor=#002B36;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="110" y="610" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-24" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#002B36;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="TzcAuzkuNYcPW-0L9tEV-22" target="TzcAuzkuNYcPW-0L9tEV-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="505" y="780" />
+              <mxPoint x="170" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-28" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#002B36;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="TzcAuzkuNYcPW-0L9tEV-14" target="TzcAuzkuNYcPW-0L9tEV-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="645" y="1075" />
+              <mxPoint x="80" y="1075" />
+              <mxPoint x="80" y="318" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-29" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#002B36;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="TzcAuzkuNYcPW-0L9tEV-15" target="TzcAuzkuNYcPW-0L9tEV-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="535" y="1060" />
+              <mxPoint x="430" y="1060" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-30" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#002B36;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="TzcAuzkuNYcPW-0L9tEV-3" target="TzcAuzkuNYcPW-0L9tEV-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-33" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#002B36;curved=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.583;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="TzcAuzkuNYcPW-0L9tEV-32" target="TzcAuzkuNYcPW-0L9tEV-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="621" y="750" />
+            </Array>
+            <mxPoint x="620" y="845" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-36" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#FDF6E3;verticalAlign=middle;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=boundNonint;symbol=conditional;strokeColor=#93a1a1;fontFamily=Linux Biolinum;fontSize=12;fontColor=#002B36;fillColor=#dc322f;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="708" y="970" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-38" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#002B36;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="TzcAuzkuNYcPW-0L9tEV-36" target="TzcAuzkuNYcPW-0L9tEV-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="723" y="1075" />
+              <mxPoint x="760" y="1075" />
+              <mxPoint x="760" y="440" />
+              <mxPoint x="430" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-41" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#002B36;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="TzcAuzkuNYcPW-0L9tEV-42" target="TzcAuzkuNYcPW-0L9tEV-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="430" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="140" y="465" />
+              <mxPoint x="140" y="351" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-42" value="&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;max consecutive&lt;br&gt;exceptions counter&lt;br&gt;reached?&lt;/span&gt;" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=middle;labelBackgroundColor=none;verticalAlign=middle;align=left;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fontColor=#002B36;strokeColor=#657B83;fillColor=#b58900;labelPosition=right;container=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="150" y="445" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-44" value="BRE = Nothing" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;strokeColor=#657B83;fillColor=#eee8d5;fontColor=#002B36;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="455" y="880" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-96" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Notes&lt;/h1&gt;&lt;p&gt;&lt;font data-font-src=&quot;https://fonts.cdnfonts.com/css/linux-libertine-o&quot; face=&quot;Linux Libertine O&quot;&gt;Notable omissions:&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- The&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;differentiation between entry and exit transitions&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#002B36;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="120" y="805" width="294" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-18" value="end" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;fillColor=#859900;strokeColor=#657B83;fontColor=#002b36;container=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="265" y="625.0000000000001" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oyNAImsMHjDIJeGBLhRw-111" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#002B36;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="TzcAuzkuNYcPW-0L9tEV-17" target="TzcAuzkuNYcPW-0L9tEV-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="660" as="sourcePoint" />
+            <mxPoint x="660" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-6" value="should stop?" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=top;labelBackgroundColor=none;verticalAlign=bottom;align=left;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fontColor=#002B36;strokeColor=#657B83;fillColor=#b58900;labelPosition=right;container=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="410" y="525" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-8" value="Get TransactionItem" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;strokeColor=#657B83;fillColor=#eee8d5;fontColor=#002B36;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="400" y="595" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-10" value="SysExcp" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=middle;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=throwing;symbol=escalation;strokeColor=#93a1a1;fontFamily=Linux Biolinum;fontSize=12;fontColor=#002B36;fillColor=#dc322f;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="TzcAuzkuNYcPW-0L9tEV-8" vertex="1">
+          <mxGeometry x="100" y="45" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-9" value="set TransactionItem = Nothing" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;strokeColor=#657B83;fillColor=#eee8d5;fontColor=#002B36;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="588" y="595" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-21" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#002B36;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="TzcAuzkuNYcPW-0L9tEV-6" target="TzcAuzkuNYcPW-0L9tEV-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-31" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#002B36;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="TzcAuzkuNYcPW-0L9tEV-10" target="TzcAuzkuNYcPW-0L9tEV-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B0nNV-qZbQiq-JvAXOWO-5" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#002B36;rounded=1;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="TzcAuzkuNYcPW-0L9tEV-44" target="TzcAuzkuNYcPW-0L9tEV-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#839496;align=center;verticalAlign=middle;fontFamily=Linux Biolinum;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;curved=0;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="TzcAuzkuNYcPW-0L9tEV-58" target="oyNAImsMHjDIJeGBLhRw-68" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1163" y="220" />
+              <mxPoint x="1568" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-21" value="Main.xaml of the standard REFramework / big picture" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=0;expand=0;collapsible=0;bpmnShapeType=call;verticalAlign=top;align=left;spacingLeft=5;fillColor=none;fontColor=#002B36;labelBackgroundColor=#FDF6E3;strokeColor=#EEE8D5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="1714" y="205" width="720" height="905" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-22" value="&lt;font color=&quot;#fdf6e3&quot;&gt;Copyright © 2024-2025 Christian Prior-Mamulyan · License CC BY-SA 4.0&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#193f47;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="1663" y="1120" width="810" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-36" value="" style="group;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="2014" y="240" width="320" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-29" value="End Process" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;bpmnShapeType=call;verticalAlign=top;align=center;spacingLeft=5;fillColor=#eee8d5;strokeColor=#657B83;fontFamily=Linux Biolinum;fontSize=12;fontColor=#002B36;resizable=1;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="d0jO-KnFffg-3ajOMxfZ-36" vertex="1">
+          <mxGeometry width="320" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-31" value="KillAllProcesses" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;bpmnShapeType=call;verticalAlign=top;align=center;spacingLeft=5;fillColor=#eee8d5;strokeColor=#657B83;fontFamily=Linux Biolinum;fontSize=12;fontColor=#002B36;resizable=1;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="d0jO-KnFffg-3ajOMxfZ-36" vertex="1">
+          <mxGeometry x="180" y="32.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-30" value="CloseAllApplications" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;bpmnShapeType=call;verticalAlign=top;align=center;spacingLeft=5;fillColor=#eee8d5;strokeColor=#657B83;fontFamily=Linux Biolinum;fontSize=12;fontColor=#002B36;resizable=1;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="d0jO-KnFffg-3ajOMxfZ-36" vertex="1">
+          <mxGeometry x="20" y="32.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-34" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#002B36;align=center;verticalAlign=middle;fontFamily=Linux Biolinum;fontSize=11;fontColor=default;labelBackgroundColor=#FDF6E3;resizable=1;endArrow=classic;curved=0;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="d0jO-KnFffg-3ajOMxfZ-36" source="d0jO-KnFffg-3ajOMxfZ-30" target="d0jO-KnFffg-3ajOMxfZ-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-37" value="Get Transaction Data" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;bpmnShapeType=call;verticalAlign=top;align=center;spacingLeft=5;fillColor=#eee8d5;strokeColor=#657B83;fontFamily=Linux Biolinum;fontSize=12;fontColor=#002B36;resizable=1;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="2014" y="400" width="320" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-39" value="Get transaction&lt;br&gt;data / item" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=0;expand=0;collapsible=0;bpmnShapeType=call;isLoopSub=1;strokeColor=#2AA198;align=center;verticalAlign=middle;fontFamily=Linux Biolinum;fontSize=12;fontColor=#002B36;fillColor=#eee8d5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillStyle=solid;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="d0jO-KnFffg-3ajOMxfZ-37" vertex="1">
+          <mxGeometry x="20" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-38" value="Set TransactionItem = Nothing" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;bpmnShapeType=call;verticalAlign=middle;align=center;spacingLeft=5;fillColor=#eee8d5;strokeColor=#657B83;fontFamily=Linux Biolinum;fontSize=12;fontColor=#002B36;resizable=1;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="d0jO-KnFffg-3ajOMxfZ-37" vertex="1">
+          <mxGeometry x="180" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-40" value="SysExcp" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=middle;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=throwing;symbol=escalation;strokeColor=#93a1a1;fontFamily=Linux Biolinum;fontSize=12;fontColor=#002B36;fillColor=#dc322f;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="d0jO-KnFffg-3ajOMxfZ-37" vertex="1">
+          <mxGeometry x="100" y="100" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-41" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#002B36;align=center;verticalAlign=middle;fontFamily=Linux Biolinum;fontSize=11;fontColor=default;labelBackgroundColor=#FDF6E3;resizable=1;endArrow=classic;curved=0;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="d0jO-KnFffg-3ajOMxfZ-37" source="d0jO-KnFffg-3ajOMxfZ-40" target="d0jO-KnFffg-3ajOMxfZ-38" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-114" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#839496;align=center;verticalAlign=middle;fontFamily=Linux Biolinum;fontSize=11;fontColor=default;labelBackgroundColor=#FDF6E3;resizable=1;endArrow=classic;exitX=1;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;dashPattern=1 1;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="d0jO-KnFffg-3ajOMxfZ-37" source="d0jO-KnFffg-3ajOMxfZ-38" target="d0jO-KnFffg-3ajOMxfZ-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-42" value="Process Transaction" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;bpmnShapeType=call;verticalAlign=top;align=center;spacingLeft=5;fillColor=#eee8d5;strokeColor=#657B83;fontFamily=Linux Biolinum;fontSize=12;fontColor=#002B36;resizable=1;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="2014" y="600" width="320" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-47" value="Invoke Workflow Process.xaml" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=0;expand=0;collapsible=0;bpmnShapeType=call;isLoopSub=1;strokeColor=#657B83;align=center;verticalAlign=middle;fontFamily=Linux Biolinum;fontSize=12;fontColor=#002B36;fillColor=#eee8d5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="d0jO-KnFffg-3ajOMxfZ-42" vertex="1">
+          <mxGeometry x="26" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-90" value="Success" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#FDF6E3;verticalAlign=middle;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=boundNonint;symbol=conditional;strokeColor=#93a1a1;fontFamily=Linux Biolinum;fontSize=12;fontColor=#002B36;fillColor=#dc322f;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="d0jO-KnFffg-3ajOMxfZ-42" vertex="1">
+          <mxGeometry x="310" y="340" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-89" value="SysExcp" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;align=left;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=throwing;symbol=escalation;strokeColor=#93a1a1;fontFamily=Linux Biolinum;fontSize=12;fontColor=#002B36;fillColor=#dc322f;container=0;labelPosition=right;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="d0jO-KnFffg-3ajOMxfZ-42" vertex="1">
+          <mxGeometry x="20" y="460" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-60" value="" style="group;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="2034" y="730" width="265" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-48" value="Set Transaction Status" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=0;expand=0;collapsible=0;bpmnShapeType=call;verticalAlign=top;align=center;spacingLeft=5;fillColor=#eee8d5;strokeColor=#2AA198;fontFamily=Linux Biolinum;fontSize=12;fontColor=#002B36;resizable=1;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="d0jO-KnFffg-3ajOMxfZ-60" vertex="1">
+          <mxGeometry width="265" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-50" value="successful?" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=top;labelBackgroundColor=none;verticalAlign=bottom;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fontColor=#002B36;strokeColor=#657B83;fillColor=#b58900;labelPosition=left;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="d0jO-KnFffg-3ajOMxfZ-60" vertex="1">
+          <mxGeometry x="62.5" y="80" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-52" value="BRE?" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=top;labelBackgroundColor=none;verticalAlign=bottom;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fontColor=#002B36;strokeColor=#657B83;fillColor=#b58900;labelPosition=right;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="d0jO-KnFffg-3ajOMxfZ-60" vertex="1">
+          <mxGeometry x="102.5" y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-49" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;labelBackgroundColor=#EEE8D5;strokeColor=#002B36;curved=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="d0jO-KnFffg-3ajOMxfZ-60" source="d0jO-KnFffg-3ajOMxfZ-50" target="d0jO-KnFffg-3ajOMxfZ-52" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-54" value="QueueRetry?" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=top;labelBackgroundColor=none;verticalAlign=bottom;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;fontColor=#002B36;strokeColor=#657B83;fillColor=#b58900;labelPosition=right;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="d0jO-KnFffg-3ajOMxfZ-60" vertex="1">
+          <mxGeometry x="142.5" y="160" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-55" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;strokeColor=#002B36;curved=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=#EEE8D5;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="d0jO-KnFffg-3ajOMxfZ-60" source="d0jO-KnFffg-3ajOMxfZ-52" target="d0jO-KnFffg-3ajOMxfZ-54" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-56" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;labelBackgroundColor=#EEE8D5;strokeColor=#002B36;curved=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="d0jO-KnFffg-3ajOMxfZ-60" source="d0jO-KnFffg-3ajOMxfZ-54" target="d0jO-KnFffg-3ajOMxfZ-83" edge="1">
+          <mxGeometry x="-0.25" y="-2" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="163" y="220" />
+              <mxPoint x="150" y="220" />
+            </Array>
+            <mxPoint as="offset" />
+            <mxPoint x="142.5" y="237.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-57" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;labelBackgroundColor=#EEE8D5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#002B36;curved=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="d0jO-KnFffg-3ajOMxfZ-60" source="d0jO-KnFffg-3ajOMxfZ-54" target="d0jO-KnFffg-3ajOMxfZ-66" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="213" y="180" />
+              <mxPoint x="213" y="200" />
+            </Array>
+            <mxPoint x="202.5" y="237.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-62" value="invoked" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=middle;labelBackgroundColor=none;verticalAlign=middle;align=right;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;fillColor=#268bd2;strokeColor=#657b83;fontColor=#002b36;labelPosition=left;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="d0jO-KnFffg-3ajOMxfZ-60" vertex="1">
+          <mxGeometry x="67.5" y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-64" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#002B36;align=center;verticalAlign=middle;fontFamily=Linux Biolinum;fontSize=11;fontColor=default;labelBackgroundColor=#EEE8D5;resizable=1;endArrow=classic;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="d0jO-KnFffg-3ajOMxfZ-60" source="d0jO-KnFffg-3ajOMxfZ-62" target="d0jO-KnFffg-3ajOMxfZ-50" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-85" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#839496;align=center;verticalAlign=middle;fontFamily=Linux Biolinum;fontSize=11;fontColor=default;labelBackgroundColor=default;resizable=1;endArrow=classic;exitX=0.25;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="d0jO-KnFffg-3ajOMxfZ-60" source="d0jO-KnFffg-3ajOMxfZ-79" target="d0jO-KnFffg-3ajOMxfZ-63" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="98" y="240" />
+              <mxPoint x="68" y="240" />
+              <mxPoint x="68" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-81" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#002B36;align=center;verticalAlign=middle;fontFamily=Linux Biolinum;fontSize=11;fontColor=default;labelBackgroundColor=#FDF6E3;resizable=1;endArrow=classic;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="d0jO-KnFffg-3ajOMxfZ-60" source="d0jO-KnFffg-3ajOMxfZ-50" target="d0jO-KnFffg-3ajOMxfZ-80" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-82" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#002B36;align=center;verticalAlign=middle;fontFamily=Linux Biolinum;fontSize=11;fontColor=default;labelBackgroundColor=#FDF6E3;resizable=1;endArrow=classic;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="d0jO-KnFffg-3ajOMxfZ-60" source="d0jO-KnFffg-3ajOMxfZ-52" target="d0jO-KnFffg-3ajOMxfZ-79" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-63" value="return" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=middle;labelBackgroundColor=none;verticalAlign=middle;align=right;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;fillColor=#859900;strokeColor=#657B83;fontColor=#002b36;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;labelPosition=left;spacingLeft=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="d0jO-KnFffg-3ajOMxfZ-60" vertex="1">
+          <mxGeometry x="52.5" y="270" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-84" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#839496;align=center;verticalAlign=middle;fontFamily=Linux Biolinum;fontSize=11;fontColor=default;labelBackgroundColor=default;resizable=1;endArrow=classic;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="d0jO-KnFffg-3ajOMxfZ-60" source="d0jO-KnFffg-3ajOMxfZ-80" target="d0jO-KnFffg-3ajOMxfZ-63" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-86" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#839496;align=center;verticalAlign=middle;fontFamily=Linux Biolinum;fontSize=11;fontColor=default;labelBackgroundColor=default;resizable=1;endArrow=classic;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="d0jO-KnFffg-3ajOMxfZ-60" source="d0jO-KnFffg-3ajOMxfZ-83" target="d0jO-KnFffg-3ajOMxfZ-63" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-87" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#839496;align=center;verticalAlign=middle;fontFamily=Linux Biolinum;fontSize=11;fontColor=default;labelBackgroundColor=default;resizable=1;endArrow=classic;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="d0jO-KnFffg-3ajOMxfZ-60" source="d0jO-KnFffg-3ajOMxfZ-66" target="d0jO-KnFffg-3ajOMxfZ-63" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="285" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-66" value="…" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=0;expand=0;collapsible=0;bpmnShapeType=call;isLoopSub=1;strokeColor=#657B83;align=center;verticalAlign=top;fontFamily=Linux Biolinum;fontSize=12;fontColor=#002B36;fillColor=#eee8d5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;spacingTop=-4;spacing=0;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="d0jO-KnFffg-3ajOMxfZ-60" vertex="1">
+          <mxGeometry x="190" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-79" value="…" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=0;expand=0;collapsible=0;bpmnShapeType=call;isLoopSub=1;strokeColor=#657B83;align=center;verticalAlign=top;fontFamily=Linux Biolinum;fontSize=12;fontColor=#002B36;fillColor=#eee8d5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;spacingTop=-4;spacing=0;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="d0jO-KnFffg-3ajOMxfZ-60" vertex="1">
+          <mxGeometry x="82.5" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-80" value="…" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=0;expand=0;collapsible=0;bpmnShapeType=call;isLoopSub=1;strokeColor=#657B83;align=center;verticalAlign=top;fontFamily=Linux Biolinum;fontSize=12;fontColor=#002B36;fillColor=#eee8d5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;spacing=0;spacingTop=-4;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="d0jO-KnFffg-3ajOMxfZ-60" vertex="1">
+          <mxGeometry x="10" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-83" value="…" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=0;expand=0;collapsible=0;bpmnShapeType=call;isLoopSub=1;strokeColor=#657B83;align=center;verticalAlign=top;fontFamily=Linux Biolinum;fontSize=12;fontColor=#002B36;fillColor=#eee8d5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;spacingTop=-4;spacing=0;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="d0jO-KnFffg-3ajOMxfZ-60" vertex="1">
+          <mxGeometry x="120" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-91" value="BRE" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#FDF6E3;verticalAlign=middle;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=boundInt;symbol=error;strokeColor=#93a1a1;fontFamily=Linux Biolinum;fontSize=12;fontColor=#002B36;fillColor=#dc322f;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="2324" y="1010" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-92" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#002B36;align=center;verticalAlign=middle;fontFamily=Linux Biolinum;fontSize=11;fontColor=default;labelBackgroundColor=#FDF6E3;resizable=1;endArrow=classic;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="d0jO-KnFffg-3ajOMxfZ-91" target="d0jO-KnFffg-3ajOMxfZ-37" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2414" y="1025" />
+              <mxPoint x="2414" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-93" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#002B36;align=center;verticalAlign=middle;fontFamily=Linux Biolinum;fontSize=11;fontColor=default;labelBackgroundColor=#FDF6E3;resizable=1;endArrow=classic;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="d0jO-KnFffg-3ajOMxfZ-90" target="d0jO-KnFffg-3ajOMxfZ-37" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2394" y="955" />
+              <mxPoint x="2394" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-101" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#002B36;align=center;verticalAlign=middle;fontFamily=Linux Biolinum;fontSize=11;fontColor=default;labelBackgroundColor=#FDF6E3;resizable=1;endArrow=classic;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="d0jO-KnFffg-3ajOMxfZ-95" target="d0jO-KnFffg-3ajOMxfZ-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-95" value="Initialization" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;bpmnShapeType=call;verticalAlign=top;align=center;spacingLeft=5;fillColor=#eee8d5;strokeColor=#2AA198;fontFamily=Linux Biolinum;fontSize=12;fontColor=#002B36;resizable=1;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="1754" y="418" width="160" height="247.5" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-96" value="InitApplications" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;bpmnShapeType=call;verticalAlign=top;align=center;spacingLeft=5;fillColor=#eee8d5;strokeColor=#657B83;fontFamily=Linux Biolinum;fontSize=12;fontColor=#002B36;resizable=1;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="1774" y="563" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-97" value="InitAllSettings" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;bpmnShapeType=call;verticalAlign=top;align=center;spacingLeft=5;fillColor=#eee8d5;strokeColor=#657B83;fontFamily=Linux Biolinum;fontSize=12;fontColor=#002B36;resizable=1;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="1774" y="445.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-98" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#002B36;align=center;verticalAlign=middle;fontFamily=Linux Biolinum;fontSize=11;fontColor=default;labelBackgroundColor=#FDF6E3;resizable=1;endArrow=classic;curved=0;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="d0jO-KnFffg-3ajOMxfZ-97" target="d0jO-KnFffg-3ajOMxfZ-96" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-99" value="Job&lt;br&gt;triggered" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=top;labelBackgroundColor=none;verticalAlign=bottom;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;fillColor=#268bd2;strokeColor=#657b83;fontColor=#002b36;labelPosition=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="1809" y="337.5" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-100" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#002B36;align=center;verticalAlign=middle;fontFamily=Linux Biolinum;fontSize=11;fontColor=default;labelBackgroundColor=#FDF6E3;resizable=1;endArrow=classic;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="d0jO-KnFffg-3ajOMxfZ-99" target="d0jO-KnFffg-3ajOMxfZ-95" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-102" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#002B36;align=center;verticalAlign=middle;fontFamily=Linux Biolinum;fontSize=11;fontColor=default;labelBackgroundColor=#FDF6E3;resizable=1;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="d0jO-KnFffg-3ajOMxfZ-89" target="d0jO-KnFffg-3ajOMxfZ-95" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2049" y="1100" />
+              <mxPoint x="1984" y="1100" />
+              <mxPoint x="1984" y="700" />
+              <mxPoint x="1874" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-104" value="SysExcp" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;align=left;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=throwing;symbol=escalation;strokeColor=#93a1a1;fontFamily=Linux Biolinum;fontSize=12;fontColor=#002B36;fillColor=#dc322f;container=0;labelPosition=right;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="1774" y="655" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-105" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#839496;align=center;verticalAlign=middle;fontFamily=Linux Biolinum;fontSize=11;fontColor=default;labelBackgroundColor=default;resizable=1;endArrow=classic;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="d0jO-KnFffg-3ajOMxfZ-104" target="d0jO-KnFffg-3ajOMxfZ-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1789" y="700" />
+              <mxPoint x="1734" y="700" />
+              <mxPoint x="1734" y="273" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-106" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Notes&lt;/h1&gt;&lt;p&gt;&lt;font data-font-src=&quot;https://fonts.cdnfonts.com/css/linux-libertine-o&quot; face=&quot;Linux Libertine O&quot;&gt;Cyan-colored border lines indicate necessary changes to migrate away from Orchestrator Queues.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font data-font-src=&quot;https://fonts.cdnfonts.com/css/linux-libertine-o&quot; face=&quot;Linux Libertine O&quot;&gt;When in Main.xaml, GetTransactionData.xaml and SetTransactionStatus.xaml the datatype of TransactionItem is changed, then Workflow Analyzer reports for the project 24 errors.&amp;nbsp;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font data-font-src=&quot;https://fonts.cdnfonts.com/css/linux-libertine-o&quot; face=&quot;Linux Libertine O&quot;&gt;Notable omissions:&lt;br&gt;- how the transaction item with the standard datatype UiPath.Core.QueueItem is passed from Main.xaml&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- the&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;differentiation between entry and exit transitions&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;container=0;fontColor=#002B36;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="1730" y="772.5" width="230" height="327.5" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-107" value="&lt;div&gt;RPA UiPath REFramework&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.cdnfonts.com/css/linux-libertine-o&quot; face=&quot;Linux Libertine O&quot;&gt;The vendor-provided REFramework project template is feature-rich and inherently complex. While UiPath Studio’s graphical editor offers a flowchart-like representation of the program structure, creating simplified, targeted diagrams can significantly enhance understanding by focusing on specific aspects of the workflow.&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.cdnfonts.com/css/linux-libertine-o&quot; face=&quot;Linux Libertine O&quot;&gt;The overall control flow of the REFramework has remained stable since its inception, but its documentation has evolved considerably. Recent updates provide detailed guidance on adapting the REFramework to handle rows in an Excel sheet or MailMessage objects instead of the default QueueItem. These modifications, while powerful, necessitate careful updates across many parts of the framework, as changes to the data type propagate through various interconnected components, including activities, variables, and arguments.&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#002B36;fontStyle=1;fontSize=16;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="1679" y="10" width="790" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-108" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#002B36;align=center;verticalAlign=middle;fontFamily=Linux Biolinum;fontSize=11;fontColor=default;labelBackgroundColor=#FDF6E3;resizable=1;endArrow=classic;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="d0jO-KnFffg-3ajOMxfZ-37" target="d0jO-KnFffg-3ajOMxfZ-42" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-109" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#002B36;align=center;verticalAlign=middle;fontFamily=Linux Biolinum;fontSize=11;fontColor=default;labelBackgroundColor=#FDF6E3;resizable=1;endArrow=classic;exitX=1;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="d0jO-KnFffg-3ajOMxfZ-37" target="d0jO-KnFffg-3ajOMxfZ-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2360" y="440" />
+              <mxPoint x="2360" y="337" />
+              <mxPoint x="2334" y="337" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-111" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#002B36;align=center;verticalAlign=middle;fontFamily=Linux Biolinum;fontSize=11;fontColor=default;labelBackgroundColor=#FDF6E3;resizable=1;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="d0jO-KnFffg-3ajOMxfZ-47" target="d0jO-KnFffg-3ajOMxfZ-48" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2100" y="710" />
+              <mxPoint x="2100" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-112" value="End&lt;br&gt;Process" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;fillColor=#859900;strokeColor=#657B83;fontColor=#002b36;container=0;fontFamily=Linux Biolinum;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="2370" y="280.0000000000001" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d0jO-KnFffg-3ajOMxfZ-113" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#002B36;align=center;verticalAlign=middle;fontFamily=Linux Biolinum;fontSize=11;fontColor=default;labelBackgroundColor=#FDF6E3;resizable=1;endArrow=classic;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" source="d0jO-KnFffg-3ajOMxfZ-29" target="d0jO-KnFffg-3ajOMxfZ-112" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-32" value="Not Nothing" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#FDF6E3;verticalAlign=middle;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=boundNonint;symbol=conditional;strokeColor=#93a1a1;fontFamily=Linux Biolinum;fontSize=12;fontColor=#002B36;fillColor=#dc322f;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="606" y="720" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-22" value="Nothing" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#FDF6E3;verticalAlign=middle;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=boundInt;symbol=conditional;strokeColor=#93a1a1;fontFamily=Linux Biolinum;fontSize=12;fontColor=#002B36;fillColor=#dc322f;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="490" y="720" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-53" value="BRE" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#FDF6E3;verticalAlign=middle;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=boundInt;symbol=error;strokeColor=#93a1a1;fontFamily=Linux Biolinum;fontSize=12;fontColor=#002B36;fillColor=#dc322f;container=0;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="1263" y="337.5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TzcAuzkuNYcPW-0L9tEV-54" value="SysExcp" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#FDF6E3;verticalAlign=middle;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=throwing;symbol=escalation;strokeColor=#93a1a1;fontFamily=Linux Biolinum;fontSize=12;fontColor=#002B36;fillColor=#dc322f;container=0;fontSource=https%3A%2F%2Ffonts.cdnfonts.com%2Fcss%2Flinux-biolinum;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="337.5" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

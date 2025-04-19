@@ -34,7 +34,9 @@ def process_gpx(file_path, output_dir=None):
         lat = float(trkpt.attrib['lat'])
         lon = float(trkpt.attrib['lon'])
         ele = float(trkpt.find(f'{{{default_ns}}}ele').text)
-        time = trkpt.find(f'{{{default_ns}}}time').text
+        #time = trkpt.find(f'{{{default_ns}}}time').text
+        time_element = trkpt.find(f'{{{default_ns}}}time')
+        time = time_element.text if time_element is not None else None
         trackpoints.append({'lat': lat, 'lon': lon, 'ele': ele, 'time': time, 'trkpt': trkpt})
 
     if len(trackpoints) < 2:
@@ -49,7 +51,9 @@ def process_gpx(file_path, output_dir=None):
         lat = float(wpt.attrib['lat'])
         lon = float(wpt.attrib['lon'])
         ele = float(wpt.find(f'{{{default_ns}}}ele').text)
-        time = wpt.find(f'{{{default_ns}}}time').text
+        #time = wpt.find(f'{{{default_ns}}}time').text
+        time_element = trkpt.find(f'{{{default_ns}}}time')
+        time = time_element.text if time_element is not None else None
         name = wpt.find(f'{{{default_ns}}}name').text
         if "Bottom of Ascend" in name or "Peak of Ascend" in name:
             waypoints.append({'lat': lat, 'lon': lon, 'ele': ele, 'time': time, 'name': name})
@@ -175,4 +179,5 @@ def process_gpx(file_path, output_dir=None):
 
 # Example usage:
 #process_gpx('../../../dat/geodata/gpx/WOB-Warburg-LDK_2024-08-13_2024-08-13.gpx')
-process_gpx('./dat/geodata/gpx/WOB-Gilserberg-LDK_2024-08-31_05-00.gpx')
+#process_gpx('./dat/geodata/gpx/WOB-Gilserberg-LDK_2024-08-31_05-00.gpx')
+process_gpx('./dat/geodata/gpx/travel/2025/cpm_travel_2025_plan.gpx')
